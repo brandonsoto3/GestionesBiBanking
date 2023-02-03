@@ -1,0 +1,1503 @@
+
+
+/*pagina 4 */
+
+.privado h2 {
+    color: #003865;
+    margin-top: 3rem;
+    font-size: 18px;
+}
+hr.hrach { 
+    max-width: 60.5rem;
+    margin-top: 0rem; 
+    }
+.h3ach{
+    color: #515151!important;
+    font-weight: 100!important;
+    font-size: 16px;
+}
+.h3achadd{
+    font-size: 14px;
+    color: #2C8B9E;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+textarea.heighttext {
+    font-size: 14px;
+    padding-top: 13px;
+}
+
+textarea {
+  resize: none;
+  height: 7rem!important;
+  color: #003865;
+  font-weight: 600;
+}
+textarea.heighttext{
+  height: 2rem!important;
+}
+.labelach{
+    color: #5A5A5A;
+    font-weight: 600;
+}
+
+
+
+/*
+button, .button {
+    background-color: #00C1D4;
+    font-weight: bold;
+        border-radius: 10px;
+}
+button.default-action, .button.default-action {
+    color: #00C1D4;
+    box-shadow: 0 0 0 2px #00C1D4 inset;
+    font-weight: bold;
+    border-radius: 10px;
+}
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #2C8B9E;
+    box-shadow: 0 0 0 2px #2C8B9E inset;*/
+
+/*
+table, th, td {
+    border: 1px solid #CCCCCC;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}*/
+
+button.default-action, .button.default-action {
+    color: #00C1D4;
+    box-shadow: 0 0 0 2px #00C1D4 inset;
+    font-weight: bold;
+}
+button.default-action:hover, button.default-action:focus, .button.default-action:hover, .button.default-action:focus {
+    background-color: #2C8B9E;
+    box-shadow: 0 0 0 2px #2C8B9E inset;
+}
+}
+
+
+
+.test2{
+  background-color: white;
+}
+.inner-addon {
+  position: relative;
+}
+.inner-addon .glyphicon1 {
+  position: absolute;
+  padding: 42px;
+  pointer-events: none;
+}
+.right-addon .glyphicon1 {
+  right: 0px;
+}
+.right-addon input {
+  padding-right: 30px;
+}
+i.glyphicon1.ach-iconos_ach_dirigir {
+    color: #053865;
+}
+.row .row {
+margin-right: none; 
+ margin-left: none; 
+}
+::placeholder {
+    color: #003865!important;
+    font-weight: 600;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #003865 !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #003865!important;
+}
+/* fin pagina 4 */
+
+
+/*pagina 6 */
+
+.backcolortd{
+  background-color: white;
+  border: 1px solid #CCCCCC;
+}
+
+p.modalnombre{
+    margin-bottom: -25px;
+    color: #003865;
+    font-weight: bold;
+  
+}
+p.modalcuenta{
+  color:#707070;
+  margin-bottom: -25px
+
+
+
+}
+
+p.modaltipcuenta {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+
+.numero {
+    font-family: Lato-Regular !important;
+}
+
+p.tablemontodisponible1 {
+    text-align: right !important;
+    font-size: 20px !important;
+    margin-top: -22px !important;
+    color: #024989;
+    margin-right: 3rem
+    }
+p.tablenumcuenta1{
+    text-align: right !important;
+    font-size: 14px !important;
+    margin-top: -63px !important;
+    color: #707070;
+    margin-right: 3rem;
+}
+
+.inner-addon .glyphicon2 {
+  position: absolute;
+  padding: 42px;
+  pointer-events: none;
+}
+.right-addon .glyphicon2 {
+  right:0px;
+}
+
+i.glyphicon2.ach-iconos_ach_dirigir {
+    color: #053865!important;
+}
+i.glyphicon2.ach-iconos_ach_dirigir {
+    margin-top: 1rem;
+}
+
+.etiqueta-linea {
+    background: white;
+   
+}
+i.glyphicon1.ach-iconos_ach_dirigir {
+    color: #053865!important;
+}
+
+input:disabled, input[readonly], textarea:disabled, textarea[readonly] {
+    background-color: white;
+    cursor: pointer;
+}
+
+a.linkaddcuenta{
+    cursor: pointer;
+}
+
+.privado li a {
+    color: #999999;
+}
+
+/*pagination modal*/
+
+.pagination a:hover, .pagination button:hover {
+    background: none;
+}
+span.ach-iconos_ach_Siguiente {
+    margin-left: -14px;
+}
+  /* .pagination .current {
+  
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background: #2ba6cb!important;
+    color: #fefefe !important;
+    cursor: default;
+    position: absolute;
+    display: initial;
+   
+    margin-left: -1px;
+    margin-left: -25px;
+    margin-top: 8px;
+}*/
+.pagination-previous a::before, .pagination-previous.disabled::before {
+    margin-right: 0rem;
+    color: #2C8B9E;
+    font-weight: bold;
+}
+
+.pagination-next a::after, .pagination-next.disabled::after {
+    margin-left: 0rem;
+    color: #2C8B9E;
+    font-weight: bold;
+}
+.pagination-pointed .pagination-pointed-button, .pagination-pointed .current, .pagination-pointed .pagination-previous {
+    position: relative;
+    display: inline-block;
+}
+.privado span {
+    color: #fefefe;
+    font-size: 15px;
+}
+li.arrow.aleft.borderarrow.fontarrow3 {
+    margin-right: 25px;
+}
+
+td.tablecuentaext {
+    /* color: red; */
+    color: #959090!important;
+}
+td.tableemail {
+    color: #959090!important;
+}
+/*---------------------------TABLA SELECCIONADORA---------------------------------- */
+
+table.tbl-report.accountselector     {
+    border-bottom: 0px solid;
+}
+
+td.checkbox.allcategories {
+    border-right: 1px #909090 solid;
+}
+.table-responsive table tr td p.tipocuenta {
+    margin-left: 20px !important;
+    font-size: 14px !important;
+    margin-top: -3px !important;
+    color: #909090!important;
+}
+tbody.tableselectoptions {
+    border: 0px;
+}
+tr.typeacount {
+    border: 0px;
+}
+.table-responsive table tr td.checkbox.allcategories{
+    width: 80px;
+}
+.table-responsive table tr td.checkbox.selector1 {
+    width: 100px;
+}
+.table-responsive table tr td.checkbox.selector2 {
+    width: 80px;
+}
+.table-responsive table tr td.checkbox.selector3 {
+    width: 150px;
+}
+.table-responsive table tr td.checkbox.selector4 {
+    width: 120px;
+}
+
+/*---------------------------TABLA MOSTRAR Y BUSCAR---------------------------------- */
+
+ /*MOSTRAR*/    
+    /*Posiciomamiento*/
+    table.tbl-report.selector {
+        border-bottom: 0px solid;
+    }
+    table-responsive .tbl-report input, .table-responsive .tbl-report select {
+        margin-left: 15px;
+    }
+    select.miselector {
+     height: 1.5625rem !important;
+     font-family: 'Lato-Regular' !important;
+    }   
+    .columns.large-6.large-offset-11 {
+        margin-top: -26px;
+    }
+    label.labelach.mostrar {
+        text-align: right;
+        margin-left: 30px;
+    }
+    .columns.large-5.large-offset-4.medium-7.medium-offset-11.small-3 {
+        margin-top: -25px !important;
+    }
+    td.buscarname {
+        border: 0px;
+    }
+
+    /*BUSAR*/
+    label.iconbuscador {
+        display: block;
+        margin: 0;
+        font-size: 0.875rem;
+        font-weight: normal;
+        line-height: 1.8;
+        color: #0a0a0a;
+        text-align: left;
+    }
+    .searchbibanking {
+        position: absolute;
+        margin-top: 11px;
+        margin-left: 1rem;
+        color: #959090;
+    }
+    em, i.ach-iconos_ach_buscar  {
+        font-size: 20px;
+    }
+    i.ach-iconos_ach_buscar.searchbibanking:hover {
+        color: #757575 !important;
+    }
+    input.bordersearch {
+        padding-left: 3rem;
+        font-family: 'Lato-Regular' !important;
+        color: #4D4D4D !important; 
+    }
+    input.bordersearch::placeholder { 
+        color: #909090 !important; 
+    }
+/*-----------------------------------TABLAS----------------------------------------- */
+
+/*Borde de Encabezado de Tablas */
+thead.tabletiles {
+    border-left: 1px #909090 solid;
+    border-right: 1px #909090 solid;
+}
+.table-responsive table thead {
+    border-top: solid 1px black !important;
+    border-bottom: solid 1px black !important;
+}
+
+/*Fila de Tabla Deshabilitada*/
+tr.tablecuenta.rowunnable {
+    background: #EBEBEB !important;
+    pointer-events: none;
+}
+tr.tablecuenta.rowunnable td p  {
+    color: #959090!important;
+    font-weight: bold !important;
+}
+tr.tablecuenta.rowunnable td.tablenombre  {
+    color: #959090!important;
+    font-weight: bold !important;
+}
+tr.tablecuenta.rowunnable td.tablerol  {
+    color: #959090!important;
+    font-weight: bold !important;
+}
+
+/*Circulo verde de Tabla */
+td p.activo{
+    width: 10px;
+    height: 10px;
+    margin-left: 19px !important;
+    background-color: #6CB842;
+    border-radius: 50%;
+    float: left;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+}
+
+/*Textos dentro de Tablas */
+.table-responsive table  tr td p  {
+    color: #003865 !important;
+    font-weight: bold !important;
+}
+.table-responsive table tr .tableestado{
+    color: #00C1D4 !important;
+    text-decoration: underline !important;
+}
+.table-responsive table tr .tablemonto{
+    font-weight: bold !important;
+}
+td.cuentainfo {
+    text-align: left !important;
+}
+
+
+/*Iconos dentro de Tablas*/
+i.IconAch {
+    color: #757575 !important;
+}
+i.IconAch:hover {
+    color: #00C1D4 !important;
+}
+i.IconAch.ach-iconos_ach_usuario:hover {
+    color: #757575 !important;
+}
+/*Tamaño de Iconos de las tablas*/
+em, i.IconAch.ach-iconos_ach_flecha-tablas  {
+    font-size: 8px;
+}
+em, i.IconAch.ach-iconos_ach_detalle{
+    font-size: 20px;
+}
+em, i.IconAch.ach-iconos_ach_comprobante{
+    font-size: 20px;
+}
+
+/*Responsive del Borde de Tablas*/
+.table-responsive table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    color: #666666;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    padding-right: 0rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+    font-size: 0.7rem;
+}
+
+
+/*------------------------------MODAL CAMBIO DE ROL---------------------------------- */
+
+/*Cuerpo de la modal*/
+    .reveal#modalrol{
+        background-color: white;
+        color: black;
+        background: #ffffff;
+        opacity: 0.9;
+        border: 0px solid #cacaca;
+        border-radius: 55px 0px 55px 0px;
+        width: 42%;
+        /*height: 65%;*/
+    }
+
+/*Textos dentro de la Modal CAMBIO DE ROL*/
+    /*Titulo*/
+    .reveal#modalrol p {
+        color: black;
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+    }
+    .reveal#modalrol h1 {
+        color: black;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+    }
+    .reveal#modalrol .etiqueta-linea {
+        background: white;
+        padding: 1.563rem 0rem 0rem 0rem;
+    }
+    .reveal#modalrol hr {
+        margin: -2.75rem auto;
+    }
+    h1.modaltitle {
+        color: #003865 !important;
+        font-size: 27px !important;
+        font-weight: bold !important;
+        font-family: 'Lato-Regular' !important;
+    }
+
+/*Mensaje de Alerta de la Modal*/
+    .alert-box.callout.info.modalalert {
+        margin-top: 15px;
+    }
+    i.iconalert-icon-alerta-info {
+        color: white !important;
+        font-family: 'Lato-Regular' !important;
+    }
+    i.iconalert-icon-alerta-info:hover {
+        color: white !important;
+    }
+    .alert-box.callout.info.modalalert {
+        margin-left: 15px;
+    }
+    p.modal-alertinfo {
+        color: white !important;
+        font-size: 14px;
+        font-family: 'Lato-Regular' !important;
+    }
+    .large-11.medium-8.small-8.columns {
+        margin-left: 50px;
+    }
+
+/*Informacion del usuario en la Modal*/
+    p.modalsubtitle {
+        color: #003865 !important;
+        font-size: 14px !important;
+        font-weight: bold !important;
+        font-family: 'Lato-Regular' !important;
+    }
+    p.modalsubtitle {
+        margin-bottom: 0px;
+        margin-top: 12px;
+    }
+    p.modaluser {
+        font-size: 14px;
+        font-weight: bold !important;
+    }
+    
+/*Margen del Selector del Rol*/
+    .large-11.columns.rolselect {
+        margin-left: 33px;
+        margin-top: 5px;
+        padding-right: 36px;
+        font-family: 'Lato-Regular' !important;
+    }
+
+/*Botones de la Modal*/
+    button#btnAceptarmodal {
+        border-radius: 10px !important;
+        /*background-color: #00C1D4;*/
+        font-family: 'Lato-Regular' !important;
+    }
+    /*button#btnAceptarmodal:hover {
+        background-color: #003865   ;
+    }*/
+    button.button.default-action.backrol {
+       /* color: #00C1D4;
+        box-shadow: 0 0 0 2px #00C1D4 inset;
+        font-weight: bold;*/
+        font-family: 'Lato-Regular' !important;
+        border-radius: 10px !important;
+    }
+    /*button.button.default-action.backrol:hover {
+        background-color: #00C1D4 !important;
+        color: white !i;
+    }
+*/
+
+
+/*---------------------------------MODAL CUENTAS------------------------------------- */
+
+/*Cuerpo de la modal*/
+    .reveal#modalcuentas{  
+        background-color: white;
+        color: black;
+        background: #ffffff;
+        opacity: 0.9;
+        border: 0px solid #cacaca;
+        border-radius: 55px 0px 55px 0px;
+        width: 60%;
+        height: 80%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+/*Titulo*/
+    /*Textos dentro de la Modal */
+    .reveal#modalcuentas p {
+        color: black;
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+    }
+    .reveal#modalcuentas h1 {
+        color: black;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+    }
+    .reveal#modalcuentas .etiqueta-linea {
+        background: white;
+        padding: 1.563rem 0rem 0rem 0rem;
+    }
+    .reveal#modalcuentas hr {
+         margin: -2.75rem auto;
+    }
+    h1.modaltitle {
+        color: #003865 !important;
+        font-size: 27px !important;
+        font-weight: bold !important;
+        font-family: 'Lato-Regular' !important;
+    }
+
+/*Textos de Tablas*/
+    p.tablenamemonto {
+        text-align: right !important;
+        margin-top: -5px !important;
+    }
+    label.tablenamemonto {
+        text-align: right;
+        margin-top: -12px;
+        color: #707070;
+        font-family: 'Lato-Regular' !important;
+        font-size: 0.7rem;
+    }
+    label.tabletipocuenta {
+        color: #707070;
+        text-align: left;
+        margin-top: -5px;
+        font-family: 'Lato-Regular' !important;
+        font-size: 0.7rem;
+    }
+    label.tablenumcuenta {
+        color: #707070;
+        text-align: left;
+        margin-top: -12px;
+        font-family: 'Lato-Regular' !important;
+        font-size: 0.7rem;
+    }
+    p.tablemontodisponible {
+        text-align: right !important;
+        font-size: 20px !important;
+        margin-top: -28px !important;
+    }
+
+    /*BORDES*/
+    tbody.Tablemostrar {
+        border: 0px;
+    }
+    tr.mostrador {
+        border: 0px !important;
+    }
+    td.mostrarname {
+        border: 0px;
+    }
+    td.mostrarselector {
+        border: 0px;
+    }
+    td.mostrarentradas {
+        border: 0px;
+    }
+
+    /*MOSTRAR EN MODAL*/
+        .columns.large-7.large-offset-11.medium-6.medium-offset-11.small-8 {
+            margin-top: -25px !important;
+        }
+        select.miselectormodal {
+            height: 1.5625rem !important;
+            font-family: 'Lato-Regular' !important;
+        }
+        table-responsive .tbl-report input, .table-responsive .tbl-report select.miselectormodal {
+            margin-left: 5px;
+    width: 4rem!important;
+        }
+        label.labelach.mostrar2 {
+            text-align: left !important;
+        }
+    
+
+   
+
+/*------------------------------MODAL RECHAZAR TRANSFERENCIA---------------------------------- */
+
+/*Cuerpo de la modal*/
+
+.large-10.large-offset-1.medium-10.medium-centered.small-10.small-centered.columns.m_rechazar {
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+}
+    .reveal#modalrechazar{
+        background-color: white;
+        color: black;
+        background: #ffffff;
+        /*opacity: 0.9;*/
+        /*border: 0px solid #cacaca;*/
+        border-radius: 55px 0px 55px 0px;
+        /*width: 42%;*/
+        /*height: 65%;*/
+    }
+
+/*Textos dentro de la Modal CAMBIO DE ROL*/
+    /*Titulo*/
+    .reveal#modalrechazar h1 {
+        color: #003865;
+        text-align: center;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+    }
+
+    .reveal#modalrechazar p {
+        color: #424141;
+        text-align: center;
+        font-family: 'Lato-Regular' !important;
+    }
+    
+/*Botones de la Modal*/
+   button.button.default-action-modal.buttoncancel {
+        color: #2c8b9e !important;
+        background-color: white !important;
+        box-shadow: 0 0 0 2px #2c8b9e inset;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    button.button.default-action-modal.buttoncancel:hover {
+        background-color: #2C8B9E !important;
+        color: white !important;
+    }
+
+    button#btnAceptar.button-modal.buttoncontinue {
+        background-color: #2c8b9e;
+        box-shadow: 0 0 0 0px #00c1d4;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+     button#btnAceptar.button-modal.buttoncontinue:hover {
+            background-color: #00C1D4;
+        box-shadow: 0 0 0 0px #00c1d4;
+        
+        
+    }
+
+
+
+
+/*-----------------------------------PAGINADO-------------------------------*/
+    nav {
+        margin-top: 15px;
+    }
+    .pagination li:last-child, .pagination li:first-child {
+        border: 1px solid #2C8B9E;
+    }
+  /*  li:first-child {
+        border: 1px solid #ebebeb !important; 
+    }*/
+    span.ach-iconos_ach_Inicio {
+        font-size: 25px;
+        color: #4D899C;
+    }
+    span.ach-iconos_ach_Anterior  {
+        font-size: 25px;
+        color: #4D899C;
+    }
+    span.ach-iconos_ach_Siguiente{
+        font-size: 25px;
+        color: #4D899C;;
+    }
+    span.ach-iconos_ach_Final  {
+        font-size: 25px;
+        color: #4D899C;
+    }
+
+    /*HOVER*/
+    span.ach-iconos_ach_Inicio:hover {
+        font-size: 25px;
+        color: #00C1D4;
+    }
+    span.ach-iconos_ach_Anterior:hover  {
+        font-size: 25px;
+        color: #00C1D4;
+    }
+    span.ach-iconos_ach_Siguiente:hover{
+        font-size: 25px;
+        color: #00C1D4;
+    }
+    span.ach-iconos_ach_Final:hover {
+        font-size: 25px;
+        color: #00C1D4;
+    }
+    
+
+
+/*---------------------------------RESPONSIVE------------------------------------- */
+
+/*---------------------------------Responsive Tablas------------------------------ */
+
+/*Responsive de Borde de Tablas Desktop y Tablet*/
+    @media (min-width: 640px){
+        /*Bordes y hover de Bordes de las Tablas*/
+        tr.tablecuentatitles th{
+            border-right: none !important;
+            background: #EBEBEB !important;
+            color: #707070 !important;
+        }
+        tr.tablecuenta {
+            background: white !important;
+            border-right: solid 1px #909090!important;
+            border-top: solid 1px #909090 !important;
+            border-bottom: solid 1px #909090 !important;
+            border-left: solid 1px #909090 !important;
+        }
+        tr.tablecuenta:hover{
+            border-right: solid 1px #00C1D4 !important;
+            border-top: solid 1.01px #00C1D4 !important;
+            border-bottom: solid 1px #00C1D4 !important;
+            border-left: solid 1px #00C1D4 !important;
+        }
+    }
+
+
+/*---------------------------------Responsive Modal------------------------------ */
+/*Responsive de Modal Table*/
+    @media (max-width: 1250px) and (min-width: 1040px){
+    /*MODAL CAMBIO DE ROL*/
+        /*Tamaño de Modal*/
+        div#modalrol {
+            width: 52% !important;   
+        }
+         /*Tamaño de texto Modal*/
+        .large-11.medium-8.small-8.columns {
+            margin-left: 20px;
+        }
+
+    /*MODAL Cuentas*/
+        /*Tamaño de Modal*/
+        div#modalcuentas {
+           width: 65% !important;
+        }  
+    }
+
+
+ @media (max-width: 1024px) {
+
+    .tablenumcuentallenos{
+    text-align: right !important;
+    font-size: 14px !important;
+    margin-top: -37px !important;
+    margin-right: 5rem !important;
+    color:#959090 !important;
+    font-weight: bold;
+
+}
+
+.tablemontodisponiblellenos{
+
+    text-align: right !important;
+    font-size:16px !important;
+    margin-top: -23px !important;
+    color:#959090 !important;
+    margin-right: 8rem !important;
+    margin-bottom: 2px;
+    font-weight: 100;
+
+}
+}
+/*Responsive de Modal Mini Table*/
+    @media (max-width: 1039px) and (min-width: 640px){
+    /*MODAL CAMBIO DE ROL*/
+        /*Tamaño de Modal*/
+        div#modalrol {
+            width: 80% !important;
+        }
+        /*Tamaño de alerta Modal*/
+        .large-11.columns.infoalert {
+            padding-right: 39px !important;
+        }
+        /*Tamaño de texto Modal*/
+       /* .large-10.large-offset-1.columns {
+            margin-left: 20px;
+        }*/
+
+        /*Tamaño de selector Modal*/
+        .large-11.columns.rolselect {
+            margin-left: 5px;
+        }
+        .medium-6.large-5.medium-pull-6.large-pull-6.small-8.small-offset-1.columns {
+            margin-right: 75px;
+        }
+        .large-11.medium-8.small-8.columns {
+            margin-left: 20px;
+        }
+
+    /*MODAL Cuentas*/
+        /*Tamaño de Modal*/
+        div#modalcuentas {
+            width: 79% !important;
+        }
+        /*MOSTRAR EN MODAL*/
+        
+        table-responsive .tbl-report input, .table-responsive .tbl-report select.miselectormodal {
+            margin-left: 15px;
+        }
+
+        .columns.large-8.large-pull-3.medium-8.medium-pull-4.small-4 {
+            margin-left: 14px;
+        }
+}
+
+/*---------------------------------Responsive Movil------------------------------ */
+@media (max-width: 639px){
+    /*TABLAS*/
+        /*Tabla Mostrar*/
+        .columns.large-6.large-offset-11 {
+            margin-top: 1px;
+        }
+        table-responsive .tbl-report input, .table-responsive .tbl-report select {
+            margin-left: 0px;
+            width: auto;
+        }
+        .small-10 {
+            width: 90.33333%;
+            margin-left: -5px;
+        }
+
+        /*Bordes y hover de Bordes de las Tablas*/
+        tbody {
+            border-bottom: 2px solid;
+        }
+        tr{
+            border: 1px solid  ;
+        }
+        td {
+            border: 0.5px solid #909090;
+        }
+        tr.tablecuenta:hover{
+            border-right: solid 1px #00C1D4 !important;
+            border-top: solid 1.01px #00C1D4 !important;
+            border-bottom: solid 1px #00C1D4 !important;
+            border-left: solid 1px #00C1D4 !important;
+        }
+        
+        .backcolortd {
+        border: 0px solid red !important; 
+    }
+
+
+
+
+    /*-------------------------------------------------------------*/
+
+    .h3ach {
+        font-size: 14px;
+    }
+
+    .h3achadd {
+        font-size: 14px;
+       
+    }
+  /*  .pagination .current {
+        display: none;
+    }*/
+
+
+ /*---------------------------TABLA SELECCIONADORA---------------------------------- */
+
+    .table-responsive table tr td.checkbox.allcategories{
+        width: 100%;
+        border-bottom: 1.5px #909090 solid;
+        border-left: 0px solid;
+        border-right: 0px solid;
+        border-top: 0px solid;
+    }
+    .table-responsive table tr td.checkbox.selector1 {
+        width: 100%;
+        border: 0px solid;
+
+    }
+    .table-responsive table tr td.checkbox.selector2 {
+        width: 100%;
+        border: 0px solid;
+    }
+    .table-responsive table tr td.checkbox.selector3 {
+        width: 100%;
+        border: 0px solid;
+    }
+    .table-responsive table tr td.checkbox.selector4 {
+        width: 100%;
+        border: 0px solid;
+    }
+
+    /*MODAL CAMBIO DE ROL*/
+        /*Tamaño de Modal*/
+        .reveal#modalrol {
+            width: 90%;
+            margin-left: 20px;
+            margin-top: 20px;
+            min-height: 85% !important;
+            height: 85%;
+        }
+        /*Tamaño de alerta Modal*/
+        .large-11.columns.infoalert {
+            padding-right: 39px !important;
+        }
+        /*Tamaño de texto Modal*/
+       /* .large-10.large-offset-1.columns {
+            margin-left: 20px;
+        }*/
+        /*Tamaño de selector Modal*/
+        .large-11.columns.rolselect {
+            margin-left: 5px;
+        }
+        .medium-6.large-5.medium-pull-6.large-pull-6.small-8.small-offset-1.columns {
+            margin-right: 75px;
+        }
+        .large-11.medium-8.small-8.columns {
+            margin-left: 20px;
+        }
+    
+    /*MODAL Cuentas*/
+        /*Tamaño de Modal*/
+         .reveal#modalcuentas {
+            width: 90%;
+            margin-left: 20px;
+            margin-top: 20px;
+            min-height: 85% !important;
+            height: 85%;
+        }
+
+        /*Textos de las tablas*/
+        td.infoaccount {
+            line-height: 1px;
+        }
+        td.mostrarname {
+            text-align: left !important;
+        }
+        tr.tablecuenta.modalcuenta {
+            background: white !important;
+        }
+        /*MOSTRAR EN MODAL*/
+        
+        .columns.large-7.large-offset-11.medium-6.medium-offset-11.small-8 {
+            margin-top: 0px !important;
+        }
+        .columns.large-8.large-pull-3.medium-8.medium-pull-4.small-4 {
+            margin-right: 62px !important;
+        }
+
+
+         /*MODAL RECHAZAR*/
+        /*Tamaño de Modal*/
+        .reveal#modalrechazar {
+            width: 90%;
+            margin-left: 20px;
+            margin-top: 20px;
+            min-height: 40% !important;
+            height: 40%;
+        }
+        .reveal#modalrechazar h1 {
+        color: #003865;
+        text-align: center;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+
+
+        /*PAGINA 11*/
+        table.infotable{
+        width: 95%;
+        margin-left: 10px !important;
+        margin-top: 16px !important;
+        margin-bottom: 15px !important;
+    }
+        tr.bordeinterno{
+            border: 0px;
+        }
+        tr.comprobantedivison{
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            border-bottom: 1px solid #707070;
+        }
+        .table-responsive table tr td p.comprobantecodigobarras{
+            text-align: center;
+        }
+        .table-responsive table tr td p.comprobanteinfodata {
+            text-align: left !important;
+        }
+        table.tbl-report.reportecomprobante {
+            margin-left: 10px;
+        }
+
+        table.tableendinfo{
+            margin-left: 10px;
+        }
+
+
+}
+
+@media (max-width: 499px){
+
+        label.labelach.mostrar {
+    text-align: right;
+    /* margin-left: 30px; */
+    margin-right: -12px;
+    font-size: inherit;
+}
+}
+/*--------------------------------pagina 6----------------------------------*/
+p.modalnombre {
+    text-align: left;
+}
+
+p.modalcuenta {
+    text-align: left;
+}
+
+p.modaltipcuenta {
+    text-align: left;
+    font-size: 12px;
+}
+p.tablenumcuenta1 {
+    text-align: right !important;
+    font-size: 14px !important;
+    margin-top: -45px !important;
+    color: #707070;
+    margin-right: 3rem;
+}
+p.tablemontodisponible1 {
+    text-align: right !important;
+    font-size: 20px !important;
+    margin-top: -22px !important;
+    color: #024989;
+    margin-right: 3rem;
+    margin-bottom: 2px;
+}
+
+/*tabala de seleccion de cuentas */
+p.tipocuenta {
+    position: absolute;
+}
+
+
+/*--------------------------------pagina 8----------------------------------*/
+.tablenumcuentallenos{
+    text-align: right ;
+    font-size: 14px ;
+    margin-top: -45px ;
+    margin-right: 25rem;
+    color:#959090 !important ;
+    font-weight: bold;
+
+}
+
+.tablemontodisponiblellenos{
+
+    text-align: right ;
+    font-size:16px ;
+    margin-top: -22px ;
+    color:#959090 !important ;
+    margin-right: 28rem;
+    margin-bottom: 2px;
+        font-weight: 100;
+
+}
+/*------------------------------------PAGINA-9---------------------------- */
+table.tableconfirmacion{
+    border: 1px solid #CCCCCC !important;
+}
+
+.marco{
+    border: 1px solid #CCCCCC !important;
+}
+.tdback{
+        background-color: white;
+        border: 1px solid #CCCCCC;
+    }
+
+.table-responsive table tr td p.confirmaciontitle {
+    text-align: left;
+    font-size: 12px;
+    color: #707070 !important;
+
+}
+
+.table-responsive table tr td p.confirmacioncuenta  {
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+}
+.table-responsive table tr td p.confirmaciondatos {
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+    color: #707070 !important;
+    line-height: 15px;
+}
+.table-responsive table tr td p.confirmaciontipocuenta{
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+    color: #707070 !important;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.bordeinterno.bordedivisor {
+    border-bottom: 1px solid !important;
+}
+table.comlumnadebicredi {
+    width: 95%;
+    margin-left: 10px;
+}
+table.comlumnainfo {
+    width: 95%;
+    margin-left: 10px;
+}
+
+.table-responsive table tr td p.confirmaciontitledebi {
+    text-align: left;
+    font-weight: bold;
+    color: #707070 !important;
+    color: #707070 !important;
+}
+.table-responsive table tr td p.confirmaciontitlecredi {
+    text-align: left;
+    font-weight: bold;
+    color: #707070 !important;
+    margin-top: 10px;
+}
+
+/*INFO*/
+
+.table-responsive table tr td p.confirmaciondatostitle {
+    text-align: left;
+    font-weight: bold;
+    color: #707070 !important;
+}
+.table-responsive table tr td p.confirmacioninfo {
+    text-align: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.table-responsive table tr td p.confirmaciondatostitlemonto {
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+    color: #707070 !important;
+}
+.table-responsive table tr td p.confirmacioninfomonto {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+/*------------------------------------PAGINA-11---------------------------- */
+/*Menù Lateral*/
+
+h2.menulateral_title {
+    color: #003865;
+    font-weight: bold;
+    font-size: 20px;
+}
+a.division.menulateral_subtitle {
+    color: #424141;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 3rem;
+}
+a.division.menulateral_subtitle:hover {
+    color: #00C1D4;
+}
+li.division.menulateral_subtitle {
+    list-style: square inside;
+    padding-top: 5px;
+    padding-left: 5rem;
+    padding-bottom: 5px;
+    background: #fefefe;
+}
+/*.menu .is-active > a {
+   background: #fefefe;
+    color: white;
+}*/
+
+
+
+
+
+
+
+/*Marco principal*/
+    .marcoprincipal{
+        border-top: 1.5px solid #CCCCCC !important;
+        border-left: 1.5px solid #CCCCCC !important; 
+        border-right: 1.5px solid #CCCCCC !important;  
+    }
+/*Marco interno*/
+    table.infotable{
+        width: 95%;
+        margin-left: 18px !important;
+        margin-top: 16px !important;
+        margin-bottom: 15px !important;
+    }
+    table.tableendinfo{
+        border-left: 1.5px solid #CCCCCC !important; 
+        border-right: 1.5px solid #CCCCCC !important; 
+        border-bottom: 1.5px solid #CCCCCC !important; 
+    }
+    thead,tbody,tfoot {
+        border: 0px solid #f1f1f1;
+    }
+/*Bordes internos*/
+    .tdbackground {
+        background-color: white;
+        border: 0px solid #CCCCCC;
+    }
+    .table-responsive table tr.comprobantedivison {
+        border-bottom: 1px solid #707070;
+    }
+    .table-responsive table {
+        border-bottom: 0px solid #DDDDDD;
+    }
+
+/*Seccion Titulo*/
+    
+    .table-responsive table tr td p.comprobantetitle {
+        font-size: 20px;
+        text-align: right;
+
+    }
+    .table-responsive table tr td p.comprobantesubtitle{
+        color: #2C8B9E !important;
+        font-size: 12px;
+        text-align: right;
+    }
+    .table-responsive table tr td p.comprobantedate{
+        color: #707070 !important;
+        font-size: 12px;
+        text-align: right;
+    }
+    .table-responsive table tr td p.comprobantenum{
+        font-size: 12px;
+        text-align: right;
+    }
+    .table-responsive table tr td p.comprobantelogobi {
+       text-align: left !important;
+        max-width: 160px;
+        height: 85px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+/*Seccion Informacion de Origen*/
+    .table-responsive table tr td p.comprobantetitleorigen {
+        font-size: 12px;
+        text-align: left;
+        color: #2C8B9E !important;
+    }
+    .table-responsive table tr td p.comprobantecuentaorigen{
+        font-size: 12px;
+        text-align: left;
+        color: #003865 !important;
+    }
+    .table-responsive table tr td p.comprobandatosorigen {
+        font-size: 12px;
+        text-align: left;
+        color: #707070!important;
+    }
+
+/*Seccion Informacion de Destino*/
+    .table-responsive table tr td p.comprobantetitledestino {
+        font-size: 12px;
+        text-align: left;
+        color: #2C8B9E !important;
+    }
+    .table-responsive table tr td p.comprobantecuentaedestino {
+        font-size: 12px;
+        text-align: left;
+        color: #003865 !important;
+    }
+    .table-responsive table tr td p.comprobandatosdestino {
+        font-size: 12px;
+        text-align: left;
+        color: #707070!important;
+    }
+
+/*Seccion Monto*/
+    .table-responsive table tr td p.comprobantmontodato {
+        font-size: 12px;
+        text-align: right;
+        color: #003865 !important;
+    }
+    .table-responsive table tr td p span.comprobantemonto {
+        font-size: 20px;
+        text-align: right;
+        color: #003865 !important;
+    }
+    .table-responsive table tr td p.comprobantemontodato {
+        font-size: 12px;
+        text-align: right;
+        color: #707070!important;
+    }
+/*Código de Barras*/
+img.imgcodigobarras {
+    max-width: 219px;
+    height: 61px;
+}
+
+/*Seccion Contenido*/
+    .table-responsive table tr td p.comprobantecontenido {
+        color: #707070!important;
+        text-align: center;
+        font-size: 12px;
+    }
+
+/*Seccion Info Final*/
+   .table-responsive table tr td p.comprobanteinfofecha{
+        color: #707070 !important;
+        text-align: left;
+        font-size: 12px;
+        font-family: 'Lato-Regular' !important;
+    }
+    .table-responsive table tr td p.comprobanteinfogenerada {
+        color: #707070 !important;
+        text-align: left;
+        font-size: 12px;
+        font-family: 'Lato-Regular' !important;
+    }
+    .table-responsive table tr td p.comprobanteinfodata {
+        color: #707070 !important;
+        text-align: right;
+        font-size: 12px;
+        font-family: 'Lato-Regular' !important;
+    }
+
+
+     .table-responsive table tr td.tableinfo {
+        background: #EBEBEB!important;
+    }
+
+    
+/*------------------------------------PAGINA-12---------------------------- */
+/*Input*/
+    input.inputtoken::placeholder { 
+        color: #909090 !important;
+        font-size: 16px !important;
+        font-family: 'Lato-Regular' !important; 
+    }
+    input.inputtoken { 
+        font-family: 'Lato-Regular' !important;
+        font-size: 14px;
+    }
+    .form-error {
+        background: #F23d53;
+        border: solid 1px #F23d53;
+    }
+    is-invalid-input:not(:focus) {
+        border-color: #F23D53!important;
+    }
+    .privado span.form-error.tokenerror {
+        color: white;
+        font-size: 15px;
+        font-style: normal;
+        padding-right: 15px;
+        margin-left: 70%;
+        border-radius: 0 0 5px 5px;
+    }
+    
+/*Botones*/
+    button.close-button.alerta.banneralert {
+        box-shadow: 0 0 0 0px #00C1D4; 
+    }
+    button, .button.confirmar {
+        background-color: #2c8b9e;
+      box-shadow: 0 0 0 0px #00C1D4; 
+        font-weight: bold;
+        border-radius: 0px;
+    }
+    button, .button.confirmar:hover  {
+        background-color: #00C1D4;
+      box-shadow: 0 0 0 0px #00C1D4; 
+        font-weight: bold;
+        border-radius: 0px;
+    }
+
+
+
+
+/*------------------------------------PAGINA 14 y 15---------------------------- */
+    .circuloactivo{
+        width: 12px;
+        height: 12px;
+        margin-left: 19px !important;
+        background-color: #6CB842;
+        border-radius: 50%;
+        float: left;
+        -webkit-shape-outside: circle();
+        shape-outside: circle();
+    }
+
+    label.circuloactivo {
+        position: relative;
+        float: right !important;
+        margin-right: 70px;
+    }
+
+    label.activotitle {
+        margin-top: -33px !important;
+        margin-left: 15px;
+        color: #424141 !important;
+        font-size: 16px;
+    }

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ayuda-bi-banking";
+  src:url("fonts/ayuda-bi-banking.eot");
+  src:url("fonts/ayuda-bi-banking.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ayuda-bi-banking.woff") format("woff"),
+    url("fonts/ayuda-bi-banking.ttf") format("truetype"),
+    url("fonts/ayuda-bi-banking.svg#ayuda-bi-banking") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "ayuda-bi-banking" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-ayuda-"]:before,
+[class*=" icon-ayuda-"]:before {
+  font-family: "ayuda-bi-banking" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ayuda-contrasena:before {
+  content: "\61";
+}
+.icon-ayuda-ingreso:before {
+  content: "\62";
+}
+.icon-ayuda-phone:before {
+  content: "\63";
+}
+.icon-ayuda-planillas:before {
+  content: "\64";
+}

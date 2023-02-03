@@ -1,0 +1,291 @@
+.etiqueta-linea {
+    background: #EBEBEB;
+    padding: 1.563rem 1rem 1rem 1rem;
+}
+
+.espacio-linea {
+    margin-top: 3rem;
+}
+
+.espacio-linea2 {
+    margin-top: 2rem;
+}
+
+.espacio-linea3 {
+    margin-top: 1rem;
+}
+
+.espacio-linea4 {
+    margin-top: 6rem;
+}
+
+.espacio-linea5 {
+    margin-top: 2rem;
+}
+
+.numero2 {
+    color: #424141 !important;
+        font-size: 0.7rem;
+}
+
+.icon-financiamiento-check:before {
+    font-size: 18px;
+}
+
+.icon-financiamiento-search:before {
+    font-size: 18px;
+}
+
+.icon-financiamiento-error:before {
+    font-size: 18px;
+}
+
+.resaltar-linea {
+    color: #0055B8 !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+
+.resaltar-linea2 {
+    color: #0055B8 !important;
+    font-weight: bold !important;
+}
+
+.divider-line {
+    border-bottom: 1px solid #AAAAAA;
+}
+
+textarea {
+  resize: none;
+}
+
+.miCheckbox span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.privado span {
+    color: #1f3366;
+    font-size: 35px;
+}
+
+.modal-historial h2 {
+    color: #424141;
+    font-weight: normal;
+}
+
+.table-responsive table {
+    margin-bottom: 1px !important;
+}
+
+.inner-addon {
+  position: relative;
+}
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 34px;
+  pointer-events: none;
+}
+
+.right-addon .glyphicon {
+  right: -6px;
+}
+.right-addon input {
+  padding-right: 30px;
+}
+
+.datepicker thead, tbody, tfoot {
+    border: 0px solid #f1f1f1;
+    background-color: #fefefe;
+    font-family: Lato-Regular;
+}
+
+.datepicker span {
+    font-size: 12px;
+    color: black;
+    font-family: Lato-Regular !important;
+}
+
+
+
+@media (max-width:  639px){
+ .miCheckbox span {
+    margin-left: auto;
+    margin-right: inherit;
+} 
+.espacio-linea4 {
+    margin-top: 2rem;
+}
+.espacio-linea5 {
+    margin-top: 0rem;
+}
+.datepicker table tr {
+    border-bottom: 0px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}   
+.datepicker table thead {
+    position: unset;
+}
+.datepicker tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+}
+
+
+/*SPRINT 2*/
+
+
+tfoot tr {
+    background-color: white;
+}
+
+.titleFoot1  {
+    color: #003865 !important;
+    font-weight: bold !important;
+}
+
+.titleFoot.resaltar-linea2  {
+    color: #003865 !important;
+    font-weight: bold !important;
+}
+
+@media (max-width:  640px){
+    .titleFoot  {
+    font-weight: normal !important;
+}
+
+.titleFoot.resaltar-linea2  {
+    font-weight: normal !important;
+    }
+}
+
+p.titleInfo {
+    font-weight: bold;
+}
+
+.money-q:after {
+    content: "Q";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.money-q {
+    position: relative;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.money-s:after {
+    content: "$";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.money-s {
+    position: relative;
+    padding-left: 20px;
+    text-align: right;
+}
+
+label.radioLinea {
+    color: #515151;
+}
+
+small {
+    color: #c60f13;
+    font-weight: normal;
+}
+
+.espacio-linea6 {
+    margin-top: 2rem;
+}
+
+.alert-box {
+    background-color: #003865;
+
+}
+
+.pagination .current {
+    background: #2C8B9E;
+    color: #fff;
+}
+
+.pagination a:hover, .pagination button:hover {
+    background: #F7F7F7;
+    color: #999999;
+}
+
+.pagination a, .pagination button {
+    color: #999999;
+}
+
+.pagination li:last-child, .pagination li:first-child {
+    display: inline-block;
+    border: 1px solid;
+}
+
+.pagination-next a::after, .pagination-next.disabled::after {
+    margin-left: 0rem;
+    color: #2C8B9E;
+    font-weight: bold;
+}
+
+.pagination-previous a::before, .pagination-previous.disabled::before {
+    margin-right: 0rem;
+    color: #2C8B9E;
+    font-weight: bold;
+}
+
+.pagination-previous a::before, .pagination-previous.disabled::before {
+    margin-right: 0rem;
+}
+
+.pagination li:last-child, .pagination li:first-child {
+    border: 1px solid #2C8B9E;
+}
+
+.pagination .ellipsis::after {
+    color: #2C8B9E;
+}
+
+.pagination-pointed .pagination-pointed-button, .pagination-pointed .current, .pagination-pointed .pagination-previous {
+  position: relative;
+  display: inline-block;
+}
+
+.section-size-privado {
+    background-color: #fefefe !important;
+}
+
+
+@media screen and (max-width: 640px){
+    .table-responsive table tr {
+        background: #5A5A5A;
+    }
+    table td {
+        border-bottom: 0px solid #ddd !important;
+    }
+    table tfoot td::before {
+        content: attr(data-label2) !important;
+        float: left;
+        text-transform: none;
+    }
+    .titleFoot1  {
+        color: white !important;
+        font-size: 13px !important;
+        text-align: left !important;
+    }
+    .titleFoot.resaltar-linea2 {
+        color: white !important;
+        font-weight: bold !important;
+    }
+    .table-responsive table tfoot tr td {
+        border-right: 0px solid #ffffff !important;
+    }
+}
+
+
+

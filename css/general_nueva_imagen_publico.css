@@ -1,0 +1,423 @@
+
+
+.top-bar {
+    background-color: #1f3366;
+    background: #FFFFFF;
+    
+}
+
+.alert-box.warning {
+    
+    background-color: #F13852;
+}
+
+.alert-box.alert {
+   
+    background-color: #FFB81C;
+}
+
+
+.alert-box.callout.alert {
+    color: #003865;
+}
+i.iconalert-icon-alerta-warning {
+    border-right: 1px solid #003865;
+}
+
+.table-responsive table thead {
+    color: #1f3366;
+    background-color: #2C8B9E;
+}
+.icon {
+    color: #424141;
+
+    
+}
+
+.menu .active > a {
+    
+    border-bottom: solid 2px #00C1D4;
+    
+}
+
+.top-bar a:before {
+   
+    background: #00C1D4;
+    
+}
+
+.top-bar a {
+    
+    color: #003865;
+    font-weight: 600;
+   
+}
+
+.menu .active > a {
+    color: #003865;
+    font-weight: 600;
+    
+}
+
+img.imgprincipallogo {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 173px!important;
+    margin-top: 0px!important;
+    margin-bottom: 20px;
+}
+
+.reveal {
+    background-color: #003865;
+    /*background-color: rgb(0 56 101 / 95%);*/
+ border: 0px solid #cacaca;
+
+    border-radius: 55px 0px 55px 0px;
+}
+
+.button.hollow:before {
+    
+    background: #2C8B9E;
+    
+}
+.button.hollow:hover, .button.hollow:focus {
+    color: #FFFFFF;
+    border: 1px solid #2C8B9E !important;
+    background: #2C8B9E;    
+
+}
+
+.main_help {
+    background-color: #FDD26E;
+    
+}
+
+.h2colorspecial{
+    color: #424141;
+}
+
+.help4 {
+    
+    background-color: #2C8B9E;
+}
+
+.linkbox a:hover > h2 {
+    color: #FFB200 !important;
+    transition: .3s;
+}
+
+.help5box1 {
+    
+    background-color: #2B2E31;
+}
+
+.help5box2 {
+
+    background-color: #EBEBEB;
+    
+}
+
+.help5box3 {
+    
+    background-color: #2B2E31;
+    
+}
+
+.help5box1 i {
+    color: #FFFFFF;
+}
+
+
+.help5box1 i:hover {
+    color: #FFB200;
+}
+
+.help5box1 h2 a:hover {
+    
+    color: #FFB200;
+    transition: .3s;
+}
+
+.linktip a:hover {
+    color: #003865 !important;
+    transition: .3s;
+}
+
+.linktip a:hover > h2 {
+    color: #003865 !important;
+    transition: .3s;
+}
+
+.help2 .button.hollow {
+    border: 2px solid #2C8B9E!important;
+    color: #2C8B9E;
+    
+}
+
+.table .th-borde {
+   
+    border-radius: 40px 0px 0px 0px;
+}
+/*nuevo*/
+td.td-center.li-borde.special {
+    border-radius: 0px 0px 40px 0px;
+}
+/*fin nuevo */
+
+.table .th-borde3 {
+    
+    border-radius: 10px 0px 10px 0px;
+}
+
+
+
+/*.table th, td {
+    background-color: rgb(0 56 101 / 95%);
+}*/
+
+.help5box3 i {
+     color: #FFFFFF; 
+}
+
+.h2especial2{
+    color:#424141;
+}
+
+.ph-center:-moz-placeholder { text-align:center;   color: #003865; } /*FF Old*/
+.ph-center::-moz-placeholder { text-align:center;   color: #003865;} /*FF19+*/
+.ph-center::-webkit-input-placeholder{ text-align:center;   color: #003865;} /*Chrome*/
+.ph-center:-ms-input-placeholder{ text-align:center;  color: #003865; } /*IE10*/
+
+
+button, .button {
+   
+    background-color: #2C8B9E;
+    font-weight: bold;
+   
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #00C1D4;
+}
+
+button.default-action, .button.default-action {
+
+    color: #2C8B9E;
+    box-shadow: 0 0 0 2px #2C8B9E inset;
+    font-weight: bold;
+}
+
+button.default-action:hover, button.default-action:focus, .button.default-action:hover, .button.default-action:focus {
+    background-color: #2C8B9E;
+}
+
+
+
+.icon.coloriconingreso{
+    color: #2C8B9E;
+}
+
+.icon.icon-ingreso-datos strong {
+    color: #2C8B9E;
+}
+.iconosnum {
+
+    color: #2C8B9E;
+}
+
+.progress-bar {
+    
+    background-color: #2C8B9E;
+    
+}
+
+.icon.coloriconuser{
+    color: #2C8B9E;
+}
+
+.icon.icon-ingreso-usuarios strong {
+    color: #2C8B9E;
+}
+
+.icon.coloricocuenta{
+    color: #2C8B9E;
+}
+
+.icon.coloriconarchi{
+    color: #2C8B9E;
+
+}
+.accordion-title {
+    
+    color: #003865;
+ 
+}
+
+
+.accordion-title:hover {
+    color: #2C8B9E;
+    background-color: #ebebeb;
+}
+
+li.accordion-item.is-active a {
+    color: #2C8B9E;
+}
+
+
+#closemodal{
+ background-color: rgb(0 56 101 / 95%);
+ background-color: #003865;
+ opacity: 0.8;
+}
+
+
+button-modal, .button-modal {
+    
+  background-color: #2C8B9E; 
+   
+}
+
+
+
+.reveal h1 {
+    color: #FFFFFF;
+    
+    font-weight: 600;
+}
+
+.reveal p {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+button.button.default-action-modal {
+
+    background-color: #003865;
+    border-color: #ffff;
+    color: #fff !important;
+    border: 1px solid #FFFFFF;
+}
+
+button.button.default-action-modal:hover, button.button.default-action-modal:focus {
+    background-color: #2C8B9E;
+    color: #ffffff;
+    border: 1px solid #2C8B9E ;
+}
+
+i.icon.iconredes {
+    font-size: 35px;
+}
+
+i.icon.iconredes:hover {
+    color: #003865;
+}
+
+i.iconplantilla{
+    color: white;
+
+}
+i.iconplantilla:hover{
+    color: #FFB200;
+}
+
+/*
+.form-error {
+    
+    color: #F23D53;
+    
+}*/
+.is-invalid-label {
+    color: #F23D53!important;
+}
+
+.is-invalid-input:not(:focus) {
+    border-color: #F23D53!important;
+   
+}
+
+.forpas a {
+
+    margin-bottom: 1rem;
+}
+
+/*.table th, td {
+     background-color: rgb(0 56 101 / 95%); 
+    background: #003865;
+    opacity: 0.8;
+}*/
+
+
+.reveal {
+    background-color:#003865;
+    background: #003865;
+    opacity: 0.9;
+    border: 0px solid #cacaca;
+    border-radius: 55px 0px 55px 0px;
+}
+
+span#qiim9j-abide-error {
+    color: #F23D53!important;
+}
+
+
+/* wizard*/
+.SteppedProgress li.complete:before {
+    background: #2C8B9E;
+    
+}
+
+.SteppedProgress li.complete:after {
+    background: #2C8B9E;
+}
+
+/*wizard*/
+
+label.optRadio {
+    
+    color: #515151;
+    
+}
+
+@media screen and (max-width: 45em){
+.bg-img3 {
+    background-image: url(../img/login1.png);
+}
+
+}
+
+@media screen and (min-height: 800px){
+.all_divs {
+    transition: .2s;
+    margin-top: 11rem;
+}
+}
+
+@media screen and (max-width: 45em) {
+.all_divs {
+    transition: .2s;
+    margin-top: 6rem;
+}
+}
+@media screen and (max-width: 758px){
+.imgencabezado img {
+    height: 118px;
+    padding: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+}
+
+@media screen and (max-height: 799px){
+.all_divs {
+   
+    margin-top: 8rem;
+}}
+
+
+
+
+

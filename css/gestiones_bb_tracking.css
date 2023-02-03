@@ -1,0 +1,546 @@
+.etiqueta-linea {
+    background: #EBEBEB;
+    padding: 1.563rem 1rem 1rem 1rem;
+}
+
+.espacio-linea1 {
+    margin-top: 3rem;
+}
+
+.espacio-linea1a {
+    margin-top: 3rem;
+}
+
+.espacio-linea2 {
+    margin-top: 2rem;
+}
+
+.espacio-linea2a {
+    margin-top: 2rem;
+}
+
+.espacio-linea3 {
+    margin-top: 1rem;
+}
+
+.espacio-linea3a {
+    margin-top: 1rem;
+}
+
+.espacio-linea4 {
+    margin-top: 1.57rem;
+}
+
+.espacio-linea6a {
+    margin-top: 1.57rem;
+}
+
+.espacio-linea5 {
+    margin-bottom: 1rem;
+}
+
+
+
+
+.miCheckbox span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reveal h1 {
+    text-align: center ;
+}
+
+.reveal p {
+    text-align: center ;
+}
+
+.privado span {
+    color: #1f3366;
+    font-size: 35px;
+}
+
+.resaltar-linea {
+    color: #0055B8 !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+
+.numero2 {
+    color: #424141 !important;
+    font-size: 0.7rem;
+}
+
+.gestion-bb p {
+    text-align: center;
+    font-weight: bold;
+    height: 2rem;
+}
+
+.gestion-bb i {
+    text-align: center;
+    font-size: 3rem;
+    color: #2C8B9E;
+}
+
+.gestion-bb i:hover {
+    color: #003865;
+    transition: 0.3s;
+}
+
+.gestionbox {
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    cursor: pointer;
+}
+
+.gestion-bb .has-tip {
+    display: flex;
+}
+
+.divider-line {
+    border-bottom: 1.5px solid #707070;
+}
+
+small {
+    color: #c60f13;
+    font-weight: normal;
+}
+
+textarea {
+    resize: none;
+}
+
+.obligatorio h4 {
+    font-size: 16px;
+}
+
+.gestiones_bb_modal h1 {
+    font-size: 25px;
+    color: #2C8B9E;
+    font-weight: bold;
+}
+
+.miCheckbox span.left {
+    margin-left: inherit;
+}
+
+.textCheck {
+    margin-top: -23px;
+}
+
+.miCheckbox input:disabled + span {
+    background: #C4C4C4;
+    border-color: #C4C4C4;
+}
+
+input[type=radio]:disabled + label > span {
+    border: 2px solid #C4C4C4;
+}
+
+input[type=radio]:not(old):disabled + label > span > span {
+    background-image: linear-gradient(#C4C4C4, #C4C4C4);
+}
+
+
+.bbt-bbtracking-check:before {
+    color: #003865;
+    font-size: 4rem;
+}
+
+a.botonenlace:hover {
+    color: #fff !important;
+    transition: .3s;
+}
+
+
+/*IMPORTAR ARCHIVO*/
+
+.file-upload{display:block;text-align:center; }
+.file-upload .file-select{display:block;border: 1px solid #2C8B9E;color: #34495e;cursor:pointer;height:40px;line-height:40px;text-align:left;background:#FFFFFF;overflow:visible;position:relative;}
+.file-upload .file-select .file-select-button{background:#2C8B9E; color: #fff; padding:0 10px;display:inline-block;height:38px;line-height:40px; float: right;}
+.file-upload .file-select .file-select-name{line-height:40px;display:inline-block;padding:0 10px;color: #000000;opacity: 0.5; font-weight: normal;}}
+.file-upload .file-select:hover{border-color:#34495e;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload .file-select:hover .file-select-button{background:#00C1D4;color:#FFFFFF;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload.active .file-select{border-color:#2C8B9E;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload.active .file-select .file-select-button{background:#2C8B9E;color:#FFFFFF;transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload.active .file-select .file-select-name{color:#000; opacity: 1; transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;}
+.file-upload .file-select input[type=file]{z-index:100;cursor:pointer;position:absolute;height:100%;width:100%;top:0;left:0;opacity:0;filter:alpha(opacity=0);}
+.file-upload .file-select.file-select-disabled{opacity:0.65;}
+.file-upload .file-select.file-select-disabled:hover{cursor:default;display:block;border: 2px solid #dce4ec;color: #34495e;cursor:pointer;height:40px;line-height:40px;margin-top:5px;text-align:left;background:#FFFFFF;overflow:hidden;position:relative;}
+.file-upload .file-select.file-select-disabled:hover .file-select-button{background:#dce4ec;color:#666666;padding:0 10px;display:inline-block;height:40px;line-height:40px;}
+.file-upload .file-select.file-select-disabled:hover .file-select-name{line-height:40px;display:inline-block;padding:0 10px;}
+.file-upload .file-select .file-select-button.disabled{background:#8C8C8C; color: #fff; padding:0 10px;display:inline-block;height:38px;line-height:40px; float: right;}
+
+@media (max-width: 433px){
+    .file-upload .file-select {
+        height: 83px;
+    }   
+    .file-upload .file-select .file-select-button {
+        width: 100%;
+        text-align: center;
+    } 
+}
+
+@media (max-width: 885px){
+    .espacio-linea4a {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 706px){
+    .gestion-bb p {
+        height: 3rem;
+    }
+}
+
+@media (max-width: 639px){
+    .miCheckbox span {
+        margin-left: auto;
+        margin-right: inherit;
+    }
+    .espacio-linea1a {
+        margin-top: 0rem;
+    }
+    .espacio-linea2a {
+        margin-top: 0rem;
+    }
+    .espacio-linea3a {
+        margin-top: 0rem;
+    }
+    .gestionbox {
+        margin-bottom: 1rem;
+        padding: 2rem 1rem 1rem 1rem
+    }
+    .espacio-linea4a {
+        margin-top: 0rem;
+    }
+    .espacio-linea6a {
+    margin-top: 0rem;
+}
+}
+
+
+/*  ---------------------- CAMBIOS DICEMBRE 2022 SOLICITADOS POR JOSE MURALLES ---------------------- */
+
+/* ------------------------ TABLAS ------------------------------ */
+/*TD Description*/
+.table-responsive table tr td p.desciption_gestion{
+    font-weight: 300 !important;
+    font-family: Lato-Regular !important;
+    color: black !important;
+    vertical-align: middle;
+    font-size: 0.7rem; 
+    padding-right: 5.5rem !important;
+    padding-left: 5.5rem !important;
+    padding-bottom: 0.5rem;
+}
+
+/* ------------------ INPUT NUMERICOS --------------------------- */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* ------------------------ TEXTOS ------------------------------ */
+P.icon_gestion_text{
+    font-size: 14px !important;
+}
+
+/* ------------------------ BOTONES ----------------------------- */
+a.button.botonenlace.more_space_boton {
+    padding: 1rem 0.6px 1.0625rem 0.1rem !important;
+}
+button, .button.more_space_boton{
+    padding: 1rem 1rem 1.0625rem 1rem !important;
+}
+/*texto en botones de gestiones*/
+.gestionbox {
+    text-align: center;
+    padding: 1rem 0.7rem 1rem 0.7rem;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    cursor: pointer;
+}
+
+/* ----------------------- ERRORES ------------------------------ */
+.is-invalid-label {
+    color: #f23d53 !important;
+}
+small {
+    color: #f23d53 !important;
+}
+.form-error {
+    color: #f23d53 !important;
+}
+.is-invalid-input:not(:focus) {
+    border-color: #f23d53 !important;
+}
+
+/* ----------------------- PAGINEO ------------------------------ */
+    nav {
+        margin-top: 15px;
+    }
+    .privado li a {
+        color: #999999;
+    }
+    .pagination li:last-child, .pagination li:first-child {
+        border: 1px solid #2C8B9E;
+    }
+
+    /* flechas Siguiente  */
+    .pagination-next a::after{
+        margin-left: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+    .pagination-next a::after{
+        display: inline-block;
+        margin-left: 0.5rem;
+        content: "»";
+    }
+    .pagination-next a::after{
+        margin-left: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+
+    /* flechas Anterior */
+    .pagination-previous a::before{
+        margin-right: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+    .pagination-previous a::before{
+        display: inline-block;
+        margin-right: 0.5rem;
+        content: "«";
+    }
+    .pagination-previous a::before{
+        margin-right: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+
+    /*HOVER*/
+    .pagination a:hover, .pagination button:hover {
+        background: none;
+    }
+    
+    
+
+/**/
+@media (max-width: 639px){
+/*    TEXTO ALINEADO EN RESPONSIVE*/
+    .table-responsive table tr td p.desciption_gestion{
+        margin-top: 14px;
+        text-align: left;
+        padding-right: 0rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+        padding-left: 0rem !important;
+    }
+
+    /*margen de tabla en responsive*/
+    .table-responsive table tbody tr:nth-child(odd) {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+      /*  height: 40px;*/
+    }
+
+    .table-responsive table tbody tr:nth-child(even) {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+    /*    height: 40px !important;*/
+    }
+
+    /* ------------------------ TABLAS ------------------------------ */
+/*TD Description*/
+.table-responsive table tr td p.desciption_gestion{
+    font-weight: 300 !important;
+    font-family: Lato-Regular !important;
+    color: black !important;
+    vertical-align: middle;
+    font-size: 0.7rem; 
+    padding-right: 5.5rem !important;
+    padding-left: 5.5rem !important;
+    padding-bottom: 0.5rem;
+}
+
+/* ------------------ INPUT NUMERICOS --------------------------- */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* ------------------------ TEXTOS ------------------------------ */
+P.icon_gestion_text{
+    font-size: 14px !important;
+}
+
+/* ------------------------ BOTONES ----------------------------- */
+a.button.botonenlace.more_space_boton {
+    padding: 1rem 0.6px 1.0625rem 0.1rem !important;
+}
+button, .button.more_space_boton{
+    padding: 1rem 1rem 1.0625rem 1rem !important;
+}
+/*texto en botones de gestiones*/
+.gestionbox {
+    text-align: center;
+    padding: 1rem 0.7rem 1rem 0.7rem;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    cursor: pointer;
+}
+
+/* ----------------------- ERRORES ------------------------------ */
+.is-invalid-label {
+    color: #f23d53 !important;
+}
+small {
+    color: #f23d53 !important;
+}
+.form-error {
+    color: #f23d53 !important;
+}
+.is-invalid-input:not(:focus) {
+    border-color: #f23d53 !important;
+}
+
+/* ----------------------- PAGINEO ------------------------------ */
+    nav {
+        margin-top: 15px;
+    }
+    .privado li a {
+        color: #999999;
+    }
+    .pagination li:last-child, .pagination li:first-child {
+        border: 1px solid #2C8B9E;
+    }
+
+    /* flechas Siguiente  */
+    .pagination-next a::after{
+        margin-left: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+    .pagination-next a::after{
+        display: inline-block;
+        margin-left: 0.5rem;
+        content: "»";
+    }
+    .pagination-next a::after{
+        margin-left: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+
+    /* flechas Anterior */
+    .pagination-previous a::before{
+        margin-right: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+    .pagination-previous a::before{
+        display: inline-block;
+        margin-right: 0.5rem;
+        content: "«";
+    }
+    .pagination-previous a::before{
+        margin-right: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+
+    /*HOVER*/
+    .pagination a:hover, .pagination button:hover {
+        background: none;
+    }
+    
+    
+
+/**/
+@media (max-width: 639px){
+/*    TEXTO ALINEADO EN RESPONSIVE*/
+    .table-responsive table tr td p.desciption_gestion{
+        margin-top: 14px;
+        text-align: left;
+        padding-right: 0rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+        padding-left: 0rem !important;
+    }
+
+    /*margen de tabla en responsive*/
+    .table-responsive table tbody tr:nth-child(odd) {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+      /*  height: 40px;*/
+    }
+
+    .table-responsive table tbody tr:nth-child(even) {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+    /*    height: 40px !important;*/
+    }
+
+/*  Pagineo   */
+.pagination-pointed .pagination-pointed-button, .pagination-pointed .current, .pagination-pointed .pagination-previous {
+    position: relative;
+    display: inline-block;
+}
+
+
+/*SOLUCIÓN DE CALENDARIO EN RESPONSIVE DICIEMBRE 2022 POR ALEJANDRO    */
+
+/*DESPLIEGA EL CALENDARIO MENSUAL*/
+  .datepicker-months td{
+    text-align: center;
+    width: 185px;
+    height: 120px;
+    border: 0;
+  }
+  .datepicker-months table tr td span {
+    display: block;
+    width: 23%;
+    height: 38px;
+    line-height: 36px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+}
+ 
+/*DESPLIEGA EL CALENDARIO ANUAL*/
+  .datepicker-years td{
+    text-align: center;
+    width: 185px;
+    height: 120px;
+    border: 0;
+  }
+  .datepicker-years table tr td span {
+    display: block;
+    width: 23%;
+    height: 38px;
+    line-height: 36px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+  }
+
+}
+
+}
+

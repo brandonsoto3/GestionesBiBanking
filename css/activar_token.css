@@ -1,0 +1,17 @@
+.activar-top1 {
+    margin-top: 3rem;
+}
+
+.activar-top2 {
+    margin-top: 3rem;
+}
+
+.activar-top3 {
+    margin-top: 3rem;
+}
+
+@media (max-width:  639px){
+    .activar-top2 {
+    margin-top: 1rem;
+    }
+}

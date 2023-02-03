@@ -1,0 +1,71 @@
+.privado h2 {
+    color: #003865;
+    margin-top: 3rem;
+    font-size: 27px;
+}
+
+hr.hrach { 
+    max-width: 60.5rem;
+    margin-top: 0rem; 
+    }
+
+.h3ach{
+    color: #515151!important;
+    font-weight: 100!important;
+    font-size: 20px;
+}
+
+.h3achadd{
+    font-size: 20px;
+    color: #2C8B9E;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+textarea {
+  resize: none;
+  height: 7rem!important;
+  color: #003865;
+  font-weight: 600;
+}
+
+textarea.heighttext{
+  height: 2rem!important;
+}
+.labelach{
+    color: #5A5A5A;
+    font-weight: 600;
+}
+
+button, .button {
+    background-color: #00C1D4;
+    font-weight: bold;
+        border-radius: 10px;
+}
+
+button.default-action, .button.default-action {
+    color: #00C1D4;
+    box-shadow: 0 0 0 2px #00C1D4 inset;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #2C8B9E;
+    box-shadow: 0 0 0 2px #2C8B9E inset;
+}
+
+
+
+::placeholder {
+  color: #003865!important;
+      font-weight: 600;
+ 
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #003865 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #003865!important;
+}

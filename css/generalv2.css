@@ -1,0 +1,102 @@
+.top-bar {
+    background-color: #1f3366;
+    background: #FFFFFF;
+    
+}
+
+
+
+.alert-box.warning {
+    
+    background-color: #F13852;
+}
+
+.alert-box.alert {
+   
+    background-color: #FFB81C;
+}
+
+
+.alert-box.callout.alert {
+    color: #003865;
+}
+i.iconalert-icon-alerta-warning {
+    border-right: 1px solid #003865;
+}
+
+.table-responsive table thead {
+    color: #1f3366;
+    background-color: #2C8B9E;
+}
+.icon {
+    color: #424141;
+    
+}
+
+.menu .active > a {
+    
+    border-bottom: solid 2px #00C1D4;
+    
+}
+
+.top-bar a:before {
+   
+    background: #00C1D4;
+    
+}
+
+.top-bar a {
+    
+    color: #003865;
+    font-weight: 600;
+   
+}
+
+.menu .active > a {
+    color: #003865;
+    font-weight: 600;
+    
+}
+
+.bg-img3 {
+    height: 100%;
+    background-size: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/dayb.jpg);
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: top; */
+    background-position: top;
+    background-color: white;
+    color: white;
+    position: fixed;
+    z-index: -2;
+    resize: none;
+    font-family: 'Open Sans', sans-serif !important;
+    /* transform: translate3d(0,0,0); */
+    background-attachment: scroll;
+}
+
+img.imgprincipallogo {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 140px!important;
+    margin-top: 10px!important;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 45em){
+.bg-img3 {
+    background-image: url(../img/login1.png);
+}
+
+}
