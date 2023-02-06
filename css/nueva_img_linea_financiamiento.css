@@ -1,0 +1,33 @@
+
+.privado h2 {
+    color: #003865;
+}
+
+.table-responsive table thead {
+    color: #1f3366;
+    background-color: #2C8B9E;
+}
+
+.alert-box.warning {
+    /* border: 3px solid #ffae00; */
+    border-radius: 5px;
+    background-color: #F23D53;
+}
+
+button.default-action, .button.default-action {
+    color: #2C8B9E;
+    box-shadow: 0 0 0 2px #2c8b9e inset;
+    font-weight: bold;
+}
+button.default-action:hover, button.default-action:focus, .button.default-action:hover, .button.default-action:focus {
+    background-color: #2C8B9E;
+}
+
+button, .button {
+    background-color: #2C8B9E;
+    font-weight: bold;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #00C1D4;
+}

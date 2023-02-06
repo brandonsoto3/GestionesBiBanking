@@ -1,7 +1,87 @@
+
+.is-invalid-label{
+    color: #F23D53 !important;
+} 
+/* input alerta focus*/
+
+.is-invalid-input:not(:focus)::-webkit-input-placeholder { color: #F23D53; font-size: 600;}    
+.is-invalid-input:not(:focus):-moz-placeholder { color: #F23D53; font-size: 600;}
+.is-invalid-input:not(:focus)::-moz-placeholder { color: #F23D53; font-size: 600;}
+.is-invalid-input:not(:focus):-ms-input-placeholder { color: #F23D53; font-size: 600; }
 .modal_password {
     text-align: left !important; 
     padding-left: 3.96875rem !important;
     font-size: 14px;
+}
+
+span.closebuton2 {
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 600;
+    font-size: 2rem;
+    right: 1.5rem;
+    top: 1.5rem;
+    transition: .5s;
+    margin-top: -16px;
+    padding-left: 30px;
+}
+
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'] {
+    border-radius: 0px;
+}
+
+.reveal h1 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif !important;
+}
+p {
+    font-family: 'Open Sans', sans-serif !important;
+}
+h1.h1correo {
+    text-align: center;
+}
+
+.grid-x.grid-margin-x.sinpadding {
+    margin-right: 0rem;
+}
+
+.button.hollow {
+    border-radius: 0px;
+}
+
+strong.strongtext, b {
+    font-weight: bold;
+    line-height: inherit;
+}
+
+b, strong.strongtext {
+    font-weight: bolder;
+}
+
+/*titulos*/
+h1, .h1 {
+    font-size: 2.5rem !important;
+}
+h3, .h3 {
+    font-size: 1.9375rem;
+}
+h1, h2, h3, h4, h5, h6, strong, span, button, label, li .icon {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important; 
+}
+h1, h2, , h4, h5, h6, p, strong, span, button, label, li .icon {
+    font-family: 'Open Sans', sans-serif !important;
+}
+strong.strtitle h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6  {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !important;
+}
+b,
+strong.strtitle  {
+  font-weight: bolder;
+  }
+
+h3 {
+    font-weight: bold;
 }
 
 .callout.success.modal_password{
@@ -14,20 +94,23 @@
 }
 
 .form-error {
-    background: #F23d53;
-    border: solid 1px #F23d53;
+    background: #c60f13;;
+    border: solid 1px #c60f13;;
 }
 
 .is-invalid-label {
-    color: white!important;
+    color: #c60f13; !important;
 }
+input:not(:focus) {
+    border-color: #c60f13; !important;
+}
+
 
 p.textobotonmodal {
     font-size: 17px;
     font-weight: 600;
     margin-top: 20px;
 }
-
 
 @media (max-width: 640px) {
 .reveal-overlay{
@@ -41,11 +124,7 @@ p.textobotonmodal {
     margin-top: 18px;
     margin-right: 29px;
     margin-bottom: 30px*/
-}}
-
-
-
-@media (max-width: 640px) {
+}
 p.textobotonmodal {
     font-size: 15px;
     font-weight: 600;
@@ -53,3 +132,84 @@ p.textobotonmodal {
     line-height: 1.2;
 }
 }
+
+
+button#openModalExitoEmail.continubtn {
+    color: #FFFFFF;
+    border: 1px solid #2C8B9E !important;
+    background: #2C8B9E;
+}
+button#openModalExitoEmail.continubtn:hover {
+    background: #00C1D4;
+}
+
+
+button#openModalNext.continubtn {
+    color: #FFFFFF;
+    border: 1px solid #2C8B9E !important;
+    background: #2C8B9E;
+}
+button#openModalNext.continubtn:hover {
+    background: #00C1D4;
+}
+
+.button.next {
+    font-size: 0.9rem;
+
+}
+a p.textobotonmodal.btnback {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -5px;
+    text-align: center;
+}
+
+/*iconos*/
+/*.login100-form-btn i {
+    font-weight: 400;
+}*/
+i.icon.icon-cam-contra-bb-telefono {
+    font-size: 20px;
+    font-weight: 400;
+}
+i.icon.icon-cam-contra-bb-correo {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+/*MOdal token*/
+
+div#ModalExitoMovil{
+    top: 22px !important;
+}
+
+div#ModalExitoEmail {
+    top: 22px !important;
+}
+
+@media (max-width: 639px){
+.reveal#modal_token {
+    margin-top: :20px;
+    width: 97%;
+    max-width: none;
+    height: 100%;
+    height: 88vh;
+    min-height: 67vh;
+}
+
+button#openModalExitoEmail {
+    margin-top: 0px;
+}
+
+.marginbottom{
+    margin-bottom: -10px !important;
+}
+.marginbottom2 {
+    margin-bottom: -20px !important;
+}
+.reveal > :last-child {
+    right: 0rem;
+}
+}   

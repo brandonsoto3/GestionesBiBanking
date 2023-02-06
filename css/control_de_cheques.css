@@ -1,0 +1,156 @@
+.table-responsive table tr td p{
+    color: #959090 !important;
+    font-weight: bold !important;
+    margin-bottom: 1rem;
+   /* margin-top: 1rem;*/
+}
+
+td.tablebanco.numero {
+    color: #003865;
+     font-weight: bold !important;
+}
+
+td.cuentainfo.positiontdcenter.numero {
+    color: #959090;
+     font-weight: bold !important;
+}
+
+i.ach-iconos_ach_autorizar1 {
+    color: #959090;
+}
+
+i.ach-iconos_ach_editar2 {
+    color: #959090;
+}
+.lineas-financiamientosearch:before {
+    content: "\e905";
+    color: #959090 !important;
+}
+.menu-lateral1 .lateral-size2 .icon-.iconminimenu {
+    font-size: 52px;
+    margin-top: 0.8rem;
+    padding: 0rem 0rem;
+}
+
+
+.lateralmini {
+    border: 5px !important;
+}
+
+h2.icontitle.textmenulateral {
+    font-size: 15px;
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 21px;
+}
+
+.division1{
+    border: 0px solid;
+}
+
+
+
+
+a.textoalertaempresa {
+    font-size: 12px;
+    color: #3AB3C9;
+}
+
+
+h2.margintoptitulo {
+    margin-top: 0rem;
+}
+.privado a:hover {
+    /*color: #2C8B9E;*/
+    transition: .3s;
+}
+
+.privado li a {
+    color: #424141;
+}
+
+.menu-lateral1 .lateral-size2 .icon- {
+    font-size: 100px;
+    margin-top: 2rem;
+    padding: 0rem 2rem;
+}
+
+.section-size-privado {
+    width: 100%;
+    background-color: white;
+    min-height: calc(105vh - 226px);
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+h3.h3achadd.agregarben {
+    text-align: end;
+}
+
+td.positiontdleft.numero {
+    margin-top: 17px !important;
+    display: block;
+}
+
+.table-responsive table thead tr th.positiontdleft.titletable {
+    text-align: center !important;
+    padding-left: 0rem !important;
+
+}
+
+td.tablebanco.numero.marginlefttexttable {
+    height: 3rem;
+}
+
+i.ach-iconos_ach_basurero {
+    color: #757575;
+}
+
+
+label.iconbuscador.controlcheques1 {
+    display: block;
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.8;
+    color: #003865;
+    text-align: left;
+    margin-right: 0px;
+        font-weight: 700;
+   
+}
+
+i.rangoicon {
+    margin-left: -87px;
+    margin-top: 37px;
+}
+
+a.button.default-action.agregarrango {
+    margin-top: 18px;
+    
+}
+
+h3.h3achadd.agregarbene {
+    text-align: end;
+}
+
+@media (max-width: 400px){
+label.editmodal.exportselect {
+    margin-left: 20px;
+}
+
+.lateral-size {
+    margin-bottom: 0rem !important;
+}
+}
+
+@media (max-width: 1024px){
+
+    .lateral-size {
+    margin-bottom: 0rem !important;
+}
+
+.positionresp{
+    display: contents;
+}
+}

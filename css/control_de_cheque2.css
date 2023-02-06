@@ -1,3 +1,15 @@
+ /*alertas sin limte*/
+ .alertax 
+{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+span .alertax 
+{
+    font-size: 0.875rem !important;
+}
+
 
 
 /*pagina 4 */
@@ -6,6 +18,12 @@
     color: #003865;
     margin-top: 3rem;
     font-size: 18px;
+}
+
+.privado p {
+    color: #959090;
+    font-size: 14px;
+    font-family: 'Lato-Regular'!important;
 }
 
 .section-size-privado {
@@ -23,10 +41,10 @@ hr.hrach {
     font-size: 16px;
 }
 .h3achadd{
-    font-size: 14px;
-    color: #2C8B9E;
-    font-weight: bold;
-    text-decoration: underline;
+    font-size: 14px !important;
+    color: #2C8B9E !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
     
 }
 
@@ -49,6 +67,21 @@ textarea {
 textarea.heighttext{
   height: 2rem!important;
 }
+
+span.closebutton1 {
+    color: #8a8a8a!important;
+    font-size: 33px!important;
+}
+
+.closebutton1:hover, .closebutton1:focus {
+    color: #0a0a0a !important;
+}
+
+.table-responsive table thead tr th.positiontdleft.titletable {
+    text-align: left !important;
+    padding-left: 1.9rem !important;
+}
+
 /*.labelach{
     color: #5A5A5A;
     font-weight: 600;
@@ -92,8 +125,6 @@ button.default-action:hover, button.default-action:focus, .button.default-action
 }
 
 
-
-
 .test2{
   background-color: white;
 }
@@ -131,6 +162,26 @@ margin-right: none;
 /* fin pagina 4 */
 
 
+/*nuevo banner azul*/
+.alertax {
+    color: #ffffff;
+    font-size: 40px !important;
+}
+
+u.subra {
+    color: #00C1D4;
+}
+
+.pageerror {
+    margin-bottom: -33px;
+}
+
+/*fin del nuevo banner azul*/
+
+
+/*p*/
+
+
 /*pagina 6 */
 
 .backcolortd{
@@ -165,6 +216,7 @@ p.modaltipcuenta {
 }
 textarea {
     font-size: 14px;
+    font-weight: 100;
 }
 
 p.tablemontodisponible1 {
@@ -284,6 +336,10 @@ td.tablecuentaext {
 td.tableemail {
     color: #959090!important;
 }
+
+td.positiontdleft.numero.tdpos1 {
+    width: 25%;
+}
 /*---------------------------TABLA SELECCIONADORA---------------------------------- */
 
 table.tbl-report.accountselector     {
@@ -306,18 +362,80 @@ tr.typeacount {
     border: 0px;
 }
 .table-responsive table tr td.checkbox.allcategories{
-    width: 80px;
+    width: 57px;
 }
 .table-responsive table tr td.checkbox.selector1 {
-    width: 100px;
+    width: 90px;
 }
 .table-responsive table tr td.checkbox.selector2 {
-    width: 80px;
+    width: 88px;
 }
 .table-responsive table tr td.checkbox.selector3 {
-    width: 150px;
+    width: 80px;
 }
 .table-responsive table tr td.checkbox.selector4 {
+    width: 120px;
+}
+
+
+/*cuenta acreditar*/ 
+
+td.checkbox.allcategoriesacreditar {
+    border-right: 1px #909090 solid;
+}
+tbody.tableselectoptionsacreditar {
+    border: 0px;
+}
+.miCheckbox span {
+    border-radius: 3px;
+}
+
+
+.table-responsive table tr td.checkbox.allcategoriesacreditar{
+    width: 45px;
+}
+
+.table-responsive table tr td.checkbox.selector1acreditar {
+    width: 58px;
+}
+
+.table-responsive table tr td.checkbox.selector2acreditar {
+    width: 46px;
+}
+
+.table-responsive table tr td.checkbox.selector3acreditar {
+    width: 80px;
+}
+.table-responsive table tr td.checkbox.selector4acreditar {
+    width: 120px;
+}
+
+
+/*cuenta acreditar modal */ 
+
+td.checkbox.allcategoriesacreditar2 {
+    border-right: 1px #909090 solid;
+}
+tbody.tableselectoptionsacreditar2 {
+    border: 0px;
+}
+
+.table-responsive table tr td.checkbox.allcategoriesacreditar2{
+    width: 60px;
+}
+
+.table-responsive table tr td.checkbox.selector1acreditar2 {
+    width: 75px;
+}
+
+.table-responsive table tr td.checkbox.selector2acreditar2 {
+    width: 58px;
+}
+
+.table-responsive table tr td.checkbox.selector3acreditar2 {
+    width: 110px;
+}
+.table-responsive table tr td.checkbox.selector4acreditar2 {
     width: 120px;
 }
 
@@ -384,6 +502,7 @@ tr.typeacount {
 
     input[type="text"] {
     font-size: 14px;
+    color: #003865;
 }
 /*-----------------------------------TABLAS----------------------------------------- */
 
@@ -431,6 +550,7 @@ td p.activo{
 .table-responsive table  tr td p  {
     color: #003865 !important;
     font-weight: bold !important;
+    
 }
 .table-responsive table tr .tableestado{
     color: #00C1D4 !important;
@@ -481,6 +601,28 @@ em, i.IconAch.ach-iconos_ach_comprobante{
 }
 
 
+
+/*modal benefiraios fallidos*/
+div#modalbeneficiariosfallidos {
+    width: 90%;
+}
+
+
+.reveal#modalbeneficiariosfallidos h1 {
+    color: #003865;
+    font-weight: 600;
+    font-family: 'Lato-Regular' !important;
+    font-size: 27px !important;
+}
+
+thead.tabletiles.sinborde1 {
+    border: 0px solid !important;
+}
+
+/*fin */
+
+
+
 /*------------------------------MODAL CAMBIO DE ROL---------------------------------- */
 
 /*Cuerpo de la modal*/
@@ -488,7 +630,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         background-color: white;
         color: black;
         background: #ffffff;
-        opacity: 0.9;
+        /*opacity: 0.9;*/
         border: 0px solid #cacaca;
         border-radius: 55px 0px 55px 0px;
         /*width: 58%;*/
@@ -506,6 +648,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         color: black;
         font-weight: 600;
         font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
     }
     .reveal#modalrol .etiqueta-linea {
         background: white;
@@ -589,7 +732,10 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         color: white !i;
     }
 */
-
+.privado a:hover {
+    color: white;
+    transition: .3s;
+}
 
 /*---------------------------------MODAL CUENTAS------------------------------------- */
 
@@ -597,12 +743,12 @@ em, i.IconAch.ach-iconos_ach_comprobante{
     .reveal#modalcuentas{  
         background-color: white;
         color: black;
-        background: #ffffff;
-        opacity: 0.9;
+        background: #fefefe;
+        /*opacity: 0.9;*/
         border: 0px solid #cacaca;
         border-radius: 55px 0px 55px 0px;
-        width: 60%;
-        height: 80%;
+        /*width: 60%;*/
+        /*height: 80%;*/
         margin-left: auto !important;
         margin-right: auto !important;
     }
@@ -618,6 +764,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         color: black;
         font-weight: 600;
         font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
     }
     .reveal#modalcuentas .etiqueta-linea {
         background: white;
@@ -705,7 +852,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
 
 /*Cuerpo de la modal*/
 
-.large-10.large-offset-1.medium-10.medium-centered.small-10.small-centered.columns.m_rechazar {
+.m_rechazar {
     margin-top: 40px !important;
     margin-bottom: 30px !important;
 
@@ -728,6 +875,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         text-align: center;
         font-weight: 600;
         font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
     }
 
     .reveal#modalrechazar p {
@@ -859,7 +1007,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
     /*MODAL Cuentas*/
         /*Tamaño de Modal*/
         div#modalcuentas {
-           width: 65% !important;
+          /* width: 65% !important;*/
         }  
     }
 
@@ -896,7 +1044,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
             /*width: 80% !important;*/
         }
         /*Tamaño de alerta Modal*/
-        .large-11.columns.infoalert {
+        .infoalert {
             padding-right: 39px !important;
         }
         /*Tamaño de texto Modal*/
@@ -905,7 +1053,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         }*/
 
         /*Tamaño de selector Modal*/
-        .large-11.columns.rolselect {
+        .rolselect {
             margin-left: 5px;
         }
         .medium-6.large-5.medium-pull-6.large-pull-6.small-8.small-offset-1.columns {
@@ -918,7 +1066,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
     /*MODAL Cuentas*/
         /*Tamaño de Modal*/
         div#modalcuentas {
-            width: 79% !important;
+          /*  width: 79% !important;*/
         }
         /*MOSTRAR EN MODAL*/
         
@@ -938,6 +1086,9 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         .columns.large-6.large-offset-11 {
             margin-top: 1px;
         }
+        p.minitable2left.colorminitabletext {
+    color: #003865 !important;
+}
         table-responsive .tbl-report input, .table-responsive .tbl-report select {
             margin-left: 0px;
             width: auto;
@@ -969,10 +1120,10 @@ em, i.IconAch.ach-iconos_ach_comprobante{
     }
 
     /*COMPROBAMTE DE PAGO BOTONES*/
-    .medium-3.large-4.medium-push-7.large-push-7.small-12.columns.comprobantebotondownload {
+    .comprobantebotondownload {
         padding-left: 30px;
     }
-    .medium-3.large-4.medium-pull-5.large-pull-5.small-12.columns.comprobantebotonback {
+    .comprobantebotonback {
          padding-left: 30px;
 }
 
@@ -987,19 +1138,18 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         font-size: 14px;
        
     }
-  /*  .pagination .current {
-        display: none;
-    }*/
+    
+    
 
 
  /*---------------------------TABLA SELECCIONADORA---------------------------------- */
 
     .table-responsive table tr td.checkbox.allcategories{
-        width: 100%;
-        border-bottom: 1.5px #909090 solid;
-        border-left: 0px solid;
-        border-right: 0px solid;
-        border-top: 0px solid;
+        width: 100%!important;
+        border-bottom: 1.5px #909090 solid!important;
+        border-left: 0px solid!important;
+        border-right: 0px solid!important;
+        border-top: 0px solid!important;
     }
     .table-responsive table tr td.checkbox.selector1 {
         width: 100%;
@@ -1018,6 +1168,89 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         width: 100%;
         border: 0px solid;
     }
+
+    /*cuenta acreditar*/ 
+     .table-responsive table tr td.checkbox.allcategoriesacreditar{
+        width: 100%!important;
+        border-bottom: 1.5px #909090 solid!important;
+        border-left: 0px solid!important;
+        border-right: 0px solid!important;
+        border-top: 0px solid!important;
+    }
+
+td.checkbox.allcategoriesacreditar {
+    border-right: 1px #909090 solid;
+}
+tbody.tableselectoptionsacreditar {
+    border: 0px;
+}
+
+.table-responsive table tr td.checkbox.allcategoriesacreditar{
+    width: 45px;
+    border: 0px solid;
+}
+
+.table-responsive table tr td.checkbox.selector1acreditar {
+    width: 58px;
+    border: 0px solid;
+}
+
+.table-responsive table tr td.checkbox.selector2acreditar {
+    width: 46px;
+    border: 0px solid;
+}
+
+.table-responsive table tr td.checkbox.selector3acreditar {
+    width: 80px;
+    border: 0px solid;
+}
+.table-responsive table tr td.checkbox.selector4acreditar {
+    width: 120px;
+    border: 0px solid;
+}
+
+/*cuenta acreditar modal */ 
+.table-responsive table tr td.checkbox.allcategoriesacreditar2{
+        width: 100%!important;
+        border-bottom: 1.5px #909090 solid !important;
+        border-left: 0px solid!important;
+        border-right: 0px solid!important;
+        border-top: 0px solid!important;
+    }
+
+td.checkbox.allcategoriesacreditar2 {
+    border-right: 1px #909090 solid;
+}
+tbody.tableselectoptionsacreditar2 {
+    border: 0px;
+    border: 0px solid;
+}
+
+.table-responsive table tr td.checkbox.allcategoriesacreditar2{
+    width: 60px;
+    border: 0px solid;
+}
+
+.table-responsive table tr td.checkbox.selector1acreditar2 {
+    width: 75px;
+    border: 0px solid;
+}
+
+.table-responsive table tr td.checkbox.selector2acreditar2 {
+    width: 58px;
+    border: 0px solid;
+}
+
+.table-responsive table tr td.checkbox.selector3acreditar2 {
+    width: 110px;
+    border: 0px solid;
+}
+.table-responsive table tr td.checkbox.selector4acreditar2 {
+    width: 120px;
+    border: 0px solid;
+}
+
+/*-------------
 
     /*MOSTRAR label*/
     label.labelach.mostrar {
@@ -1056,8 +1289,8 @@ em, i.IconAch.ach-iconos_ach_comprobante{
     /*MODAL Cuentas*/
         /*Tamaño de Modal*/
          .reveal#modalcuentas {
-            width: 90%;
-            margin-left: 20px;
+           /* width: 90%;*/
+            /*margin-left: 20px;*/
             margin-top: 20px;
             min-height: 85% !important;
             height: 85%;
@@ -1086,7 +1319,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
          /*MODAL RECHAZAR*/
          /*Cuerpo de la modal*/
 
-            .large-10.large-offset-1.medium-10.medium-centered.small-10.small-centered.columns.m_rechazar {
+            .m_rechazar {
                 padding-left: 48px;
             }
         /*Tamaño de Modal*/
@@ -1103,6 +1336,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         font-weight: 600;
         font-family: 'Lato-Regular' !important;
         font-size: 30px;
+        font-size: 27px !important;
         line-height: 50px;
     }
 
@@ -1139,7 +1373,7 @@ em, i.IconAch.ach-iconos_ach_comprobante{
         }
 
          /*historial de transferencia*/
-    .large-3.large-offset-9.medium-4.medium-offset-8.small-12.columns.historialback {
+    .historialback {
         padding-right: 0px;
         padding-left: 0px !important;
     }
@@ -1210,6 +1444,43 @@ i.glyphicon2.ach-iconos_ach_dirigir {
 /* fin responsive pag 4*/
 }
 /*--------------------------------pagina 6----------------------------------*/
+
+ .alertax 
+{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.reveal p.tipodemonto {
+    color: #1f3366;
+    width: 550%;
+    text-align: left;
+    margin-left: 24px !important;
+}
+
+.privado p.tipodemonto{
+    color: #1f3366;
+ margin-left: 24px !important;
+ width: 551%;
+ margin-top: -5px !important;
+}
+
+p.tipodemonto{
+    color: #1f3366;
+ margin-left: 24px !important;
+ width: 551%;
+ margin-top: -5px !important;
+}
+
+
+label.miCheckbox.checkmonto {
+    margin-top: 10px !important;
+}
+
+label.miCheckbox.checkmonto2 {
+    margin-top: 35px !important;
+}
+
 p.modalnombre {
     text-align: left;
 }
@@ -1438,7 +1709,7 @@ li.division.menulateral_subtitle {
 /*Seccion Titulo*/
     
     .table-responsive table tr td p.comprobantetitle {
-        font-size: 20px;
+        font-size: 16px;
         text-align: right;
 
     }
@@ -1594,7 +1865,7 @@ img.imgcodigobarras {
         background-color: #00C1D4;
       box-shadow: 0 0 0 0px #00C1D4; 
         font-weight: bold;
-        border-radius: 0px;
+        border-radius: 4px;
     }
 
 
@@ -1626,8 +1897,1485 @@ img.imgcodigobarras {
     }
 
     /*historial de transferencia*/
-    .large-3.large-offset-9.medium-4.medium-offset-8.small-12.columns.historialback {
+  .historialback {
    
     padding-right: 0px;
     padding-left: 35px;
 }
+
+
+/*fase 2 ach*/
+a.division.menulateralach2 {
+    color: #424141;
+}
+
+a.division.menulateralach2:hover {
+    color: #00C1D4;
+}
+
+i.regresarmenu {
+    color: #757575;
+}
+i.regresarmenu:hover {
+    color: #00C1D4;
+}
+
+/*fase 2 ach*/
+
+/*FASE 2*/
+/*MENU LATERAL DESPLEGABLE*/
+/*MINI*/
+/*#menuescondido{
+    display: block;
+}
+#menuextendido{
+    display: none;
+}
+
+.menu-lateral1 .lateral-size2 .icon-.iconminimenu{
+    font-size: 52px;
+    margin-top: 0.8rem;
+    padding: 0rem 0rem;
+}
+
+.iconmenu {
+    width: 6.5%;
+    margin-left: -19px !important;
+
+}
+.privado .lateral-size a {
+    padding: 1rem 1rem;
+} 
+
+.lateralmini {
+    border: 5px !important;
+}
+/*Despleado*/
+/*div#menuextendido {
+    width: 17%;
+}
+h2.icontitle {
+    margin-top: 0rem;
+}
+
+.menu-lateral1 .lateral-size2 .icon-.icon_desp{
+    
+    margin-top: 0.8rem;
+    
+}*/
+
+
+
+/*TABLA DESPLEGABLE y Bordes*/
+
+/*    p {
+    margin-bottom: 0.5rem !important;
+    line-height: 0 !important;
+    text-rendering: optimizeLegibility;
+}*/
+    a.accordion-title.desplegado {
+        text-align: left !important;
+        color:  #2C8B9E !important;
+        font-size: 16px;
+        font-family: 'Lato-Regular' !important;
+        background-color: #FFFFFF;
+        border: 1px #959090 solid;
+        border-bottom: 1px #959090 solid !important;
+    }
+    
+    div.accordion-content.desplegado{
+        border-left: 1px #959090 solid;
+        border-bottom: 1px #959090 solid !important;
+        border-right: 1px #959090 solid;
+        background: white;
+    }
+  /*  head, tbody, tfoot {
+        border-bottom: 2px solid #959090;
+    }*/
+    tbody.cuerpodetabla {
+        border-bottom: 0px !important;
+    }
+
+    p.montomenudesp.numero {
+        font-size: 26px;
+        text-align: left;
+        color: #024989;
+    }
+    label.editmodal.positiontdleft {
+        text-align: left;
+        color: #003865;
+    }
+
+    label.editmodal.mashorarios {
+        text-align: left;
+        color: #2C8B9E;
+    }
+    i.glyphicon.lineas-financiamientocalendar.fechaicon{  
+        position: absolute;
+        margin-left: 149px;
+        margin-top: -28px;
+    }
+    .lineas-financiamientocalendar.fechaicon:before {
+    content: "\e900";
+    color: #ADADAD;
+}
+
+    .is-active > .accordion-title::before {
+        /*content: "↑";*/
+        content: "▲";
+            font-size: 15px;
+    }
+    .accordion-title::before {
+        position: absolute;
+        top: 50%;
+        right: 1rem;
+        margin-top: -0.5rem;
+        /*content: "↓";*/
+        content: "▼";
+            font-size: 15px;
+    }
+    *, *::before, *::after {
+        -webkit-box-sizing: inherit;
+        box-sizing: inherit;
+    }
+        
+/*/textos/*/
+    .table-responsive table tr td p.titlemenudesp {
+        font-weight: bold !important;
+        font-size: 14px;
+    }
+    p.titlemenudesp {
+        text-align: left;
+    }
+    .table-responsive table tr td p.textoemenudesp {
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+        color: #959090 !important;
+            font-size: 14px!important;
+    }
+    table.marcodesplegabledetalle {
+        border-left: 1px solid #D1D1D1;
+
+
+    }
+
+    .miselector.selectorposicion{
+        height: 1.8rem;
+    }
+
+input.inputtablaagregar {
+    height: 1.8rem;
+}
+
+/*MINIMENU*/
+ td.checkbox.allcategories.miniselector {
+    width: 81px !important;
+}
+td.checkbox.miniselector {
+    border-right: 1px #909090 solid;
+}
+.table-responsive table tr td.checkbox.miniselector1 {
+    width: 22%;
+    border: 0px;
+}
+
+/*nuevo css menu lateral*/
+
+/*@media (max-width: 1023px){
+.lateral-size {
+    background-color: #fff !important;
+    margin-bottom: 0rem;
+    margin-top: 10px;
+    display: contents !important;
+}
+
+.row.section-size-privado.privado.special {
+    max-width: 67rem;
+    margin-left: 0px!important;
+    padding-left: 0rem;
+}
+
+}*/
+
+/*.lateral-size {
+    background-color: #f7f7f7;
+    position: absolute;
+    display: flex;
+    margin-left: -10px;
+    border-radius: 20px 0px 20px 0px;
+
+}
+*/
+
+
+i.ach-iconos_ach_dirigir1 {
+    color: #757575;
+}
+
+
+/*.row.section-size-privado.privado.special {
+    max-width: 67rem;
+    margin-left: 16px;
+    padding-left: 2rem
+}*/
+
+/*@media (max-width: 639px){
+.row.section-size-privado.privado.special {
+    
+    padding-left: 0rem;
+}
+p.textreport.minitable2left {
+    text-align: initial;
+}
+p.titlereport.titlebold.minitable2left {
+    text-align: left;
+}
+p.titlereporttitlebold.minitable2left {
+    text-align: initial;
+}
+}*/
+/*nuevo css menu lateral fin */
+
+ /*---------------------RESPONSIVE----------------------*/
+@media (max-width: 639px){
+
+    i.glyphicon.lineas-financiamientocalendar.fechaicon {
+        margin-left: 376px;¡
+    }
+
+    select.miselector.selectorposicion {
+        margin-top: -14px;
+    }
+    input.inputtablaagregar {
+    position: relative;
+}
+    /*Bordes*/
+        .table-responsive table tr td p.titlemenudesp {
+            
+            font-size: 12px;
+            text-align: left;
+        }
+
+        .table-responsive table tr td p.textoemenudesp {
+  
+    text-align: end;
+}
+        tr.accordion {
+            border: 0px !important;
+        }
+        td.accordion-item.is-active {
+            border: 0px solid;
+        }
+        tr.marcodesplegable {
+            border: 0px !important;
+        }   
+        td.marcodesplegable {
+            border: 0px;
+        }
+        table.marcodesplegabledetalle {
+            border-left: 0px   solid;
+            border-top: 1px   solid ;
+        }
+        table td:last-child {
+            border-bottom: 0;
+            border-left: 0px;
+            border-top: 0px;
+            border-right: 0px;
+        }
+ }
+
+
+/*TABLA 5*/
+td.positiontdleft {
+    text-align: left !important;
+}
+
+/*forma y color del Switch*/ 
+.switch {
+    height: 1rem !important;
+    margin-right: 10px !important;
+}
+label.switch-paddle{
+ border-radius: 28px;
+ width: 40px;
+    height: 20px;
+    margin-top: 6px;
+}
+input:checked ~ .switch-paddle{
+  background: #00c1d4;
+
+}
+.switch-paddle::after {
+    border-radius: 20px !important; 
+    width: 14px;
+    height: 14px;
+    top: 0.19rem;
+}
+input:checked ~ .switch-paddle::after {
+    left: 1.40rem;
+}
+
+.textcenter {
+    text-align: center !important;
+}
+td.cuentainfo.numero.textcenter {
+    text-align: center !important;
+}
+
+
+
+/*---------------------------MODAL DATOS DE CARPETAS ACH------------------------------------------*/
+
+/*Fondo y Tamaño*/
+    .reveal#modaldatoscarpeta{
+        background-color: white;
+        color: #003865;
+        background: #ffffff;
+        opacity: 1;
+        border: 0px solid #cacaca;
+        border-radius: 55px 0px 55px 0px;
+    }
+    table.comlumnainfodatosACH {
+        width: 90%;
+        margin-left: 25px;
+    }
+    div#modaldatoscarpeta {
+        width: 86%;
+    }
+
+/*Titulo y textos*/
+    .reveal#modaldatoscarpeta h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+    .table-responsive table tr td p.modaltitle.titlebold {
+        font-weight: bold !important;
+        font-size: 14px;
+    }
+    .table-responsive table tr td p.modaltexto {
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+        color: #959090 !important;
+    }
+    td.positiontdcenter {
+        text-align: center !important;
+    }
+ 
+/*BOTON*/
+
+
+.botoncerrarmodaldatos {
+    padding-left: 31px;
+    padding-right: 0px;
+}
+
+
+    /*---------------------RESPONSIVE----------------------*/
+@media (max-width: 639px){
+   .reveal#modaldatoscarpeta{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 65% !important;
+        height: 65%;
+    }
+     .reveal#modaldatoscarpeta h1 {
+        font-size: 28px !important;
+
+    }
+    .table-responsive table tr td p {
+        color: #003865 !important;
+        font-weight: bold !important;
+    }
+    .table-responsive table tr td p.modaltexto {
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+    }
+    
+    td.positiontdleft.numero {
+        text-align: right !important;
+    }
+    td.positiontdcenter.numero {
+        text-align: right !important;
+    }
+    table.comlumnainfodatosACH {
+        margin-left: 10px;
+    }
+       
+    .botoncerrarmodaldatos {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+
+
+
+
+/*---------------------------MODAL CREAR BENEFICIARIO-----------------------------------------*/
+
+/*Fondo y Tamaño*/
+    .reveal#modalcrearbeneficario{
+        background-color: white;
+        color: #003865;
+        background: #ffffff;
+        opacity: 1;
+        border: 0px solid #cacaca;
+        border-radius: 55px 0px 55px 0px;
+    }
+    div#modalcrearbeneficario {
+        width: 50%;
+    }
+    /*Titulo y textos*/
+    .reveal#modalcrearbeneficario h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+
+    @media (max-width: 1019px) and (min-width: 640px) {
+    div#modalcrearbeneficario {
+        width: 75% !important;
+    }
+}
+    
+    /*---------------------RESPONSIVE----------------------*/
+@media (max-width: 639px){
+   .reveal#modalcrearbeneficario{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 91% !important;
+        height: 91%;
+    }
+}
+
+/*---------------------------MODAL BENEFICIARIO AGREGADO-----------------------------------------*/
+
+/*Fondo y Tamaño*/
+    .reveal#modalagregado{
+        background-color: white;
+        color: #003865;
+        background: #ffffff;
+        opacity: 1;
+        border: 0px solid #cacaca;
+        border-radius: 55px 0px 55px 0px;
+    }
+    div#modalagregado {
+        width: 80%;
+    }
+    
+    /*---------------------RESPONSIVE----------------------*/
+@media (max-width: 639px){
+   .reveal#modalagregado{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 50% !important;
+        height: 50%;
+    }
+}
+
+/*---------------------------MODAL EDITAR BENEFICIARIO-----------------------------------------*/
+
+/*Fondo y Tamaño*/
+    .reveal#modaleditarbeneficario{
+        background-color: white;
+        color: #003865;
+        background: #ffffff;
+        opacity: 1;
+        border: 0px solid #cacaca;
+        border-radius: 55px 0px 55px 0px;
+    }
+    div#modaleditarbeneficario {
+        width: 50%;
+    }
+    .m_editarbeneficiario{
+        margin-top: 40px !important;
+        margin-bottom: 30px !important;
+    }
+    select.miselector.modalselector {
+        height: 2.4375rem !important;   
+    }
+/*Titulo y textos*/
+    .reveal#modaleditarbeneficario h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+    label.editmodal.modalcrear  {
+        color: #003865;
+    }
+    
+    label.editmodal {
+        color: #003865;
+    }
+    label.tittleinput {
+        color: #003865;
+    }
+    td.positiontdcenter {
+        text-align: center !important;
+    }
+    .table-responsive table tr td p.confirmacioninfo {
+    text-align: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+ 
+ @media (max-width: 1019px) and (min-width: 640px) {
+    div#modaleditarbeneficario{
+        width: 70% !important;
+    }
+}
+
+
+
+    /*---------------------RESPONSIVE----------------------*/
+@media (max-width: 639px){
+   .reveal#modaleditarbeneficario{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 65% !important;
+        height: 65%;
+    }
+}
+
+
+
+
+/*---------------------------MODAL ELIMINAR BENEFICIARIO-----------------------------------------*/
+
+/*Fondo y Tamaño*/
+    .reveal#modaleliminarbeneficario{
+        background-color: white;
+        color: #003865;
+        background: #ffffff;
+        opacity: 1;
+        border: 0px solid #cacaca;
+        border-radius: 55px 0px 55px 0px;
+    }
+    
+    div#modaleliminarbeneficario {
+        width: 50%;
+    }
+
+    .m_eliminarbeneficiario {
+        margin-top: 20px !important;
+        margin-bottom: 30px 
+    }
+/*Titulo y textos*/
+    .reveal#modaleliminarbeneficario h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+    .table-responsive table tr td p.modaltitle.titlebold {
+        font-weight: bold !important;
+        font-size: 14px;
+    }
+    .table-responsive table tr td p.modaltexto {
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+        color: #959090 !important;
+    }
+    td.positiontdcenter {
+        text-align: center !important;
+    }
+
+    .table-responsive table tr td p.confirmacioninfo {
+    text-align: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+ 
+ /*/checks de tablas*/
+
+label.miCheckbox.checkcenter {
+    margin-left: 29px !important;
+}
+
+@media (max-width: 1019px) and (min-width: 640px) {
+    div#modaleliminarbeneficario{
+        width: 70% !important;
+    }
+}
+
+
+
+    /*---------------------RESPONSIVE----------------------*/
+@media (max-width: 639px){
+   .reveal#modaleliminarbeneficario{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 53% !important;
+        height: 53%;
+    }
+     .reveal#modaleliminarbeneficario h1 {
+        font-size: 28px !important;
+    }
+    .table-responsive table tr td p {
+        color: #003865 !important;
+        font-weight: bold !important;
+            text-align: end;
+    }
+    .table-responsive table tr td p.modaltexto {
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+    }
+    
+    td.positiontdleft.numero {
+        text-align: right !important;
+    }
+    td.positiontdcenter.numero {
+        text-align: right !important;
+    }
+    table.comlumnainfodatosACH {
+        margin-left: 10px;
+    }
+       
+    .botoncerrarmodaldatos {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+/*responsive textos */
+
+.privado h3 {
+    
+    font-size: 12px;
+    
+}
+.h3achadd {
+    font-size: 11px !important;
+  
+}
+.privado h3 {
+    
+    font-size: 12px;
+    
+}
+
+ /*/checks de tablas*/
+
+label.miCheckbox.checkcenter {
+    margin-left: 0px !important;
+}
+/*responsive textos fin */
+}
+
+
+
+
+/*PAGINA 8  */
+
+/*h3.h3achadd.agregarbene {
+    text-align: RIGHT;
+}*/
+
+/*PAGINA 2'*/
+
+/*TABLA DE REPORTES*/
+
+/*ICONOS*/
+i.IconAch.ach-iconos_ach_check.iconcheck.iconoaprovado {
+    color: #1EC771 !important;
+    text-align: center;
+}
+i.IconAch.ach-iconos_ach_check.iconcheck.iconoaprovado:hover {
+    color: #1EC771 !important;
+    text-align: center;
+}
+i.IconAch.ach-iconos_ach_eliminar.iconorechazado {
+    color: #F23D53 !important;
+}
+i.IconAch.ach-iconos_ach_eliminar.iconorechazado:hover{
+    color: #F23D53 !important;
+}
+
+
+/*TABLA DE CONTEO*/
+.table-responsive table tr td p.titlereport.titlebold {
+    color: #003865 !important;
+}
+.table-responsive table tr td p.textreport.numero {
+    color: #959090 !important;
+}
+.table-responsive table tr td p.textreporterror.numero {
+    color: red !important;
+}
+
+
+/*PAGINA 21*/
+h3.h3ach.resumenbene {
+    color: #2C8B9E !important;
+}
+p.tabletransfer.positiontdcenter {
+    text-align: center;
+}
+
+
+/*pagina 16 y 19  menu*/
+
+/*subir archivo validador de firmas */
+.file-upload .file-select .file-select-button {
+    /* background: #0D4073; */
+    padding: 0 10px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 70px;
+    /* display: none; */
+}
+.file-upload .file-select .file-select-name {
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 10px;
+    display: block;
+    text-align: center;
+
+}
+.textupload{
+    color: #AAAAAA;
+}
+.file-upload .file-select {
+    display: block;
+    border: 1px dashed #909090;
+    color: #0D4073;
+    cursor: pointer;
+    /* height: 40px; */
+    line-height: 40px;
+    text-align: left;
+    background: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+    font-size: 20px;
+    height: 300px;
+}
+.file-upload .file-select input[type=file] {
+    z-index: 100;
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+a.file-upload {
+    color: #AAAAAA;
+    text-decoration: underline;
+}
+
+
+/* fin */
+
+/* MENU 2 OPCIONES */
+/*Esconder y Mostrar Menus*/
+#menumanual{
+    display: block;
+}
+#menuarchivar{
+    display: none;
+}
+#menu1{
+    display: block;
+}
+#menu2{
+    display: none;
+}
+
+#submenu1{
+    display: block;
+}
+#submenu2{
+    display: none;
+}
+
+#menu1{
+    display: block;
+}
+#menu2{
+    display: none;
+}
+
+#submenu1{
+    display: block;
+}
+#submenu2{
+    display: none;
+}
+
+
+/*Barra de Menu progreso*/
+
+.progress {
+  height: 5px;
+}
+.Q0 {
+  width: 0%;
+}
+.Q1 {
+  width: 25%;
+}
+.Q2 {
+  width: 50%;
+}
+
+.Q3 {
+  width: 75%;
+}
+.Q4 {
+  width: 100%;
+}
+
+/*fase 3 nuevos cambios pagina 88*/
+span.colortext1 {
+    color: #2C8B9E !important;
+    font-weight: bold;
+}
+span.colortext1:hover {
+    color: #003865 !important;
+}
+.ach-Ver-doc:before {
+    content: "\e908";
+    color: #757575 !important;
+}
+.ach-Descargar:before {
+    content: "\e900";
+    color: #757575 !important;
+}
+
+/*a.tarjeta_ad {
+    color: #2C8B9E !important;
+    font-weight: bold;
+}
+
+a.tarjeta_ad:hover {
+    color: #003865 !important;
+}*/
+span.colortext1:hover {
+    text-decoration: underline;
+}
+
+/*FASE 3 PAGINA 92 Y 93*/
+.table-responsive table tr td p.comprobandatosorigen.comprobantedebicredi {
+    color: #ADADAD !important;
+    font-size: 9px !important;
+}
+label.editmodal.exporttext.txtright {
+    text-align: right;
+}
+.margintopbutton {
+    margin-top: 8px;
+}
+.ach-Descargar:before {
+
+    font-size: 18px;
+    margin-top: 2px;
+    
+}
+
+.ach-Ver-doc:before {
+    font-size: 18px;
+   
+  
+}
+
+
+
+/*Opciones */
+.progbar {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.progbar .columns {
+  padding:0;
+border-right: solid 1px lightgrey;
+}
+
+.progbar .columns:last-child {
+  border-right: none;
+}
+
+/*Opciones Selecciona y Opcion Deseleccionada */
+.progbar .active a {
+  text-decoration:none;
+  display: block;
+}
+.progbar .inactive a {
+  display: block;
+}
+.progbar .active i.IconAch.ach-iconos_ach_agregararchivo1  {
+  color: #13b2ff;
+  transition: 1s;
+}
+.progbar .inactive i.IconAch.ach-iconos_ach_agregararchivo1 {
+  color: grey;
+  transition: 1s;
+}
+.progbar .active  p {
+  color: #00C1D4;
+ 
+}
+.progbar .inactive  p {
+  color: grey;
+
+}
+
+
+/*Textos*/
+i p.titlemenuoption {
+    padding-left: 1rem;
+    display: inline-block;
+    color: #666666;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+i p.titlemenuoption:hover {
+    color: #00C1D4;
+}
+
+/*/ICONO*/
+i.IconAchmenu {
+    color: grey;
+}
+i.IconAchmenu:hover {
+    color: #00C1D4;
+}
+.progbar .active i.IconAchmenu  {
+    color: #00C1D4;
+}
+
+.barra_active {
+    background-color: #00C1D4;
+}
+.barra_inactive {
+    background-color: #cacaca;
+}
+
+i.infoiconbeneficio {
+    position: absolute;
+    margin-left: -17px;
+    margin-top: 2px;
+    color:#2C8B9E;
+}
+
+.footer.addmanual{
+   
+    margin-top: 7rem !important;
+}
+
+.footer.carpetauserfooter{
+    margin-top: 15rem !important;
+}
+
+p.usuariocolor {
+    display: contents;
+    color: #959090;
+    font-weight: 700;
+}
+
+i.ach-iconos_ach_usuario {
+    color: #959090;
+}
+
+
+h2.regresararriba{
+    margin-top: 1px;
+}
+
+.is-invalid-label {
+    color: #c60f13;
+}
+
+
+input.inputsinborde1 {
+    height: 0.4375rem;
+    text-align: left;
+    border: 0px;
+}
+
+input.inputsinborde2 {
+    border: 0px;
+    text-align: center;
+}
+
+
+@media (max-width: 639px){
+    input.inputsinborde1 {
+    text-align: right;
+}
+    input.inputsinborde2 {
+    text-align: right;
+}
+}
+
+/*/CALENDARIO*/
+.glyphicon2 {
+    right: 0px;
+}
+.ach-iconos_ach_calendario1:before {
+    content: "\e900";
+    color: #2C8B9E;
+}
+i.IconAch.glyphicon2.ach-iconos_ach_calendario1 {
+    padding-left: 0px !important;
+    padding-right: 26px !important;
+    padding-top: 37px 
+}
+
+
+
+/*/datepicker*/
+
+.datepicker thead, tbody, tfoot {
+    border: 0px solid #f1f1f1;
+    background-color: #fefefe;
+    font-family: Lato-Regular;
+}
+
+.datepicker span {
+    font-size: 12px;
+    color: black;
+    font-family: Lato-Regular !important;
+}
+
+
+
+@media (max-width:  639px){
+ /*.miCheckbox span {
+    margin-left: auto;
+    margin-right: inherit;
+} */
+.espacio-linea4 {
+    margin-top: 2rem;
+}
+.espacio-linea5 {
+    margin-top: 0rem;
+}
+.datepicker table tr {
+    border-bottom: 0px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}   
+.datepicker table thead {
+    position: unset;
+}
+.datepicker tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+/*responsive de tablas y modal de TRANSFERNECIA*/
+td.tablebanco.positiontdleft {
+    text-align: right !important;
+}
+.m_eliminarbeneficiario {
+    margin-top: -12px !important;
+    margin-bottom: 30px;
+}
+}
+
+th.positionright {
+    text-align: right !important;
+    padding-right: 1.5rem !important;
+}
+.table-responsive table thead tr th.positionright.tdlongitud{
+    padding-right: 1.5rem !important;
+
+}
+
+
+.acordioncolorf3 {
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #ffffff;
+}
+.acordionf3 li {
+    border-top: 1px solid #cccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+.accordion-title.acordionf3 {
+    color: #2C8B9E;
+    background: #FFFFFF;
+}
+.acordionf3 a:hover {
+    color: #2C8B9E;
+    transition: .3s;
+}
+p.titlemenudesp {
+    color: #003865 !important;
+    font-size: 14px;
+}
+p.tabletransferachivo {
+    text-align: center !important;
+}
+
+
+
+/*tamaño de texto en tranferencias en grupo*/
+
+label.editmodal.exporttext {
+    margin-top: 7px;
+}
+
+td.tdbackground.marco1 {
+       /* border: 1px solid #fff; */
+    border-left: 1px solid #ffff;
+    border-bottom: 1px solid #ffff;
+    border-top: 1px solid #ffff;
+
+
+}
+
+p.minitable2left.colorminitabletext {
+    color: white !important;
+}
+
+h3.h3ach1 {
+    font-size: 16px !important;
+        color: #2C8B9E !important;
+    font-weight: bold;
+}
+
+li.accordion-item.is-active.acordionf3 a {
+    background-color: #FFFFFF;
+    color: #2C8B9E;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+i.demo-icon.icon-.division {
+    display: none;
+}
+
+input.numero.menuselectivo {
+    width: 130%;
+}
+
+.selectbar{
+    margin-top: -23px !important;
+}
+
+@media (max-width:  1023px) and (min-width: 640px){
+input.numero.menuselectivo {
+    width: 100%;
+}
+
+ }
+@media (max-width:  639px){
+
+    .privado h3 {
+    font-size: 20px;
+}
+input.numero.menuselectivo {
+    width: 100%;
+}
+
+p.tabletransferachivo {
+    text-align: right !important;
+};
+
+
+
+
+ }
+
+
+.reveal {
+    border-radius: 55px 0px 55px 0px;
+}
+
+ /*MODAL HORARIOS DEBITO*/
+
+ /*Titulo y textos*/
+    .reveal#modalinformaciondebito h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+         border-radius: 55px 0px 55px 0px;
+    }
+    .table-responsive table tr td p.modaltitle.titlebold {
+        font-weight: bold !important;
+        font-size: 14px;
+    }
+    .table-responsive table tr td p.modaltexto {
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+        color: #959090 !important;
+    }
+    td.positiontdcenter {
+        text-align: center !important;
+    }
+
+    .table-responsive table tr td p.confirmacioninfo {
+    text-align: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+ 
+ /*/checks de tablas*/
+
+label.miCheckbox.checkcenter {
+    margin-left: 29px !important;
+}
+
+@media (max-width: 1019px) and (min-width: 640px) {
+    div#modalinformaciondebito{
+        width: 70% !important;
+    }
+}
+
+
+
+    /*---------------------RESPONSIVE----------------------*/
+@media (max-width: 639px){
+   .reveal#modalinformaciondebito{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 43% !important;
+        height: 43%;
+    }
+     .reveal#modalinformaciondebitoh1 {
+        font-size: 28px !important;
+    }
+    .table-responsive table tr td p {
+        color: #003865 !important;
+        font-weight: bold !important;
+    }
+    .table-responsive table tr td p.modaltexto {
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+    }
+    
+    td.positiontdleft.numero {
+        text-align: right !important;
+    }
+    td.positiontdcenter.numero {
+        text-align: right !important;
+    }
+    table.comlumnainfodatosACH {
+        margin-left: 10px;
+    }
+       
+    .botoncerrarmodaldatos {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+
+@media (max-width: 390px){
+    .reveal#modalinformaciondebito{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 52% !important;
+        height: 52%;
+    }
+}
+
+
+/*MODAL HORARIOS CREDITO*/
+
+ /*Titulo y textos*/
+    .reveal#modalinformacioncredito h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+        border-radius: 55px 0px 55px 0px;
+        
+    }
+    .table-responsive table tr td p.modaltitle.titlebold {
+        font-weight: bold !important;
+        font-size: 14px;
+    }
+    .table-responsive table tr td p.modaltexto {
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+        color: #959090 !important;
+    }
+    td.positiontdcenter {
+        text-align: center !important;
+    }
+
+    .table-responsive table tr td p.confirmacioninfo {
+    text-align: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+p.modaltexto.numero.textojustificado {
+    text-align: justify !important;
+}
+ 
+ /*/checks de tablas*/
+
+label.miCheckbox.checkcenter {
+    margin-left: 29px !important;
+}
+
+@media (max-width: 1019px) and (min-width: 640px) {
+    div#modalinformacioncredito{
+        width: 70% !important;
+    }
+}
+
+
+
+
+    /*---------------------RESPONSIVE----------------------*/
+@media (max-width: 639px){
+   .reveal#modalinformacioncredito{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 49% !important;
+        height: 49%;
+    }
+     .reveal#modalinformacioncreditoh1 {
+        font-size: 28px !important;
+    }
+    .table-responsive table tr td p {
+        color: #003865 !important;
+        font-weight: bold !important;
+
+    }
+    .table-responsive table tr td p.modaltexto {
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+    }
+    
+    td.positiontdleft.numero {
+        text-align: right !important;
+    }
+    td.positiontdcenter.numero {
+        text-align: right !important;
+    }
+    table.comlumnainfodatosACH {
+        margin-left: 10px;
+    }
+       
+    .botoncerrarmodaldatos {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+}
+
+@media (max-width: 390px){
+    .reveal#modalinformacioncredito{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 65% !important;
+        height: 65%;
+    }
+}
+
+
+
+/*fase 3 */
+
+
+
+.acordioncolorf3{
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #ffffff;
+}
+
+
+.acordionf3 li {
+   
+    border-top: 1px solid #cccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+li.accordion-item.is-active.acordionf3  a  {
+    background-color: #FFFFFF;
+    color: #2C8B9E;
+    border-bottom: 1px solid #CCCCCC;
+}
+.accordion-title.acordionf3 {
+     color: #2C8B9E;
+    background: #FFFFFF;
+}
+
+.acordionf3 a:hover {
+    color: #2C8B9E;
+    transition: .3s;
+}
+i.coloriconf3{
+    color: #959090;
+}
+
+p.tabletext{
+  
+    color: #959090 !important;
+  
+    font-weight: 600 !important;
+}
+
+p.titlemenudesp{
+    color: #003865 !important;
+    font-size: 14px;
+}
+
+p.textoemenudesp{
+    color: #959090 !important;
+    font-size: 14px;
+}
+
+.row.marginpdf {
+    margin-top: 1rem;
+}
+
+
+td.tdbackground.marco1 {
+    border-left: 1px solid #ffff !important;
+    border-bottom: 1px solid #ffff !important;
+    border-top: 1px solid #ffff !important;
+}
+
+
+p.minitable2left.colorminitabletext {
+    color: white!important;
+}
+
+label.textlabelf3 {
+    margin-left: 1rem;
+}
+
+
+p.minitable2left.colorminitabletext {
+    color: white;
+}
+
+
+/*exportar*/
+
+
+
+
+
+
+/*@media (max-width: 1024px){
+
+    .lateral-size.lateral-size2 {
+    display: none;
+}
+}*/
+
+

@@ -1,0 +1,331 @@
+/*PREMIUM BI*/
+/*COLOR DEL SELECTOR*/
+select.medium.principal {
+    color: #666666 !important;
+}
+select.medium {
+    color: #003865 !important;
+}
+
+/*Textos*/
+a{
+    text-decoration: none !important;
+}
+a.tarjeta_ad span.textunder {
+    text-decoration: underline; !important;
+}
+a.tarjeta_ad {
+    color: #1978A7;
+}
+a.colorinver {
+    color: #155290 ;
+}
+
+a.tarjeta_ad:hover {
+    color: #155290 !important;
+}
+a.colorinver:hover {
+    color: #1978A7 !important ;
+}
+.logged h4 {
+    font-weight: bold !important;
+}
+.logged h5 {
+    font-weight: bold !important;
+}
+/*Imprimir y Descargar textos*/
+.ladoizquierdo{
+    margin-bottom: 15px; 
+    margin-top: 10px;
+    text-align: right !important;
+}
+.ladoizquierdo2{
+    margin-bottom: 15px; 
+    margin-top: 10px;
+}
+.iconoaliniacion{
+    margin-right: 0.2rem; 
+    font-size: 18px;
+}
+.iconoaliniacion2{
+    margin-right: 0.3rem; 
+    font-size: 18px;
+}
+
+/*icono ?*/
+.tooltip-er {
+    left: 91%;
+    top: 8px;
+}
+.has-tip {
+    border-bottom: dotted 0px #CCCCCC;
+    font-size: 19px;
+}
+/*tooltip*/
+/*.tooltip-er .tooltiptext-er {
+    width: 180px !important;
+    margin-left: -195px;
+    top: 0%;
+}
+.tooltip-er .tooltiptext-er::after {
+    bottom: 88%;
+    left: 185px;
+    border-color: transparent transparent  transparent #666666 ;
+}
+*/
+/*x de lupa*/
+
+button.glyphicon.icon-buscador-avanzado-eliminar {
+    color: #155290 !important;
+}
+
+/*fin de x*/
+
+i.icon-buscador-avanzado-pregunta {
+    color: #666666 !important;
+}
+
+i.icon-buscador-avanzado-pregunta:hover {
+    color: #1978A7 !important;
+}
+
+/*flecha de tabla*/
+.flechaposition{
+    position: absolute;
+}
+th.doblelinea {
+    width: 12%;
+}
+
+/*Simbolo de moneda*/
+.money-q:before{
+    content: none;
+}
+
+/*flechas*/
+
+/*felchas fecha*/
+i.mejoras-tc-flecha_fecha {
+    visibility: show;
+    font-size: 6px;
+    margin-left: 4px;
+    color: white;
+    cursor: pointer;
+}
+i.mejoras-tc-flecha1_fecha{
+    visibility: hidden;
+    font-size: 6px;
+    margin-left: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+/*flechas*/
+i.cambioflecha.iconflecha.mejoras-tc-flecha {
+    font-size: 6px;
+    margin-left: 4px;
+    color: white;
+    cursor: pointer;
+}
+i.iconflecha.mejoras-tc-flecha1 {
+    color: white;
+    font-size: 6px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.tooltip-erb {
+    left: 91%;
+    top: 8px;
+}
+
+
+.table-responsive table thead tr th {
+    cursor: pointer;
+}
+/*selctor moneda*/
+.marginselect{
+    margin-top: 20px;
+}
+
+/*Buscadores*/
+.movizq {
+    margin-left: 30px !important;
+}
+
+/*modal*/
+.reveal-modal {
+    border-radius: 40px 0rem 40px 0px;
+}
+span.mejoras-tc-download.iconmodal {
+    color: #155290 !important;
+    font-size: 35px;
+}
+.logged h6 {
+    color: #003865;
+    font-weight: bold;
+}
+p.text-center {
+    margin-top: 40px !important;
+}
+.espaciado {
+    margin-top: 15px !important;
+    text-align: center !important;
+    margin-bottom: 40px !important;
+}*/
+.btns-espacio{
+margin-bottom: 20px !important;
+}
+
+
+
+/*responsive*/
+
+@media (max-width: 1019px) and (min-width: 640px) {
+    .movizq {
+        margin-left: 15px !important;
+    }
+    .ladoizquierdo2{
+       text-align: right !important;
+    }
+}
+
+@media (max-width: 639px){
+    p.money-q.text-right {
+        text-align: right !important;
+    }
+    .marginselect{
+        margin-top: 10px;
+    }
+    .movizq {
+        margin-left: auto !important;
+    }
+    div#modalConfirm {
+        margin-top: 150px;
+        min-height: 35%;
+    }
+    i.cambioflecha.iconflecha.mejoras-tc-flecha {
+        display: none;
+    }
+    .table-responsive table {
+    display: none !important;
+}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/*SOLO PARA TABLAS RESPONSIVE EN MODO TABLET*/
+@media only screen and (max-width: 920px) {
+  
+/*.table-responsive .row-mobile {
+display: block !important
+}
+.table-responsive .table-mobile {
+    display: block !important;
+}
+.table-responsive table {
+    display: none !important;
+}*/
+    i.cambioflecha.iconflecha.mejoras-tc-flecha {
+        display: none;
+    }
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*TABLAS*/
+/*color del encabezado*/
+.table-responsive2 table thead {
+    color: #ffffff;
+    background-color: #165290;
+}
+/*color del texto*/
+.table-responsive2 table tr td:nth-child(even) {
+    color: #666 !important;
+}
+.table-responsive2 table tr td:nth-child(odd) {
+   color: #666 !important;
+}
+p {
+    font-weight: 300;
+    color: #696969 !important;
+    font-size: .7rem ;
+    font-weight: 600 !important;
+    margin: 0;
+}
+
+.table-responsive2 table tbody tr:nth-child(even) {
+    background-color: #F9F9F9 !important;
+}
+.table-responsive2 table tbody tr:nth-child(odd) {
+    background-color: #eaeaea !important;
+}
+
+/*alinea el texto*/
+.table-responsive2 table tr td {
+    text-align: center !important;
+}
+
+/*tablas responsive en TABLET*/
+
+@media only screen and (max-width: 920px){
+    /*Oculta encabezado en responsive*/
+    tr.header {
+        display: none;
+    }
+    /*Crea encabezado en responsive*/
+    .table-responsive2 table tr td:nth-child(1)  {
+        width: auto !important;
+        font-size: 14px !important;
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        height: 22px !important;;
+        padding: 0.5rem !important;;
+        background: #165290!important;
+        color: white!important;
+    }
+
+    /*aliena el texto a la izquierda*/
+    .table-responsive2 table tr td {
+        text-align: right !important ;
+        background-color: #F6F6F6;
+    }
+    /*tamaño de texto*/
+    .table-responsive2 table tr td:nth-child(2) {
+        padding: 0.5rem !important;
+        font-size: 14px !important;
+
+    }
+    .table-responsive2 table tr td p {
+        color: #003865;
+        font-size: 14px;
+    }
+    /*transforma la tabla normal a responsive*/
+    table td {
+        border-bottom: 1px solid #efefef !important;;
+        display: block !important;;
+        font-size: .8em !important;;
+        text-align: right !important;
+        font-size: 14px !important;
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        background-color: #F6F6F6;
+    }
+    /*titulos en responsive*/
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        text-transform: uppercase;
+    }
+
+    /*Simbolo de moneda*/
+    .money-q:after {
+       content: none;
+    }
+    .money-q:before {
+       content: "Q ";
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+        
+}
+
+

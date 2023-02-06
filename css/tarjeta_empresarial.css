@@ -1,0 +1,4221 @@
+/*.accordion-title::before {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    margin-top: -0.5rem;
+    content: "▼" !important;
+    color: red !important;
+}*/
+
+i.Icontcdinamico:hover {
+
+    color: #00C1D4 !important;
+}
+
+i p.titlemenuoption:hover {
+
+    color: #00C1D4;
+}
+
+.progbar .active i.Icontcdinamico {
+
+    color: #00C1D4 !important;
+}
+
+.is-active > .accordion-title::before {
+
+    content: "▲" !important;
+    font-size: 12px;
+    color: #00C1D4;
+}
+
+.accordion-title::before {
+
+    position: absolute;
+    top: 50%;
+    right:1rem;
+
+
+    margin-top:-0.5rem;
+
+
+    content: "▼" !important;
+    font-size: 12px;
+    color: #00C1D4;
+}
+
+.redes {
+    margin-top: 0px !important;
+}
+.titular_tc{
+    margin-bottom: 6px;
+}
+
+table.tablebottom {
+    margin-bottom: 1rem;
+  
+}
+p.generarpin {
+    color: #2C8B9E !important;
+    margin-top: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h2{
+	color: #003865 !important;
+	font-size: 27px !important;
+}
+
+h3.h3colorgris {
+    color: #515151;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+h4 {
+    color: #959090;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+h5{
+    color: #003865;
+    font-size:16px;
+}
+
+hr.hrte {
+    margin-top: 0px;
+}
+
+.h3teleft {
+    font-size: 16px !important;
+    color: #2C8B9E !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+    text-align: end;
+}
+
+h3.h3colorceleste {
+    font-size: 25px !important;
+    color: #2C8B9E;
+    font-weight: 700;
+}
+.txtlinkright {
+    text-align: right !important;
+}
+/*radio buttons*/
+
+input[type=checkbox]:not(old) + label > span, input[type=radio]:not(old) + label > span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    border: 1px solid #1f3366;
+    background: #ffffff;
+    margin-right: 10px;
+    padding-left: 0px;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+
+/*comprobante*/
+
+.table-responsive table tr td p.comprobantetitledestino {
+    font-size: 12px;
+    text-align: left;
+    color: #2C8B9E !important;
+}
+.table-responsive table tr td p.comprobantecuentaorigen {
+    font-size: 10px;
+    text-align: left;
+    color: #003865 !important;
+}
+.table-responsive table tr td p.comprobandatosorigen {
+    font-size: 10px;
+    text-align: left;
+    color: #707070!important;
+}
+.table-responsive table tr td p.comprobantecuentaedestino {
+    font-size: 10px;
+    text-align: left;
+    color: #003865 !important;
+}
+.table-responsive table tr td p.comprobandatosdestino {
+    font-size: 10px;
+    text-align: left;
+    color: #707070!important;
+}
+.table-responsive table tr td p.comprobantmontodato {
+    font-size: 10px;
+    text-align: right;
+    color: #003865 !important;
+}
+.table-responsive table tr td p.comprobantemontodato {
+    font-size: 12px;
+    text-align: right;
+    color: #707070!important;
+}
+.table-responsive table tr td p.comprobantecontenido {
+    color: #707070!important;
+    text-align: center;
+    font-size: 12px;
+}
+.table-responsive table tr td p.comprobanteinfofecha {
+    color: #707070 !important;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lato-Regular' !important;
+}
+.table-responsive table tr td p.comprobanteinfogenerada {
+    color: #707070 !important;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lato-Regular' !important;
+}
+.table-responsive table tr td p.comprobanteinfodata {
+    color: #707070 !important;
+    text-align: right;
+    font-size: 12px;
+    font-family: 'Lato-Regular' !important;
+}
+td.tdbackground {
+    background: white;
+}
+p.comprobantetitle.textcompobante2 {
+    font-size: 21px;
+}
+
+
+/*textos h4 h5*/
+
+i.tarem-BB-TCE_editar.editgrupo {
+    display: block;
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 14rem !important;
+    font-size: 21px;
+    color: #909090;
+}
+
+h5.limith5 {
+    color: #2C8B9E;
+    font-weight: 700;
+}
+
+/*iconos de carrusel */
+i.tarem-BB-TCE_tarjetas-agregadas {
+    color: #8C8C8C;
+    margin-right: 8px;
+}
+/*graficas dona */
+
+canvas#chart-area {
+    width: 40rem !important;
+    height: 20rem !important;
+}
+/*.Grafic_position{
+    float: left; 
+    margin-left: 25%;
+}*/
+
+h3.textsconsumo {
+    color: #666666;
+    font-weight: bold;
+}
+
+#color1 {
+    background-color: #FFB81C;
+}
+
+#color2 {
+    background-color: #00C1D4;
+}
+
+#color3 {
+    background-color: #2C8B9E;
+}
+
+#color4 {
+    background-color: #003865;
+}
+.colorbox {
+    height: 15px;
+    width: 15px;
+    display: block;
+    float: left;
+    position: relative;
+    border-radius: 3px;
+}
+
+div#color1 {
+    margin-left: -22px;
+    margin-top: 7px;
+    border-radius: 5px 0px 5px 0px;
+}
+
+div#color2 {
+    margin-left: -22px;
+    margin-top: 7px;
+    border-radius: 5px 0px 5px 0px;
+}
+
+div#color3 {
+    margin-left: -22px;
+    margin-top: 7px;
+    border-radius: 5px 0px 5px 0px;
+}
+div#color4 {
+    margin-left: -22px;
+    margin-top: 7px;
+    border-radius: 5px 0px 5px 0px;
+}
+
+/*--------------------------------Tablas */
+
+p.numero.tablenamemonto {
+    color: #757575 !important;
+    text-align: center !important;
+    /* text-align: left !important; */
+    margin-left: 0rem;
+    font-size: 11px;
+}
+
+p.tabletransfer.pspecial2 {
+    color: #003865 !important;
+    font-size: 11px;
+}
+
+
+/* --------------------------------fin tablas */
+
+
+/*iconos--------------------------- */
+.icon_mcenter{
+    text-align: center;
+}
+
+i.tarem-BB-TCE_descargar {
+    color: #2C8B9E;
+  position: absolute;
+    margin-left: 7rem;
+    margin-top: 4px;
+}
+i.tarem-BB-TCE_descargar.pageicon {
+    color: #2C8B9E;
+  position: absolute;
+    margin-left: -1.5rem;
+    margin-top: 4px;
+}
+
+
+i.tarem-BB-TCE_descargar.descargamodalicon {
+    color: #003865;
+    text-align: center !important;
+    font-size: 32px;
+    margin-left: -1rem;
+}
+i.tarem-BB-TCE_descargar.descargamodalicon.modal_icondownload {
+    margin-top: 10px;
+}
+i.tarem-BB-TCE_atencion-modal {
+    font-size: 40px;
+    color: #FFB81C;
+    /*margin-left: 16rem;*/
+}
+/*texto modal descargar */
+label.textmodal1 {
+    color: #4D4D4D;
+    text-align: center;
+}
+h1.modaltext {
+    color: #515151;
+    text-align: center;
+    font-size: 20.8px;
+}
+
+h1.textdeshabiliar {
+    color: #003865;
+    font-size: 27px;
+    text-align: center;
+}
+
+label.txtinfotext {
+    color: #666666;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+i.tarem-BB-TCE_calendario {
+    color: #2C8B9E;
+    cursor: pointer;
+    font-size: 14px;
+}
+/* fin texto modal descargar */
+
+/*h2 titulo color  celeste */
+h2.h2color {
+    color: #2C8B9E !important;
+    font-size: 25px !important;
+}
+
+h2.tarjetatitulo2 {
+    font-size: 20px !important;
+    font-weight: 700;
+}
+
+/*label*/
+label.labelmoneda {
+    margin-left: 14px;
+}
+p.guiontar{
+    margin: 0px;
+    margin-top: -7px; 
+    font-weight: 900; 
+    font-size: 30px !important; 
+    color: #003865 !important;
+}
+
+/**/
+
+
+
+/*datepicker*/
+
+i.IconAch.glyphicon2.ach-iconos_ach_calendario1 {
+    padding-left: 20px !important;
+    padding-right: 26px !important;
+    padding-top: 37px;
+}
+
+.inner-addon .glyphicon2 {
+    position: absolute;
+    padding: 42px;
+    pointer-events: none;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+
+.fondo{
+
+   
+  background-image: url(../img/tarjeta2.png) !important;
+  background-size: contain;
+  background-repeat:no-repeat;
+  /*background-position: center center;*/
+  height: 12rem;
+}
+
+.fondo2{
+
+   
+  background-image: url(../img/tarjeta_deshabilitada.png) !important;
+  background-size: contain;
+  background-repeat:no-repeat;
+  /*background-position: center center;*/
+  height: 12rem;
+}
+
+
+h3.tarjetatext1 {
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Lato-Regular !important;
+}
+
+h3.tarjetatext2 {
+    color: white;
+    font-size: 14px;
+    font-family: Lato-Regular !important;
+}
+
+h3.tarjetatext3 {
+    color: white;
+    font-size: 13px;
+    font-family: Lato-Regular !important;
+}
+
+h4.numero.textdisp {
+    text-align: end;
+}
+h5.h5ver {
+    color: #2C8B9E;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+/*tablas center */
+.num_card{
+    color: #003865 !important;
+    margin-bottom: auto !important;
+    font-size: 11px !important;
+    margin-top: 1rem !important;
+    text-decoration: underline;
+}
+p.numero.tablenamemonto.card_emp{
+    text-align: center !important;
+    margin-left: 0rem !important;
+}
+
+p.tabletransfer.numtarjeta2 {
+    color: #003865;
+    margin-top: 1rem;
+    font-size: 11px;
+    text-align: center !important;
+    position: inherit;
+    margin-left: -22px;
+}
+p.tabletransfer.numtarjeta1 {
+    color: #003865;
+    margin-top: 1rem;
+    font-size: 11px;
+    text-align: center;
+}
+
+p.numero.centervm {
+    color: #757575 !important;
+    font-size: 10px;
+}
+hr.hrspecial {
+    margin-top: 126px;
+}
+
+hr.hrspecial2 {
+    margin-top: 11rem;
+}
+p.tabletransfer.pspecial2.vercompro {
+    color: #2C8B9E !important;
+    text-decoration: underline;
+}
+p.numero.tablenamemonto.centervm.centervisa {
+    text-align: center;
+    margin-left: -3rem;
+}
+
+tfoot {
+    background: #ffffff;
+    color: #0a0a0a;
+}
+
+p.tabletransfer.pspecial2.tarjetacenter {
+    text-align: center;
+    margin-left: 0rem;
+}
+
+p.wallp {
+    color: #424141;
+    font-size: 12px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+p.tabletransfer.pspecial2 {
+    font-size: 11px;
+    margin-top: 1rem;
+    margin-left: 0px !important;
+    text-align: center !important;
+
+
+}
+
+p.tabletransfer.pspecial23 {
+    font-size: 11px;
+    margin-top: 1rem !important;
+    margin-left: 1px !important;
+    text-align: center !important;
+
+
+}
+
+p.pseleccionar {
+    margin-top: 1rem;
+    color: #2C8B9E !important;
+}
+
+td.tablebanco.positiontdleft.numero.textleft {
+    text-align: center !important;
+}
+
+
+td.txttotal {
+    color: #666666;
+    font-size: 15px;
+}
+
+
+p.numero.tablenamemonto.centervm {
+    text-align: center !important;
+}
+
+/*Progresbar de pagos extrafinanciemientos*/
+.padbar_extrafin{
+    padding-right: 1.8750rem;
+    padding-left: 0rem;
+}
+
+/*alerta*/
+.alert-box.callout.alert {
+    color: #003865;
+    background: #FFB81C;
+}
+
+.alert-box i {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3.09375rem;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+   
+}
+
+i.iconalert-icon-alerta-warning {
+    border-right: 1px solid #003865;
+}
+
+
+/*progress bar*/
+#progress {
+    background: #DDDDDD;
+    border-radius: 13px;
+    border: 1px solid #2C8B9E;
+    height: 14px;
+    width: auto;
+    margin-bottom: 2rem;
+
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: #2C8B9E;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress2 {
+    background: #DDDDDD;
+    border-radius: 13px;
+    border: 1px solid #2C8B9E;
+    height: 25px;
+    width: auto;
+    margin-bottom: 2rem;
+
+}
+
+#progress2:after {
+    content: '70%';
+    display: block;
+    background: #2C8B9E;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+    color: white;
+    padding-left: 20rem;
+}
+
+
+#progress3 {
+   background: #DDDDDD;
+    border-radius: 6px;
+    /* border: 1px solid #2C8B9E; */
+    height: 48px;
+    width: auto;
+    /*margin-bottom: 0rem;
+    margin-top: 1rem;*/
+
+}
+
+#progress3:after {
+    content: '';
+    display: block;
+    background: #2C8B9E;
+    width: 50% !important;
+    height: 100%;
+    border-radius: 9px;
+    color: white;
+   
+}
+
+#progress4 {
+   background: #DDDDDD;
+    border-radius: 6px;
+    /* border: 1px solid #2C8B9E; */
+    height: 48px;
+    width: auto;
+    /*margin-bottom: 0rem;
+    margin-top: 1rem;*/
+
+}
+
+#progress4:after {
+    content: '';
+    display: block;
+    background: #2C8B9E;
+    width: 50% !important;
+    height: 100%;
+    border-radius: 9px;
+    color: white;
+   
+}
+
+#progress5 {
+   background: #DDDDDD;
+    border-radius: 6px;
+    /* border: 1px solid #2C8B9E; */
+    height: 48px;
+    width: auto;
+    /*margin-bottom: 0rem;
+    margin-top: 1rem;*/
+
+}
+
+#progress5:after {
+    content: '';
+    display: block;
+    background: #2C8B9E;
+    width: 90% !important;
+    height: 100%;
+    border-radius: 9px;
+    color: white;
+   
+}
+
+#progress6 {
+   background: #DDDDDD;
+    border-radius: 6px;
+    /* border: 1px solid #2C8B9E; */
+    height: 48px;
+    width: auto;
+    /*margin-bottom: 0rem;
+    margin-top: 1rem;*/
+
+}
+
+#progress6:after {
+    content: '';
+    display: block;
+    background: #2C8B9E;
+    width: 10% !important;
+    height: 100%;
+    border-radius: 9px;
+    color: white;
+   
+}
+
+#progress7 {
+   background: #DDDDDD;
+    border-radius: 6px;
+    /* border: 1px solid #2C8B9E; */
+    height: 48px;
+    width: auto;
+    /*margin-bottom: 0rem;
+    margin-top: 1rem;*/
+
+}
+ 
+#progress7:after {
+    content: '';
+    display: block;
+    background: #2C8B9E;
+    width: 50% !important;
+    height: 100%;
+    border-radius: 9px;
+    color: white;
+   
+}
+
+h4.numero.coupendientes {
+    font-size: 10px;
+    font-weight: 800;
+}
+
+label.labelpago {
+    font-size: 10px;
+}
+
+
+.barra_active {
+    background-color: #00C1D4;
+}
+.progress {
+    height: 5px;
+}
+/*menu dinamico*/
+.progbar .active p {
+    color: #00C1D4;
+}
+
+/*scroll large 8*/
+
+p.modalcuenta.numero.colorgt {
+    color: #707070 !important;
+}
+p.modalnombre {
+    margin-bottom: -2px;
+    
+    font-weight: bold;
+}
+p.modaltipcuenta {
+    text-align: left;
+    font-size: 12px;
+    margin-top: -42px;
+}
+p.modaltipcuenta {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+p.tablenumcuenta1 {
+    text-align: right !important;
+    font-size: 14px;
+    margin-top: -56px;
+    color: #707070;
+    margin-right: 3rem;
+}
+p.tablemontodisponible1 {
+    text-align: right !important;
+    font-size: 20px !important;
+    margin-top: -22px !important;
+    color: #2C8B9E !important;
+    margin-right: 3rem;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+.progbar #st1.columns {
+    padding: 0;
+    border-right: solid 1px lightgrey;
+}
+
+i p.titlemenuoption {
+    padding-left: 1rem;
+    display: inline-block;
+    color: #666666;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+i.tarem-BB-TCE_consumos {
+  
+    color: grey ;
+}
+
+i.tarem-BB-TCE_extrafinanciamiento {
+    color: grey;
+}
+
+
+
+
+
+a#example4_previous {
+    position: inherit;
+    padding: 7px;
+    cursor: pointer;
+}
+
+a#example4_next {
+    position: inherit;
+    padding: 7px;
+    cursor: pointer;
+}
+
+input#dp4 {
+    cursor: pointer;
+}
+
+input#dp3 {
+    cursor: pointer;
+}
+
+/*scroll montos */
+#overflow {
+    background: #FAFAFA;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+    border: 0px solid #ccc;
+    overflow-y: scroll;
+    overflow-x: visible;
+}
+
+/*menus cambiantes*/
+.padding_indesktop{
+    padding-left: 1.9375rem;
+}
+/*acordion*/
+
+.acordcolor {
+    background: white !important;
+    color: #063865 !important;
+    border-bottom: 1px solid #8C8C8C;
+    font-size: 20px !important;
+    padding-left: 0rem;
+}
+.contentcolor{
+      background: white !important;
+
+}
+.iconacordion{
+color: #2C8B9E;
+    font-size: 46px;
+}
+
+i.tarem-BB-TCE_mundo {
+    font-size: 34px;
+    color: #003865;
+}
+
+h6.icontextabajo {
+    font-size: 12px;
+    color: #8C8C8C;
+    font-weight: 800;
+    text-align: center;
+}
+
+i.tarem-BB-TCE_Historial-de-pagos {
+    color: #2C8B9E;
+    position: absolute;
+    margin-left: -1.5rem;
+    margin-top: 5px;
+}
+
+
+/*indo de saldos box*/
+.border_uploadbox_info {
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+}
+.mb_tittle{
+    margin-bottom: 5px !important;
+    color: #959090 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+span.text_seguido.colorytext2 {
+    font-family: Lato-Regular !important;
+    color: #003865 !important;
+    font-size: 15px;
+    font-weight: 700 !important;
+}
+
+
+
+
+
+
+/*progress bar multiples */
+p.modalcuenta.numero.colorgt.marginpartido {
+    margin-bottom: 0px;
+        font-size: 10px;
+}
+
+.rowbarpadding{
+    padding-right: 0.9375rem !important; 
+    padding-left: 0.9375rem !important;
+}
+
+
+/*switch tarjeta */
+.switch.tarjetaswitch {
+    position: inherit;
+    margin-left: 14rem;
+    margin-top: -1rem;
+}
+
+/*acciones*/
+.pd_iconaccion{
+    text-align: center;
+    margin-top: 15px;
+}
+ 
+
+/*flechas input number*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/*calendario tablas */
+i.tarem-BB-TCE_calendario.tablacalen {
+    position: absolute;
+    display: block;
+    margin-left: 1rem;
+    margin-top: 3px;
+    color: #2C8B9E;
+}
+
+td.tablebanco.positiontdleft.numero.textleft.textderecho3 {
+/*    color: #2C8B9E;*/
+/*    text-decoration: underline;*/
+    cursor: pointer;
+}
+
+h4.numero.colortextpais {
+    color: #003865;
+    font-weight: 700;
+}
+
+h4.numero.textspecialpais {
+    color: #2C8B9E;
+    text-decoration: underline;
+}
+
+h4.titulotarjetaspecial3 {
+    color: #2C8B9E;
+    margin-bottom: 12px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+/*modal paises*/
+div#modalpaises {
+    min-height: auto;
+    height: auto;
+}
+.Lbl_countrys_Select{
+    color: #2C8B9E !important;
+    font-size: 16px !important;
+    font-family: Lato-Regular ;
+    font-weight: 600;
+    margin-bottom: 10px !important;
+}
+.contrys_show{
+    color: #4D4D4D;
+    font-size: 14px !important;
+}
+/*Selected contrys*/
+/*.slc_contry{
+    width: 80%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 16px !important;
+}*/
+/*cargade pin */
+.dash1 {
+    background: #2C8B9E;
+    width: 2rem;
+    height: 12px;
+}
+
+.centerposition {
+    margin-left: 12rem;
+}
+h2.h2pin {
+    color: #2C8B9E !important;
+    font-size: 37px !important;
+    text-align: center;
+}
+h4.h4pin {
+    text-align: center;
+}
+
+
+/*checkbox lista */
+p.tabletransfer.pspecial3 {
+    font-size: 12px;
+    /*position: absolute;*/
+    margin-left: 3rem;
+    margin-top: -22px;
+    color: #4D4D4D;
+}
+
+/*texto grupo mercadeo*/
+
+h2.colory2 {
+    color: #8C8C8C !important;
+}
+.colorytext{
+    font-family: Lato-Regular !important;
+    color: #2C8B9E !important;
+}
+.colorytext2{
+    font-family: Lato-Regular !important;
+    color: #003865 !important;
+}
+.colorytext_title{
+    color: #2C8B9E !important;
+    font-weight: bold;
+    font-size: 27px !important;
+    font-family: Raleway-Regular !important;
+}
+.icon_txt_title{
+    display: block;
+    position: absolute;
+    margin-top: -29px !important;
+    margin-left: 13.5rem !important;
+    font-size: 21px;
+    color: #909090;
+}
+
+
+h2.colory {
+    color: #2C8B9E !important;
+    margin-left: 12px;
+}
+
+/*radio buttons tables */
+
+span.radiospecialtd2 {
+    margin: 2px !important;
+}
+
+input.specialtexttabla {
+    width: 4.5rem;
+    /* position: absolute; */
+    display: inline-block !important;
+    margin-left: -18px !important;
+    height: 25px;
+
+}
+
+span.radiospecialtd3 {
+    margin-left: -1rem !important;
+}
+
+p.modalnombre {
+    color: #666666;
+}
+
+h4.colory {
+    color: #2C8B9E;
+    margin-left: 3px;
+}
+h4.colory2 {
+    color: #2C8B9E;
+    margin-left: -38px;
+}
+
+h4.colory1.numero {
+    color: #003865;
+}
+td.txttotal.numero {
+    text-align: end;
+}
+
+td.tdbackground.comprobantecontenido {
+    text-align: center;
+}
+img.imgcodigobarras {
+    margin-left: -13rem;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+     margin-bottom: 0rem; 
+    border-radius: 3px;
+}
+
+
+/*comprobantes*/
+  /*ESPACIOS*/
+    .row-section{
+      padding-left:1em;
+      padding-right:1em;
+    }
+
+    th#\#addRow {
+        text-align: center !important;
+        font-size: 14px;
+        color: #757575;
+    }
+    p.tabletransfer.numtarjeta2.td_numbercard2 {
+        margin-left: 0px;
+    }
+/*-------------------------------------------COMPROBANTE--------------------------------------------------*/
+/*encabezados*/
+  p.comprobantetitle {
+      color: #003865 !important;
+      font-weight: bold !important;
+      font-size: 24px;
+      text-align: right;
+      margin-bottom: 0px;
+      font-family: 'Lato-Regular'!important;
+  }
+
+  p.comprobantesubtitle {
+      color: #2C8B9E !important;
+      font-size: 16px;
+      text-align: right;
+      line-height: 10px;
+      margin-bottom: 0px;
+      font-family: 'Lato-Regular'!important;
+  }
+  p.comprobantenum {
+      color: #003865 !important;
+      font-weight: bold !important;
+      font-size: 16px;
+      text-align: right;
+      margin-bottom: 0px;
+        font-family: 'Lato-Regular'!important;
+  }
+  p.comprobantedate.numero {
+      margin-top: 5px;
+      font-family: 'Lato-Regular'!important;
+      margin-bottom: 0px;
+}
+
+/*CONTENIDO*/
+  p.comprobantetitle2 {
+      font-size: 18px;
+      text-align: left;
+      color: #2C8B9E !important;
+      margin-top: 15px;
+      font-weight: bold !important;
+      font-family: 'Lato-Regular'!important;
+      margin-bottom: 0px;
+  }
+
+  p.comprobanteinfo2 {
+      font-size: 14px;
+      text-align: left;
+      color: #707070!important;
+      font-weight: bold !important;
+      margin-bottom: 0px;
+      margin-top: 2px;
+      font-family: 'Lato-Regular'!important;
+  }
+
+  p.comprobantecuentaorigen{
+    font-size: 12px;
+    text-align: left;
+    color: #003865 !important;
+    font-weight: bold !important;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Lato-Regular'!important;
+}
+
+/* montos */
+  p.comprobantmontodato {
+      text-align: right;
+      font-size: 14px;
+      text-align: right;
+      color: #003865 !important;
+      margin-bottom: 0px;
+      font-family: 'Lato-Regular'!important;
+  }
+    span.comprobantemonto {
+      font-size: 24px;
+      text-align: right;
+      color: #003865 !important;
+      font-family: 'Lato-Regular'!important;
+  }
+  p.monto_estado{
+    text-align: right;
+      font-size: 14px;
+      text-align: right;
+      color: #707070 !important;
+      margin-bottom: 0px;
+      font-family: 'Lato-Regular'!important;
+
+  }
+  .privado p {
+    color: #424141;
+    font-size: 12px;
+}
+
+/*nota*/
+p.note_info {
+  font-size: 12px;
+    text-align: center !important;
+    color: #707070;
+    font-family: 'Lato-Regular'!important;
+    margin-bottom: 30px;
+}
+
+/*pie de pagina*/
+p.comprobaninfofinal {
+    color: #707070 !important;
+    font-size: 12px;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold !important;
+}
+
+.tfoot_cuenta{
+  background-color: #EBEBEB;
+  border-left: 1px solid #00000029;
+  border-right: 1px solid #00000029;
+  border-bottom: 1px solid #00000029;
+} 
+/*fin iconos -------------------------*/
+
+
+
+
+/*iconos  acordion */
+div#salida {
+    cursor: pointer;
+}
+
+div#cambiopin {
+    cursor: pointer;
+}
+
+div#activaciontr {
+     cursor: pointer;
+}
+
+a#example2_previous {
+    cursor: pointer;
+}
+a#example2_next {
+    cursor: pointer;
+}
+@media only screen and (max-width: 640px) {
+
+    p.wallp {
+    text-align: end;
+}
+
+    p.tabletransfer.pspecial2.tarjetacenter {
+    text-align: end;
+    margin-left: 0rem;
+}
+
+    td.tdnone {
+    display: none;
+}
+
+    p.numero.tablenamemonto.centervm {
+    text-align: end !important;
+}
+
+
+    .iconacordion {
+    color: #2C8B9E;
+    font-size: 39px;
+/*    margin-left: 13px;*/
+}
+p.generarpin {
+    text-align: end;
+}
+
+    label.miCheckbox.checkcenter.checkmodal {
+    margin-bottom: 7px;
+}
+
+    .centerposition {
+    margin-left: 7rem;
+}
+
+    i.tarem-BB-TCE_calendario.tablacalen {
+    position: absolute;
+    display: block;
+    margin-left: 23rem !important;
+    margin-top: 3px;
+    color: #2C8B9E;
+}
+
+    td.backcolortd {
+    height: 7rem;
+}
+
+    p.modalnombre {
+    text-align: left;
+}
+
+p.modalcuenta.numero.colorgt {
+    text-align: left;
+}
+
+p.modaltipcuenta {
+    text-align: left;
+    font-size: 12px;
+    margin-top: -19px;
+}
+   
+   canvas#chart-area {
+    width: 21rem !important;
+    height: 10rem !important;
+}
+
+.slick-dots {
+    
+    margin-bottom: -17rem !important;
+}
+
+p.tabletransfer.numtarjeta1 {
+    color: #003865;
+    margin-top: 1rem;
+    font-size: 11px;
+    text-align: end;
+}
+
+p.tabletransfer.numtarjeta2 {
+    color: #003865;
+    margin-top: 1rem;
+    font-size: 11px;
+    text-align: right !important; 
+    position: relative;
+/*    margin-left: -22px;*/
+}
+
+h4.numero.textdisp {
+    text-align:left;
+}
+
+p.tabletransfer.pspecial23 {
+    font-size: 11px;
+    margin-top: 1rem !important;
+    margin-left: 1px !important;
+    text-align: end !important;
+
+
+}
+
+
+
+ 
+/*--------------------------------------------------buscador bel-------------------------------------------*/
+@font-face {
+    font-family: "Lato_Bold";
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Lato_Regular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway_Bold";
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+
+h1, h2, h3, h4, h5, h6, p, strong, span, button, label, li .icon {
+    font-family: Raleway-Regular !important;
+}
+
+
+
+
+/* ------------------------------------ CONTENIDO GENERICO --------------------------------------*/
+
+
+
+
+
+/**/
+.carrusel_width {
+    width: 0px !important;
+}
+
+
+.h3achadd:hover {
+    color: #00C1D4 !important;
+}
+
+
+
+/*titulos de inputs y selects */
+label.editmodal.positiontdleft {
+    text-align: left;
+    color: #003865;
+}
+
+/*MOSTRAR ENTRADAS*/
+label.editmodal.textleft.textoparrafo {
+    color: #424141 !important
+}
+
+/*texto interno de inputs*/
+input[type="text"] {
+    font-size: 14px;
+    color: #003865;
+}
+
+/*icono. de buscar*/
+input.bordersearch {
+    border-color: #CCCCCC !important;
+}
+
+i.IconAch {
+    color: #909090 !important;
+}
+}
+
+.IconAch.ach-iconos_ach_buscar.searchbibanking {
+    position: absolute;
+}
+
+.searchbibanking {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 1rem;
+    color: #959090;
+}
+
+input.bordersearch:hover {
+    border: 1px solid #2ba6cb !important;
+}
+
+/*busqueda avanzada*/
+.inner-addon {
+    position: relative;
+}
+
+.right-addon .glyphicon {
+    right: 2px;
+    font-size: 1.4rem;
+    color: #13B2FF;
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 4px;
+    pointer-events: none;
+}
+
+i#list-products_wrapper {
+    color: #003865 !important;
+}
+
+/*inputs deshabilitados*/
+input:disabled,
+input[readonly],
+textarea:disabled,
+textarea[readonly] {
+    background-color: white;
+    cursor: pointer;
+}
+
+/*selector de mostrar*/
+select.miselector2.modalselector {
+    border-color: #C4C4C4 !important;
+    cursor: pointer;
+}
+
+select.miselector4.modalselector.selectortexto.numero {
+    margin-bottom: 0px !important;
+    color: #666666 !important;
+    cursor: pointer;
+}
+
+select.miselector4.modalselector.selectortexto {
+    width: auto;
+    height: 2rem;
+}
+
+/*tablas*/
+/*margen de tabla en responsive*/
+.table-responsive table tbody tr:nth-child(odd) {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+  /*  height: 40px;*/
+}
+
+.table-responsive table tbody tr:nth-child(even) {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+/*    height: 40px !important;*/
+}
+
+/*titulos de tablas*/
+tr.tablecuentatitles th {
+    border-right: none !important;
+    background: #EBEBEB !important;
+    color: #707070 !important;
+}
+
+.table-responsive table thead tr th {
+    text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: none !important;
+    border-right: 1px solid #ffffff;
+    padding-right: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 0.5rem !important;
+}
+
+i.IconAch.ach-iconos_ach_flecha-tablas {
+    font-size: 8px;
+}
+
+tr.tablecuenta {
+    background: white !important;
+    border-right: solid 1px #CCCCCC !important;
+    border-top: solid 1px #CCCCCC !important;
+    border-bottom: solid 1px #CCCCCC !important;
+    border-left: solid 1px #CCCCCC !important;
+}
+
+/*tr.tablecuenta:hover {
+    border-top: 1.5px solid #00C1D4 !IMPORTANT;
+    border-right: 1.5px solid #00C1D4 !IMPORTANT;
+    border-bottom: 1.5px solid #00C1D4 !important;
+    border-left: 1.5px solid #00C1D4 !important;
+}*/
+
+/*texto dentro de tablas*/
+.numero {
+    font-family: Lato-Regular !important;
+}
+
+.privado p {
+    font-family: 'Lato-Regular' !important;
+}
+
+.table-responsive table tr td p {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.table-responsive table tr td p {
+    color: #003865 !important;
+    font-weight: bold !important;
+}
+
+.table-responsive table tr td p.tablealias {
+    color: #424141 !important;
+    font-weight: normal !important;
+}
+
+/*centrado de checks*/
+label.miCheckbox.checkcenter {
+    margin-left: 29px !important;
+}
+label.miCheckbox.checkcenterth {
+    margin-left: 29px !important;
+    margin-top: 0px;
+}
+
+
+span.text_forcheck{
+    width:auto !important; 
+    text-align: left !important; 
+    margin-left: 20px !important; 
+    border:0px solid !important; 
+    background:transparent;
+}
+
+.miCheckbox.checkselect span.text_forcheck{
+    width:auto !important; 
+    text-align: left !important; 
+    margin-left: 25px !important; 
+    border:0px solid !important; 
+    background:transparent;
+    margin-top: -25px;
+    color: #003865 !important;
+    font-weight: 600!important;
+}
+
+.miCheckbox span {
+    border-radius: 2px;
+    border: 1px solid #909090;
+    font-weight: normal !important;
+    width: 16px;
+    height: 16px;
+    cursor: pointer; 
+    border: 2px solid #003865 !important;
+}
+
+.miCheckbox input:checked + span {
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    background-color: #003865 !important;
+}
+.miCheckbox.checkselect span {
+    width: 20px;
+    height: 20px;
+}
+/*borde de tablas*/
+.table-responsive table thead {
+    border-top: solid 1px #CCCCCC !important;
+    border-right: solid 1px #CCCCCC !important;
+    border-left: solid 1px #CCCCCC !important;
+}
+
+.table-responsive table tfoot tr td {
+    border-right: 0px solid #ffffff;
+    text-align: center;
+}
+
+/*pagineo*/
+.privado li a {
+    color: #999999;
+}
+
+.pagination a:hover,
+.pagination button:hover {
+    background: transparent;
+}
+
+.pagination li:last-child,
+.pagination li:first-child {
+    border: 1px solid #2C8B9E;
+}
+
+.pagination-previous a::before,
+.pagination-previous.disabled::before {
+    margin-right: 0rem;
+    color: #2C8B9E;
+    font-weight: bold;
+}
+
+.pagination-next a::after,
+.pagination-next.disabled::after {
+    margin-left: 0rem;
+    color: #2C8B9E;
+    font-weight: bold;
+}
+
+.pagination-pointed .pagination-pointed-button,
+.pagination-pointed .current,
+.pagination-pointed .pagination-previous {
+    position: relative;
+    display: inline-block;
+}
+
+/*botones*/
+.privado a.button.confirmar.someToken:hover {
+    color: white;
+}
+
+/*modales*/
+.reveal h1 {
+    font-family: Lato_Bold !important;
+}
+
+/* ------------------------------------Pagina 2 y 5--------------------------------------*/
+/*modal pagina 2*/
+.reveal#modalfavoritos {
+    background-color: white;
+    width: 50%;
+    color: #003865;
+    background: #ffffff;
+    opacity: 1;
+    border: 0px solid #cacaca;
+    border-radius: 55px 0px 55px 0px;
+    /*height: 40%;
+        min-height: 40%;*/
+}
+
+label.editmodal {
+    color: #003865;
+}
+
+.close-button.medium,
+.close-button {
+    font-size: 2.5em;
+}
+
+a.close-button:hover {
+    color: #00C1D4;
+}
+
+/*Inputs */
+input.numero {
+    border: 1px solid #C4C4C4;
+}
+
+.rdbpadding {
+    padding-left: 0px;
+}
+
+label.marginlabel {
+    margin-left: -2em !important;
+}
+
+input[type=radio]:not(old)+label {
+    margin-left: 0em;
+  /*  padding-right: 5px;*/
+}
+
+label.titlerdb {
+    color: #424141;
+}
+
+input#find {
+    border-color: #c4c4c4;
+}
+
+em,
+i.ach-iconos_ach_buscar.searchbibanking {
+    font-size: 17px;
+}
+
+input.bordersearch {
+    padding-left: 2.6rem;
+}
+
+select:not([multiple]) {
+    color: #8C8C8C !important;
+    font-weight: initial !important;
+}
+
+/*pagineo*/
+.pagination .current {
+    background: #2C8B9E !important;
+    color: #fefefe;
+}
+
+.table-responsive table tr td p.subtxtitalic {
+    color: #C4C4C4 !important;
+    font-style: italic;
+    font-size: 10px;
+}
+
+/*Titulo y textos*/
+.reveal#modalfavoritos h1 {
+    color: #003865;
+    font-weight: 600;
+    font-family: 'Lato-Regular' !important;
+    font-size: 27px !important;
+}
+
+.h3pagoe2 h3 {
+    font-size: 16px;
+}
+
+p.subtxtitalic {
+    color: #959090;
+}
+
+/*alertas pagina 5*/
+p.successtext {
+    color: white;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato-Regular' !important;
+}
+
+alert-box.callout {
+    font-weight: 400 !important;
+}
+
+/*bugs pagina 5*/
+.toppading {
+    margin-top: 10px;
+}
+
+i.MejoraConsultas-regresar {
+    position: absolute;
+    color: #666666 !important;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.sinpaddingright2 {
+    padding-right: 0px !important;
+    margin-left: 0.6rem;
+}
+
+.row_buscador {
+    padding-right: 0px;
+}
+
+.sinpaddingright_searching {
+    margin-left: 1rem;
+}
+
+.sinpaddingright3 {
+    padding-left: 7px;
+}
+
+span.MejoraConsultas-help {
+    color: #8C8C8C;
+    margin-top: 8px;
+    font-size: 20px;
+    margin-left: -15px;
+}
+
+.buscayselect {
+    border-radius: 0px !important;
+}
+
+/*selector*/
+select.miselector2.modalselector {
+    color: #8C8C8C !important;
+}
+
+i#list-products_wrapper {
+    margin-top: 11px;
+    font-size: 17px;
+}
+
+
+/* -------------------------------- Pagina 3 y 4 ---------------------------------------------*/
+/*quetzales*/
+
+/*monto*/
+.rightMoney {
+    text-align: right !important;
+}
+
+/*modal */
+.reveal#modaldescarga2 {
+    background-color: white;
+    width: auto;
+    color: #003865;
+    background: #ffffff;
+    opacity: 1;
+    border: 0px solid #cacaca;
+    border-radius: 55px 0px 55px 0px;
+    /*height: 40%;
+        min-height: 40%;*/
+}
+
+/*texto de modal*/
+.reveal#modaldescarga2 h1 {
+    color: #003865;
+    font-weight: 600;
+    font-family: 'Lato-Regular' !important;
+    font-size: 27px !important;
+}
+
+label.iconbuscador.buscador2 {
+    margin-right: 0px;
+    margin-top: 25px;
+}
+
+.table-responsive table tr td p.tablealias {
+    color: #424141 !important;
+    font-weight: normal !important;
+}
+
+
+
+/*flecha de regresar*/
+h3.h3achadd.agregarbene {
+    text-align: RIGHT;
+    margin-bottom: 0px !important;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.infoiconbeneficio2 {
+    position: absolute;
+    color: #666666 !important;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+h3.h3back {
+    color: #2C8B9E;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+/*icono de editar*/
+span.ach-iconos_ach_editar11 {
+    color: #2c8b9e;
+    background-color: #EBEBEB;
+    font-size: 18px !important;
+    padding: 5px !important;
+    text-align: right;
+    border-radius: 4px;
+}
+
+.sinpaddingright {
+    padding-right: 15px !important;
+    text-align: right;
+}
+
+/*checks - radiobutton*/
+label.editmodal.bordright {
+    border-right: 1px #8C8C8C solid;
+    padding-right: 9px;
+}
+
+.sinpaddingleft {
+    padding-left: 0px;
+}
+
+/*busqueda avanzada*/
+i#list-products_wrapper {
+    color: #003865 !important;
+}
+
+.buscador-bel1 {
+    padding-right: 0px;
+}
+
+.buscador-bel2 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'privado-bibanking' !important;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: 'privado-bibanking' !important;
+}
+
+select:not([multiple]) {
+    padding-top: 0;
+    padding-bottom: 0;
+    /*color: #003865 !important;*/
+    font-weight: bold !important;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 4px;
+    pointer-events: none;
+}
+
+.right-addon .glyphicon {
+    right: 2px;
+    font-size: 1.4rem;
+    color: #13B2FF;
+}
+
+span.icon-tooltip {
+    color: #424141 !important;
+    font-size: 18px;
+    margin-top: 8px;
+
+}
+
+span.tooltip_icon_help {
+    -webkit-appearance: none;
+    border-style: solid;
+    border-width: 0;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 2rem 1.0625rem 1rem;
+    border-radius: 4px;
+    width: 100%;
+    transition: background-color 300ms ease-out;
+    vertical-align: middle;
+    background-color: transparent !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*tabla*/
+tr.tablecuenta.trinfo {
+    height: 45px;
+    background-color: #F7F7F7 !important;
+}
+
+td.tablebanco.txtright {
+
+    padding-right: 35px !important;
+}
+
+td.tablebanco.textleft {
+    text-align: left;
+}
+
+td.tablebanco.text_total_saldos {
+    text-align: right;
+}
+
+
+td.tablebanco.txtright2 {
+    text-align: right;
+    padding-right: 20px !important;
+}
+
+td.tablebanco.textleft2 {
+    text-align: left;
+}
+
+
+/*icono lista*/
+span.MejoraConsultas-acciones {
+    color: #a7a4a4;
+    font-size: 25px;
+}
+
+span.MejoraConsultas-acciones:hover {
+    color: #00C1D4;
+}
+
+/*oculta la lista*/
+.dropdown-pane {
+    max-width: auto;
+
+}
+
+.dropdown-pane {
+    display: none;
+    left: -9999px;
+    list-style: none;
+    margin-left: 0;
+    position: absolute;
+    background: #ffffff;
+    border: solid 1px #cccccc;
+    font-size: 0.875rem;
+    height: auto;
+    max-height: auto;
+    width: 100%;
+    z-index: 89;
+    margin-top: 0;
+    margin-left: 27px !important;
+    max-width: 166px;
+}
+
+ul,
+ol,
+dl {
+    margin-bottom: 0rem;
+}
+
+.f-dropdown2 {
+    margin-left: 0px;
+}
+
+.privado li a.lisubtxt {
+    font-size: 12px;
+}
+
+a.lisubtxt {
+    color: #999999;
+}
+
+a.lisubtxt:hover {
+    color: #00C1D4;
+}
+
+li.li_title_left {
+    text-align: left !important;
+    /* margin-left: 5px !important;*/
+    line-height: 1.2 !important;
+}
+
+li.li_left {
+    text-align: left !important;
+    margin-left: 7px !important;
+    line-height: 1.3 !important;
+}
+
+.f-dropdown {
+    display: none;
+    left: -9999px;
+    list-style: none;
+    margin-left: 0;
+    position: absolute;
+    background: #ffffff;
+    border: solid 1px #cccccc;
+    font-size: 0.875rem;
+    height: auto;
+    max-height: none;
+    width: 100%;
+    z-index: 89;
+    margin-top: 2px;
+    max-width: 200px;
+}
+
+/*.f-dropdown2:before {
+        border: inset 6px;
+        content: "";
+        display: block;
+        height: 0;
+        width: 0;
+        border-color: transparent transparent transparent #cacaca;
+        border-left-style: solid;
+        position: absolute;
+        top: 0px;
+        right: -12px;
+        left: auto !important;
+        z-index: 89;
+    }
+*/
+
+/* ------------------------------------------- Pagina 6 ----------------------------------- */
+/*buscador*/
+.buscadorright {
+    margin-left: 56%;
+}
+
+.buscadorsinpadding {
+    padding-left: 0px;
+}
+
+.tag_grupos_sinpadding {
+    padding-left: 0px;
+}
+
+/*buscador*/
+label.iconbuscador {
+    /* display: block; */
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.8;
+    color: #0a0a0a;
+    text-align: left;
+    margin-right: -23px;
+}
+
+/*padding*/
+.padding_botto_section_tags {
+    padding-bottom: 280px;
+}
+
+.slick-dotted.slick-slider {
+    margin-top: 0px !important;
+}
+
+/*textos*/
+span.MejoraConsultas-agregar {
+    color: #003865;
+}
+
+label.tittlefavtag {
+    text-align: left;
+    /*margin-left: 16px;*/
+    color: #003865;
+    font-size: 18px;
+}
+
+label.tittlefavtagcarrusel {
+    text-align: left;
+    color: #003865;
+    font-size: 18px;
+    font-weight: 600 !important;
+}
+
+span.MejoraConsultas-cuenta-agregada {
+    color: #8C8C8C;
+    padding-right: 8px;
+    cursor: auto;
+}
+
+span.MejoraConsultas-ultima-modificacion.fav_icon {
+    color: #8C8C8C;
+    padding-right: 5px;
+    cursor: auto;
+}
+a.tarjeta_ad {
+    cursor: auto;
+}
+
+/*span.MejoraConsultas-cuenta-agregada:hover {
+    color: #00C1D4;
+}*/
+
+/*span.MejoraConsultas-ultima-modificacion.fav_icon:hover {
+    color: #00C1D4;
+}*/
+
+span.txtfavcolor {
+    color: #8C8C8C;
+    font-size: 13px;
+    cursor: auto;
+}
+
+span.datofavcolor {
+    color: #00C1D4;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cuentas_agregadas_fav {
+    text-align: left;
+    /*  padding-left: 0px;*/
+}
+
+.ultimas_fechas_agregadas_fav {
+    text-align: left;
+    /*    padding-left: 0px;*/
+}
+
+span.MejoraConsultas-acciones.accionesfav {
+    font-size: 25px;
+}
+
+p.opciondisplayfav {
+    margin-bottom: 1px;
+    color: #003865;
+    font-size: 12px;
+}
+
+.txtcenterfav {
+    text-align: center !important;
+    color: #003865;
+    font-size: 18px;
+    font-family: Lato_Bold !important;
+    cursor: pointer;
+}
+
+.addmorefavs {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.txtaddmore {
+    font-size: 12px !important;
+    line-height: 1;
+    text-align: cente;
+}
+
+span center {
+    font-size: 12px !important;
+    line-height: 1 !important;
+    color: #8C8C8C;
+}
+
+.tagsinpaddingright {
+    padding-right: 0px;
+}
+
+.tagsinpaddingleft {
+    padding-left: 0px;
+}
+
+h2.h2fav {
+    color: #2C8B9E;
+    margin-bottom: 23px;
+    margin-top: 0px;
+    font-family: Raleway_Bold !important;
+}
+
+h2.h2fav_tags {
+    color: #2C8B9E;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-family: Raleway_Bold !important;
+    font-size: 20px;
+}
+
+/*.lineadivisora {
+        margin-top: 10px;
+        border-bottom: 1.5px #c4c4c4 solid;
+    }*/
+
+/*botones*/
+button.liketoggle.linksor.likefav {
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.favoptions {
+    float: left !important;
+    padding-top: 3px;
+}
+
+.favoptions2 {
+    padding-left: 15px;
+    padding-top: 13px;
+}
+.icon_options{
+    margin-top: -10px !important;
+}
+.starlike_option2 {
+    margin-left: 12px;
+}
+
+/*oculta la lista*/
+
+/*carrusel*/
+.carruselsinpadding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row.sizeoftag {
+    width: 105%;
+}
+
+
+
+/*modales*/
+div#modaleliminarfav {
+    width: auto;
+}
+
+div#modalmodificarfav {
+    width:auto;
+}
+
+/*iconos*/
+i.pg-star-regular {
+    color: #C4C4C4;
+}
+
+i.MejoraConsultas-alerta {
+    color: #FDB81C !important;
+    font-size: 3rem !important;
+}
+
+h1.Fav_textinfo {
+    color: #1f3366;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+p.modal_p.fav_descripinfo {
+    color: #424141;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/*CARRUSEL / SLIDER*/
+.carruselpadding {
+    padding: 0px;
+}
+
+.slick-prev,
+.slick-next {
+    right: -3px !important;
+}
+
+.slick-prev,
+.slick-next {
+    color: #e6e6e6 !important;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 7.7rem;
+    margin-left: 0rem;
+    margin-right: 0.8rem;
+    height: 60px !important;
+}
+
+.slider {
+    background-color: #ffff;
+}
+
+.tagfav {
+    /*   width: 288px !important;*/
+    /*   height: 120px;*/
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    display: block;
+    /* border: 1px solid #C4C4C4 !important;*/
+    padding-top: 15px;
+    height: 14rem !important margin-left: 2px;
+    margin-right: 10px;
+}
+
+.carruselpaddingtop {
+    padding-top: 12px;
+}
+
+/*BORDES SLICK*/
+.borderbox_destacados {
+    border: 1px solid #C4C4C4 !important;
+    height: 105px;
+    padding-top: 10px;
+    border-radius: 3px;
+}
+.borderbox {
+    border: 1px solid #C4C4C4 !important;
+    height: 105px;
+    border-radius: 3px;
+}
+
+.sinbordebox {
+    background: #F7F7F7 !important;
+    margin-right: 0px;
+    border-radius: 3px;
+}
+
+.slick-dots li button {
+    font-size: 0 !important;
+    line-height: 0;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+
+.slick-dots li button:before {
+    font-size: 12px !important;
+}
+
+.slick-dots {
+    bottom: auto !important;
+}
+
+.slick-prev {
+    right: 2px;
+    z-index: 1;
+    margin-top: 7.7rem;
+}
+
+.slick-list {
+    margin-left: 24px !important;
+    margin-right: 16px !important;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    width: 5000px !important;
+    cursor: default;
+}
+
+.slicktags {
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.slick-list.draggable {
+    margin-left: 31px !important;
+    /*height: 270px !important; */
+    height: auto;
+}
+
+/*dots color*/
+.slick-dots li.slick-active button:before {
+    color: #8C8C8C !important;
+}
+
+.slick-dots li button:before {
+    color: #8C8C8C !important;
+}
+
+
+
+
+/*felchas*/
+.slick-prev:before {
+    /*content: url(../img/Consulta_cuentas/chevron-izquierda.png) !important;*/
+    content: url(../img/Consulta_cuentas/chevron-izquierda_small.png) !important;
+    
+    color: #666666;
+    font-size: 49px;
+}
+
+.slick-next:before {
+    /*content: url(../img/Consulta_cuentas/chevron-derecha.png) !important;*/
+    content: url(../img/Consulta_cuentas/chevron_derecha_small.png) !important;
+    color: #666666;
+    font-size: 49px;
+}
+
+
+
+  
+
+
+
+
+/* -------------------------------------------- Pagina 16 y 17 -------------------------------------------- */
+
+
+/*pagina 17*/
+.boxsinfavoritos {
+   /* padding: 120px;*/
+    background-color: #F7F7F7 !important;
+}
+
+.txtsingrupos {
+    color: #666666;
+    font-weight: bold;
+    text-align: center !important;
+    font-size: 27px;
+    padding-bottom: 21px;
+    font-family: Lato_Bold !important;
+}
+
+.txtagregarfavoritos {
+    color: #8C8C8C;
+    text-align: center;
+    font-weight: 400;
+}
+
+span.txtbolder {
+    font-weight: bolder;
+}
+
+div#modalbienvenido {
+    width: 50%;
+}
+
+
+/*pagina 18*/
+
+/*Inputs de Alias*/
+input.inputsinborde1 {
+    margin-bottom: 0px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 1rem;
+    font-weight: bold;
+    /*margin-left: -9px;*/
+    cursor: auto;
+
+}
+
+input.input_tag_padding {
+    margin-left: -9px;
+}
+.ocultaOpciones {
+    display: none;
+}
+.muestraConfirmaDenega {
+    display: block !important;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+/*subtitulos*/
+h3.h3ach1.subtittle {
+    font-size: 20px !important;
+}
+
+.txtaddtexright {
+    text-align: right;
+}
+
+/*vista*/
+h4.vista.positionvista {
+    position: absolute;
+    display: -webkit-inline-box;
+    margin-left: -3rem;
+    color: #424141;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+/* iconos*/
+.iconswitch {
+    font-size: 30px !important;
+    height: 30px;
+    width: 30px;
+    margin: 0 !important;
+    padding: 0 !important;
+    /*transition: .5s;*/
+}
+
+.btnswitch_active {
+    color: #2C8B9E;
+}
+
+.btnswitch_desactive {
+    color: #cfcfcf;
+}
+
+.iconswitch:hover {
+    color: #2C8B9E;
+}
+
+.switch_tab2 {
+    text-align: right;
+    margin-top: 20px;
+    padding-right: 0px;
+}
+
+.switch_tab_solitario {
+    text-align: right;
+    margin-top: 20px;
+}
+
+div#ContenidoTablas {
+    display: block;
+}
+
+div#ContenidoListas {
+    display: none;
+}
+
+/*pading lateral e inferior*/
+.tablepadding_bottom_left {
+    /*padding-bottom: 41% !important;*/
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+
+/*Tabladesabilitada*/
+/*Fila de Tabla Deshabilitada*/
+tr.tablecuenta.rowdissable {
+    /* background: #EBEBEB !important;*/
+    pointer-events: none;
+}
+
+tr.tablecuenta.rowdissable td p.numeroalert {
+    color: #FFBFBF !important;
+    font-weight: bold !important;
+}
+
+tr.tablecuenta.rowdissable td p.txtdisable {
+    color: #C4C4C4 !important;
+    font-weight: bold !important;
+}
+.txt_footermonto{
+    text-align: center !important;
+    color: #666666 !important;
+    font-size: 15px !important;
+}
+/*nuevo tag*/
+/*iconos*/
+
+
+/**/
+.favoptionstag {
+    text-align: right;
+    color: #666666;
+    font-size: 15px;
+}
+
+.borderbox2 {
+    border: 1px solid #C4C4C4 !important;
+    padding-bottom: 10px;
+}
+
+.tagfav2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    display: block;
+    /*padding-top: 15px;*/
+    margin-bottom: 12px !important;
+}
+
+.slick-prev2,
+.slick-next2 {
+    color: #e6e6e6 !important;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 3rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.slicktags2 {
+    margin-right: 25px;
+    margin-bottom: 70px !important;
+}
+
+.txtdisabletag {
+    color: #8C8C8C !important;
+}
+
+label.subtitletag {
+    color: #8C8C8C;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 8px;
+}
+
+label.cuentatag {
+    color: #8C8C8C;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+span.numerocuentatag {
+    color: #003865 !important;
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+
+label.infocuentatag {
+    text-align: left;
+    color: #C4C4C4;
+    font-style: italic;
+    font-size: 11px;
+    line-height: 8px;
+}
+
+label.saldoinfotag {
+    color: #2C8B9E;
+    text-align: left;
+}
+
+i.MejoraConsultas-grafica {
+    color: #2C8B9E;
+    font-size: 21px;
+}
+
+label.subtitletag2 {
+    color: #8C8C8C;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    line-height: 8px;
+}
+
+/*montos*/
+label.saldodisponible_tag.numero {
+    text-align: left;
+    color: #2C8B9E;
+    font-size: 25px;
+}
+
+label.saldototal_tag.numero {
+    text-align: right;
+    color: #003865;
+    font-size: 25px;
+
+}
+
+.boderrowright {
+    border-right: 1px #C4C4C4 solid;
+}
+
+.bordertop {
+    border-top: 1px solid #C4C4C4;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+/*acciones*/
+ul#hoverq21 {
+    margin-bottom: 2px;
+}
+
+p.titul_toogle {
+    margin-bottom: 0px;
+    color: #003865;
+    font-size: 13px !important;
+}
+
+
+/*pagina 24*/
+div#modalgraficamonetariaquetzales {
+    width: auto;
+}
+
+div#modalgraficamonetariadolares {
+    width: auto;
+}
+
+.modal_grafica {
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+}
+
+.exporttag {
+    color: #666666;
+    font-size: 12px !important;
+    margin-top: -7px;
+}
+
+.exportinfomacion {
+    text-align: right;
+    padding-right: 0px;
+}
+
+/*grafica*/
+li.barralateral {
+    max-width: 0% !important;
+    border-left: 3px #2C8B9E solid;
+    margin-left: 4px !important;
+}
+
+li.bar-graph-axis.barra_borde_izq {
+    max-width: 12%;
+}
+
+.barra-informativa {
+    font-size: 14px;
+    color: #003865;
+}
+
+.horarios_info {
+    color: #424141;
+    font-size: 12px;
+}
+
+.horariosrow {
+    padding-left: 0px;
+    margin-right: 20px;
+}
+
+.horarios_info.numero {
+    border-top: 3px #2C8B9E solid;
+    padding-left: 0px;
+    font-size: 13px !important;
+}
+
+
+.bar-graph {
+    padding: 0;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    height: 425px;
+    margin: 0;
+}
+
+.bar-graph li {
+    display: block;
+    padding: 1.5625rem 0;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+    border-radius: 4px 4px 0 0;
+    max-width: 10%;
+    height: 100%;
+    margin: 0 1.8% 0 0;
+    -webkit-flex: 1 1 15%;
+    -ms-flex: 1 1 15%;
+    flex: 1 1 15%;
+}
+
+.bar-graph .bar-graph-axis {
+    -webkit-flex: 1 1 8%;
+    -ms-flex: 1 1 8%;
+    flex: 1 1 8%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.bar-graph .bar-graph-label {
+    margin: 0;
+    background-color: none;
+    color: #8a8a8a;
+
+}
+
+/*horario*/
+span.barra-horaria.numero {
+    color: #424141;
+    font-size: 16px;
+    padding-left: 38px;
+}
+
+
+
+/*PAGINA 25*/
+div#Accion1 {
+    display: block;
+}
+
+.inputsinborde1::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #003870 !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+.inputtextsize::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #424141 !important;
+    opacity: 1;
+
+    /* Firefox */
+}
+
+.input_disable::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #8C8C8C !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+input.numero.inputsinborde1.sinbordes.inputtextsize {
+    COLOR: #424141 !important;
+}
+
+.MejoraConsultas-confirmar {
+    color: #00C1D4;
+    font-size: 23px;
+    margin-right: 6px;
+    margin-left: 0px;
+}
+
+.MejoraConsultas-cancelar {
+    color: #00C1D4;
+    font-size: 23px;
+}
+
+.MejoraConsultas-confirmar:hover {
+    color: #1EC771;
+    cursor: pointer;
+}
+
+.MejoraConsultas-cancelar:hover {
+    color: #F23D53;
+    cursor: pointer;
+}
+
+.inputsinborde1 {
+    border: 0px solid !important;
+}
+
+.inputsconborde {
+    border: 1px solid #003865 !important;
+    height: 2.1rem !important;
+    margin-top: 1rem;
+}
+
+/*lista*/
+
+.inputtextsize {
+    font-size: 12px !important;
+    text-align: center !important;
+}
+
+td#Confirmar_Denegar11 {
+    margin-top: 8px;
+}
+
+td#Confirmar_Denegar13 {
+    margin-top: 8px;
+}
+
+td#Confirmar_Denegar14 {
+    margin-top: 8px;
+}
+
+
+/*pagina 36*/
+
+.fechasespaciado {
+    line-height: 20px;
+}
+
+
+.bordertop2 {
+    border-top: 1px solid #C4C4C4;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.rowinfo_left {
+    margin-left: 0px;
+}
+
+.table-responsive table tr td p.saldoenquetzales {
+    color: #959090 !important;
+}
+
+/*fechas*/
+label.cuentatag.numero.fechasespaciado2 {
+    font-size: 12.5px;
+}
+
+.fechaspadding {
+    padding-right: 0px;
+}
+
+/*saldos en dolares y quetzales*/
+label.saldodolaresdisponible_tag.numero {
+    text-align: left;
+    color: #2C8B9E;
+    font-size: 18px;
+}
+
+label.saldoquetzalesdisponible_tag.numero {
+    text-align: left;
+    color: #959090;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+label.saldodolarestotal_tag.numero {
+    text-align: right;
+    color: #003865;
+    font-size: 18px;
+}
+
+label.saldoquetzalestotal_tag.numero {
+    text-align: right;
+    color: #959090;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+
+/*pagina 42*/
+span.radiodissable {
+    border: 2px solid #C4C4C4 !important;
+}
+
+input[type=radio]:not(old)+label>span {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #1f3366;
+    margin-right: 5px;
+}
+
+.txtsaldo_left {
+    text-align: left;
+}
+
+/*tabla o lista*/
+.solo_tablero_listas {
+    text-align: right;
+}
+
+.espacio_entre_tablas {
+    height: 650px;
+}
+
+
+
+
+/*pagina 58*/
+.group_tittle {
+    margin-bottom: 23px;
+}
+
+span.Word_group {
+    color: #959090;
+    font-size: 25px;
+    font-family: Raleway-Regular !important;
+    font-weight: 600;
+}
+
+span.name_of_group {
+    color: #2C8B9E;
+    font-size: 25px;
+    font-family: Raleway-Regular !important;
+    font-weight: 600;
+}
+
+/*MEDIA PRINTS DE GRAFICAS*/
+
+@media print,
+screen and (min-width: 40em) {
+
+    .bar-graph .bar-graph-label:before,
+    .bar-graph .bar-graph-label:after {
+        content: "";
+        position: absolute;
+        border-bottom: 1px dashed #8a8a8a;
+        top: 0;
+        left: 0;
+        height: 50%;
+        width: 20%;
+    }
+}
+
+@media print,
+screen and (min-width: 40em) and (min-width: 64em) {
+
+    .bar-graph .bar-graph-label:before,
+    .bar-graph .bar-graph-label:after {
+        width: 30%;
+    }
+}
+
+@media print,
+screen and (min-width: 40em) {
+    .bar-graph .bar-graph-label:after {
+        left: auto;
+        right: 0;
+    }
+}
+
+.bar-graph .percent {
+    letter-spacing: -3px;
+    opacity: 0.4;
+    width: 100%;
+    font-size: 1.875rem;
+    position: absolute;
+}
+
+@media print,
+screen and (min-width: 40em) {
+    .bar-graph .percent {
+        font-size: 3.875rem;
+    }
+}
+
+.bar-graph .percent span {
+    font-size: 1.875rem;
+}
+
+.bar-graph .description {
+    font-weight: 800;
+    opacity: 0.5;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 14px;
+    bottom: 20px;
+    position: absolute;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+.bar-graph .bar.primary {
+    border: 1px solid #00c1d4;
+    background: linear-gradient(#00C1D4, #00c1d4 70%);
+}
+
+.bar-graph .bar.secondary {
+    border: 1px solid #767676;
+    background: linear-gradient(#909090, #767676 70%);
+}
+
+.bar-graph .bar.success {
+    border: 1px solid #3adb76;
+    background: linear-gradient(#65e394, #3adb76 70%);
+}
+
+.bar-graph .bar.warning {
+    border: 1px solid #FFB81C;
+    background: linear-gradient(#FFB81C, #FFB81C 70%);
+}
+
+.bar-graph .bar.alert {
+    border: 1px solid #cc4b37;
+    background: linear-gradient(#d67060, #cc4b37 70%);
+}
+
+/*fin de graficas*/
+
+
+@media (min-width:1024px) {
+    .table-responsive table tbody tr:nth-child(odd) {
+        height: 40px;
+    }
+
+    .table-responsive table tbody tr:nth-child(even) {
+        height: 40px !important;
+    }
+   
+}
+
+
+/*MEDIA QUERIS*/
+/*TABLET*/
+@media (max-width: 1023px) and (min-width: 640px) {
+      /*  inputs size
+    input.numero.inputsinborde1.sinbordes.inputtextsize {
+        width: 150px !important;
+    }*/
+    .row.padding_row_res {
+            padding-left: 0.9375rem;
+            padding-right: 0.9375rem;
+        }
+
+    /*switch tarjeta */
+    .switch.tarjetaswitch {
+        position: absolute;
+        margin-left: 0rem !important;
+        margin-top: -1rem;
+    }
+   
+    /*Progresbar de pagos extrafinanciemientos*/
+    .padbar_extrafin{
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+
+     
+
+    /*modal pagina 2*/
+    .reveal#modalfavoritos {
+        width: 80%;
+    }
+
+    div#modaleliminarfav {
+        width: 80%;
+    }
+
+    div#modalmodificarfav {
+        width: 80%;
+    }
+
+    .reveal#modaldescarga2 {
+        width: 80%;
+    }
+    div#modalbienvenido {
+        width: 80%;
+    }
+
+    /*_______*/
+    /*pagina 5*/
+    a.linkaddcuenta {
+        text-align: left;
+    }
+
+    h3.h3back {
+        margin-left: 30px;
+    }
+
+    .rdbpadding {
+        margin-bottom: 10px;
+    }
+
+    .addmoretablet {
+        margin-top: 20px;
+        padding: 0px;
+    }
+
+    .sinbordebox {
+        margin-right: 10px;
+    }
+
+    .sinpaddingright2 {
+        margin-left: 0rem;
+        padding-left: 0px;
+    }
+
+    .sinpaddingright_searching {
+        margin-left: 0rem;
+        padding-right: 0px;
+    }
+
+
+    /*pagina 6 y 15 tag*/
+    .carruselsinpadding {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .margin-top_tablet {
+        margin-top: 20px;
+    }
+
+    .padding_botto_section_tags {
+        padding-bottom: 300px !important;
+    }
+
+    /*iconos*/
+    /* .starlike_option {
+        margin-left: 50px !important;
+    }
+
+    .starlike_option2 {
+        margin-left: 72px;
+    }
+    
+    .favoptions2 {
+        padding-left:20px;      
+    }*/
+    .favoptions2 {
+        padding-left: 12px;
+    }
+
+    .starlike_option2 {
+        margin-left: 20px !important;
+    }
+
+
+
+    /*flechas*/
+    .slick-prev,
+    .slick-next {
+        color: #e6e6e6 !important;
+        text-shadow: 2px 2px 4px #000000;
+        margin-top: 7.5rem;
+        margin-left: -1rem;
+        margin-right: 0.4rem;
+    }
+
+    /*tamaño de textos en grafica*/
+    .barra-informativa {
+        font-size: 13px;
+    }
+
+    span.barra-horaria.numero {
+        font-size: 14px;
+        padding-left: 21px;
+    }
+
+    /*pagina 18*/
+    /*pading lateral e inferior*/
+    .tablepadding_bottom_left {
+        padding-left: 49px !important;
+        padding-right: 20px !important;
+    }
+
+    /*modal 18,25*/
+    .exporttext_modal {
+        text-align: right;
+        padding-right: 0px !important;
+    }
+
+    /*pagina 42*/
+    .espacio_entre_tablas {
+        height: 650px;
+    }
+
+
+        /*menus cambiantes*/
+        .padding_indesktop{
+            margin-top: 30px;
+            padding-left: 0.9375rem;
+        }
+
+        th.sorting {
+            font-size: 12px !important;
+        }
+
+        th.disableMe {
+            font-size: 9px !important;
+        }
+        th.disableMe.dis2{
+            font-size: 12px !important;
+        }
+
+
+
+
+
+}
+
+/*radiobuttons en tablas*/
+span.radiospecialtd {
+    margin-left: -10px !important;
+    margin-right: 0px !important;
+}
+label.marginlabel.lbl_for_ri {
+    margin-left: 0em !important;
+    margin-right: 0px !important;
+}
+input.specialtexttabla.inputof_radio {
+    margin-left: 0px !important;
+    height: 27px;
+    margin-top: -5px;
+}
+
+
+
+@media (max-width: 820px) and (min-width: 640px) {
+    /*pagina 6*/
+    .starlike_option2 {
+        margin-left: 15px !important;
+    }
+
+
+}
+
+
+}
+
+@media (max-width: 1023px) and (min-width: 900px) {
+     h3.tarjetatext1 {
+        color: white;
+        margin-top: 50px;
+        font-size: 14px;
+        font-family: Lato-Regular !important;
+    }
+
+    h3.tarjetatext2 {
+        color: white;
+        font-size: 14px;
+        font-family: Lato-Regular !important;
+    }
+
+    h3.tarjetatext3 {
+        color: white;
+        font-size: 13px;
+        font-family: Lato-Regular !important;
+    }
+    .accordion-content {
+        padding: 1rem 1rem;
+    }
+
+}
+
+@media (max-width: 900px) and (min-width: 730px) {
+     h3.tarjetatext1 {
+        color: white;
+        margin-top: 25px;
+        font-size: 12px;
+        font-family: Lato-Regular !important;
+    }
+
+    h3.tarjetatext2 {
+        color: white;
+        font-size: 12px;
+        font-family: Lato-Regular !important;
+    }
+
+    h3.tarjetatext3 {
+        color: white;
+        font-size: 12px;
+        font-family: Lato-Regular !important;
+    }
+    .accordion-content {
+        padding: 1rem 1rem;
+    }
+
+}
+@media (max-width: 729px) and (min-width: 640px) {
+     h3.tarjetatext1 {
+        color: white;
+        margin-top: 15px;
+        font-size: 12px;
+        font-family: Lato-Regular !important;
+    }
+
+    h3.tarjetatext2 {
+        color: white;
+        font-size: 12px;
+        font-family: Lato-Regular !important;
+    }
+
+    h3.tarjetatext3 {
+        color: white;
+        font-size: 12px;
+        font-family: Lato-Regular !important;
+    }
+    .accordion-content {
+        padding: 1rem 1rem;
+    }
+
+}
+
+
+
+
+
+
+/*MOVIL*/
+@media (max-width: 639px) {
+
+    /*monedas*/
+    .money-q:before {
+        position: inherit;
+    }
+
+    .money-d:before {
+        position: inherit;
+    }
+
+    /*tablas*/
+
+    .table-responsive table tr td.td_extra {
+        display: none !important;
+    }
+
+    td.tablebanco.textleft2 {
+        text-align: right;
+    }
+
+    .border_celda_vacia {
+        border-bottom: 0px solid;
+    }
+
+    .txtsaldo_left {
+        text-align: right;
+    }
+
+    .celda_vacia {
+        display: none;
+    }
+
+    table.dataTable tfoot td {
+        text-align: right !important;
+    }
+
+    td.tablebanco.text_total_saldos {
+        text-align: center !important;
+    }
+
+    tr.tablecuenta.trinfo {
+        height: 0px;
+    }
+
+    table td::before {
+        text-transform: none;
+    }
+
+    /*acciones aprobar y denegar */
+    .accionopcions_space {
+        padding-right: 0px;
+        margin-left: 20px;
+    }
+
+    /*Progresbar de pagos extrafinanciemientos*/
+    .padbar_extrafin{
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+
+    /*pie de pagina de la tabla*/
+    .table-responsive table tfoot {
+        background-color: #F7F7F7 !important;
+    }
+    tr.tablecuenta.trinfo {
+        border-right: solid 0px #CCCCCC !important; 
+        border-top: solid 0px #CCCCCC !important; 
+         border-bottom: solid 0px #CCCCCC !important; 
+         border-left: solid 0px #CCCCCC !important; 
+    }
+    tfoot {
+        border-right: solid 1px #CCCCCC !important;
+        border-top: solid 1px #CCCCCC !important;
+        border-bottom: solid 1px #CCCCCC !important;
+        border-left: solid 1px #CCCCCC !important;
+    }
+
+    /*pagina 2*/
+    .reveal#modalfavoritos {
+        width: auto;
+        height: auto;
+        min-height: auto;
+    }
+
+    div#modaleliminarfav {
+        width: auto;
+        height: auto;
+        min-height: auto;
+    }
+
+    div#modalmodificarfav {
+        width: auto;
+        height: auto;
+        min-height: auto;
+    }
+
+    .reveal#modaldescarga2 {
+        width: auto;
+        height: auto;
+        min-height: auto;
+    }
+
+    /*pagina 3*/
+    td.tablebanco.txtright {
+        padding-right: 0px !important;
+    }
+
+    #empty_td_in_movil {
+        display: none;
+    }
+
+    .sinpaddingright2 {
+        padding-top: 20px;
+        padding-left: 0px;
+        margin-left: 0rem;
+        padding-left: 0px;
+    }
+
+    .sinpaddingright_searching {
+        margin-left: 0rem;
+        padding-right: 0px;
+    }
+
+    /*pagina 5*/
+    a.linkaddcuenta {
+        text-align: left;
+    }
+
+    h3.h3back {
+        margin-left: 30px !important;
+    }
+
+    div#modalbienvenido {
+        width: auto;
+    }
+
+    li.li_title_left p {
+        text-align: left !important;
+    }
+
+    /*pagina 6*/
+    .starlike_option2 {
+        margin-left: 5px;
+    }
+
+
+
+    .tagfav.spaciosuperpacks.borderbox {
+        margin-bottom: 20px;
+    }
+    .tagfav.spaciosuperpacks.borderbox_destacados {
+        margin-bottom: 20px;
+    }
+
+    .selectpadding {
+        padding-left: 0px;
+        padding-top: 13px;
+        padding-right: 0px;
+    }
+
+    .bspadding {
+        padding-left: 0px;
+    }
+
+    select.miselector2.modalselector {
+        margin-bottom: 0px;
+    }
+
+    select.miselector4.modalselector.selectortexto.miniselect.numero {
+        margin-bottom: 0px !important;
+    }
+
+    .minislcpadding {
+        padding-bottom: 0px;
+    }
+
+    label.miCheckbox.checkcenter {
+        margin-left: 0px !important;
+    }
+
+    .f-dropdown2 {
+        margin-left: 0px;
+    }
+
+    .privado li a.lisubtxt {
+        font-size: 12px;
+    }
+
+    .li_title_left {
+        text-align: left;
+        margin-left: 0px !important;
+    }
+
+    .li_left {
+        text-align: left;
+        margin-left: 25px;
+    }
+
+    .marginentrecuadros {
+        margin-bottom: 17px;
+        padding: 0px;
+    }
+
+    /*PAGINA 5*/
+    span.tooltip_icon_help {
+        padding: 0rem 0.5rem 0.5rem 1rem ;
+       
+    }
+
+    /*pagina 6 y 15 tag*/
+    .carruselsinpadding {
+        padding-left: 32px;
+        padding-right: 25px;
+    }
+
+    .margin-top_tablet {
+        margin-top: 0px;
+    }
+
+    .padding_botto_section_tags {
+        padding-bottom: 300px !important;
+    }
+
+    .buscadorsinpadding {
+        padding-bottom: 23px;
+    }
+
+    .favoptions {
+        padding-left: 0px;
+    }
+
+    /*flechas*/
+    .slick-prev,
+    .slick-next {
+        color: #e6e6e6 !important;
+        text-shadow: 2px 2px 4px #000000;
+        margin-top: 8.1rem;
+        margin-left: -1rem;
+        margin-right: 0.4rem;
+    }
+
+    .slick-list.draggable {
+        /* height: 290.781px !important;*/
+        height: auto !important;
+    }
+
+    /*pagina 17*/
+    label.txtinfotext {
+        font-size: 14px;
+    }
+    .boxsinfavoritos {
+        padding: 60px;
+        background-color: #F7F7F7 !important;
+    }
+
+    div#modalbienvenido {
+        width: auto;
+        height: auto;
+        min-height: auto;
+    }
+    p.pseleccionar {
+        text-align: end;
+    }
+    p.tabletransfer.pspecial23 {
+        text-align: end !important;
+    }   
+
+    /*pagina 18*/
+    /*buscador*/
+    label.iconbuscador2 {
+        margin-top: 23px;
+    }
+
+    .tablepadding_bottom_left {
+        line-height: 1.35 !IMPORTANT;
+    }
+
+    input.inputsinborde1 {
+        text-align: right !important;
+        margin-left: 10px;
+    }
+
+    /*pagina*/
+    .num_Tarjeta_espaciado {
+        line-height: 25px;
+    }
+
+    /*pading lateral e inferior*/
+    .tablepadding_bottom_left {
+        padding-left: 29px !important;
+        padding-right: 20px !important;
+    }
+
+
+    /*tamaño de grafica en movil*/
+    li.bar-graph-axis.barra_borde_izq {
+        max-width: 17%;
+    }
+
+    span.barra-horaria.numero {
+        font-size: 10px;
+        padding-left: 9px;
+    }
+
+    .barra-informativa {
+        font-size: 12px;
+    }
+
+    /*pagina 42*/
+    .espacio_entre_tablas {
+        height: 650px;
+    }
+
+    /*input*/
+    input.input_tag_padding {
+        margin-left: -6px !important;
+        text-align: left !important;
+    }
+
+
+}
+
+
+/*SMALL PHONE*/
+@media (max-width: 500px) {
+/*    .callout> :first-child {
+        margin-top: 10px;
+    }*/
+
+    .sinbordebox {
+        margin-right: 10px;
+    }
+
+    .slick-list.draggable {
+    /*        height: 427.5px !important;*/
+    height: 278.5px !important;
+    }
+    .slick-prev {
+        left: 20px !important;
+        z-index: 1;
+    }
+
+    /*pagina 6*/
+    .starlike_option2 {
+        margin-left: 0px;
+    }
+
+    /*pagina 18*/
+
+    .tagfav2.spaciosuperpacks.slicktags2.slick-slide.slick-cloned {
+        width: 5.8%;
+    }
+
+    label.saldodisponible_tag.numero {
+        text-align: left;
+        color: #2C8B9E;
+        font-size: 20px;
+    }
+
+    label.saldototal_tag.numero {
+        text-align: right;
+        color: #003865;
+        font-size: 20px;
+    }
+
+    label.saldoinfotag {
+        font-size: 0.8rem !important;
+    }
+
+    button.liketoggle.linksor.likefav {
+        margin-left: -8px;
+    }
+    /*tamaño de pantalla*/
+    .dropdown-pane {
+        max-width: 185px;
+    }
+}
+
+
+@media (max-width: 390px) and (min-width:  300px) {
+    .row.sizeoftag {
+        width: 109%;
+    }
+}
+/**/
+
+/*Agregado por Melvin*/
+
+.txt-favprincipal {
+    width: 290px;
+    margin-left: -20px;
+}
+
+@media screen and (max-width: 1023px) {
+    .txt-favprincipal {
+        width: auto;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .txt-favprincipal {
+        width: auto;
+        margin-left: 0px;
+    }
+
+    td.tablebanco.text_total_saldos {
+        text-align: left;
+    }
+
+
+
+    /*para P07_8y9_Favoritos_Principal y P14_favoritos_principal_10*/
+
+    .reveal#modalfavoritos2 h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 28px !important;
+        margin-top: -20px;
+    }
+
+    /*para P07_8y9_Favoritos_Principal y P14_favoritos_principal_10*/
+    /*modal */
+
+    /*texto de modal*/
+    .reveal#modaldescarga2 h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 28px !important;
+        margin-top: 5px;
+    }
+
+
+    .ajuste-txt-modal {
+        margin-bottom: 50px;
+    }
+
+    .ajuste-cerrar-modal {
+        font-size: 70px;
+        display: flex;
+        margin-top: -15px;
+    }
+
+    .btn-fav-centrar {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+    .ajuste-tituloprincipales {
+        margin-left: 35px !important;
+    }
+
+    .sin-border-radius {
+        border-radius: 0px;
+    }
+
+    .fav-buscar-padding {
+        padding-right: 12px;
+    }
+
+    .tooltip {
+        font-size: 73% !important;
+    }
+
+    .tooltip.align-right::before {
+        left: auto;
+        right: 2px;
+    }
+
+    .tooltip.bottom::before {
+        display: block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0.75rem;
+        content: '';
+        border-top-width: 0;
+        color: #ffffff;
+        border-color: transparent transparent #424141;
+        bottom: 100%;
+    }
+
+
+    /*Tablas responsive*/
+
+
+    .responsive-card-table {
+        border-collapse: collapse;
+    }
+
+    .responsive-card-table.unstriped tbody {
+        background-color: transparent;
+    }
+
+    .responsive-card-table th {
+        background-color: #e6e6e6;
+    }
+
+    .responsive-card-table tr,
+    .responsive-card-table th,
+    .responsive-card-table td {
+        border: 1px solid #0a0a0a;
+    }
+
+
+    @media screen and (max-width: 640px) {
+        .responsive-card-table {
+            border-collapse: collapse;
+        }
+
+        .responsive-card-table thead tr {
+            position: absolute;
+            top: -9999em;
+            left: -9999em;
+        }
+
+        .responsive-card-table tr {
+            border: 1px solid #0a0a0a;
+            display: block;
+        }
+
+        .responsive-card-table tr+tr {
+            margin-top: 1.5rem;
+        }
+
+        .responsive-card-table td {
+            border: none;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            -webkit-align-items: right;
+            -ms-flex-align: center;
+            align-items: center;
+            border-bottom: 1px solid #0a0a0a;
+            padding-left: 50%;
+            position: relative;
+        }
+
+        .responsive-card-table td:before {
+            content: attr(data-label);
+            display: inline-block;
+            font-weight: bold;
+            line-height: 1.5;
+            margin-left: -100%;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .responsive-card-table td:after {
+            content: '';
+            position: absolute;
+            background: #e6e6e6;
+            width: 45%;
+            height: 95%;
+            left: 1px;
+            top: 1px;
+            z-index: 0;
+        }
+    }
+
+    .tooltip {
+        font-size: 73% !important;
+        max-width: 14.4rem !important;
+    }
+
+    .tooltip.align-right::before {
+        left: auto;
+        right: 2px;
+    }
+
+    .tooltip.bottom::before {
+        display: block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0.75rem;
+        content: '';
+        border-top-width: 0;
+        color: #ffffff;
+        border-color: transparent transparent #424141;
+        bottom: 100%;
+    }
+
+
+    @media(max-width: 1024px) {
+        .tooltip {
+            font-size: 73% !important;
+            max-width: 14.4rem !important;
+        }
+
+        .input_tarresponsive{
+            padding-right: 0px;
+        }
+        .guion-intoinputs{
+            margin-left: 6px;
+        }
+        
+        
+    }
+
+
+    @media only screen and (max-width: 639px) {
+        .tooltip {
+            font-size: 73% !important;
+            max-width: 14.4rem !important;
+        }
+
+/*         añadido por Alejandro */
+
+/*        tarjeta texto y switch*/
+        .switch.tarjetaswitch {
+            margin-left: 14.5rem;
+        }
+
+        .input_tarresponsive{
+            padding-right: 0px;
+        }
+        .guion-intoinputs{
+            margin-left: 6px;
+        }
+        /*menus cambiantes*/
+        .padding_indesktop{
+            margin-top: 30px;
+            padding-left: 0.9375rem;
+        }
+        p.numero.centervm {
+            text-align: end;
+        }
+        p.numero.tablenamemonto {
+            text-align: end !important;
+        }
+        p.pseleccionar {
+            text-align: end;
+        }
+        p.tabletransfer.pspecial2 {
+            text-align: right !important;
+        }
+        p.numero.tablenamemonto.card_emp {
+            text-align: right !important;
+            margin-left: 0rem !important;
+        }
+
+        span.MejoraConsultas-acciones.accionesfav {
+            font-size: 25px;
+            margin-left: 30px;
+        }
+
+            /*        flechas*/
+        .slick-prev, .slick-next {
+            margin-left: -1rem !important;
+        }
+
+        /*acciones*/
+        .pd_iconaccion{
+            text-align: right;
+            margin-top: 5px;
+        }
+        .favoptionstag_listado.columns {
+            float: inherit;
+        }
+        .muestraConfirmaDenega {
+            margin-top: 5px;
+        }
+
+        .row.padding_row_res {
+            padding-left: 0.9375rem;
+            padding-right: 0.9375rem;
+        }
+        .logo_responsive{
+            text-align: left;
+        }
+
+/*        comprobante pie de pagina */
+        p.comprobaninfofinal.txtleft.numero {
+            text-align: center;
+        }
+        p.comprobaninfofinal.txtright {
+            text-align: center;
+            margin-left: 38px;
+        }
+
+    }
+
+
+
+/*-------------------------------------------------FIN buscador bel-------------------------------------------*/
+@media only screen and (max-width:390px){
+    .small-2.input_tarresponsive {
+        width: 18.9%;
+    }
+}
+
+
+

@@ -1,0 +1,524 @@
+/*TIPOGRAFIAS*/ 
+@font-face { 
+    font-family: "Lato_Bold";
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato_Regular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "Raleway_Bold";
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato_Regular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url(../fonts/Raleway/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Semibold";
+    src: url(../fonts/Raleway/Lato-Semibold.ttf);
+}
+@font-face {
+    font-family: "Lato-Medium";
+    src: url(../fonts/Raleway/Lato-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
+
+
+/*GENEREAL*/
+/*espacio*/
+.espacio-linea1 {
+    margin-top: 1rem;
+}
+.section-size-privado2 {
+    width: 100%;
+    background-color: white;
+    min-height: calc(105vh - 380px);
+    margin-bottom: 35px;
+    margin-top: 0px;
+}
+
+/*titulo*/
+.tag-title {
+    padding: 30px 16px 0px 16px;
+}
+.titlepage{
+    color:#003865 !important;
+    font-size: 27px;
+    font-family: Lato_Bold !important;
+    margin-bottom: 0px;
+}
+.hr_title{
+    margin: 10px auto 20px auto;
+    border-bottom: 1px solid #424141;
+}
+.Text_subtitle{
+    color: #003865 !important;
+    font-family: Raleway_Bold !important;
+    font-size: 18px;
+}
+
+/*textos labels*/
+.title_infopage{
+    color:#003865 !important;
+    font-size: 27px;
+    font-family: Lato_Bold !important;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+.lbl_info{
+    color: #424141;
+    font-family: Raleway_Bold !important;
+    font-size: 16px;
+}
+.lbl_title{
+    color: #003865 !important;
+    font-family: Raleway_Bold !important;
+    font-size: 14px;
+}
+.lbl_gesticon_text{
+    font-size: 14px !important;
+    text-align: center;
+    font-weight: bold;
+    height: 2rem;
+    color: #424141;
+    font-family: Raleway_Bold !important;
+
+}
+.info_autorizacion {
+    margin-top: 10px;
+    text-align: center !important;
+    font-size: 18px;
+}
+strong.strongcolor{
+    color: #2C8B9E;
+    font-family: Raleway_Bold !important;
+    font-size: 18px;
+}
+.obligatorio h4 {
+    font-size: 16px;
+    color: #424141;
+}
+.text_titlemodalcenter{
+    text-align: center !important;
+}
+
+.txts_leftcentered{
+    text-align: left;
+    padding-left: 20px !important;
+}
+
+/*iconos*/
+.gestion-bb2 i.Gestiones_icon-gestiones-hoja{
+    text-align: center;
+    font-size: 3rem !important;
+
+}
+
+.gestion-bb2 i.Gestiones_icon-gestiones-computadora{
+    text-align: center;
+    font-size: 3rem !important;
+
+}
+
+a.icon_colorgestions {
+    color: #2C8B9E;
+}
+a.icon_colorgestions:hover {
+    color: #00C1D4 !important;
+}
+
+i.Gestiones_icon-gestiones-check {
+    text-align: center;
+    color: #1EC771;
+    font-size: 40px;
+}
+i.Gestiones_icon-gestiones-revision {
+    color: #2C8B9E;
+    font-size: 40px;
+}
+.name_icon{
+    font-family: Raleway-Regular !important;
+    color: #424141;
+    font-size: 18px;
+}
+
+
+/*inputs*/
+input[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+    border-color: #CCCCCC;
+}
+input[type='search'] {
+    font-size: 14px !important;
+    border-color: #C4C4C4;
+    font-family: Lato_Regular!important;
+}
+input:disabled, input[readonly], textarea:disabled, textarea[readonly] {
+    background-color: #f8f8f8;
+    cursor: not-allowed;
+    border-color: #CCCCCC;
+}
+
+/*divs especiales*/
+.gestionbox {
+    text-align: center;
+    padding: 1rem 0.6rem 1rem 0.6rem;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    cursor: pointer;
+}
+.gestionbox:hover   {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    border: 1px solid #00C1D4;
+}
+
+/*radiobuttons*/
+input[type=radio]:not(old)+label>span.radiospecialtd {
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid #003865;
+    margin-right: 5px;
+}
+
+
+/*selectores*/
+select:not([multiple]) {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #707070;
+    border-color: #CCCCCC;
+}
+
+/*espacios*/
+.espacio-linea2 {
+    margin-top: 2rem;
+}
+.espacio-linea3 {
+    margin-top: 1rem;
+}
+.espacio-linea4 {
+    margin-top: 1.57rem;
+}
+.divider-line {
+    border-bottom: 1.5px solid #707070;
+}
+
+/*textos tablas*/
+.table-responsive table tr td {
+    padding-right: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 20px !important;
+}
+.td_texttitle{
+    color: #003865 !important;
+    font-family: Lato_Bold !important;
+    font-size: 12px !important;
+    text-transform: uppercase;
+}
+.td_textnormal{
+    color: #959090 !important;
+    font-family: Lato_Bold !important;
+    font-size: 12px !important;
+}
+.td_txtresalt{
+    color: #2C8B9E !important;
+    text-decoration: underline;
+    font-family: Lato_Bold !important;
+    font-size: 12px !important;
+    cursor: pointer;
+}
+
+.td_txtresalt:hover{
+    color: #00C1D4 !important;
+}
+
+
+
+/*switch*/
+.switch {
+    height: 1rem !important;
+    margin-right: 10px !important;
+}
+label.switch-paddle{
+ border-radius: 28px;
+ width: 40px;
+    height: 20px;
+    margin-top: 6px;
+}
+input:checked ~ .switch-paddle{
+  background: #00c1d4;
+
+}
+.switch-paddle::after {
+    border-radius: 20px !important; 
+    width: 14px;
+    height: 14px;
+    top: 0.19rem;
+}
+input:checked ~ .switch-paddle::after {
+    left: 1.40rem;
+}
+
+/*checks*/
+.miCheckbox span {
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    border: 2px solid #003865 !important;
+}
+.checkright{
+    text-align: -webkit-center;
+}
+.miCheckbox input:checked + span {
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    background-color: #003865 !important;
+}
+/*alertas*/
+/*exito*/
+.alert-box.success {
+    font-size: 14px;
+}
+/*info*/
+.alert-box.callout.info.textinfo {
+    background-color: #003865;
+}
+.alert-box {
+    background-color: #003865;
+}
+
+/*errors*/
+small {
+    color: #f23d53 !important;
+    font-family: Lato_Regular !important;
+    font-weight: 100;
+}
+.form-error {
+    color: #f23d53 !important;
+}
+.is-invalid-input:not(:focus) {
+    border-color: #f23d53 !important;
+    background-color: #ffffff;
+    margin: 0 0 0rem;
+}
+
+.lbl_title.is-invalid-label {
+    color: #f23d53 !important;
+}
+
+/*bototes*/
+.more_space_boton {
+    padding: 1rem 1rem 1.0625rem 1rem !important;
+}
+button.more_space_boton2 {
+    padding: 1rem 0.5rem 1.0625rem 0.5rem !important;
+}
+
+
+
+/*calendarios*/
+i.glyphicon.Gestiones_icon-gestiones-calendario {
+    font-size: 16px;
+    margin-top: 2px;
+    color: #003865;
+}
+.inner-addon {
+  position: relative;
+}
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 34px;
+  pointer-events: none;
+}
+.right-addon .glyphicon {
+  right: -6px;
+}
+.right-addon input {
+  padding-right: 30px;
+}
+.datepicker thead, tbody, tfoot {
+    border: 0px solid #f1f1f1;
+    background-color: #fefefe;
+    font-family: Lato-Regular;
+}
+.datepicker span {
+    font-size: 12px;
+    color: black;
+    font-family: Lato-Regular !important;
+}
+
+
+/*MODALES*/
+div#modal_asignarpermisos {
+    width: auto;
+}
+
+h1.txt_modal_title {
+    margin-top: 35px;
+    color: #003865;
+    font-size: 27px;
+    text-align: center;
+}
+h1.txt_modal_title_conf{
+    font-family: Raleway_Bold !important;
+    font-size: 25px;
+    color: #2C8B9E;
+    font-weight: bold;
+}
+label.txt_info {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+label.txt_infodata{
+    color: #666666;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 15px; 
+    margin-bottom:15px;
+
+}
+
+/*imagenes*/
+.img_info {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+
+/*Media QUERYS*/
+
+/*MOVIL*/
+@media (max-width:640px){
+/*modales*/
+div#modalConfirmacion {
+    width: 95%;
+    margin-left: 12px;
+    min-height: auto;
+    height: auto;
+}
+
+div#modal_asignarpermisos {
+    width: 95%;
+    margin-left: 12px;
+    min-height: auto !important;
+    height: auto;
+/*    margin-top: 30px;*/
+}
+
+
+/*-----------------------------------------*/
+/*   switch */
+    .switch {
+        height: 1rem !important;
+        margin-right: 0px !important;
+    }
+
+/*    checks*/
+
+    .miCheckbox.checkright span {
+        margin-left: auto;
+        text-align: right;
+    }
+     /*margen de tabla en responsive*/
+    .table-responsive table tbody tr:nth-child(odd) {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+    }
+
+    .table-responsive table tbody tr:nth-child(even) {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+    }
+
+    .td_texttitle{
+        text-align: right !important;
+    }
+    .td_textnormal{
+        text-align: right !important;
+    }
+    .txt_paddingTop{
+        margin-top: 20px !important;
+    }
+    .txts_leftcentered{
+        text-align: right;
+        padding-left: 0px !important;
+    }
+    .td_textnormal.txt_paddingTop.txts_leftcentered {
+        text-align: justify !important;
+    }
+    
+    p.td_textnormal.txts_leftcentered.txt_justifyend {
+        text-align: end !important;
+        margin-top: 20px !important;
+    }
+
+
+    /*  DESPLIEGA EL CALENDARIO DIARIO  */
+    .datepicker table tr {
+        border-bottom: 0px solid #fff;
+        display: flex;
+        justify-content: space-between;
+    }   
+    .datepicker table thead {
+        position: unset;
+    }
+    .datepicker tbody tr:nth-child(even) {
+        background-color: #fff;
+    }
+
+    /*DESPLIEGA EL CALENDARIO MENSUAL*/
+  .datepicker-months td{
+    text-align: center;
+    width: 185px;
+    height: 120px;
+    border: 0;
+  }
+  .datepicker-months table tr td span {
+    display: block;
+    width: 23%;
+    height: 38px;
+    line-height: 36px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+}
+ 
+/*DESPLIEGA EL CALENDARIO ANUAL*/
+  .datepicker-years td{
+    text-align: center;
+    width: 185px;
+    height: 120px;
+    border: 0;
+  }
+  .datepicker-years table tr td span {
+    display: block;
+    width: 23%;
+    height: 38px;
+    line-height: 36px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+  }
+
+
+}

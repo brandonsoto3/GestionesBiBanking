@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Lato_Bold";
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Lato_Regular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+
+.background {
+    height: 92%;
+    width: 100%;
+    background-image: url(../img/FondoDesktop.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    position: fixed;
+    z-index: -2;
+    transform: translate3d(0, 0, 0);
+}
+
+h2.h2homepublico {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 36px !important;
+    font-family: Lato_Bold !important;
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+.bordeform {
+    margin-top: 155px;
+    border: solid 2px #4D899C;
+    border-radius: 20px 0px;
+    padding-top: 70px !important;
+    padding-bottom: 94px !important;
+    background-color: #2C8B9E;
+}
+
+.frame {
+    margin-top: 314px;
+    border: solid 2px #4D899C;
+    border-radius: 20px 0px;
+    padding-top: 48px !important;
+    padding-bottom: 16px !important;
+    background-color: #2C8B9E;
+    width: 500px;
+    height: 225px;
+}
+
+.spanbold {
+    font-family: Lato_Bold !important;
+    font-weight: bolder !important;
+}
+
+.ptextalert {
+    font-family: Lato_Regular !important;
+    text-align: left;
+    margin: 0px -30px 0px -5px;
+}
+
+
+.alert-box.callout {
+    color: #fefefe;
+    font-weight: 100 !important;
+    margin-bottom: 44px;
+}
+
+.iconalert-icon-alerta-error:before {
+    content: "\63";
+    position: absolute;
+    padding-top: 14px;
+    margin-left: -10px;
+  }
+
+
+.verticalLine {
+    border-right: solid 1px #424141 !important;
+}
+
+
+.infoicon {
+    width: 38px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .frame {
+        width: 500px;
+        height: 294px;
+        padding-top: 92px !important;
+    }
+
+
+}
+
+
+
+/* Responsive small tablet */
+
+@media (max-width: 856px) and (min-width: 640px) {
+
+    .background {
+        height: 92%;
+        width: 100%;
+        background-image: url(../img/FondoTablet.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        position: fixed;
+        z-index: -2;
+        transform: translate3d(0, 0, 0);
+    }
+
+}
+
+
+
+
+/* Responsive movil */
+
+@media (max-width: 639px) {
+
+    h2.h2homepublico {
+        font-size: 24px !important;
+        margin-bottom: 0px;
+    }
+
+    .g_recaptcha {
+        transform: scale(1.2);
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .ptextalert {
+        font-size: 10px !important;
+    }
+
+    .alert-box.callout {
+        margin-bottom: 30px;
+    }
+
+    .bordeform {
+        margin-top: 40px;
+        border-radius: 20px 0px;
+        padding-top: 72px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .frame {
+        width: 328px;
+        height: 232px;
+        padding-top: 60px !important;
+        margin-top: 180px;
+    }
+
+    .verticalLine {
+        border-right: solid 0px #424141 !important;
+    }
+
+    .background {
+        height: 80%;
+        width: 100%;
+        background-image: url(../img/FondoMobile.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        position: fixed;
+        z-index: -2;
+        transform: translate3d(0, 0, 0);
+    }
+
+
+}

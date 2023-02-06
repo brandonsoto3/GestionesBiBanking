@@ -1,0 +1,21 @@
+.privado .icon- a {
+    
+    color: #2C8B9E;
+    
+}
+.privado h2 a {
+    color: #2C8B9E;
+    
+}
+.privado a:hover {
+    color: #00C1D4;
+    transition: .3s;
+}
+.privado h1 {
+    color: #003865;
+    
+}
+.menu-lateral1 .submenu-admin li:hover {
+    color: #00C1D4;
+    transition: .3s;
+}

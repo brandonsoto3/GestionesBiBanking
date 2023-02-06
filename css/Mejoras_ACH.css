@@ -1,0 +1,1218 @@
+/*TIPOGRAFIAS*/ 
+@font-face { 
+    font-family: "Lato_Bold";
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato_Regular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "Raleway_Bold";
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato_Regular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url(../fonts/Raleway/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Semibold";
+    src: url(../fonts/Raleway/Lato-Semibold.ttf);
+}
+@font-face {
+    font-family: "Lato-Medium";
+    src: url(../fonts/Raleway/Lato-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
+/*PAGINA 3 y 4*/
+
+/*titulos*/
+.privado h2 {
+    font-size: 27px;
+    margin-bottom: 0px;
+    font-family: Lato_Bold !important;
+}
+.h3ach {
+    font-size: 18px;
+    font-family: lato-regular!important;
+}
+.h3achadd {
+    margin-top: 5px;
+}
+h3.h3achadd:hover {
+    color: #00C1D4 !important;
+}
+h3.h3ach1 {
+    font-size: 20.8px !important;
+    color: #2C8B9E !important;
+    font-family: Lato_bold !important;
+}
+hr {
+    border-bottom: 1.5px solid #707070;
+}
+.upload_linktext{
+    font-size: 14px !important;
+}
+label {
+    color: #5A5A5A;
+    font-weight: 600;
+}
+.inputtext_tittle{
+    color: #003865 ;
+    font-family: Raleway_Bold !important;
+}
+/*errors*/
+label.inputtext_tittle.is-invalid-label {
+    color: #F23D53!important;
+}
+.is-invalid-label {
+    color: #F23D53!important;
+}
+.is-invalid-input:not(:focus) {
+    border-color: #F23D53!important;
+}
+.form-error {
+    color: #F23D53!important;
+}
+
+label#chooseFile_textname {
+    font-size: 16px;
+}
+/*titulo carga*/
+label.load_info_process {
+    text-align: right;
+    color: #959090;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: -8px;
+}
+/*Alert New Color*/
+.alert-box {
+    background-color: #003865;
+}
+/*bototnes*/
+button, .button.confirmar.modalconfirmbutton {
+    font-family: Raleway_Bold !important;
+}
+
+button.update_procces_button{
+    background: transparent;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px;
+    color: #2C8B9E !important; 
+    width: 100%;
+}
+button.update_procces_button:hover{
+    color: white !important;
+}
+button.update_procces_button[disabled]:hover{
+    background: transparent;
+    color: #2C8B9E !important; 
+    
+}
+
+button.update_procces_button[disabled]{
+    background: transparent;
+    border: 1px solid #CCCCCC;
+}   
+
+
+/*MOSTRAR ENTRADAS ---  selector de mostrar*/
+select.miselector4.modalselector.selectortexto {
+    width: auto;
+    height: 2rem;
+}
+.table-responsive table tr td p.textlist {
+    margin: 0px!important;
+    color: #959090 !important;
+    font-weight: bold !important;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*tablas*/
+.table-responsive table tbody tr:nth-child(odd) {
+    background-color: #ffffff !important;
+}
+.table-responsive table thead tr th {
+    font-family: Raleway-Medium !important;
+    font-size: 12px;
+    text-transform: inherit;
+}
+.table_linedivisor {
+    border-right: 1px solid #D1D1D1;
+}
+.margin-left-text{
+    margin-left: 18px !important;
+}
+tr.tablecuenta:hover {
+    border-right:solid 1px #909090!important;
+    border-top: solid 1.01px #909090!important;
+    border-bottom: solid 1px #909090!important;
+    border-left: solid 1px #909090!important;
+}
+
+/*MENU DESPLEGADO*/
+td.accordion-item.is-active {
+    padding: 0px !important;
+}
+.table-responsive table tr td.accordion-item{
+    padding: 0px !important;
+}
+.table-responsive table tr td p.titlemenudesp {
+    font-weight: 100 !important;
+    font-size: 16px;
+    font-family: Lato_Bold !important;
+}
+.table-responsive table tr td p.textoemenudesp {
+    text-align: left;
+    font-family: Lato_Bold !important;
+    color: #959090 !important;
+    font-size: 16px!important;
+    font-weight: 100!important;
+}
+
+/*detallado informe*/
+.table-responsive table tr td p.titlulodatos_deteallados{
+    text-align: left;
+    font-family: Lato_Bold !important;
+    color: #959090 !important;
+    font-size: 16px!important;
+    font-weight: 100!important;
+}
+.table-responsive table tr td p.datos_deteallados{
+    text-align: left;
+    font-family: lato-regular!important;
+    color: #003865 !important;
+    font-size: 16px!important;
+    font-weight: 100!important;
+}
+
+
+/*datos_deteallados*/
+.table-responsive table tr td p.tabletransfer.numero{
+        font-size: 16px !important;
+        text-align: center;
+    }
+a.accordion-title.desplegado {
+    font-size: 18px;
+}
+
+/*table text*/
+    .table-responsive table tr td p.tablenametitle.numero{
+        color: #003865 !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        font-size: 14px;
+        font-family: Lato_Bold !important;
+    }
+    .table-responsive table tr td p.tablenametext.numero{
+        color: #959090 !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        font-size: 14px;
+        font-family: Lato_Bold !important;
+    }
+    .table-responsive table tr td p.tablename.td_paddingnumero {
+        font-size: 14px;
+        font-family: Lato_Bold !important;
+    }
+
+    .table-responsive table tr td p.tablenametext_2.numero{
+        color: #959090 !important;
+        font-weight: bold !important;
+        text-align: center !important;
+        font-size: 14px;
+    }
+    .table-responsive table tr td u.consult_bank {
+    color: #2C8B9E !important;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+
+/*Placeholders de inputs*/
+.color_placeholder::placeholder{
+    color:#003865 !important;
+}
+
+/*Cuadro de porcentaje*/
+.border_uploadbox{
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+}
+
+.border_uploadbox_info{
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+}
+
+
+/*iconos de carga de porcentaje*/
+.ach-iconos_ach_agregararchivo.icon_bar {
+    color: #757575;
+    font-size: 20px;
+    margin: 25px;
+}
+.detalle_icon_info {
+    font-size: 18px;
+    margin-right: 16px;
+}
+i.ach-iconos_ach_alerta.detalle_icon_info {
+    font-size: 20px;
+}
+i.IconAch.ach-iconos_ach_check.iconcheck.iconoaprovado {
+    margin-left: 1rem;
+    font-size: 20px;
+}
+i.ach-iconos_ach_alerta.detalle_icon_info.ach_alert_marginleft{
+    margin-left: 17px;
+}
+i.ach-iconos_ach_eliminar.detalle_icon_info.ach_error_marginleft {
+    margin-left: 19px;
+}
+
+i.ach-iconos_ach_alerta.alert {
+    font-size: 20px;
+}
+i.ach-iconos_ach_eliminar.detalle_icon_info {
+    color: #F23D53;
+    font-size: 16px;
+}
+i.ach-iconos_ach_eliminar.denegade {
+    color: #F23D53;
+    font-size: 20px;
+}
+.icon_ach_elimiar{
+    font-size: 14px; 
+    color: #959090;
+}
+/*icono de calendario*/
+i.IconAch.glyphicon2.ach-iconos_ach_calendario1 {
+    padding-left: 0px !important;
+    padding-right: 26px !important;
+    padding-top: 37px;
+    padding-bottom: 0px;
+}
+.ach-iconos_ach_recargar:before {
+    content: "\e900";
+/*    color: #2c8b9e !important;*/
+}
+/*flechas desplegable*/
+.is-active > .accordion-title::before {
+    content: "▲";
+    font-size: 15px;
+}
+.accordion-title::before {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    margin-top: -0.5rem;
+    content: "▼";
+    font-size: 15px;
+}
+i.IconAch.icon.ach-iconos_ach_documento-en-carga.uploadpdf {
+    font-size: 32px !important;
+}
+
+/*inputs*/
+input[type="text"] {
+    font-size: 14px;
+    color: #003865;
+}
+input[type="email"] {
+    font-size: 14px !important;
+    color: #003865 !important;
+}
+/*Radiobuttons*/
+input[type=checkbox]:not(old) + label > span, input[type=radio]:not(old) + label > span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid #1f3366;
+    background: #ffffff;
+    margin-right: 6px;
+    padding-left: 0px;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+/*Checks*/
+.miCheckbox span {
+    width: 14px;
+    height: 14px;
+    display: block;
+    content: '';
+    background: #fff;
+    border: 2px solid #1f3366;
+    padding: 2px;
+    margin-right: -20px;
+    text-align: center;
+}
+.miCheckbox span.sinlimitecheck {
+    width: 20px;
+    height: 20px;
+}
+
+/*sinlimitecheck*/
+label.miCheckbox.thcheckcenter {
+    margin-left: 32px !important;
+}
+label.miCheckbox.checkcenter {
+    margin-left: 25px !important;
+    margin-top: 0px;
+
+}
+p.tipodemonto {
+color: #1f3366;
+margin-left: 24px !important;
+width: 700% !important;
+margin-top: -5px !important;
+}
+/*Exportar*/
+label.editmodal.exporttext {
+    margin-top: 13px;
+}
+
+/*barra*/
+.cargarmargin1{
+  margin-top: 1rem;
+  margin-left: 1rem!important;
+}
+
+#progress {
+    background: #DDDDDD;
+    border-radius: 13px;
+    width:auto;
+    height: 5px;
+    margin-top: 10px;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: #00C1D4;
+    width: 20%;
+    height: 100%;
+    border-radius: 9px;
+}
+/*barra completa*/
+#progress2 {
+    background: #DDDDDD;
+    border-radius: 13px;
+    width:auto;
+    height: 5px;
+    margin-top: 12px;
+}
+
+#progress2:after {
+    content: '';
+    display: block;
+    background: #00C1D4;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+/*barra reload*/
+#progress3 {
+    background: #DDDDDD;
+    border-radius: 13px;
+    width:auto;
+    height: 5px;
+    margin-top: 12px;
+}
+
+#progress3:after {
+    content: '';
+    display: block;
+    background: #00C1D4;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+label.info_bar_carga {
+    color: #28C771;
+}
+label.info_bar_reload {
+    color: #8C8C8C;
+    font-family: Lato_Bold !important;
+    font-size: 16px;
+}
+.td_bar_padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.td_update_size_right{
+    padding-right: 0px;
+}
+.td_update_size_left{
+    padding-left: 0px;
+}
+
+/*Tablas Padding*/
+.table-responsive table tr td.td_padding {
+    padding: 15px !important;
+}
+/*menu desplegable cita padding en inputs e icono*/
+.input_mtop{
+    margin-top: 5px;
+}
+i.IconAch.glyphicon2.ach-iconos_ach_calendario1.icon_mtop{
+    padding-top: 42px;
+}
+
+
+/*porcetaje de carga*/
+p.porcentaje_text.numero {
+    font-size: 16px;
+    text-align: left;
+    color: #959090!important;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: -8px;
+    font-family: Lato_Bold !important;
+}
+p.porcentaje_text.margin_porc_left.numero {    
+    margin-left: -12px !important;
+
+}
+.update_process_bar{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    font-family: Raleway_Bold !important;
+}
+
+/*INFORME/RESUMEN DE SUBIDA*/
+.padding_row_res{
+    padding-right: 0.9375rem; 
+    padding-left: 0.9375rem;
+
+}
+.spaciado_row{
+    margin-top: 10px;
+}
+p.Title_info_txt {
+    color: #003865 !important;
+    font-family: Lato_Bold !important;
+    font-size: 16px;
+    margin-bottom:0px ;
+}
+i.ach-iconos_ach_check.aprovee {
+    color: #1EC771 !important;
+    font-size: 20px;
+}
+/*pagineo*/
+.info_Table_text {
+    color: #A4A4A4;
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: lato-regular !important;
+    font-weight: 200 !important;
+}
+p.data_info_txt.numero {
+    color: #959090;
+/*    margin-left: 15px;*/
+    font-size: 14px;
+    font-family: lato-regular !important;
+    font-weight: 200 !important;
+     margin-bottom:0px ;
+}
+p.data_info_txt_error.numero {
+    color: #F23D53;
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: lato-regular !important;
+    font-weight: 200 !important;
+     margin-bottom:0px ;
+}
+
+
+/*titulos de las tablas de informacion de archivo subido*/
+h3.table_info_name {
+    color: #8C8C8C;
+    font-size: 16px;
+    margin-top: 12PX;
+    line-height: 1;
+    font-family: Lato_Bold !important;
+}
+/*tooltip*/
+span.ach-iconos_ach_informacion {
+    width: 10%;
+    transition: background-color 300ms ease-out;
+    vertical-align: middle;
+    background-color: transparent !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+span.ach-iconos_ach_tooltip{
+    width: 10%;
+    transition: background-color 300ms ease-out;
+    vertical-align: middle;
+    background-color: transparent !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #003865 !important;
+}
+span.ach-iconos_ach_tooltip.tooltip_icon_try{
+    color: #2C8B9E !important;
+}
+.tooltip .tooltiptext {
+    background-color: #00C1D4 !important;
+}
+
+.tooltip .tooltiptext::after {
+    border-color: #00C1D4 transparent transparent transparent !important;
+}
+
+    .tooltip{position: relative;}
+
+
+
+/*intentos de revalidacion*/
+label.intentos_label.numero {
+    color: #2C8B9E;
+    margin-top: -15px;
+}
+.button_dissable{
+    color: #8C8C8C !important;
+    background-color:  #D9D8D6 !important;
+    box-shadow: 0 0 0 2px #D9D8D6  inset !important;
+    curs
+}
+
+/*cuadros de seleccion de cuentas*/
+.backcolortd {
+    border: 1px solid #8c8c8c;
+}
+.borderhover:hover {
+    border: 1.5px solid #00C1D4;
+}
+
+
+/*Barra de busqueda pagina 71*/
+input.numero.menuselectivo {
+    width: 127%;
+}
+input.inputtransparent{
+    background: transparent;
+}
+input.inputcuentaname::placeholder{
+    color: #003865 !important;
+    font-weight: bold !important;
+}
+.miselector3 {
+    margin-left: 5px !important;
+    height: 1.5625rem !important;
+    font-family: 'Lato-Regular' !important;
+    width: 120% !important;
+}
+select:not([multiple]) {
+    color: #909090;
+    font-size: 14px;
+    font-family: Lato-Regular !important;
+}
+select.miselector.modalselector {
+    height: 2.4375rem !important;
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 1.5rem !important;
+    margin-top: 0px;
+}
+select.selection_options{
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+#submenu_longitudfija{
+    display: block;
+}
+#submenu_separadopor{
+    display: none;
+}
+
+/*desplegable*/
+    td.tdbackground.td_desplegable_padding{
+        padding-left: 25px!important;
+    }
+/*botones paddings*/
+    .boton_margin_top{
+        margin-top: 20px;
+    }
+     button, .button.more_space_boton_2{
+        padding: 1rem 1rem 1.0625rem 1rem !important;
+    }
+    button, .button.more_space_boton_3{
+        padding: 1rem 0.5rem 1.0625rem 0.5rem !important;
+    }
+
+/*tooltip de intentos*/
+.tooltip_icon_try{
+    position: relative;
+    margin-top:-50px; 
+    margin-left:85px;
+    color: #2C8B9E;;
+}
+
+/*horarios label*/
+label.editmodal.mashorarios {
+    text-align: left;
+    color: #2C8B9E;
+    font-family: Lato-Regular !important;
+}
+label.editmodal.positiontdleft {
+    text-align: left;
+    color: #003865;
+    font-family: Raleway_Bold !important;
+}
+
+
+/* ------------------------------------------MODALES---------------------------------------------*/
+/*cerrar modal X*/
+.close-button.medium, .close-button {
+    font-size: 2.5em;
+}
+/* +++++++++++++++++++ DESKTOP +++++++++++++++++++++ */
+.table-responsive table tr td p.tablename.numero {
+    font-family: Lato_Bold !important;
+    font-size: 12px;
+}
+/*MODAL CUENTA ACREDITAR*/
+.table-responsive table tr td p.tablenamenumber{
+    color: #959090 !important;
+    font-size: 14px;
+    text-align: left;
+    font-family: Lato_Bold !important;
+    /*padding: 15px;*/
+}
+.table-responsive table tr td p.tablenamenumber.positiontdcenter.numero {
+     text-align: center !important;
+}
+
+.text_center_position{
+    text-align: center !important;
+}
+
+
+/*MODAL DE INFORMACION HORARIA*/
+/*tamaño*/
+div#modal_infohoraria {
+
+    width: auto;
+}
+
+/*icono*/ 
+/*temporal*/
+i.ach-iconos_ach_alerta{
+    color: #FFB81C;
+    font-size: 40px;
+
+}
+i.ach-iconos_ach_confirmacion{
+    font-size: 40px;
+    color: #1EC771 !important;
+}
+
+i.ach-iconos_ach_alerta{
+    font-size: 40px;
+}
+I.ach-iconos_ach_error{
+    font-size: 40px;
+    color: #F23D53;
+}
+
+
+/*titulo*/
+h1.modal_tittle{
+    color: #003865;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: Raleway_Bold !important;
+}
+p.modal_text{
+    font-family: Raleway-Medium !important;
+    color: #707070;
+    font-size: 18px;
+    text-align: center;
+}
+p.modal_text_2{
+    font-family: Raleway-Regular !important;
+    color: #707070;
+    font-size: 18px;
+    text-align: center;
+}
+
+li.modal_text_inciso{
+    font-family: Lato-Medium !important;
+    color: #8C8C8C;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+i.IconAch.icon.ach-iconos_ach_agregararchivo.uploadpdf {
+    font-size: 35px;
+}
+
+
+/*MODAL Cuenta Verificada*/
+/*tamaño*/
+div#modal_cuentaverificada {
+    width: auto;
+}
+/*textos de datos*/
+p.comprobantesubtitle{
+    font-size: 14px;
+    text-align: left;
+    color: #003865 !important;
+    font-family: Raleway_Bold !important;
+    margin-bottom: 0px;
+}
+p.comprobanteinfo {
+    font-size: 16px;
+    text-align: left;
+    color: #707070!important;
+    font-family: Lato_Bold !important;
+    margin-bottom: 0px;
+}
+
+/*MODAL Cuenta Invalida*/
+/*tamaño*/
+div#modal_cuentainvalida {
+    width: auto;
+}
+
+/*MODAL Cuenta Alerta*/
+/*tamaño*/
+div#modal_cuentaalerta {
+    width: auto;
+}
+
+/*MODAL Cancelar*/
+/*tamaño*/
+div#modal_cancelar {
+    width: auto;
+}
+/*pagieno modales    */
+    .text-position_modal{
+        text-align: right;
+    }
+
+
+/*plugin tamaño y colores*/
+table.dataTable thead>tr>th.sorting{
+    padding-right: 26px !important;
+    text-transform: inherit;
+}
+i.IconAch.ach-iconos_ach_editar {
+    margin-left: 0.5rem;
+}
+
+/* ----------------------------- MEDIAQUERYS RESPONSIVE ---------------------------------------------- */
+
+/* +++++++++++++++++++ TABLET +++++++++++++++++++++ */
+@media (max-width: 1024px) and (min-width: 640px){
+
+    /*MODAL DE INFORMACION HORARIA*/
+    div#modal_infohoraria {
+        width: 90%;
+    }
+    /*MODAL Cuenta Verificada*/
+    div#modal_cuentaverificada {
+        width: 90%;
+    }
+    /*MODAL Cuenta Invalida*/
+    div#modal_cuentainvalida {
+         width: 90%;
+    }
+
+    /*MODAL Cuenta Alerta*/
+    div#modal_cuentaalerta {
+         width: 90%;
+    }
+    /*MODAL Cancelar*/
+    /*tamaño*/
+    div#modal_cancelar {
+         width: 90%;
+    }
+    button, .button.more_space_boton{
+        padding: 1rem 1rem 1.0625rem 1rem !important;
+    }
+    /*pagieno modales    */
+    .text-position_modal{
+        text-align: center;
+    }
+
+    /* links de carga de archivo   */
+    h3.h3achadd.agregarbene.link_consult_info {
+        text-align: left;
+    }
+    /*progres*/
+    p.porcentaje_text.numero {
+        font-size: 12px;
+    }
+    .update_process_bar {
+        font-size: 12px;
+    }
+
+    p.porcentaje_text.numero {
+        font-size: 11px;
+    }
+    .update_process_bar {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+     button.update_procces_button {
+        padding: 1rem 10px 18px 10px !important;
+    }
+
+    .ach-iconos_ach_agregararchivo.icon_bar {
+        margin: 15px !important;
+    }
+
+}
+
+
+@media (max-width: 675px) and (min-width: 640px){
+    p.porcentaje_text.numero {
+        font-size: 11px !important;
+    }
+    .update_process_bar {
+        font-size: 11px;
+        margin-bottom: 3px;
+    }
+
+}
+
+
+
+/* +++++++++++++++++++ MOBILE +++++++++++++++++++++ */
+
+@media (max-width: 639px){
+    td.tdbackground.td_desplegable_padding{
+        padding-left: 0.5rem !important;
+    }
+    p.titlemenuoption.title_large{
+        padding: 0px;
+    }
+    .padding_for_small_link{
+        padding: 0px;
+    }
+    .padding_for_small_link_2{
+        padding-right: 0px;
+    }
+    .table-responsive table tr td p.tablename.numero{
+        text-align: end;
+    }
+    /* check   sin limite*/
+    label.miCheckbox.checkmonto2 {
+        margin-top: 10px !important;
+    }
+
+    /* iconos resumen*/
+    i.IconAch.ach-iconos_ach_check.iconcheck.iconoaprovado {
+        margin-left: 0rem;
+    }
+    /* tablas desplegables */
+    .margin-left-text{
+        margin-left: 0px !important;
+    }
+
+    /*Texto del menu desplegable*/
+    .table-responsive table tr td p.textoemenudesp {
+        text-align: left;
+    }
+
+    /*table text modal*/
+    .table-responsive table tr td p.tablenametitle.numero{
+        text-align: right !important;
+    }
+    .table-responsive table tr td p.tablenametext.numero{
+       text-align: right !important;
+    }
+
+    .table-responsive table tr td p.tablenametext_2.numero{
+        text-align: right !important;
+    }
+    
+    /*MODAL CUENTAS*/
+    .reveal#modalcuentas {
+        width: 90% !important;
+        height: auto !important; 
+        min-height: auto !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*MODAL CUENTA ACREDITAR*/
+    div#modalcuentasacreditar {
+        width: 90% !important;
+        height: auto;
+        min-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .table-responsive table tr td p.tablenamenumber.positiontdcenter.numero {
+         text-align: right !important;
+    }
+    .table-responsive table tr td p.tabletransfer.numero {
+        text-align: right;
+    }
+    .table-responsive table tr td p.textlist {
+        text-align: right;
+    }
+    p.tablenamenumber.text_center_position {
+        text-align: right !important;
+    }
+
+    /*MODAL DE INFORMACION HORARIA*/
+    div#modal_infohoraria {
+        width: 90%;
+        height: auto;
+        min-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*MODAL Cuenta Verificada*/
+    div#modal_cuentaverificada {
+        width: 90%;
+        height: auto;
+        min-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*MODAL Cuenta Invalida*/
+    div#modal_cuentainvalida {
+        width: 90%;
+        height: auto;
+        min-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*MODAL Cuenta Alerta*/
+    div#modal_cuentaalerta {
+        width: 90%;
+        height: auto;
+        min-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*MODAL Cancelar*/
+    /*tamaño*/
+    div#modal_cancelar {
+        width: 90%;
+        height: auto;
+        min-height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div#modalbeneficiariosfallidos {
+        width: 95%;
+        height: auto;
+        min-height: auto !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*pagieno modales    */
+    .text-position_modal{
+        text-align: center;
+    }
+
+    /* MODAL ELIMINAR BENEFICIAIRO    */
+    .reveal#modaleliminarbeneficario {
+        width: 90%;
+        height: auto;
+        min-height: auto !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /* CONTENIDO*/
+    /* iconos*/
+    tr.tr_acredi_debi_Select{
+        border: 1px solid #8c8c8c;
+    }
+    i.glyphicon2.icontable.ach-iconos_ach_dirigir {
+        margin-top: -7px;
+    }
+    
+    /* CHECKS*/
+    label.miCheckbox.thcheckcenter {
+        margin-left: 0px !important;
+    }
+    label.miCheckbox.checkcenter {
+        margin-left: 0px !important;
+    }
+    /* Mostrar y buscar*/
+    input.bordersearch {
+        margin-top: 25px;
+    }
+    select.miselector4.modalselector.selectortexto.numero {
+        margin-bottom: 0px;
+    }
+   /* tr {
+        border: 1px solid #8c8c8c !important ;
+    }*/
+    .table-responsive table tr td {
+        padding-right: 0.5rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+        padding-left: 0.5rem !important;
+        font-size: 0.7rem;
+    }
+
+    .txt_left_mobile{
+        text-align: left !important;
+    }
+
+    input.numero.menuselectivo {
+        width: 100% !important;
+    }
+
+    /* Exportar button*/
+    .button_export{
+        margin-top: 20px;
+    }
+
+    /*    tooltips*/
+    span.ach-iconos_ach_informacion.has-tip {
+        margin-left: -13px;
+    }
+    span.ach-iconos_ach_tooltip {
+    width: 6%;
+    }
+    /*pagina 35 icon table-responsive*/
+    .icon_resumen_responsive {
+        margin-left: -25px;
+    }
+    i.ach-iconos_ach_alerta.detalle_icon_info {
+        font-size: 20px;
+        margin:0px;
+    }
+    .detalle_icon_info {
+        font-size: 18px;
+        margin:0px;
+    }
+    i.ach-iconos_ach_eliminar.detalle_icon_info {
+        color: #F23D53;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .table-responsive table tr td p.tablenamenumber {
+    text-align: right;
+    }
+
+    /*tooltip de intentos*/
+    .tooltip_icon_try{
+        position: relative;
+        margin-top:-50px; 
+        margin-left:85px !important;
+        color: #2C8B9E;;
+    }
+
+    /*subtitle padding*/
+    .subtitle_responsive{
+        margin-top: 20px;
+    }
+    .td_bar_padding{
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+    }
+    .td_update_size_right{
+        padding-right: 0.9375rem;
+    }
+    .td_update_size_left{
+        padding-left: 0.9375rem;
+    }
+    /*textos barra de carga    */
+    p.porcentaje_text.numero {
+        font-size: 12px;
+        margin-left: -16px;
+    }
+    .update_process_bar{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .ach-iconos_ach_agregararchivo.icon_bar {
+        margin: 9px;
+    }
+    /* detallado de tabla  */
+   td.marco.td_details_padding{
+            padding: 0.5rem 2.5rem !important;
+    }
+    td.marcod.td_details_padding{
+            padding: 0.5rem 2.5rem !important;
+    }
+    .witdh_calendar_tablet{
+        padding-left: 0px;
+    }
+    a.accordion-title.desplegado {
+        padding-left: 15px;
+
+    }
+      /*pagina 71*/
+    i.infoiconbeneficio {
+        margin-left: -5px !important;
+    }
+    .download_plant{
+        text-align: center !important ;
+        font-size: 10px !important;
+    }
+    h3.h3achadd.agregarbene {
+    text-align: RIGHT;
+    font-size: 10px !important;
+}
+    .title_optional{
+        font-size: 19px !important;
+    }
+    i.IconAchmenu {
+        color: grey;
+        font-size: 20px;
+    }
+    /*    sin limite*/
+
+    p.porcentaje_text.margin_porc_left.numero {
+        margin-left: -12px !important;
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 390px){
+
+    span.ach-iconos_ach_informacion.has-tip {
+        margin-left: -7 px;
+    }
+
+    /*texto de barra de carga*/
+    p.porcentaje_text.numero {
+        margin-top: -12px;
+    }
+    #progress2 {
+        margin-top: 8px;
+    }
+    
+    /*iconos de alerta*/
+    i.iconalert-icon-alerta-error {
+        padding-top: 10px !IMPORTANT;
+    }
+    .iconalert-icon-alerta-success {
+        padding-top: 10px !IMPORTANT;
+    }
+/*   textos pag71 */
+
+}

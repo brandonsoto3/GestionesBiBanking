@@ -1,0 +1,78 @@
+.lateral-size {
+    border-radius: 2rem 0rem 0rem 0rem;
+}
+
+.miCheckbox span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.na-espacio1 {
+    margin-top: 1rem;
+}
+
+
+.na-espacio2 {
+    margin-top: 2rem;
+}
+
+.na-espacio3 {
+    margin-top: 3rem;
+}
+
+.na-espacio4 {
+    margin-top: 3rem;
+}
+
+.na-comentario [type='text'] {
+    font-size: 12px;
+    margin: 0px;
+}
+
+.na-paginacion .pagination a, .pagination button {
+    color: #999999;
+    font-weight: normal;
+}
+
+.na-paginacion li {
+    font-weight: normal !important;
+}
+
+hr {
+    max-width: 100%;
+}
+
+.na-comentario span {
+    font-weight: 300;
+    text-align: right;
+    color: black;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    padding-right: 0.5rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+    padding-left: 0.5rem !important;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.miCheckbox input:disabled + span {
+    background: #C4C4C4;
+    border-color: #C4C4C4;
+}
+
+.na-comentario .columns{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+@media (max-width: 639px){
+.miCheckbox span {
+    margin-left: auto;
+    margin-right: inherit;
+    }
+    .na-espacio4 {
+    margin-top: 0rem;
+}
+
+}

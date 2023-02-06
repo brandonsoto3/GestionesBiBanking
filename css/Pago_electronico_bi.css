@@ -1,0 +1,2349 @@
+/*Font Family*/
+@font-face {
+    font-family: "Lato_Bold";
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Lato_Regular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway_Bold";
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+
+
+/* ------------------------------------ CONTENIDO GENERICO --------------------------------------*/
+
+/**/
+
+.ocultaOpciones {
+    display: none;
+}
+
+.muestraConfirmaDenega {
+    display: block !important;
+}
+
+
+/**/
+.carrusel_width {
+    width: 0px !important;
+}
+
+/*MONEDAS*/
+.money-q {
+    position: relative;
+    padding-left: 20px;
+    text-align: right;
+
+}
+
+.money-q:before {
+    content: "Q";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.money-d {
+    position: relative;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.money-d:before {
+    content: "$";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*titulo principal*/
+.privado h2 {
+    color: #003865;
+    margin-top: 3rem;
+    font-size: 27px;
+    font-family: Lato_Bold !important;
+
+}
+
+/*subitulo*/
+.h3pagoe2 h3 {
+    font-size: 16px;
+
+}
+
+.h3ach {
+    color: #515151 !important;
+    font-weight: 100 !important;
+    font-size: 20px;
+    font-family: Lato_Regular !important;
+}
+
+hr.hrach {
+    max-width: 60.5rem;
+    margin-top: 0rem;
+}
+
+h3.h3achadd.agregarbene {
+    text-align: RIGHT;
+    margin-bottom: 0px !important;
+    margin-top: 1px;
+}
+
+.h3achadd {
+    font-size: 14px !important;
+    color: #2C8B9E !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+.h3achadd:hover {
+    color: #00C1D4 !important;
+}
+
+/*titulos secundarios*/
+h3.h3ach1 {
+    font-size: 16px !important;
+    color: #2C8B9E !important;
+    font-weight: bold;
+}
+
+/*titulos de inputs y selects */
+label.editmodal.positiontdleft {
+    text-align: left;
+    color: #003865;
+}
+
+/*MOSTRAR ENTRADAS*/
+label.editmodal.textleft.textoparrafo {
+    color: #424141 !important
+}
+
+/*texto interno de inputs*/
+input[type="text"] {
+    font-size: 14px;
+    color: #003865;
+}
+
+/*icono. de buscar*/
+input.bordersearch {
+    border-color: #CCCCCC !important;
+}
+
+i.IconAch {
+    color: #909090 !important;
+}
+}
+
+.IconAch.ach-iconos_ach_buscar.searchbibanking {
+    position: absolute;
+}
+
+.searchbibanking {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 1rem;
+    color: #959090;
+}
+
+input.bordersearch:hover {
+    border: 1px solid #2ba6cb !important;
+}
+
+/*busqueda avanzada*/
+.inner-addon {
+    position: relative;
+}
+
+.right-addon .glyphicon {
+    right: 2px;
+    font-size: 1.4rem;
+    color: #13B2FF;
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 4px;
+    pointer-events: none;
+}
+
+i#list-products_wrapper {
+    color: #003865 !important;
+}
+p.montomenudesp.numero {
+    font-size: 26px;
+    text-align: left;
+    color: #024989;
+}
+label.editmodal.exporttext {
+    margin-top: 7px;
+}
+/*inputs deshabilitados*/
+input:disabled,
+input[readonly],
+textarea:disabled,
+textarea[readonly] {
+    background-color: white;
+    cursor: pointer;
+}
+
+/*selector de mostrar*/
+select.miselector2.modalselector {
+    border-color: #C4C4C4 !important;
+    cursor: pointer;
+}
+
+select.miselector4.modalselector.selectortexto.numero {
+    margin-bottom: 0px !important;
+    color: #666666 !important;
+    cursor: pointer;
+}
+
+select.miselector4.modalselector.selectortexto {
+    width: auto;
+    height: 2rem;
+}
+
+/*acordiones*/
+a.accordion-title.desplegado {
+    text-align: left !important;
+    color: #2C8B9E !important;
+    font-size: 16px;
+    font-family: 'Lato-Regular' !important;
+    background-color: #FFFFFF;
+    border: 1px #959090 solid;
+    border-bottom: 1px #959090 solid !important;
+}
+
+.accordion-title {
+    position: relative;
+    display: block;
+    padding: 1.25rem 2rem;
+    border: none;
+    border-bottom: 0;
+    font-size: 0.75rem;
+    line-height: 1;
+    border-bottom: 2px solid black;
+    color: #2ba6cb;
+}
+td.accordion-item.sinmarcos {
+    padding: 0px !important;
+}
+.is-active > .accordion-title::before {
+    content: "▲";
+    font-size: 15px;
+}
+.accordion-title::before {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    margin-top: -0.5rem;
+    content: "▼";
+    font-size: 15px;
+}
+.accordion-item:last-child > :last-child {
+    border-radius: 0 0 3px 3px;
+}
+div.accordion-content.desplegado {
+    border-left: 1px #959090 solid;
+    border-bottom: 1px #959090 solid !important;
+    border-right: 1px #959090 solid;
+    background: white;
+}
+accordion-content {
+    display: none;
+    padding: 1rem 2rem;
+    border: none;
+    border-bottom: 0;
+    background-color: #262626;
+    color: #0a0a0a;
+}
+.table-responsive table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+.table-responsive table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+ .table-responsive table tr td p.titlemenudesp {
+        font-weight: bold !important;
+        font-size: 14px;
+    }
+    p.titlemenudesp {
+        text-align: left;
+    }
+    .table-responsive table tr td p.textoemenudesp {
+        text-align: left;
+        font-family: 'Lato-Regular' !important;
+        color: #959090 !important;
+            font-size: 14px!important;
+    }
+    table.marcodesplegabledetalle {
+        border-left: 1px solid #D1D1D1;
+
+
+    }
+
+    .miselector.selectorposicion{
+        height: 1.8rem;
+    }
+
+input.inputtablaagregar {
+    height: 1.8rem;
+}
+
+/*MINIMENU*/
+ td.checkbox.allcategories.miniselector {
+    width: 81px !important;
+}
+td.checkbox.miniselector {
+    border-right: 1px #909090 solid;
+}
+.table-responsive table tr td.checkbox.miniselector1 {
+    width: 22%;
+    border: 0px;
+}
+
+/*resumen de tabla*/
+.table-responsive table tr td p.textreporterror.numero {
+    color: red !important;
+}
+
+
+/*tablas*/
+.marco {
+    background-color: white;
+    border: 1px solid #CCCCCC !important;
+}
+
+/*margen de tabla en responsive*/
+.table-responsive table tbody tr:nth-child(odd) {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+  /*  height: 40px;*/
+}
+
+.table-responsive table tbody tr:nth-child(even) {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+/*    height: 40px !important;*/
+}
+
+/*titulos de tablas*/
+tr.tablecuentatitles th {
+    border-right: none !important;
+    background: #EBEBEB !important;
+    color: #707070 !important;
+}
+
+.table-responsive table thead tr th {
+    text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: none !important;
+    border-right: 1px solid #ffffff;
+    padding-right: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 0.5rem !important;
+}
+
+i.IconAch.ach-iconos_ach_flecha-tablas {
+    font-size: 8px;
+}
+
+tr.tablecuenta {
+    background: white !important;
+    border-right: solid 1px #CCCCCC !important;
+    border-top: solid 1px #CCCCCC !important;
+    border-bottom: solid 1px #CCCCCC !important;
+    border-left: solid 1px #CCCCCC !important;
+}
+
+/*Marco principal*/
+    .marcoprincipal{
+        border-top: 1.5px solid #CCCCCC !important;
+        border-left: 1.5px solid #CCCCCC !important; 
+        border-right: 1.5px solid #CCCCCC !important;  
+    }
+/*Marco interno*/
+    table.infotable{
+        width: 95%;
+        margin-left: 18px !important;
+        margin-top: 16px !important;
+        margin-bottom: 15px !important;
+    }
+    table.tableendinfo{
+        border-left: 1.5px solid #CCCCCC !important; 
+        border-right: 1.5px solid #CCCCCC !important; 
+        border-bottom: 1.5px solid #CCCCCC !important; 
+    }
+    thead,tbody,tfoot {
+        border: 0px solid #f1f1f1;
+    }
+/*Bordes internos*/
+    .tdbackground {
+        background-color: white;
+        border: 0px solid #CCCCCC;
+    }
+    .table-responsive table tr.comprobantedivison {
+        border-bottom: 1px solid #707070;
+    }
+    .table-responsive table {
+        border-bottom: 0px solid #DDDDDD;
+    }
+
+
+/*texto dentro de tablas*/
+.numero {
+    font-family: Lato-Regular !important;
+}
+
+.privado p {
+    font-family: 'Lato-Regular' !important;
+}
+
+.table-responsive table tr td p {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.table-responsive table tr td p {
+    color: #003865 !important;
+    font-weight: bold !important;
+}
+
+.table-responsive table tr td p.tablealias {
+    color: #424141 !important;
+    font-weight: normal !important;
+}
+//*Fila de Tabla Deshabilitada*/
+tr.tablecuenta.rowunnable {
+    background: #EBEBEB !important;
+    pointer-events: none;
+}
+tr.tablecuenta.rowunnable td p  {
+    color: #959090!important;
+    font-weight: bold !important;
+}
+tr.tablecuenta.rowunnable td.tablenombre  {
+    color: #959090!important;
+    font-weight: bold !important;
+}
+tr.tablecuenta.rowunnable td.tablerol  {
+    color: #959090!important;
+    font-weight: bold !important;
+}
+tr.tablecuenta.rowunnable {
+    background: #EBEBEB !important;
+    pointer-events: none;
+}
+.datepicker thead, tbody, tfoot {
+    border: 0px solid #f1f1f1;
+    background-color: #fefefe;
+    font-family: Lato-Regular;
+}
+
+/*mini menu seleccion*/
+.table-responsive table tr td p.tipocuenta {
+    margin-left: 20px !important;
+    font-size: 14px !important;
+    margin-top: -3px !important;
+    color: #909090!important;
+}
+
+/*subir archivo validador de firmas */
+.file-upload .file-select .file-select-button {
+    /* background: #0D4073; */
+    padding: 0 10px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 70px;
+    /* display: none; */
+}
+.file-upload .file-select .file-select-name {
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 10px;
+    display: block;
+    text-align: center;
+
+}
+.textupload{
+    color: #AAAAAA;
+}
+.file-upload .file-select {
+    display: block;
+    border: 1px dashed #909090;
+    color: #0D4073;
+    cursor: pointer;
+    /* height: 40px; */
+    line-height: 40px;
+    text-align: left;
+    background: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+    font-size: 20px;
+    height: 300px;
+}
+.file-upload .file-select input[type=file] {
+    z-index: 100;
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+a.file-upload {
+    color: #AAAAAA;
+    text-decoration: underline;
+}
+.privado p {
+    color: #959090;
+    font-size: 14px;
+    font-family: 'Lato-Regular'!important;
+}
+label#chooseFile_textname {
+    color: #00C1D4;
+    text-align: center;
+    font-size: 18px;
+}
+
+label#chooseFile_textname2 {
+    color: #00C1D4;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* fin */
+
+/*MENU DE SELECCION*/
+/*Textos*/
+i p.titlemenuoption {
+    padding-left: 1rem;
+    display: inline-block;
+    color: #666666;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+.progbar .active p {
+    color: #00C1D4;
+}
+i p.titlemenuoption:hover {
+    color: #00C1D4;
+}
+.progress {
+    height: 5px;
+}
+
+/*/ICONO*/
+i.IconAchmenu {
+    color: grey;
+}
+i.IconAchmenu:hover {
+    color: #00C1D4;
+}
+.progbar .active i.IconAchmenu  {
+    color: #00C1D4;
+}
+
+.barra_active {
+    background-color: #00C1D4;
+}
+.barra_inactive {
+    background-color: #cacaca;
+}
+
+i.infoiconbeneficio {
+    position: absolute;
+    margin-left: -17px;
+    margin-top: 2px;
+    color:#2C8B9E;
+}
+
+.footer.addmanual{
+   
+    margin-top: 7rem !important;
+}
+
+.footer.carpetauserfooter{
+    margin-top: 15rem !important;
+}
+
+p.usuariocolor {
+    display: contents;
+    color: #959090;
+    font-weight: 700;
+}
+
+i.ach-iconos_ach_usuario {
+    color: #959090;
+}
+em, i.IconAch.ach-iconos_ach_comprobante {
+    font-size: 20px;
+}
+em, i.ach-iconos_ach_buscar.searchbibanking {
+    font-size: 15px;
+}
+
+
+h2.regresararriba{
+    margin-top: 1px;
+}
+
+.is-invalid-label {
+    color: #c60f13;
+}
+
+/*forma y color del Switch*/ 
+.switch {
+    height: 1rem !important;
+    margin-right: 10px !important;
+}
+label.switch-paddle{
+ border-radius: 28px;
+ width: 40px;
+    height: 20px;
+    margin-top: 6px;
+}
+input:checked ~ .switch-paddle{
+  background: #00c1d4;
+
+}
+.switch-paddle::after {
+    border-radius: 20px !important; 
+    width: 14px;
+    height: 14px;
+    top: 0.19rem;
+}
+input:checked ~ .switch-paddle::after {
+    left: 1.40rem;
+}
+
+.textcenter {
+    text-align: center !important;
+}
+td.cuentainfo.numero.textcenter {
+    text-align: center !important;
+}
+
+/*mini selector*/
+.selectbar {
+    margin-top: -23px !important;
+}
+.miselector3 {
+    margin-left: 0px !important;
+    height: 1.5625rem !important;
+    font-family: 'Lato-Regular' !important;
+    width: 110% !important;
+}
+select:not([multiple]) {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #909090;
+    border-color: #C4C4C4;
+    font-size: 14px;
+}
+input[type="file"], input[type="checkbox"], input[type="radio"], select {
+    margin: 0px 0 1rem 0;
+}
+input.numero.menuselectivo {
+    width: 127%;
+}
+
+/* MENU 2 OPCIONES */
+/*Esconder y Mostrar Menus*/
+#menumanual{
+    display: block;
+}
+#menuarchivar{
+    display: none;
+}
+#menu1{
+    display: block;
+}
+#menu2{
+    display: none;
+}
+
+#submenu1{
+    display: block;
+}
+#submenu2{
+    display: none;
+}
+
+#menu1{
+    display: block;
+}
+#menu2{
+    display: none;
+}
+
+#submenu1{
+    display: block;
+}
+#submenu2{
+    display: none;
+}
+
+
+/*iconos de tablas */
+/*TABLA DE REPORTES*/
+
+/*ICONOS*/
+i.IconAch.ach-iconos_ach_check.iconcheck.iconoaprovado {
+    color: #1EC771 !important;
+    text-align: center;
+    margin-right: 10px;
+}
+i.IconAch.ach-iconos_ach_check.iconcheck.iconoaprovado:hover {
+    color: #1EC771 !important;
+    text-align: center;
+}
+i.IconAch.ach-iconos_ach_eliminar.iconorechazado {
+    color: #F23D53 !important;
+}
+i.IconAch.ach-iconos_ach_eliminar.iconorechazado:hover{
+    color: #F23D53 !important;
+}
+
+/*centrado de checks*/
+label.miCheckbox.checkcenter {
+    margin-left: 29px !important;
+}
+
+.miCheckbox span {
+    border-radius: 2px;
+    border: 1px solid #909090;
+    font-weight: normal !important;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+/*borde de tablas*/
+.table-responsive table thead {
+    border-top: solid 1px #CCCCCC !important;
+    border-right: solid 1px #CCCCCC !important;
+    border-left: solid 1px #CCCCCC !important;
+}
+
+.table-responsive table tfoot tr td {
+    border-right: 0px solid #ffffff;
+    text-align: center;
+}
+
+/*pagineo*/
+.privado li a {
+    color: #999999;
+}
+
+.pagination a:hover,
+.pagination button:hover {
+    background: transparent;
+}
+
+.pagination li:last-child,
+.pagination li:first-child {
+    border: 1px solid #2C8B9E;
+}
+
+.pagination-previous a::before,
+.pagination-previous.disabled::before {
+    margin-right: 0rem;
+    color: #2C8B9E;
+    font-weight: bold;
+}
+
+.pagination-next a::after,
+.pagination-next.disabled::after {
+    margin-left: 0rem;
+    color: #2C8B9E;
+    font-weight: bold;
+}
+
+.pagination-pointed .pagination-pointed-button,
+.pagination-pointed .current,
+.pagination-pointed .pagination-previous {
+    position: relative;
+    display: inline-block;
+}
+
+/*botones*/
+.privado a.button.confirmar.someToken:hover {
+    color: white;
+}
+
+/*modales*/
+
+/*modal benefiraios fallidos*/
+div#modalbeneficiariosfallidos {
+    width: 90%;
+}
+
+
+.reveal#modalbeneficiariosfallidos h1 {
+    color: #003865;
+    font-weight: 600;
+    font-family: 'Lato-Regular' !important;
+    font-size: 27px !important;
+}
+
+thead.tabletiles.sinborde1 {
+    border: 0px solid !important;
+}
+
+/*fin */
+
+/*---------------------------MODAL BENEFICIARIO AGREGADO-----------------------------------------*/
+
+/*Fondo y Tamaño*/
+    .reveal#modalagregado{
+        background-color: white;
+        color: #003865;
+        background: #ffffff;
+        opacity: 1;
+        border: 0px solid #cacaca;
+        border-radius: 55px 0px 55px 0px;
+    }
+    div#modalagregado {
+        width: 80%;
+    }
+    
+    /*---------------------RESPONSIVE----------------------*/
+@media (max-width: 639px){
+   .reveal#modalagregado{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 50% !important;
+        height: 50%;
+    }
+}
+.reveal h1 {
+    font-family: Lato_Bold !important;
+}
+
+
+/*inputs deshabilitados*/
+input:disabled,
+input[readonly],
+textarea:disabled,
+textarea[readonly] {
+    background-color: white;
+    cursor: pointer;
+}
+      
+h3.h3achadd {
+    MARGIN-TOP: 8PX;
+}
+input.inputsinborde1 {
+    height: 0.4375rem;
+    text-align: left;
+    border: 0px;
+}
+input.bordersearch {
+    padding-left: 3rem;
+    font-family: 'Lato-Regular' !important;
+    color: #4D4D4D !important;
+    font-size: 11px;
+}
+
+/*FASE 2*/
+
+/*MENU LATERAL DESPLEGABLE*/
+/*MINI*/
+
+#menuescondido {
+    display: none;
+}
+
+#menuextendido {
+    display: block;
+}.lateralmini {
+    margin-left: -10px !important;
+}
+/*GRANDE*/
+.privado .lateral-size a {
+    padding: 1rem 1rem;
+}
+.lateral-size {
+    padding-right: 0px;
+    margin-left: -29px;
+}
+.lateral-size2 h2 {
+    padding: 0rem 1rem !important;
+}
+.privado .lateral-size a {
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+/*FASE 1*/
+.table-responsive table tr td p.confirmaciontitledebi {
+    text-align: left;
+    font-weight: bold;
+    color: #707070 !important;
+    color: #707070 !important;
+}
+.table-responsive table tr td p.confirmacioncuenta {
+    text-align: right !important;
+    font-weight: bold;
+    font-size: 13px;
+}
+.table-responsive table tr td p {
+    color: #003865 !important;
+    font-weight: bold !important;
+}
+.table-responsive table tr td p.confirmaciondatos {
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+    color: #707070 !important;
+    line-height: 15px;
+}
+.table-responsive table tr td p.confirmaciontipocuenta {
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+    color: #707070 !important;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.table-responsive table tr td p.confirmaciondatostitle {
+    text-align: left;
+    font-weight: bold;
+    color: #707070 !important;
+}
+.table-responsive table tr td p.confirmacioninfo {
+    text-align: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+.table-responsive table tr td p.confirmaciontitlecredi {
+    text-align: left;
+    font-weight: bold;
+    color: #707070 !important;
+    margin-top: 10px;
+}
+.table-responsive table tr td p {
+    color: #003865 !important;
+    font-weight: bold !important;
+}
+.table-responsive table tr td p.confirmaciondatostitlemonto {
+    text-align: right;
+    font-weight: bold;
+    font-size: 13px;
+    color: #707070 !important;
+}
+.table-responsive table tr td p.confirmacioninfomonto {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+p.modalnombre {
+    text-align: left;
+    margin-bottom: -25px;
+    font-weight: bold;
+}
+p.modalcuenta {
+    color: #707070;
+    margin-bottom: -25px;
+}
+tbody td {
+    padding: 0.5rem 0.625rem 0.625rem;
+    vertical-align: top;
+}
+.tdwhiteback {
+    background-color: white;
+    border: 0px solid #CCCCCC;
+}
+
+/*COMPROBANTE*/
+
+
+/*Marco principal*/
+    .marcoprincipal{
+        border-top: 1.5px solid #CCCCCC !important;
+        border-left: 1.5px solid #CCCCCC !important; 
+        border-right: 1.5px solid #CCCCCC !important;  
+    }
+/*Marco interno*/
+    table.infotable{
+        width: 95%;
+        margin-left: 18px !important;
+        margin-top: 16px !important;
+        margin-bottom: 15px !important;
+    }
+    table.tableendinfo{
+        border-left: 1.5px solid #CCCCCC !important; 
+        border-right: 1.5px solid #CCCCCC !important; 
+        border-bottom: 1.5px solid #CCCCCC !important; 
+    }
+    thead,tbody,tfoot {
+        border: 0px solid #f1f1f1;
+    }
+/*Bordes internos*/
+    .tdbackground {
+        background-color: white;
+        border: 0px solid #CCCCCC;
+    }
+    .table-responsive table tr.comprobantedivison {
+        border-bottom: 1px solid #707070;
+    }
+    .table-responsive table {
+        border-bottom: 0px solid #DDDDDD;
+    }
+
+/*Seccion Titulo*/
+    
+    .table-responsive table tr td p.comprobantetitle {
+        font-size: 16px;
+        text-align: right;
+
+    }
+    .table-responsive table tr td p.comprobantesubtitle{
+        color: #2C8B9E !important;
+        font-size: 12px;
+        text-align: right;
+    }
+    .table-responsive table tr td p.comprobantedate{
+        color: #707070 !important;
+        font-size: 12px;
+        text-align: right;
+    }
+    .table-responsive table tr td p.comprobantenum{
+        font-size: 12px;
+        text-align: right;
+    }
+    .table-responsive table tr td p.comprobantelogobi {
+       text-align: left !important;
+        max-width: 160px;
+        height: 85px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+/*Seccion Informacion de Origen*/
+    .table-responsive table tr td p.comprobantetitleorigen {
+        font-size: 12px;
+        text-align: left;
+        color: #2C8B9E !important;
+    }
+    .table-responsive table tr td p.comprobantecuentaorigen{
+        font-size: 12px;
+        text-align: left;
+        color: #003865 !important;
+    }
+    .table-responsive table tr td p.comprobandatosorigen {
+        font-size: 12px;
+        text-align: left;
+        color: #707070!important;
+    }
+
+/*Seccion Informacion de Destino*/
+    .table-responsive table tr td p.comprobantetitledestino {
+        font-size: 12px;
+        text-align: left;
+        color: #2C8B9E !important;
+    }
+    .table-responsive table tr td p.comprobantecuentaedestino {
+        font-size: 12px;
+        text-align: left;
+        color: #003865 !important;
+    }
+    .table-responsive table tr td p.comprobandatosdestino {
+        font-size: 12px;
+        text-align: left;
+        color: #707070!important;
+    }
+
+/*Seccion Monto*/
+    .table-responsive table tr td p.comprobantmontodato {
+        font-size: 12px;
+        text-align: right;
+        color: #003865 !important;
+    }
+    .table-responsive table tr td p span.comprobantemonto {
+        font-size: 20px;
+        text-align: right;
+        color: #003865 !important;
+    }
+    .table-responsive table tr td p.comprobantemontodato {
+        font-size: 12px;
+        text-align: right;
+        color: #707070!important;
+    }
+/*Código de Barras*/
+img.imgcodigobarras {
+    max-width: 219px;
+    height: 61px;
+}
+
+/*Seccion Contenido*/
+    .table-responsive table tr td p.comprobantecontenido {
+        color: #707070!important;
+        text-align: center;
+        font-size: 12px;
+    }
+
+/*Seccion Info Final*/
+   .table-responsive table tr td p.comprobanteinfofecha{
+        color: #707070 !important;
+        text-align: left;
+        font-size: 12px;
+        font-family: 'Lato-Regular' !important;
+    }
+    .table-responsive table tr td p.comprobanteinfogenerada {
+        color: #707070 !important;
+        text-align: left;
+        font-size: 12px;
+        font-family: 'Lato-Regular' !important;
+    }
+    .table-responsive table tr td p.comprobanteinfodata {
+        color: #707070 !important;
+        text-align: right;
+        font-size: 12px;
+        font-family: 'Lato-Regular' !important;
+    }
+
+
+     .table-responsive table tr td.tableinfo {
+        background: #EBEBEB!important;
+    }
+
+    
+
+/**/
+p.modalnombre {
+    margin-bottom: -25px;
+    color: #003865;
+    font-weight: bold;
+}
+/*ACTIVO CIRCLE*/
+    .circuloactivo{
+        width: 12px;
+        height: 12px;
+        margin-left: 19px !important;
+        background-color: #6CB842;
+        border-radius: 50%;
+        float: left;
+        -webkit-shape-outside: circle();
+        shape-outside: circle();
+    }
+
+    label.circuloactivo {
+        position: relative;
+        float: right !important;
+        margin-right: 70px;
+    }
+
+    label.activotitle {
+        margin-top: -33px !important;
+        margin-left: 15px;
+        color: #424141 !important;
+        font-size: 16px;
+    }
+    td p.activo {
+        width: 10px;
+        height: 10px;
+        margin-left: 19px !important;
+        background-color: #6CB842;
+        border-radius: 50%;
+        float: left;
+        -webkit-shape-outside: circle();
+        shape-outside: circle();
+    }
+
+    /*DEBITAR Y ACREDITAR SELECCION*/
+    .backcolortd {
+        background-color: white;
+        border: 1px solid #CCCCCC;
+    }
+    .right-addon .glyphicon2 {
+        right: 0px;
+    }
+    .inner-addon .glyphicon2 {
+        position: absolute;
+        padding: 42px;
+        pointer-events: none;
+    }
+    i.glyphicon2.icontable.ach-iconos_ach_dirigir {
+        margin-top: -4px;
+    }
+    i.glyphicon2.ach-iconos_ach_dirigir {
+        color: #053865!important;
+    }
+
+   
+/*---------------------------TABLA SELECCIONADORA---------------------------------- */
+
+table.tbl-report.accountselector     {
+    border-bottom: 0px solid;
+}
+
+td.checkbox.allcategories {
+    border-right: 1px #909090 solid;
+}
+.table-responsive table tr td p.tipocuenta {
+    margin-left: 20px !important;
+    font-size: 14px !important;
+    margin-top: -3px !important;
+    color: #909090!important;
+}
+tbody.tableselectoptions {
+    border: 0px;
+}
+tr.typeacount {
+    border: 0px;
+}
+.table-responsive table tr td.checkbox.allcategories{
+    width: 57px;
+}
+.table-responsive table tr td.checkbox.selector1 {
+    width: 90px;
+}
+.table-responsive table tr td.checkbox.selector2 {
+    width: 88px;
+}
+.table-responsive table tr td.checkbox.selector3 {
+    width: 80px;
+}
+.table-responsive table tr td.checkbox.selector4 {
+    width: 120px;
+}
+@media (max-width: 639px){
+.table-responsive table tr td.checkbox.allcategories {
+    width: 100%!important;
+    border-bottom: 1.5px #909090 solid!important;
+    border-left: 0px solid!important;
+    border-right: 0px solid!important;
+    border-top: 0px solid!important;
+}
+}
+
+p.tablenumcuenta1 {
+    text-align: right !important;
+    font-size: 14px;
+    margin-top: -56px !important;
+    color: #707070;
+    margin-right: 3rem;
+}
+p.tablemontodisponible1 {
+    text-align: right !important;
+    font-size: 20px;
+    margin-top: -22px !important;
+    color: #024989;
+    margin-right: 3rem;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+p.modalcuenta {
+    color: #707070;
+    margin-bottom: -25px;
+}
+p.modaltipcuenta {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.inner-addon .glyphicon2 {
+    position: absolute;
+    padding: 42px;
+    pointer-events: none;
+}
+i.glyphicon2.ach-iconos_ach_dirigir {
+    margin-top: 1rem;
+}
+
+/*MOSTRAR ENRTRADA VERSION 1*/
+label.labelach.mostrar {
+    text-align: right;
+    margin-left: 30px;
+}
+select.miselector {
+    margin-left: 10px !important;
+}
+select.miselector {
+    height: 1.5625rem !important;
+    font-family: 'Lato-Regular' !important;
+}
+em, i.ach-iconos_ach_buscar.searchbibanking {
+    font-size: 15px;
+}
+.searchbibanking {
+    position: absolute;
+    margin-top: 11px;
+    /*margin-left: -11rem;*/
+    color: #959090;
+}
+.columns.large-6.large-offset-11 {
+    margin-top: -26px;
+}
+input.bordersearch {
+    padding-left: 3rem;
+    font-family: 'Lato-Regular' !important;
+    color: #4D4D4D !important;
+    font-size: 11px;
+}
+
+/* ////////////////////////////CORRECCIONES DE BUGS REPORTADOS//////////////////////////// */
+p.tipodemonto.check_validador_facturas {
+    width: 850%;
+}
+.lateral-size:hover {
+    border:  1px solid #00C1D4;
+    border-radius: 20px 0px 20px 0px;
+}
+.lateralmini:hover {
+    border:  1px solid #00C1D4 !IMPORTANT;
+}
+h3.h3achadd.downloadoption {
+        margin-top: 0px;
+        text-align: left;
+    }
+a.linkaddcuenta {
+    text-align: right;
+}
+div#h51aky-accordion {
+    padding-left: 17px;
+}
+a#firyk2-accordion-label {
+    padding-left: 45px;
+}
+.miCheckbox span {
+    border: 1px solid #909090;
+    font-weight: normal !important;
+}
+td.checkbox.allcategories.miniselector {
+    padding-left: 0px !important;
+}
+thead.tabletiles {
+    border-top: 1px #CCCCCC solid !important;
+    border-left: 1px #CCCCCC solid;
+    border-right: 1px #CCCCCC solid;
+}
+.table-responsive table thead {
+    border-top: solid 1px #CCCCCC !important;
+}
+tr.tablecuenta {
+    border-right: solid 1px  #CCCCCC  !important;
+    border-top: solid 1px  #CCCCCC  !important;
+    border-bottom: solid 1px  #CCCCCC  !important;
+    border-left: solid 1px  #CCCCCC  !important;
+}
+td.marcodesplegable.sinmarcos {
+    border-left: solid 1px  #CCCCCC  ;
+}
+td.marcodesplegable.sinmarcos.sm2 {
+    border-left: solid 0px  #CCCCCC  ;
+}
+table.marcodesplegabledetalle {
+    border-left: 0px solid #D1D1D1;
+}
+
+i.IconAch {
+    color: #909090 !important;
+}
+
+input.bordersearch {
+    border-color: #CCCCCC !important;
+}
+
+.pagination .current {
+    background: #2C8B9E;
+}
+
+p.usuariocolor {
+    font-size: 16px;
+}
+
+.mtop {
+    padding: 50px 50px 0px 50px;
+}
+
+
+.imgbarras {
+    width: 105px;
+    height: 39px;
+    margin-bottom: 10px;
+}
+
+.h3achadd:hover{
+    color: #00C1D4 !important;
+}
+
+i.ach-iconos_ach_informacion.iconmodal {
+    color: #FDB81C;
+    font-size: 5rem;
+} 
+.iconinfo {
+    padding: 0px;
+}
+.reveal#modaladvertencia p {
+    color: #424141;
+    text-align: center;
+    font-family: 'Lato-Regular' !important;
+    /*margin-left: 35px;*/
+    }
+select.miselector4.modalselector.selectortexto.numero {
+    margin-bottom: 0px !important;
+}
+
+a.accordion-title.desplegado:hover {
+    color: #00C1D4 !important;
+}
+p.subtext.positioncenter {
+    TEXT-ALIGN: center;
+}
+
+/* Responsive movil */
+
+@media (max-width: 639px) {
+    .buscaresponsive{
+    margin-top: 20px;
+}
+    
+
+    h3.h3achadd {
+        MARGIN-TOP: 0PX;
+    }
+    .h2pagoe h2 {
+        font-size: 18px !important;
+    }
+
+
+    .txtreponsiveleft{
+        text-align: left !important;
+    }
+    label.miCheckbox.checkcenter {
+        margin-left: 5px !important;
+    }
+    
+    td {
+        border: 0px solid #909090;
+    }
+    table td {
+        border-bottom: 1px solid #CCCCCC ;
+    }
+
+    .iconmodal {
+        font-size: 4rem !important;
+    }
+    p.titlereporttitlebold {
+        text-align: center !important;
+    }
+    p.textreport.numero.tdctr {
+        text-align: center !important;
+    }
+    p.textreporterror.numero.tdctr {
+        text-align: center !important;
+    }
+    /* ////////////////////////////FIN CORRECCIONES DE BUGS REPORTADOS//////////////////////////// */
+ }
+ 
+ 
+    /*alerta verde*/
+    .alertax {
+        color: #ffffff;
+        margin-top: 6px !important;
+        font-size: 31px !important;
+        margin-left: 16px;
+        font-family: 'Lato_Regular' !important;
+        font-weight: normal;
+    }
+
+    .alert-box.callout {
+        font-family: 'Lato_Regular';
+        font-weight: normal;
+    }
+
+    .table-responsive table tr td {
+        color: #959090;
+    }
+
+    .table-responsive table thead tr th {
+        text-transform: none;
+    }
+
+    /*imput numericos*/
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+
+    /*TEXTOS*/
+
+    .h3texto {
+        color: #515151 !important;
+        font-weight: 100 !important;
+        font-size: 16px;
+    }
+
+    .fondolimpio {
+        min-height: 0px !important;
+    }
+
+    .lateral-size2 h2 {
+        padding: 0rem 0.5rem;
+        font-size: 20px;
+        margin-top: 0px !important;
+    }
+
+    .h2pagoe h2 {
+        color: #003865 !important;
+        margin-top: 3rem !important;
+        /*font-size: 27px ;*/
+        font-family: 'Lato_Bold' !important;
+    }
+
+    .h2pagoalert h2 {
+        margin-top: 0rem !important;
+    }
+
+    .h3pagoe h3 {
+        color: #515151 !important;
+        font-weight: 100 !important;
+        font-size: 16px;
+        font-family: 'Lato_Regular' !important;
+    }
+
+    p.modalnombre {
+        text-align: left;
+    }
+
+    p.confirmaciontitledebi.tituloempresa {
+        margin-left: 10px;
+    }
+
+    p.confirmacioncuenta.nombreempresa {
+        text-align: left !important;
+    }
+
+    .table-responsive table tbody tr.tablecuenta:nth-child(even) {
+        background-color: white;
+    }
+
+    .table-responsive table tbody tr.tablecuenta2:nth-child(even) {
+        background-color: #EBEBEB;
+    }
+
+    p.fondogristexto {
+        background-color: #EBEBEB;
+        text-align: center;
+        border: 1px solid #D1D1D1;
+        color: #707070 !important;
+        font-family: 'Raleway_Bold' !important;
+    }
+
+    /*SELECTOR*/
+    select.miselector {
+        margin-left: 10px !important;
+    }
+
+    input.bordersearch:hover {
+        border: 1px solid #2ba6cb !important;
+    }
+
+    .miCheckbox span {
+        border-radius: 3px;
+    }
+
+    .linkright {
+        text-align: right;
+    }
+
+    .switch {
+        margin-right: 10px !important;
+        
+    }
+    .selectorpadding {
+        margin-bottom: 2px;
+    }
+    .labelselector {
+        font-weight: 600;
+        color: #003865;
+    }
+
+    /*MARGENES DENTRO DE TABLAS */
+    input.numero.inputleft {
+        margin-left: -30px !important;
+    }
+
+    .tdwhiteback {
+        background-color: white;
+        border: 0px solid #CCCCCC;
+    }
+
+    tr.trwhiteback {
+        background-color: white;
+        border: 0px solid #CCCCCC;
+    }
+
+    td.accordion-item.is-active {
+        padding: 0px !important;
+    }
+
+    td.accordion-item.is-active:hover {
+        border: 1.4px solid #00C1D4;
+    }
+
+    .privado a.pagineo1:hover {
+        color: #00C1D4;
+        ;
+        transition: .3s;
+    }
+
+    p.tipodemonto {
+        color: #003865;
+        margin-left: 24px !important;
+        width: 551%;
+        margin-top: -5px !important;
+    }
+
+
+
+    .privado a:hover {
+        color: white;
+    }
+
+    .form-error {
+        margin-bottom: 0rem !important;
+        line-height: 13px;
+
+    }
+
+    .is-invalid-input:not(:focus) {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .alert-box.callout {
+        font-weight: normal !important;
+    }
+
+    /*texto link tabla pagina 91*/
+
+    .table-responsive table tr td p.textoemenudesp.textmenulink {
+        color: #5EBED1 !important;
+    }
+
+    .table-responsive table tr td p.textoemenudesp.textmenulink:hover {
+        text-decoration: underline;
+    }
+
+    .marcoespaciado {
+        height: 50px !IMPORTANT;
+    }
+
+    /*error de inputs*/
+    .is-invalid-input:not(:focus) {
+        border-color: #c60f13 !important;
+        background-color: #ffffff;
+        margin: 0 0 0rem;
+    }
+
+    .cuerpoespaciado {
+        height: 120px !important;
+    }
+
+    /*fin texto lik tabla*/
+
+    /*PAGINA 93*/
+    tbody.cuerpodetabla.bordeizquierdo {
+        border-right: 1px solid;
+    }
+
+    span.ach-iconos_ach_informacion {
+        color: #003865;
+        font-size: 18px;
+        margin-left: -9px;
+    }
+
+  /*  .privado p.tipodemonto {
+        width: 651%;
+    }*/
+
+    /*RESPONSIVE MOVIL*/
+    .table-responsive table tr td p.tablename2 {
+
+        color: #003865 !important;
+        font-weight: bold !important;
+
+    }
+
+    .table-responsive table tr td.tablecarpetaname {
+        text-align: left !important;
+        padding-left: 70px !important;
+    }
+
+    .table-responsive table thead tr th.carpetatitulo {
+        text-align: left !important;
+        padding-left: 6.5rem !important;
+    }
+
+    @media (max-width: 639px) {
+
+        /*MARGENES DENTRO DE TABLAS */
+        input.numero.inputleft {
+            margin-top: 10px;
+        }
+        .labelselector {
+            margin-bottom: 0px !important;
+        }
+        .has-tip.infotooltip {
+            margin-left: 2.5rem !important;
+        }
+
+        .positiondown {
+            margin-top: 15px;
+        }
+
+        td.cuentainfo.numero {
+            text-align: right !important;
+        }
+
+        table td:last-child {
+            border-bottom: 0px solid !IMPORTANT;
+        }
+
+        .sinmarcos {
+            border: 0px !important;
+        }
+
+        table td .sinmarcos:last-child {
+            border-bottom: 0px solid !IMPORTANT;
+        }
+
+        .table-responsive table tr td.sinmarcos:last-child {
+            border-bottom: 0px solid !IMPORTANT;
+        }
+
+        td.tdwhiteback.sinmarcos {
+            border-bottom: 0px solid !important;
+        }
+
+        label.miCheckbox.checkmonto {
+            margin-top: 20px !important;
+        }
+
+        /*bugs*/
+        .h2pagoe {
+            padding: 0px;
+        }
+        .h3pagoe {
+            padding: 0px;
+        }
+
+        td.marcodesplegable.sinmarcos {
+            border-left: solid 0px #CCCCCC !important;
+        }
+
+
+        /* modal*/
+        div#modalbeneficiariosfallidos {
+            width: 96%;
+            margin-left: 10px;
+            height: 95%;
+            min-height: 95%;
+        }
+
+
+    }
+
+
+
+    /*TABLAS ESCONDIDAS PAGINA 36 Y 39*/
+
+    #subsubmenu3 {
+        display: block;
+    }
+
+    #subsubmenu4 {
+        display: none;
+    }
+
+    /*imagen submenu*/
+    img.logologin {
+        height: 90px;
+        margin-left: 20px;
+    }
+
+
+    /*PAGINA 41*/
+
+    #menuarchivar2 {
+        display: block;
+    }
+
+    #menumanual2 {
+        display: none;
+    }
+
+
+    /*-------------PAGINA 63-------------*/
+    i.IconAch.ach-iconos_ach_eliminar.iconorechazado {
+        padding-left: 20px;
+    }
+
+    .table-responsive table tr td {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .icon.iconoerror.iconalert-icon-alerta-error {
+        color: #F13852 !important;
+        text-align: center;
+        font-size: 70px;
+    }
+
+    /*pagina 94*/
+    /*x de la modal*/
+    a.close-button:hover {
+        color: #00C1D4;
+    }
+    /*fin de x*/
+
+    label.editmodal.textleft {
+        text-align: left;
+    }
+
+    select.miselector3.modalselector {
+        margin-left: 0px;
+    }
+
+    select.miselector3.modalselector.selectortexto {
+        width: auto;
+        height: 2rem;
+    }
+
+    select.miselector4.modalselector.selectortexto {
+        width: auto;
+        height: 2rem;
+    }
+
+    .textoparrafo {
+        width: 135%;
+        color: #515151 !important;
+    }
+
+    input.numero.inputtexto {
+        width: 12% !important;
+        height: 1.8rem;
+        display: inline-block !important;
+    }
+
+    label.editmodal.radiotipo {
+        color: #515151;
+    }
+
+    a.button.default-action.btnpreview {
+        padding: 7px;
+        height: 2rem;
+    }
+
+
+    /*modal pagina 95*/
+    div#modalconsultafacturas {
+        width: 50%;
+    }
+
+    .reveal#modalconsultafacturas h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+
+    .textright {
+        text-align: right !important;
+    }
+
+    p.montomenudesp.numero.textright.marginright2 {
+        margin-right: 75px;
+    }
+
+    @media (max-width: 639px) {
+        .reveal#modalconsultafacturas h1 {
+
+            margin-top: 20px;
+        }
+
+        div#modalconsultafacturas {
+            width: 100%;
+        }
+
+        p.montomenudesp.numero.textright.marginright2 {
+            margin-right: 0px;
+        }
+
+        .textright2 {
+            text-align: right !important;
+        }
+
+    }
+
+
+    /*modal advertencia*/
+    .reveal#modaladvertencia p {
+        color: #424141;
+        text-align: center;
+        font-family: 'Lato-Regular' !important;
+    }
+
+
+    /*---------------------------MODAL CONFIRMACION DE CUENTA -----------------------------------------*/
+
+    /*Fondo y Tamaño*/
+    .reveal#modalconfirmaciondecuenta {
+        background-color: white;
+        color: #003865;
+        background: #ffffff;
+        opacity: 1;
+        border: 0px solid #cacaca;
+        border-radius: 55px 0px 55px 0px;
+    }
+
+    div#modalconfirmaciondecuenta {
+        width: 70%;
+    }
+
+    .m_editarbeneficiario {
+        margin-top: 40px !important;
+        margin-bottom: 30px !important;
+    }
+
+    select.miselector.modalselector {
+        height: 2.4375rem !important;
+    }
+
+    /*Titulo y textos*/
+    .reveal#modalconfirmaciondecuenta h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+
+    label.editmodal.modalcrear {
+        color: #003865;
+    }
+
+    label.editmodal {
+        color: #003865;
+    }
+
+    label.tittleinput {
+        color: #003865;
+    }
+
+    td.positiontdcenter {
+        text-align: center !important;
+    }
+
+    .table-responsive table tr td p.confirmacioninfo {
+        text-align: left;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    p.tablename {
+        TEXT-ALIGN: CENTER;
+    }
+
+    .option {
+        min-height: 0em !important;
+        padding-top: 0px;
+        padding-right: 2px;
+        padding-bottom: 0px !important;
+        padding-left: 2px;
+    }
+
+    label.colorlabel {
+        color: #003865;
+    }
+
+    select:not([multiple]) {
+        padding-top: 0;
+        padding-bottom: 0;
+        color: #909090;
+        border-color: #C4C4C4;
+        font-size: 14px;
+    }
+
+    @media (max-width: 1019px) and (min-width: 640px) {
+        div#modalconfirmaciondecuenta {
+            width: 70% !important;
+        }
+    }
+
+
+
+    /*---------------------RESPONSIVE----------------------*/
+    @media (max-width: 639px) {
+        .reveal#modalconfirmaciondecuenta {
+            width: 90%;
+            margin-left: 20px;
+            margin-top: 20px;
+            min-height: 65% !important;
+            height: 65%;
+        }
+
+        .h2pagoe h2 {
+            font-size: 18px;
+        }
+
+        .h3pagoe h3 {
+            font-size: 14px;
+        }
+
+        /*pagina 63*/
+        .table-responsive table tr td {
+            text-align: right;
+        }
+    }
+
+
+    /*modal cuenta a creditar */
+
+    div#modalcuentas {
+        width: 100%;
+    }
+
+    @media (max-width: 639px) {
+        div#modalcuentas {
+            width: 85% !important;
+        }
+
+        .reveal#modalcuentas {
+            min-height: 63% !important;
+            height: 63% !important;
+        }
+
+    }
+
+
+
+    /*---------------------------------------modal cuenta a creditar----------------------------------------------------- */
+    div#modalcuentasacreditar {
+        width: 100%;
+
+    }
+
+    @media (max-width: 1039px) and (min-width: 640px) {
+        div#modalcuentasacreditar {
+            width: 90% !important;
+            max-width: 66.5rem;
+        }
+        .h2pagoe h2 {
+            font-size: 27px ;
+        }
+        .labelselector {
+            margin-bottom: 15px ;
+        }
+        .h3pagoe h3 {
+        font-size: 20.8px;
+    }
+    }
+
+    @media (max-width: 639px) {
+        div#modalcuentasacreditar {
+            width: 100%;
+            max-width: 66.5rem;
+            margin-left: 0px;
+        }
+        .h2pagoe h2 {
+            font-size: 27px !important;
+        }
+
+        label.labelach.mostrar {
+            text-align: left;
+            /* margin-left: 30px; */
+            margin-right: -12px;
+            font-size: inherit;
+        }
+
+        /*solucion de bugs*/
+        td.checkbox.miniselector1 {
+            padding-left: 0px !important;
+        }
+        td.checkbox.miniselector2 {
+            padding-left: 0px !important;
+        }
+
+    }
+
+
+    /*modal*/
+
+    div#modalcrearbeneficario {
+        width: 35%;
+    }
+
+    div#modaleliminarbeneficario {
+        width: 35%;
+    }
+
+    div#modaleditarbeneficario {
+        width: 45%;
+    }
+
+    .iconmodal {
+        font-size: 5rem !important;
+        color: #FDB81C !important;
+        text-align: center !important;
+    }
+
+    .textogrismodal {
+        color: #707070;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .reveal#modaleditarbeneficiario h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+
+
+    .padding0 {
+        padding: 0px;
+    }
+
+    p.subtext.positioncenter {
+        text-align: center;
+        color: #959090 !important;
+    }
+
+
+    /*FASE 3*/
+
+    /*pagina 3*/
+
+    .positioncenter {
+        text-align: center !important;
+    }
+
+    /*modal datos de factura*/
+    div#modaldatosfacturas {
+        width: 50%;
+    }
+
+    .reveal#modaldatosfacturas h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+
+    /*pagina 4*/
+    .miselector3 {
+        margin-left: 0px !important;
+        height: 1.5625rem !important;
+        font-family: 'Lato-Regular' !important;
+        width: 110% !important;
+    }
+
+    input[type=radio]:not(old)+label {
+        margin-left: 0em;
+    }
+
+    #showcuotas {
+        visibility: visible;
+    }
+
+
+    .table-responsive table tr td p.normaltext {
+        color: #959090 !important;
+    }
+
+    .txtwidth {
+        width: 110%;
+    }
+
+    .txtotrafactura {
+        text-align: right;
+    }
+
+    i.IconAch.ach-Factura {
+        font-size: 18px;
+    }
+
+    .nombreresalt {
+        font-weight: bold !important;
+        color: #2C8B9E !important;
+    }
+
+    /*pagina 31*/
+    .moveleft {
+        margin-left: 15px;
+    }
+
+    /*modal pagina 84*/
+    div#modaldatosdefacturasmultiple {
+        width: 50%;
+    }
+
+    .reveal#modaldatosdefacturasmultiple h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+
+    /*modal pagina 86*/
+    div#modaldatoscarpeta {
+        width: 50%;
+    }
+
+    .reveal#modaldatoscarpeta h1 {
+        color: #003865;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+
+    /*modalpagina 87 */
+    div#modaleliminar {
+        width: 50%;
+    }
+
+    .reveal#modaleliminar h1 {
+        color: #003865;
+        text-align: center;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+
+    .reveal#modaleliminar p {
+        color: #424141;
+        text-align: center;
+        font-family: 'Lato-Regular' !important;
+    }
+
+    /*modalpagina 88 */
+    div#modalarchivoerror {
+        width: 50%;
+    }
+
+    .reveal#modalarchivoerror h1 {
+        color: #003865;
+        text-align: center;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 37px !important;
+    }
+
+    .reveal#modalarchivoerror p {
+        color: #424141;
+        text-align: center;
+        font-family: 'Lato-Regular' !important;
+    }
+
+    .icon.arch_error.iconalert-icon-alerta-error {
+        text-align: center;
+        font-size: 50px;
+        color: #F13852;
+    }
+
+    /*modalpagina 89 */
+    div#modalfinalizaringreso {
+        width: 50%;
+    }
+
+    .reveal#modalfinalizaringreso h1 {
+        color: #003865;
+        text-align: center;
+        font-weight: 600;
+        font-family: 'Lato-Regular' !important;
+        font-size: 27px !important;
+    }
+
+    
+.has-tip.infotooltip
+{
+    position: absolute;
+    margin-left: 9.2rem;
+    margin-top: 30px;
+    /* margin-top: 15rem; */
+}
+
+    .reveal#modalfinalizaringreso p {
+        color: #424141;
+        text-align: center;
+        font-family: 'Lato-Regular' !important;
+    }
+	
+	div#modal_Confirma_cuenta {
+            width: auto;
+            height: auto;
+            min-height: auto;
+}
+
+/*FASE 4*/
+    .bit_fc{
+      color:#959090 !important;
+    }
+    .bit_fc_bold{
+      color:#959090 !important;
+      font-weight: bold !important;
+    }
+
+    .tdmarco_details {
+        background-color: white;
+        border: 1px solid #CCCCCC !important;
+    }
+    .tdmarco2{
+        border-right: 1px solid #ffff;
+        border-right: 1px solid #CCCCCC !important;
+      }
+      .tdmarco3{
+        border-right: 1px solid #CCCCCC !important;
+      }
+
+      @media (max-width: 640px){
+        .tdmarco_details {
+            background-color: white;
+            border: 0px solid #CCCCCC !important;
+            border-bottom: 1px solid #CCCCCC !important;
+
+        }
+        .tdmarco2{
+          border-right: 0px solid #CCCCCC !important;
+        }
+        .tdmarco3{
+          border-right: 0px solid #CCCCCC !important;
+        }
+
+      }

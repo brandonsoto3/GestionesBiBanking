@@ -1,0 +1,172 @@
+/* ------------------------ TABLAS ------------------------------ */
+/*TD Description*/
+.table-responsive table tr td p.desciption_gestion{
+    font-weight: 300 !important;
+    font-family: Lato-Regular !important;
+    color: black !important;
+    vertical-align: middle;
+    font-size: 0.7rem; 
+    padding-right: 5.5rem !important;
+    padding-left: 5.5rem !important;
+    padding-bottom: 0.5rem;
+}
+
+/* ------------------ INPUT NUMERICOS --------------------------- */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* ------------------------ TEXTOS ------------------------------ */
+P.icon_gestion_text{
+    font-size: 14px !important;
+}
+
+/* ------------------------ BOTONES ----------------------------- */
+a.button.botonenlace.more_space_boton {
+    padding: 1rem 0.6px 1.0625rem 0.1rem !important;
+}
+button, .button.more_space_boton{
+    padding: 1rem 1rem 1.0625rem 1rem !important;
+}
+/*texto en botones de gestiones*/
+.gestionbox {
+    text-align: center;
+    padding: 1rem 0.7rem 1rem 0.7rem;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    cursor: pointer;
+}
+
+/* ----------------------- ERRORES ------------------------------ */
+.is-invalid-label {
+    color: #f23d53 !important;
+}
+small {
+    color: #f23d53 !important;
+}
+.form-error {
+    color: #f23d53 !important;
+}
+.is-invalid-input:not(:focus) {
+    border-color: #f23d53 !important;
+}
+
+/* ----------------------- PAGINEO ------------------------------ */
+    nav {
+        margin-top: 15px;
+    }
+    .privado li a {
+        color: #999999;
+    }
+    .pagination li:last-child, .pagination li:first-child {
+        border: 1px solid #2C8B9E;
+    }
+
+    /* flechas Siguiente  */
+    .pagination-next a::after{
+        margin-left: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+    .pagination-next a::after{
+        display: inline-block;
+        margin-left: 0.5rem;
+        content: "»";
+    }
+    .pagination-next a::after{
+        margin-left: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+
+    /* flechas Anterior */
+    .pagination-previous a::before{
+        margin-right: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+    .pagination-previous a::before{
+        display: inline-block;
+        margin-right: 0.5rem;
+        content: "«";
+    }
+    .pagination-previous a::before{
+        margin-right: 0rem;
+        color: #2C8B9E;
+        font-weight: bold;
+    }
+
+    /*HOVER*/
+    .pagination a:hover, .pagination button:hover {
+        background: none;
+    }
+    
+    
+
+/**/
+@media (max-width: 639px){
+/*    TEXTO ALINEADO EN RESPONSIVE*/
+    .table-responsive table tr td p.desciption_gestion{
+        margin-top: 14px;
+        text-align: left;
+        padding-right: 0rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+        padding-left: 0rem !important;
+    }
+
+    /*margen de tabla en responsive*/
+    .table-responsive table tbody tr:nth-child(odd) {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+      /*  height: 40px;*/
+    }
+
+    .table-responsive table tbody tr:nth-child(even) {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+    /*    height: 40px !important;*/
+    }
+
+/*calendario responsivve*/
+/*monts*/
+  .datepicker-months td{
+    text-align: center;
+    width: 185px;
+    height: 120px;
+    border: 0;
+  }
+  .datepicker-months table tr td span {
+    display: block;
+    width: 23%;
+    height: 38px;
+    line-height: 36px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+}
+ 
+/*years*/
+  .datepicker-years td{
+    text-align: center;
+    width: 185px;
+    height: 120px;
+    border: 0;
+  }
+  .datepicker-years table tr td span {
+    display: block;
+    width: 23%;
+    height: 38px;
+    line-height: 36px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+  }
+
+}

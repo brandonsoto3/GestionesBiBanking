@@ -11,7 +11,7 @@
 }
  
 .texto-encima{
-  font-family: 'Open Sans', sans-serif;
+ font-family: Raleway-Regular !important;
     position: absolute;
     top: 55%;
     left: 40%;

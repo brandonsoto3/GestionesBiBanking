@@ -1,3 +1,357 @@
+/*MG 4-10-2022 home*/
+
+
+.placeholdercolor2::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #003865 !important;
+   
+/*    opacity: 1;*/
+    /* Firefox */
+}
+
+.ajuste-privado1 h2 {
+    color: #003865;
+    margin-top: 0px !important;
+    font-size: 20px !important;
+}
+
+.ajuste-privado2 h3 {
+    color: #003865;
+    font-size: 18px !important;
+}
+
+/*MG 4-10-2022 alinear el acordeon*/
+.table-responsive table tr td.ajuste-acordion {
+    padding: 0px !important;
+}
+
+/*MG */
+.ajuste-beneficiario {
+    margin-top: 15px;
+}
+
+h3.h3achadd.agregarbeneficiario {
+    text-align: right;
+    margin-top: 5px;
+}
+
+/*MG ajustar contenido de tabla*/
+.table-responsive table thead tr th.positiontdleft.ajuste-titletable {
+    /* text-align: left !important; */
+    padding-left: 1rem !important;
+}
+
+/*MG Quitar mayuscula de titulos de tabla*/
+.table-responsive table thead tr th.ajuste-titulos-tabla {
+    text-transform: none;
+}
+
+/*titulos de inputs y selects */
+label.editmodal.positiontdleft {
+    text-align: left;
+    color: #003865;
+}
+
+/*MOSTRAR ENTRADAS*/
+label.editmodal.textleft.textoparrafo {
+    color: #424141 !important
+}
+/*texto interno de inputs*/
+input[type="text"] {
+    font-size: 14px;
+    color: #003865;
+}
+
+/*icono. de buscar*/
+input.bordersearch {
+    border-color: #CCCCCC !important;
+}
+i.IconAch {
+    color: #909090 !important;
+}
+
+.IconAch.ach-iconos_ach_buscar.searchbibanking {
+    position: absolute;
+}
+.searchbibanking {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 1rem;
+    color: #959090;
+}
+input.bordersearch:hover {
+    border: 1px solid #2ba6cb !important;
+}
+/*busqueda avanzada*/
+.inner-addon {
+    position: relative;
+}
+.right-addon .glyphicon {
+    right: 2px;
+    font-size: 1.4rem;
+    color: #13B2FF;
+}
+.inner-addon .glyphicon {
+    position: absolute;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 4px;
+    pointer-events: none;
+}
+i#list-products_wrapper {
+    color: #003865 !important;
+}
+
+/*inputs deshabilitados*/
+input:disabled, input[readonly], textarea:disabled, textarea[readonly] {
+    background-color: white;
+    cursor: pointer;
+}
+
+/*selector de mostrar*/
+select.miselector2.modalselector {
+    border-color: #C4C4C4 !important;
+    cursor: pointer;
+}
+select.miselector4.modalselector.selectortexto.numero {
+    margin-bottom: 0px !important;
+    color: #666666 !important;
+    cursor: pointer;
+}
+select.miselector4.modalselector.selectortexto {
+    width: auto;
+    height: 2rem;
+}
+
+
+@media screen and (max-width: 639px) {
+
+   
+    /*Alinear buscador*/
+    label.iconbuscador2 {
+        margin-top: 23px;
+    }
+}
+
+/*MG aplica solo para acordeones*/
+.reduciracordeon {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*MG ingreso_manual_confirmacion*/
+.margenconfirmacion {
+    margin-top: 50px !important;
+}
+
+/*MG ingreso_manual_exito_de_ingreso*/
+.margenexitoingreso {
+    margin-top: 50px !important;
+}
+
+
+i.IconAch.ach-iconos_ach_check.iconcheckdos.iconoaprovado {
+    color: #1EC771 !important;
+    text-align: center !important;
+    margin-left: 0px !important;
+}
+
+/*MG pantalla comprobante*/
+.table-responsive table tr td p.comprobandatosdestinotitulos {
+    font-size: 12px;
+    text-align: center; 
+    color: #707070!important;
+}
+
+/*MG pantalla comprobante*/
+.table-responsive table tr td p.comprobantecuentaedestinobene {
+    font-size: 12px;
+    text-align: center; 
+    color: #003865 !important;
+}
+
+/*contenido tabla de comprobante*/
+@media only screen and (max-width: 639px) {
+
+     .inputcenter {
+    text-align: right !important;
+}
+    /*MG pantalla comprobante*/
+    .table-responsive table tr td p.comprobandatosdestinotitulos {
+        font-size: 12px;
+        text-align: end; 
+        color: #707070!important;
+    }
+
+    /*MG pantalla comprobante*/
+    .table-responsive table tr td p.comprobantecuentaedestinobene {
+        font-size: 12px;
+        text-align: end; 
+        color: #003865 !important;
+    }
+}
+
+/*MG Pantalla Comprobante*/
+
+@media only screen and (max-width: 1024px) {
+    .row.section-size-privado.privado.special.ajustecomprobante {
+        width: 94% !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .row.section-size-privado.privado.special.ajustecomprobante {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .mtop.ajustemtop {
+        padding: 50px 18px 0px 18px !important;
+    }
+}
+
+/*MG Pantalla exito carga por archivo*/
+.margintxtajuste {
+    margin-top: 20px !important;
+}
+
+/*MG icono ingreso por archivo plantilla*/
+.iconcargararchivo {
+    font-size: 35px;
+    color: #757575;
+}
+
+/*MG pantalla ingreso por archivo plantilla*/
+input.inputtablaagregar.ajustetableplantilla {
+    height: 1.8rem;
+    width: 3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 640px) {
+    input.inputtablaagregar.ajustetableplantilla {
+        height: 1.8rem;
+        width: 3rem;
+        text-align: center;
+        margin: 0 0 0 auto;
+    }
+}
+
+/*MG pantalla ingreso por archivo plantilla*/
+.ajusteseleccionartipo {
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 510px) {
+    i p.titlemenuoption.ajusteopciones {
+        padding-left: 1rem;
+        display: block;
+        color: #666666;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+    }
+}
+
+/*MG Pantalla ingreso por archivo plantilla*/
+.ajustelinkdescarga {
+    margin-left: 10px;
+}
+
+/*MG color texto tabla agregar archivo propio*/
+p.tabletransfer.ajustetxtcolor {
+    color: #003865 !important;
+    font-weight: bold !important;
+}
+
+/*MG ajusta la linea de division del acordeon detalle*/
+table.marcodesplegabledetalle.ajustelineacordeon {
+    border-left: 1px solid #D1D1D1;
+    min-height: 190px;
+}
+
+@media only screen and (max-width: 640px) {
+    table.marcodesplegabledetalle.ajustelineacordeon {
+        border-left: 0px solid #D1D1D1;
+    }
+}
+
+/*MG Margin contenido fase5*/
+.section-size-privado.margintopajuste {
+    margin-top: 35px !important;
+}
+
+/*MG Margin tabla autorizacion exito fase5*/
+.ajustecheck {
+    margin-left: 10px;
+}
+
+/*MG quitar linea horizontal que separa checkbox todos en autorizacion general fase5*/
+@media only screen and (max-width: 639px) {
+     .inputcenter {
+    text-align: right !important;
+}
+
+   .table-responsive table tr td.checkbox.allcategories.sinlinea {
+        width: 100%!important;
+        border-bottom: 0px #909090 solid!important;
+        border-left: 0px solid!important;
+        border-right: 0px solid!important;
+        border-top: 0px solid!important;
+    }
+}
+
+
+/*MG Reducir tamaño de cuadro ingresados y fallidos de pantalla carga por archivo beneficiarios fase4*/
+.table-responsive table tr td p.reducirespacio {
+    margin-bottom: 0rem;
+}
+
+
+@media only screen and (max-width: 639px) { 
+    .table-responsive table tr td p.centrartxt {
+        color: #003865 !important;
+        font-weight: bold !important;
+        text-align: center;
+    }
+}
+
+/*MG Centrar texto modal carga por archivo fallidos*/
+.reveal#modalcuentas .centrarmodalfallidos {
+    color: black;
+    text-align: center !important;
+    font-family: 'Lato-Regular' !important;
+}
+
+@media only screen and (max-width: 639px) {
+.reveal#modalcuentas .centrarmodalfallidos {
+    color: black;
+    text-align: end !important;
+    font-family: 'Lato-Regular' !important;
+}
+}
+
+/*MG reducir tabla detalle en exito carga por archivo*/
+.table-responsive table tr td.reducirespaciodetalle  {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.table-responsive table tr td.reducirespaciodetalle p {
+    margin-bottom: 0.6rem;
+}
+
+@media only screen and (max-width: 639px) {
+    .table-responsive table tr td.reducirespaciodetalle {
+        padding-top: 0.3rem !important;
+        padding-bottom: 0.3rem !important;
+    }
+}
+
+
  /*alertas sin limte*/
  .alertax 
 {
@@ -11,12 +365,313 @@ span .alertax
 }
 
 
+small {
+    color: #ADADAD;
+}
+
+h2.margintoptitulo {
+    margin-top: 0px !important;
+}
+
+img.banner2 {
+    max-width: -webkit-fill-available;
+    height: 16rem;
+    margin-top: 1rem;
+}
+p.textoemenudesp {
+    margin-top: -13px !important;
+}
+p.fecha2 {
+    color: #959090 !important;
+    margin-bottom: 6px !important;
+}
+p.nombremepresa1 {
+    color: #063865 !important;
+    margin-bottom: -10px !important;
+    margin-top: 13px !important;
+}
+
+i.iconcontrol {
+    color: #959090 !important;
+}
+
+i.iconcontrol:hover {
+    color: #2C8B9E !important;
+}
+
+
+p.tabletransfer3 {
+    margin-top: 1rem !important;
+    color: #959090 !important;
+}
+
+p.tabletransfer4 {
+    text-align: -webkit-center;
+    color: #959090 !important;
+}
+/*control de chekes */
+
+p.tableusuario {
+    color: #003865 !important;
+    margin-top: 14px !important;
+}
+
+p.tabletransfer.positiontdcenter {
+    margin-top: 1rem;
+}
+
+.table-responsive table tr td p{
+    /*color: #959090 !important;*/
+    font-weight: bold !important;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+p.tabletransfer.textnombre {
+    margin-top: 3px;
+}
+
+label.miCheckbox.checkcenter {
+    text-align: -webkit-center !important;
+}
+
+td.tablebanco.numero {
+    color: #003865;
+     font-weight: bold !important;
+}
+
+p.confirmaciondatostitle {
+    color: #063865 !important;
+}
+
+.accordion-content.prueba {
+    /* display: none; */
+    padding: 0rem 0rem 0rem 0rem;
+    border: none;
+    border-bottom: 0;
+    color: #0a0a0a;
+}
+
+.table-responsive.hh {
+    margin-bottom: 0px;
+}
+
+h1.rechazotittle {
+    color: #003865 !important;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Lato-Regular' !important;
+    font-size: 27px !important;
+}
+
+p.modal_p.rechazoquestion {
+    text-align: center;
+    color: #424141;
+
+}
+
+p.confirmacioninfo {
+    color: #707070 !important;
+}
+
+td.cuentainfo.positiontdcenter.numero {
+    color: #959090;
+     font-weight: bold !important;
+}
+img.banner3 {
+    max-width: -webkit-fill-available;
+    height: 16rem;
+    margin-top: 1rem;
+}
+
+i.ach-iconos_ach_autorizar1 {
+    color: #959090;
+}
+
+i.ach-iconos_ach_editar2 {
+    color: #959090;
+}
+.lineas-financiamientosearch:before {
+    content: "\e905";
+    color: #959090 !important;
+}
+.menu-lateral1 .lateral-size2 .icon-.iconminimenu {
+    font-size: 52px;
+    margin-top: 0.8rem;
+    padding: 0rem 0rem;
+}
+
+
+.lateralmini {
+    border: 5px !important;
+}
+
+h2.icontitle.textmenulateral {
+    font-size: 15px;
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 21px;
+}
+
+.division1{
+    border: 0px solid;
+}
+
+a.hoverlateral:hover {
+    color: #00C1D4 !important;
+}
+
+
+a.textoalertaempresa {
+    font-size: 12px;
+    color: #3AB3C9;
+}
+
+
+h2.margintoptitulo {
+    margin-top: 0rem;
+}
+.privado a:hover {
+    color: #ffffff;
+    transition: .3s;
+}
+
+.privado li a {
+    color: #424141;
+}
+
+.menu-lateral1 .lateral-size2 .icon- {
+    font-size: 100px;
+    margin-top: 2rem;
+    padding: 0rem 2rem;
+}
+
+.section-size-privado {
+    width: 100%;
+    background-color: white;
+    min-height: calc(105vh - 226px);
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+p.textdesplegado {
+    color: #959090 !important;
+    margin-top: 10px !important;
+}
+h3.h3achadd.agregarben {
+    text-align: end;
+}
+
+/*MG*/
+td.positiontdleft.numero {
+    margin-top: 17px !important;
+    display: block;
+    text-align: center !important;
+}
+
+/*MG*/
+td.positiontdleft2.numero {
+    margin-top: 17px !important;
+    display: block;
+    text-align: center !important;
+}
+
+.table-responsive table thead tr th.positiontdleft.titletable {
+    text-align: center !important;
+    padding-left: 0rem !important;
+
+}
+
+td.tablebanco.numero.marginlefttexttable {
+    height: 3rem;
+}
+
+i.ach-iconos_ach_basurero {
+    color: #757575;
+}
+
+
+label.iconbuscador.controlcheques1 {
+    display: block;
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.8;
+    color: #003865;
+    text-align: left;
+    margin-right: 0px;
+        font-weight: 700;
+   
+}
+
+i.rangoicon {
+    margin-left: -87px;
+    margin-top: 37px;
+}
+
+a.button.default-action.agregarrango {
+    margin-top: 18px;
+    
+}
+
+
+h3.h3achadd.agregarbene2 {
+    text-align: end;
+    margin-top: 2rem;
+}
+
+h3.h3achadd.agregarbene {
+    text-align: end;
+       /* margin-top: 2rem;*/
+}
+
+h3.h3achadd.agregarbene2 {
+    text-align: end;
+        margin-top: 2rem;
+}
+label.miCheckbox.checkmonto.checkboxcontrol {
+    margin-top: 2rem !important;
+}
+p.textocheck {
+    margin-left: 2rem;
+    margin-top: -21px;
+}
+
+
+
+@media (max-width: 400px){
+label.editmodal.exportselect {
+    margin-left: 20px;
+}
+
+.lateral-size {
+    margin-bottom: 0rem !important;
+}
+}
+
+@media (max-width: 1024px){
+
+    .lateral-size {
+    margin-bottom: 0rem !important;
+}
+
+.positionresp{
+    display: contents;
+}
+}
+
+
+
+/*fin control de cheques */
+
+
+
 
 /*pagina 4 */
 
 .privado h2 {
     color: #003865;
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: 18px;
 }
 
@@ -31,10 +686,15 @@ span .alertax
     margin-top: 20px!important;
 }
 
+/*MG*/
 hr.hrach { 
-    max-width: 60.5rem;
+    max-width: 60.6rem;
     margin-top: 0rem; 
-    }
+/*    margin-left: 15px;
+    margin-right: 15px;*/
+}
+
+
 .h3ach{
     color: #515151!important;
     font-weight: 100!important;
@@ -77,11 +737,17 @@ span.closebutton1 {
     color: #0a0a0a !important;
 }
 
+/*MG*/
 .table-responsive table thead tr th.positiontdleft.titletable {
-    text-align: left !important;
-    padding-left: 1.9rem !important;
+  /*  text-align: left !important;*/
+   /* padding-left: 1.9rem !important;*/
 }
 
+
+p.tabletransfer2 {
+    text-align: center;
+    color: #959090 !important;
+}
 /*.labelach{
     color: #5A5A5A;
     font-weight: 600;
@@ -145,10 +811,13 @@ button.default-action:hover, button.default-action:focus, .button.default-action
 i.glyphicon1.ach-iconos_ach_dirigir {
     color: #053865;
 }
+
+/*MG comentado se llevo hacia arriba*/
 .row .row {
 margin-right: none; 
  margin-left: none; 
 }
+
 ::placeholder {
     color: #ADADAD!important;
     
@@ -275,19 +944,13 @@ a.linkaddcuenta{
     cursor: pointer;
 }
 
-.privado li a {
-    color: #999999;
+
+i.ccheques-Crear {
+    color: #909090;
 }
 
-label#chooseFile_textname {
-    color: #00C1D4;
-    text-align: center;
-    font-size: 18px;
-}
-label#chooseFile_textname2 {
-    color: #00C1D4;
-    text-align: center;
-    font-size: 18px;
+i.ach-iconos_ach_eliminar1 {
+    color: #909090;
 }
 
 .numerostyle{
@@ -356,8 +1019,14 @@ table.tbl-report.accountselector     {
     border-bottom: 0px solid;
 }
 
+.is-invalid-input:not(:focus) {
+    border-color: #F46A7D;
+    background-color: #ffffff;
+    margin: 0 0 0rem;
+}
+
 td.checkbox.allcategories {
-    border-right: 1px #909090 solid;
+   /* border-right: 1px #F46A7D solid !important;*/
 }
 .table-responsive table tr td p.tipocuenta {
     margin-left: 20px !important;
@@ -511,8 +1180,9 @@ tbody.tableselectoptionsacreditar2 {
     }
 
     input[type="text"] {
-    font-size: 14px;
+    font-size: 12px;
     color: #003865;
+    font-weight: 600;
 }
 /*-----------------------------------TABLAS----------------------------------------- */
 
@@ -557,8 +1227,11 @@ td p.activo{
 }
 
 /*Textos dentro de Tablas */
+p.tabletransfer {
+    color: #959090 !important;
+}
 .table-responsive table  tr td p  {
-    color: #003865 !important;
+    /*color: #003865 !important;*/
     font-weight: bold !important;
     
 }
@@ -570,7 +1243,7 @@ td p.activo{
     font-weight: bold !important;
 }
 td.cuentainfo {
-    text-align: left !important;
+   /* text-align: left !important;*/
 }
 
 
@@ -675,6 +1348,15 @@ thead.tabletiles.sinborde1 {
     }
 
 /*Mensaje de Alerta de la Modal*/
+
+.alert-box.callout.alert.alert2 {
+    color: #003865;
+    background: #FFB81C;
+}
+
+i.iconalert-icon-alerta-warning {
+    border-right: 1px solid #003865;
+}
     .alert-box.callout.info.modalalert {
         margin-top: 15px;
     }
@@ -742,10 +1424,10 @@ thead.tabletiles.sinborde1 {
         color: white !i;
     }
 */
-.privado a:hover {
+/*.privado a:hover {
     color: white;
     transition: .3s;
-}
+}*/
 
 /*---------------------------------MODAL CUENTAS------------------------------------- */
 
@@ -864,7 +1546,7 @@ thead.tabletiles.sinborde1 {
 
 .m_rechazar {
     margin-top: 40px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 24px !important;
 
 }
     .reveal#modalrechazar{
@@ -978,6 +1660,11 @@ thead.tabletiles.sinborde1 {
 
 /*Responsive de Borde de Tablas Desktop y Tablet*/
     @media (min-width: 640px){
+
+
+
+
+
         /*Bordes y hover de Bordes de las Tablas*/
         tr.tablecuentatitles th{
             border-right: none !important;
@@ -1048,6 +1735,8 @@ thead.tabletiles.sinborde1 {
 }
 /*Responsive de Modal Mini Table*/
     @media (max-width: 1039px) and (min-width: 640px){
+
+
     /*MODAL CAMBIO DE ROL*/
         /*Tamaño de Modal*/
         div#modalrol {
@@ -1091,6 +1780,14 @@ thead.tabletiles.sinborde1 {
 
 /*---------------------------------Responsive Movil------------------------------ */
 @media (max-width: 639px){
+
+    label.miCheckbox.checkcenter {
+    text-align: center !important;
+}
+
+                    p.tabletransfer.positiontdcenter {
+    text-align: end !important;
+}
     /*TABLAS*/
         /*Tabla Mostrar*/
         .columns.large-6.large-offset-11 {
@@ -1524,7 +2221,7 @@ p.tablemontodisponible1 {
     font-size: 0.75rem !important;
     font-style: italic !important; 
     font-weight: 100 !important;
-    color: #c60f13 !important;
+    color: #F13852 !important;
     background: #fff !important;
     text-align: right !important;
     border: solid 0px #fff !important;
@@ -1628,7 +2325,7 @@ table.comlumnainfo {
 .table-responsive table tr td p.confirmaciondatostitle {
     text-align: left;
     font-weight: bold;
-    color: #707070 !important;
+    color: #707070;
 }
 .table-responsive table tr td p.confirmacioninfo {
     text-align: left;
@@ -1770,14 +2467,20 @@ li.division.menulateral_subtitle {
     }
     .table-responsive table tr td p.comprobantecuentaedestino {
         font-size: 12px;
-        text-align: left;
+        text-align: center;
         color: #003865 !important;
     }
     .table-responsive table tr td p.comprobandatosdestino {
         font-size: 12px;
-        text-align: left;
+        text-align: center;
         color: #707070!important;
     }
+
+    .table-responsive table tr td p.comprobandatosdestino2 {
+    font-size: 12px;
+        text-align: inherit;
+    color: #707070!important;
+}
 
 /*Seccion Monto*/
     .table-responsive table tr td p.comprobantmontodato {
@@ -1935,11 +2638,9 @@ i.regresarmenu:hover {
 /*FASE 2*/
 /*MENU LATERAL DESPLEGABLE*/
 /*MINI*/
-#menuescondido{
+/*#menuescondido{
     display: block;
 }
-
-
 #menuextendido{
     display: none;
 }
@@ -1963,7 +2664,7 @@ i.regresarmenu:hover {
     border: 5px !important;
 }
 /*Despleado*/
-div#menuextendido {
+/*div#menuextendido {
     width: 17%;
 }
 h2.icontitle {
@@ -1974,7 +2675,7 @@ h2.icontitle {
     
     margin-top: 0.8rem;
     
-}
+}*/
 
 
 
@@ -2093,7 +2794,7 @@ td.checkbox.miniselector {
 
 /*nuevo css menu lateral*/
 
-@media (max-width: 1023px){
+/*@media (max-width: 1023px){
 .lateral-size {
     background-color: #fff !important;
     margin-bottom: 0rem;
@@ -2107,9 +2808,9 @@ td.checkbox.miniselector {
     padding-left: 0rem;
 }
 
-}
+}*/
 
-.lateral-size {
+/*.lateral-size {
     background-color: #f7f7f7;
     position: absolute;
     display: flex;
@@ -2117,7 +2818,7 @@ td.checkbox.miniselector {
     border-radius: 20px 0px 20px 0px;
 
 }
-
+*/
 
 
 i.ach-iconos_ach_dirigir1 {
@@ -2131,7 +2832,7 @@ i.ach-iconos_ach_dirigir1 {
     padding-left: 2rem
 }*/
 
-@media (max-width: 639px){
+/*@media (max-width: 639px){
 .row.section-size-privado.privado.special {
     
     padding-left: 0rem;
@@ -2145,7 +2846,7 @@ p.titlereport.titlebold.minitable2left {
 p.titlereporttitlebold.minitable2left {
     text-align: initial;
 }
-}
+}*/
 /*nuevo css menu lateral fin */
 
  /*---------------------RESPONSIVE----------------------*/
@@ -2186,7 +2887,8 @@ p.titlereporttitlebold.minitable2left {
         }
         table.marcodesplegabledetalle {
             border-left: 0px   solid;
-            border-top: 1px   solid ;
+            /*border-top: 1px   solid ; MG*/
+            border-top: 0px   solid ; 
         }
         table td:last-child {
             border-bottom: 0;
@@ -2194,7 +2896,13 @@ p.titlereporttitlebold.minitable2left {
             border-top: 0px;
             border-right: 0px;
         }
- }
+        /*MG*/
+        p.montomenudesp.numero {
+            font-size: 26px;
+            text-align: right;
+            color: #024989;
+        }
+}
 
 
 /*TABLA 5*/
@@ -2455,6 +3163,11 @@ td.cuentainfo.numero.textcenter {
         min-height: 65% !important;
         height: 65%;
     }
+
+            td.positiontdleft2.numero {
+    margin-top: 0px !important;
+    display: block;
+}
 }
 
 
@@ -2587,9 +3300,9 @@ label.miCheckbox.checkcenter {
 
 /*PAGINA 8  */
 
-h3.h3achadd.agregarbene {
+/*h3.h3achadd.agregarbene {
     text-align: RIGHT;
-}
+}*/
 
 /*PAGINA 2'*/
 
@@ -2909,13 +3622,13 @@ h2.regresararriba{
 }
 
 .is-invalid-label {
-    color: #c60f13;
+    color: #F13852;
 }
 
 
 input.inputsinborde1 {
-    height: 0.4375rem;
-    text-align: left;
+    height: 3rem;
+    text-align: center;
     border: 0px;
 }
 
@@ -3141,7 +3854,7 @@ p.tabletransferachivo {
  /*/checks de tablas*/
 
 label.miCheckbox.checkcenter {
-    margin-left: 29px !important;
+    margin-left: 4px !important;
 }
 
 @media (max-width: 1019px) and (min-width: 640px) {
@@ -3375,17 +4088,77 @@ p.minitable2left.colorminitabletext {
     color: white;
 }
 
+#nombre_beneficiario_color1::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #003870 !important;
+    font-weight: bold;
+    opacity: 1;
+}
 
+#nombre_beneficiario_color2::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #003870 !important;
+    font-weight: bold;
+    opacity: 1; 
+}
+#nombre_beneficiario_color3::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #003870 !important;
+    font-weight: bold;
+    opacity: 1; 
+}
+#nombre_beneficiario_color4::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #003870 !important;
+    font-weight: bold;
+    opacity: 1; 
+}
+#nombre_beneficiario_color5::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #003870 !important;
+    font-weight: bold;
+    opacity: 1; 
+}
+#nombre_beneficiario_color6::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #003870 !important;
+    font-weight: bold;
+    opacity: 1; 
+}
+
+
+/*  .positioncenter {
+        text-align: center !important;
+    }*/
+
+.inputcenter {
+
+    text-align: center !important;
+}
+
+.placeholdercolor2::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red !important;
+/*    opacity: 1;*/
+    /* Firefox */
+}
 /*exportar*/
 
-
-
-@media (max-width: 400px){
-label.editmodal.exportselect {
-    margin-left: 20px;
+.colortr{
+    background-color: white !important;
 }
 
+.colortr2{
+  background-color:  #ebebeb!important;
 }
+
+input.inputsinborde1.backcolor1 {
+    background: #ebebeb;
+}
+
+/*@media (max-width: 1024px){
+
+    .lateral-size.lateral-size2 {
+    display: none;
+}
+}*/
+
+
+
 
 
 

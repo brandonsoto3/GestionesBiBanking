@@ -64,10 +64,10 @@ textarea {
     margin-right: auto;
 }
 
-.privado span {
+/*.privado span {
     color: #1f3366;
     font-size: 35px;
-}
+}*/
 
 .modal-historial h2 {
     color: #424141;
@@ -105,7 +105,6 @@ textarea {
     color: black;
     font-family: Lato-Regular !important;
 }
-
 
 
 @media (max-width:  639px){
@@ -151,6 +150,14 @@ tfoot tr {
 }
 
 @media (max-width:  640px){
+
+    img.banner2 {
+    max-width: -webkit-fill-available;
+    height: 11rem !important;
+    margin-top: 5rem;
+}
+
+
     .titleFoot  {
     font-weight: normal !important;
 }
@@ -171,7 +178,20 @@ p.titleInfo {
     top: 0;
 }
 
+.money-q-table:after {
+    content: "Q";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .money-q {
+    position: relative;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.money-q-table{
     position: relative;
     padding-left: 20px;
     text-align: right;
@@ -184,7 +204,20 @@ p.titleInfo {
     top: 0;
 }
 
+.money-s-table:after {
+    content: "$";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .money-s {
+    position: relative;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.money-s-table {
     position: relative;
     padding-left: 20px;
     text-align: right;
@@ -258,7 +291,96 @@ small {
 
 .section-size-privado {
     background-color: #fefefe !important;
+        margin-top: 0px !important;
 }
+
+td.inhabilitado {
+    color: #F23D53 !important;
+}
+
+/*ACTUALIZACION POR MARCO INICIO*/
+
+.row.section-size-privado.privado {
+    max-width: 100%;
+}
+
+.row.lineaFull{
+    max-width: 62.5rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.lineacolor{
+        background: #EBEBEB;
+}
+
+.row.linea1 {
+    max-width: 62.5rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.row.linea2 {
+    max-width: 62.5rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+
+
+.section-size-privado {
+    background-color: #fefefe !important;
+        margin-top: 0px !important;
+}
+
+.row.section-size-privado.privado {
+    max-width: 100%;
+}
+
+.row.lineaFull{
+    max-width: 62.5rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.lineacolor{
+        background: #EBEBEB;
+}
+
+.row.linea1 {
+    max-width: 62.5rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.privado .form-error {
+    display: none;
+    margin-top: 0rem;
+    font-size: 0.75rem;
+    font-style: italic;
+    font-weight: 100;
+    color: #c60f13;
+    background: #fff;
+    text-align: right;
+    border: solid 0px #fff;
+}
+
+
+.etiqueta p {
+    color: white;
+    font-size: 1.1em;
+}
+
+.privado li a {
+    color: #999999;
+}
+
+.privado li {
+    font-weight: normal;
+
+}
+
+/*ACTUALIZACION POR MARCO FIN*/
 
 
 @media screen and (max-width: 640px){
@@ -285,6 +407,39 @@ small {
     .table-responsive table tfoot tr td {
         border-right: 0px solid #ffffff !important;
     }
+    .money-s-table:before {
+    content: "$";
+    position: initial;
+    left: 0;
+    top: 0;
+    }
+    .money-q-table:before {
+    content: "Q";
+    position: initial;
+    left: 0;
+    top: 0;
+    }
+    .money-s-table:after {
+    content: "";
+    position: none;
+    left: 0;
+    top: 0;
+    }
+    .money-q-table:after {
+    content: "";
+    position: initial;
+    left: 0;
+    top: 0;
+    }
+
+}
+
+
+
+img.banner2 {
+    max-width: -webkit-fill-available;
+    height: 20rem;
+    margin-top: 5rem;
 }
 
 

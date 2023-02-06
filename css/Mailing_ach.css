@@ -1,0 +1,197 @@
+/*Tipografia*/
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
+
+
+
+/*Borde de mailing*/
+.borde_mailing {
+    
+    border-left: 1px solid #00000029 !important;
+    border-right: 1px solid #00000029 !important;
+    border-top: 1px solid #00000029!important;
+    border-bottom: 0.5px solid #00000029 !important;
+    padding-top: 40px;
+    padding-Bottom: 40px;
+}
+
+
+hr.hr_mailing {
+    border-bottom: 0.5px solid #5EBED1;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold;
+}
+
+
+p.mailing_header_text {
+    color: #F7F7F7;
+    font-size: 14px;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold;
+    padding: 17px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+/*Encabezado*/
+p.mailing_header_text {
+    color: #2C8B9E;
+    font-size: 14px;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+span.header_text_yellow {
+    color: #FDD26E;
+}
+
+/*imagen de logo*/
+.img_right {
+    text-align: right;
+}
+
+/*titulos*/
+p.titles_mailing {
+    color: #2C8B9E;
+    font-size: 18px;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold;
+}
+
+/*Titulos de textos*/
+p.mailing_titles {
+    color: #00C1D4;
+    font-size: 14px;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+/*Textos*/
+p.mailing_texts {
+    color: #959090;
+    font-size: 14px;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+/*texto alerta*/
+p.mailing_texts_alert {
+    color: #FFB81C;
+    font-size: 12px;
+    font-style: italic;
+}
+/*monto*/
+p.comprobantmontodato {
+    font-size: 12px;
+    text-align: right;
+    color: #8C8C8C !important;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+span.comprobantemonto {
+    font-size: 24px;
+    text-align: right;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold;
+    color: #00C1D4 !important;
+}
+
+/*acreditado*/
+p.acreditado_info.numero {
+    color: #2C8B9E;
+    font-size: 18px;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold;
+}
+
+p.info_Text.numero {
+    color: #8C8C8C;
+    font-size: 12px;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold;
+}
+
+/*cuadros*/
+p.mailing_box {
+    background: white;
+    padding: 28px;
+    border-radius: 20px 0px ;
+    border: #FFC000 2px solid;
+
+}
+p.mailing_box2 {
+    background: blue;
+    padding: 20px;
+    border-radius: 20px 0px;
+}
+/*img placa*/
+.padding_img {
+    padding-left: 10px;
+}
+img.mailing_img_placa {
+    margin-top: -107px;
+    height: 147px;
+  
+}
+/*pie de pagina*/
+p.mailing_note.numero {
+    background: #D9D8D6;
+    padding: 20px !important;
+    color: #424141;
+    font-size: 14px;
+    border-left: 1px solid #00000029 !important;
+    border-right: 1px solid #00000029 !important;
+    border-bottom: 1px solid #00000029 !important;
+}
+
+p.confidencialidad_Text.numero {
+    color: #2C8B9E;
+    font-size: 12px;
+    font-family: 'Lato-Regular' !important;
+}
+
+
+/*MEDIAS PARA IMAGEN DE FONDO TABLET*/
+@media (max-width: 970px) and (min-width: 845px){
+    .padding_img {  padding-left: 8px; }
+}
+@media (max-width: 844px) and (min-width: 790px){
+    .padding_img { padding-left: 5px; }
+}
+@media (max-width: 789px) and (min-width: 715px){
+    .padding_img { padding-left: 3px; }
+}
+@media (max-width: 714px) and (min-width: 640px){
+    .padding_img { padding-left: 0px; }
+}
+
+
+/*MEDIAS PARA IMAGEN DE FONDO MOBILE*/
+@media (max-width: 639px) and (min-width: 460px){
+    .padding_img { 
+        padding-left: 0px; 
+    }
+    img.mailing_img_placa {
+        margin-top: -88px;
+        height: 128px;
+    }
+}
+
+@media (max-width: 459px) and (min-width: 350px){
+    .padding_img { 
+        padding-left: 0px; 
+    }
+    img.mailing_img_placa {
+        margin-top: -52px;
+        height: 91px;
+        margin-left: -5px;
+    }
+}

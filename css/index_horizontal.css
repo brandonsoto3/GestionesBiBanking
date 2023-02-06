@@ -2462,7 +2462,7 @@ input::-moz-placeholder {
 /*new*/
 @media screen and ( min-height: 800px ) and ( min-width: 1200px ){
 .grid-x.grid-margin-x.all_divs {
-    margin-top: 11rem;
+    margin-top: 22rem;
 }
 }
 

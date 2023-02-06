@@ -1,0 +1,237 @@
+
+/*imagen*/
+img.imagenimpre{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 230px;
+    height: 85px;
+}
+
+/*borde*/
+.row.section-size-privado.privado.special {
+    border: 1px solid;
+    width: 95%;
+}
+.table-responsive table tbody tr:nth-child(odd) {
+    border: 1px #707070 solid !important;
+}
+.table-responsive table tbody tr:nth-child(even) {
+    border-left: 1px solid #707070 !important;
+    border-right: 1px solid #707070 !important;
+    border-bottom: 1px solid #707070 !important;
+}
+
+.table-responsive table tbody tr.tablecuenta {
+    background: white !important;
+}
+.table-responsive table tbody tr.tablecuenta:hover {
+    border-right: solid 1px #00C1D4 !important;
+    border-top: solid 1.01px #00C1D4 !important;
+    border-bottom: solid 1px #00C1D4 !important;
+    border-left: solid 1px #00C1D4 !important;
+}
+
+thead.tabletiles {
+    border-top: 1px #CCCCCC solid !important;
+    border-left: 1px #CCCCCC solid;
+    border-right: 1px #CCCCCC solid;
+}
+
+tr.tablecuentatitles th {
+    color: #959090;
+}
+
+.table-responsive table thead.tabletiles{
+    border: 1px #707070 solid !important;
+}
+.table-responsive table thead th {
+    background: #EBEBEB !important;
+    color: #707070 !important;
+}
+thead.tabletiles {
+    border-top: 1px #909090 solid;
+}
+th.reportth {
+    text-align: center !important;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-right: 1px solid #ffffff;
+    padding-right: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 0.5rem !important;
+}
+
+td.tablebanco.contentcenter  {
+    text-align: center;
+    color: #959090;
+    font-size: 0.7rem;
+}
+td.cuentainfo.positiontdcenter.numero {
+    text-align: center;
+    color: #959090;
+    font-size: 0.7rem;
+}
+
+/*Padding de arriba*/
+.mtop {
+    padding: 50px 50px 0px 50px;
+}
+
+/*Encabezado*/
+p.comprobantetitle {
+    color: #003865 !important;
+    font-weight: bold !important;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+p.comprobantesubtitle {
+    color: #2C8B9E !important;
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+p.comprobantenum  {
+    color: #003865 !important;
+    font-weight: bold !important;
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+p.comprobantedate.numero {
+    text-align: right;
+    margin-bottom: 0px;
+    color: #707070!important;
+}
+
+/*informacion titulo y contenido*/
+p.comprobantetitle2 {
+    font-size: 12px;
+    text-align: left;
+    color: #2C8B9E !important;
+    margin-top: 15px;
+    font-weight: bold !important;
+}
+
+p.comprobantesubtitle2{
+    font-size: 12px;
+    text-align: left;
+    color: #003865 !important;
+    font-weight: bold !important;
+    margin-bottom: 0px;
+}
+p.comprobanteinfo2 {
+    font-size: 12px;
+    text-align: left;
+    color: #707070!important;
+    font-weight: bold !important;
+    margin-bottom: 0px;
+}
+
+/*Info de monto*/
+p.comprobantmontodato {
+    font-size: 12px;
+    text-align: right;
+    color: #003865 !important;
+    margin-bottom: 0px;
+}
+span.comprobantemonto {
+    font-size: 20px;
+    text-align: right;
+    color: #003865 !important;
+}
+p.comprobantemontodato {
+    font-size: 12px;
+    text-align: right !important;
+    color: #707070 !important;
+    font-weight: bold !important;
+}
+.comprobanteinfo3 {
+    color: #ADADAD !important;
+    font-size: 10px !important;
+}
+
+/*imagen barcode*/
+p.comprobantecontenido.numero {
+    color: #707070!important;
+    text-align: center;
+    font-size: 12px;
+}
+
+/*informacion Final*/
+.mbotom {
+    border-top: 1px solid;
+    padding-top: 10px;
+        background: #EBEBEB!important;
+    margin-bottom: 0px;
+
+}
+
+p.comprobaninfofinal {
+    color: #707070 !important;
+    font-size: 12px;
+    font-family: 'Lato-Regular' !important;
+    font-weight: bold !important;
+}
+
+.textleft {
+    text-align: left;
+}
+.textcenter {
+    text-align: center;
+}
+.txtright {
+    text-align: left ;
+}
+
+
+@media (max-width: 1039px) and (min-width: 640px){
+
+    body {
+   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; 
+   margin-left: 0px;
+  }
+  .row.section-size-privado.privado.special {
+    width: 100%;
+}
+   }
+
+ @media (min-width: 639px){
+
+    /*imagen*/
+img.imagenimpre{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 230px;
+    height: 85px;
+}
+
+
+    body {
+   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; 
+   margin-left: 0px;
+
+  }
+
+  .row.section-size-privado.privado.special {
+    width: 100%;
+}
+
+  .mbotom {
+    padding-left: 50px !important;
+}
+
+.textleft {
+    text-align: left;
+}
+.textcenter {
+    text-align: left;
+}
+.txtright {
+    text-align: right;
+}
+}
