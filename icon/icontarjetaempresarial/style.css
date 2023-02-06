@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'bbtce';
+  src:  url('fonts/bbtce.eot?movy7y');
+  src:  url('fonts/bbtce.eot?movy7y#iefix') format('embedded-opentype'),
+    url('fonts/bbtce.ttf?movy7y') format('truetype'),
+    url('fonts/bbtce.woff?movy7y') format('woff'),
+    url('fonts/bbtce.svg?movy7y#bbtce') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tarem-"], [class*=" tarem-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bbtce' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tarem-BB-TCE_acciones:before {
+  content: "\e900";
+}
+.tarem-BB-TCE_activacion-tarjeta:before {
+  content: "\e901";
+}
+.tarem-BB-TCE_atencion-modal:before {
+  content: "\e902";
+}
+.tarem-BB-TCE_buscador-avanzado:before {
+  content: "\e903";
+}
+.tarem-BB-TCE_buscador-normal:before {
+  content: "\e904";
+}
+.tarem-BB-TCE_calendario-input:before {
+  content: "\e905";
+}
+.tarem-BB-TCE_calendario:before {
+  content: "\e906";
+}
+.tarem-BB-TCE_cambio-pin:before {
+  content: "\e907";
+}
+.tarem-BB-TCE_chevron-down:before {
+  content: "\e908";
+}
+.tarem-BB-TCE_chevron-left:before {
+  content: "\e909";
+}
+.tarem-BB-TCE_chevron-right:before {
+  content: "\e90a";
+}
+.tarem-BB-TCE_chevron-up:before {
+  content: "\e90b";
+}
+.tarem-BB-TCE_consumos:before {
+  content: "\e90c";
+}
+.tarem-BB-TCE_descargar:before {
+  content: "\e90d";
+}
+.tarem-BB-TCE_editar:before {
+  content: "\e90e";
+}
+.tarem-BB-TCE_extrafinanciamiento:before {
+  content: "\e90f";
+}
+.tarem-BB-TCE_filtros-tablas:before {
+  content: "\e910";
+}
+.tarem-BB-TCE_Historial-de-pagos:before {
+  content: "\e911";
+}
+.tarem-BB-TCE_mundo:before {
+  content: "\e912";
+}
+.tarem-BB-TCE_salida-extranjero:before {
+  content: "\e913";
+}
+.tarem-BB-TCE_salir:before {
+  content: "\e914";
+}
+.tarem-BB-TCE_tarjetas-agregadas:before {
+  content: "\e915";
+}
+.tarem-BB-TCE_tooltiip:before {
+  content: "\e916";
+}

@@ -1,46 +1,33 @@
-@charset "UTF-8";
-
 @font-face {
-  font-family: "cambio-de-contrasena-x-correo-bb";
-  src:url("fonts/cambio-de-contrasena-x-correo-bb.eot");
-  src:url("fonts/cambio-de-contrasena-x-correo-bb.eot?#iefix") format("embedded-opentype"),
-    url("fonts/cambio-de-contrasena-x-correo-bb.woff") format("woff"),
-    url("fonts/cambio-de-contrasena-x-correo-bb.ttf") format("truetype"),
-    url("fonts/cambio-de-contrasena-x-correo-bb.svg#cambio-de-contrasena-x-correo-bb") format("svg");
+  font-family: 'Cambio-de-contrasea-x-correo-B';
+  src:  url('fonts/Cambio-de-contrasea-x-correo-B.eot?thjsfv');
+  src:  url('fonts/Cambio-de-contrasea-x-correo-B.eot?thjsfv#iefix') format('embedded-opentype'),
+    url('fonts/Cambio-de-contrasea-x-correo-B.ttf?thjsfv') format('truetype'),
+    url('fonts/Cambio-de-contrasea-x-correo-B.woff?thjsfv') format('woff'),
+    url('fonts/Cambio-de-contrasea-x-correo-B.svg?thjsfv#Cambio-de-contrasea-x-correo-B') format('svg');
   font-weight: normal;
   font-style: normal;
-
+  font-display: block;
 }
 
-[data-icon]:before {
-  font-family: "cambio-de-contrasena-x-correo-bb" !important;
-  content: attr(data-icon);
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Cambio-de-contrasea-x-correo-B' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
   line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "cambio-de-contrasena-x-correo-bb" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-cam-contra-bb-correo:before {
-  content: "\61";
+  content: "\e900";
 }
 .icon-cam-contra-bb-telefono:before {
-  content: "\62";
+  content: "\e901";
 }

@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'pagodeservicios';
+  src:  url('fonts/pagodeservicios.eot?969ejf');
+  src:  url('fonts/pagodeservicios.eot?969ejf#iefix') format('embedded-opentype'),
+    url('fonts/pagodeservicios.ttf?969ejf') format('truetype'),
+    url('fonts/pagodeservicios.woff?969ejf') format('woff'),
+    url('fonts/pagodeservicios.svg?969ejf#pagodeservicios') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="pg-"], [class*=" pg-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pagodeservicios' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pg-editar:before {
+  content: "\e900";
+/*  color: #adadad;*/
+}
+.pg-eliminar:before {
+  content: "\e901";
+/*  color: #959090;*/
+}
+.pg-factura:before {
+  content: "\e902";
+/*  color: #adadad;*/
+}
+.pg-flechas-tablas:before {
+  content: "\e903";
+/*  color: #707070;*/
+}
+.pg-recarga:before {
+  content: "\e904";
+/*  color: #959090;*/
+}
+.pg-cargar:before {
+  content: "\e905";
+}
+.pg-der:before {
+  content: "\e906";
+}
+.pg-star-regular:before {
+  content: "\e907";
+}
+.pg-grafica:before {
+  content: "\e908";
+}
+.pg-izq:before {
+  content: "\e909";
+}
+.pg-lista:before {
+  content: "\e90a";
+}
+.pg-manual:before {
+  content: "\e90b";
+}
+.pg-lupa:before {
+  content: "\e90c";
+}
+.pg-pregunta:before {
+  content: "\e90d";
+}
+.pg-star-solid:before {
+  content: "\e90e";
+}
+.pg-plus:before {
+  content: "\e90f";
+}
+.pg-trash:before {
+  content: "\e910";
+}
+.pg-check:before {
+  content: "\e911";
+}
+.pg-cerrar:before {
+  content: "\e912";
+}
+.pg-alerta:before {
+  content: "\e913";
+}
+.pg-eye:before {
+  content: "\e914";
+}
+.pg-print:before {
+  content: "\e915";
+}
+.pg-rechazar:before {
+  content: "\e916";
+}

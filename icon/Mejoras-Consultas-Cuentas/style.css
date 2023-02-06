@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'MejoraConsultas';
+  src:  url('fonts/MejoraConsultas.eot?kd4lc6');
+  src:  url('fonts/MejoraConsultas.eot?kd4lc6#iefix') format('embedded-opentype'),
+    url('fonts/MejoraConsultas.ttf?kd4lc6') format('truetype'),
+    url('fonts/MejoraConsultas.woff?kd4lc6') format('woff'),
+    url('fonts/MejoraConsultas.svg?kd4lc6#MejoraConsultas') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="MejoraConsultas-"], [class*=" MejoraConsultas-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'MejoraConsultas' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MejoraConsultas-acciones:before {
+  content: "\e900";
+}
+.MejoraConsultas-agregar:before {
+  content: "\e901";
+}
+.MejoraConsultas-alerta:before {
+  content: "\e902";
+}
+.MejoraConsultas-cancelar:before {
+  content: "\e903";
+}
+.MejoraConsultas-cerrar:before {
+  content: "\e904";
+}
+.MejoraConsultas-confirmar:before {
+  content: "\e905";
+}
+.MejoraConsultas-cuenta-agregada:before {
+  content: "\e906";
+}
+.MejoraConsultas-editar:before {
+  content: "\e907";
+}
+.MejoraConsultas-flecha-dropdown:before {
+  content: "\e908";
+}
+.MejoraConsultas-flecha-tabla-regular:before {
+  content: "\e909";
+}
+.MejoraConsultas-flecha-tabla-solid:before {
+  content: "\e90a";
+}
+.MejoraConsultas-grafica:before {
+  content: "\e90b";
+}
+.MejoraConsultas-grafica1:before {
+  content: "\e90c";
+}
+.MejoraConsultas-help:before {
+  content: "\e90d";
+}
+.MejoraConsultas-lista:before {
+  content: "\e90e";
+}
+.MejoraConsultas-lupa-2:before {
+  content: "\e90f";
+}
+.MejoraConsultas-lupa:before {
+  content: "\e910";
+}
+.MejoraConsultas-regresar:before {
+  content: "\e911";
+}
+.MejoraConsultas-siguiente:before {
+  content: "\e912";
+}
+.MejoraConsultas-star-regular:before {
+  content: "\e913";
+}
+.MejoraConsultas-star-solid:before {
+  content: "\e914";
+  color: #00c1d4;
+}
+.MejoraConsultas-ultima-modificacion:before {
+  content: "\e915";
+}

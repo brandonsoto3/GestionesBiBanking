@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'guateach';
-  src:  url('fonts/guateach.eot?487gci');
-  src:  url('fonts/guateach.eot?487gci#iefix') format('embedded-opentype'),
-    url('fonts/guateach.ttf?487gci') format('truetype'),
-    url('fonts/guateach.woff?487gci') format('woff'),
-    url('fonts/guateach.svg?487gci#guateach') format('svg');
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?haepj5');
+  src:  url('fonts/icomoon.eot?haepj5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?haepj5') format('truetype'),
+    url('fonts/icomoon.woff?haepj5') format('woff'),
+    url('fonts/icomoon.svg?haepj5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 
 [class^="ach-iconos_ach_"], [class*=" ach-iconos_ach_"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'guateach' !important;
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,70 +25,152 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ach-iconos_ach_Anterior:before {
-  content: "\e900";
+.ach-iconos_ach_documento-en-carga:before {
+  content: "\e930";
+/*  color: #757575;*/
 }
-.ach-iconos_ach_Final:before {
+.ach-iconos_ach_recargar:before {
+  content: "\e900";
+/*  color: #757575;*/
+}
+.ach-iconos_ach_alerta:before {
   content: "\e901";
 }
-.ach-iconos_ach_flecha-tablas:before {
+.ach-iconos_ach_confirmacion:before {
   content: "\e902";
-  color: #707070;
 }
-.ach-iconos_ach_Inicio:before {
+.ach-iconos_ach_error:before {
   content: "\e903";
 }
-.ach-iconos_ach_Siguiente:before {
+.ach-iconos_ach_Anterior:before {
   content: "\e904";
 }
 .ach-iconos_ach_cancelar:before {
-  content: "\e906";
+  content: "\e905";
 }
 .ach-iconos_ach_comprobante:before {
-  content: "\e907";
+  content: "\e906";
 }
 .ach-iconos_ach_detalle:before {
-  content: "\e908";
+  content: "\e907";
 }
 .ach-iconos_ach_dirigir:before {
-  content: "\e909";
+  content: "\e908";
 }
 .ach-iconos_ach_editar:before {
-  content: "\e90a";
+  content: "\e909";
 }
 .ach-iconos_ach_eliminar:before {
-  content: "\e90b";
+  content: "\e90a";
 }
 .ach-iconos_ach_archivopropio:before {
-  content: "\e90c";
+  content: "\e90b";
 }
 .ach-iconos_ach_agregararchivo:before {
-  content: "\e90d";
+  content: "\e90c";
 }
 .ach-iconos_ach_agregarbeneficiario:before {
-  content: "\e90e";
+  content: "\e90d";
 }
 .ach-iconos_ach_autorizar:before {
-  content: "\e90f";
+  content: "\e90e";
 }
 .ach-iconos_ach_basurero:before {
-  content: "\e910";
+  content: "\e90f";
 }
 .ach-iconos_ach_buscar:before {
-  content: "\e911";
+  content: "\e910";
 }
 .ach-iconos_ach_calendario:before {
-  content: "\e912";
+  content: "\e911";
 }
 .ach-iconos_ach_check:before {
-  content: "\e913";
+  content: "\e912";
 }
 .ach-iconos_ach_editar1:before {
-  content: "\e914";
+  content: "\e913";
 }
 .ach-iconos_ach_listado:before {
-  content: "\e915";
+  content: "\e914";
 }
 .ach-iconos_ach_usuario:before {
+  content: "\e915";
+}
+.ach-iconos_ach_Final:before {
   content: "\e916";
+}
+.ach-iconos_ach_flecha-tablas:before {
+  content: "\e917";
+}
+.ach-iconos_ach_Inicio:before {
+  content: "\e918";
+}
+.ach-iconos_ach_Siguiente:before {
+  content: "\e919";
+}
+.ach-iconos_ach_cancelar1:before {
+  content: "\e91a";
+}
+.ach-iconos_ach_comprobante1:before {
+  content: "\e91b";
+}
+.ach-iconos_ach_detalle1:before {
+  content: "\e91c";
+}
+.ach-iconos_ach_dirigir1:before {
+  content: "\e91d";
+}
+.ach-iconos_ach_editar2:before {
+  content: "\e91e";
+}
+.ach-iconos_ach_eliminar1:before {
+  content: "\e91f";
+}
+.ach-iconos_ach_archivopropio1:before {
+  content: "\e920";
+}
+.ach-iconos_ach_agregararchivo1:before {
+  content: "\e921";
+}
+.ach-iconos_ach_agregarbeneficiario1:before {
+  content: "\e922";
+}
+.ach-iconos_ach_autorizar1:before {
+  content: "\e923";
+}
+.ach-iconos_ach_basurero1:before {
+  content: "\e924";
+}
+.ach-iconos_ach_buscar1:before {
+  content: "\e925";
+}
+.ach-iconos_ach_calendario1:before {
+  content: "\e926";
+}
+.ach-iconos_ach_check1:before {
+  content: "\e927";
+}
+.ach-iconos_ach_editar11:before {
+  content: "\e928";
+}
+.ach-iconos_ach_listado1:before {
+  content: "\e929";
+}
+.ach-iconos_ach_usuario1:before {
+  content: "\e92a";
+}
+.ach-iconos_ach_flecha-tablas1:before {
+  content: "\e92b";
+}
+.ach-iconos_ach_vercarpeta:before {
+  content: "\e92c";
+}
+.ach-iconos_ach_flecha-regresar:before {
+  content: "\e92d";
+}
+.ach-iconos_ach_informacion:before {
+  content: "\e92e";
+}
+.ach-iconos_ach_desplegar-filtros:before {
+  content: "\e92f";
 }
