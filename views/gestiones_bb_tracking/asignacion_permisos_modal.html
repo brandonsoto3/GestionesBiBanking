@@ -14,13 +14,12 @@
   <link rel="stylesheet" href="../../css/gestiones_bb_tracking.css">
   <link rel="stylesheet" href="../../css/general_nueva_imagen_privado.css">
 
-   <!-- NUEVO CSS -->
+  <!-- NUEVO CSS -->
   <link rel="stylesheet" href="../../css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="../../css/Tablas_plugin.css">
   <link rel="stylesheet" href="../../css/New_Gestiones_bb_traking.css">
 
-
-  <!-- Fabicon --> 
+  <!-- Fabicon -->
 
   <link rel="apple-touch-icon" sizes="57x57" href="../../img/fabicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../../img/fabicon/apple-icon-60x60.png">
@@ -55,8 +54,7 @@
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-embedded.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7-codes.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7.css">
-  <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking.css"> 
-  <link type="text/css" rel="stylesheet" href="../../icon/iconbbtracking/style.css"> 
+  <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking.css">  
 
   <!-- NUEVOS ICONOS -->
   <link type="text/css" rel="stylesheet" href="../../icon/gestiones-bb-tracking-font/style.css">
@@ -91,6 +89,7 @@
       });
     });
   </script>
+
 
 </head>
 
@@ -1301,7 +1300,7 @@
 
         <!-- gestiones  -->
 
-        <li>
+         <li>
           <a style="font-weight: bold;" href="#">Gestiones</a>
           <ul class="menu vertical nested">
             <li class="js-drilldown-back"><a style="font-weight: bold;" href="javascript:void(0)">Gestiones</a></li>
@@ -1377,153 +1376,281 @@
 
      <!-- <div class="row">
         <div class="columns large-12 privado">   
-          <h2>Documentos env&iacute;o digital</h2>
+          <h2>Bit&aacute;cora Administrativa de Gestiones</h2>
         </div>
       </div>
     
     </div>  -->
 
-    
-<!--  NUEVO titulo -->
+     <!--  NUEVO titulo -->
       <div class="row">
         <div class="columns large-12 tag-title h2pagoe">
-          <h2 class="titlepage">Documentos para env&iacute;o digital</h2>
+          <h2 class="titlepage">Asignaci&oacute;n de Permisos</h2>
           <hr class="hr_title">
         </div>
       </div>
       
-
-    </div>
+      </div>
     </div>
     <!-- Fin de titulo -->
 
-
-     <!-- <div class="row section-size-privado privado special"> -->
+    <!-- <div class="row section-size-privado privado special"> -->
       <div class="row section-size-privado2"> <!-- nuevo div -->
+     <div class="large-12 columns" >
 
-      
-
-
-      <div class="large-12 columns" >
-
-        <!-- info -->
-      <div class="row">
-        <div class="columns large-12 ">
-         <label class="lbl_info">Selecciona la gestión que quieres realizar</label>
-        </div>
-      </div>
-      <!-- fin de info -->
-        <!-- Vieja Tabla -->
+        <!-- VIEJA TABLA -->
         <!-- <div class="row">
-          <div class="columns large-12 espacio-linea2">
+          <div class="columns large-9 large-offset-1 espacio-linea1">
             <div class="table-responsive">
               <table>
                 <thead>
                   <tr>
-                    <th width="30%" scope="col">NOMBRE DEL PROCESO</th>
-                    <th width="50%" scope="col">DESCRIPCI&Oacute;N DEL PROCESO</th>
-                    <th width="20%" scope="col">CREAR GESTI&Oacute;N</th>
+                    <th scope="col">USUARIO</th>
+                    <th scope="col">NOMBRE</th>
+                    <th scope="col">CONSULTA DE GESTIONES</th>
+                    <th scope="col">CREACI&Oacute;N DE GESTIONES</th>
+                    <th scope="col">AUTORIZACI&Oacute;N DE GESTIONES</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CARTA DE REFERENCIA</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar constancia de cuentas monetarias, ahorro y plazo fijo que posee en Banco Industrial. Este documento incluye fecha de apertura y el saldo promedio de los últimos 6 meses. (Q5.00 por carta)
-                      </P>
+                    <td data-label="USUARIO">JOSEC</td>
+                    <td data-label="NOMBRE">José Carlos Muralles Hernández</td>
+                    <td data-label="CONSULTA DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
+                    <td data-label="CREACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td data-label="AUTORIZACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox"uired="1" type="checkbox" class="checkAll checkbox" name="checkbox" value="A">
+                      <span></span>
+                    </label>
+                    </td>
                   </tr>
 
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CARTA CREDITICIA/ CARTA DE LICITACIÓN</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito.
-                      </P>
+                    <td data-label="USUARIO">DIEGO</td>
+                    <td data-label="NOMBRE">Diego Salala</td>
+                    <td data-label="CONSULTA DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
+                    <td data-label="CREACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td class="numero2" data-label="AUTORIZACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
                   </tr>
 
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CERTIFICACIÓN DE FIRMANTES</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. (Q5.00 por carta)
-                      </P>
+                    <td data-label="USUARIO">JOSE</td>
+                    <td data-label="NOMBRE">José Carlos Muralles Hernández</td>
+                    <td data-label="CONSULTA DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
+                    <td data-label="CREACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td data-label="AUTORIZACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                  </tr>
+
+                   <tr>
+                    <td data-label="USUARIO">DIEGO</td>
+                    <td data-label="NOMBRE">Diego Salala</td>
+                    <td data-label="CONSULTA DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td data-label="CREACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td class="numero2" data-label="AUTORIZACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
                   </tr>
 
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">DOCUMENTO TRANSACCIONAL</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). (Q5.00 por carta)
-                      </P>
+                    <td data-label="USUARIO">JOSE</td>
+                    <td data-label="NOMBRE">José Carlos Muralles Hernández</td>
+                    <td data-label="CONSULTA DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
+                    <td data-label="CREACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td data-label="AUTORIZACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                  </tr>
+
+                   <tr>
+                    <td data-label="USUARIO">DIEGO</td>
+                    <td data-label="NOMBRE">Diego Salala</td>
+                    <td data-label="CONSULTA DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td data-label="CREACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td class="numero2" data-label="AUTORIZACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
                   </tr>
 
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">COPIA DE ESTADOS DE CUENTA</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. (Q3.50 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q1.00 por hoja adicional.)
-                      </P>
+                    <td data-label="USUARIO">JOSE</td>
+                    <td data-label="NOMBRE">José Carlos Muralles Hernández</td>
+                    <td data-label="CONSULTA DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
+                    <td data-label="CREACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td data-label="AUTORIZACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                  </tr>
+
+                   <tr>
+                    <td data-label="USUARIO">DIEGO</td>
+                    <td data-label="NOMBRE">Diego Salala</td>
+                    <td data-label="CONSULTA DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td data-label="CREACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td class="numero2" data-label="AUTORIZACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
                   </tr>
 
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CARTA CREDITICIA/ CARTA DE LICITACIÓN</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito.
-                      </P>
+                    <td data-label="USUARIO">JOSE</td>
+                    <td data-label="NOMBRE">José Carlos Muralles Hernández</td>
+                    <td data-label="CONSULTA DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
+                    <td data-label="CREACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
+                    <td data-label="AUTORIZACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
+                    </td>
                   </tr>
 
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CERTIFICACIÓN DE FIRMANTES</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. (Q5.00 por carta)
-                      </P>
+                   <tr>
+                    <td data-label="USUARIO">DIEGO</td>
+                    <td data-label="NOMBRE">Diego Salala</td>
+                    <td data-label="CONSULTA DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">DOCUMENTO TRANSACCIONAL</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). (Q5.00 por carta)
-                      </P>
+                    <td data-label="CREACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">COPIA DE ESTADOS DE CUENTA</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. (Q3.50 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q1.00 por hoja adicional.)
-                      </P>
+                    <td class="numero2" data-label="AUTORIZACI&Oacute;N DE GESTIONES">
+                    <label class="miCheckbox">
+                      <input type="checkbox" name="test" class="checkbox">
+                      <span></span>
+                    </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
                   </tr>
-
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">DOCUMENTO TRANSACCIONAL</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). (Q5.00 por carta)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
-    
+                 
                 </tbody>
               </table>
 
             </div>
           </div>
-        </div>
- -->
-        <!-- Viejo pagineo -->
+        </div>  -->
+
+        <!-- VIEJO pagineo -->
          <!-- <div class="row">
           <div class="columns large-12">
             <nav aria-label="Pagination " pagination-mobile-items="">
@@ -1541,142 +1668,345 @@
             </nav>
           </div>
         </div> -->
-        <!-- fin de pagineo -->
+        <!-- fin de pagineo 
 
-      <!-- NUEVA tabla -->
+     -->
+
+    
+      <!-- Nueva tabla -->
       <div class="row">
         <div class="columns large-12 espacio-linea1">
           <div class="table-responsive">
             <table class="tbl-report" role="grid" id="table1" class="display" style="width:100%">
               <thead class="colorhead">
                 <tr>
-                  <th scope="col" style="width: 25%;">Nombre del proceso</th>
-                  <th scope="col"style="width: 50%;">Descripci&oacute;n del proceso</th>
-                  <th scope="col">Crear gesti&oacute;n</th>
+                  <th scope="col" style="width: 25%;">Usuario</th>
+                  <th scope="col" style="width: 35%;">Nombre</th>
+                  <th scope="col" class="disableMe">Consulta de<br> gestiones</th>
+                  <th scope="col" class="disableMe">Creaci&oacute;n de<br> gestiones</th>
+                  <th scope="col" class="disableMe">Autorizaci&oacute;n de<br> gestiones</th>
+                </tr>
               </thead>
 
               <tbody>
                   <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta de referencia</p>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">JOSEC</p>
                     </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro y plazo fijo que posee en Banco Industrial. Este documento incluye fecha de apertura y el saldo promedio de los últimos 6 meses. Q10.00 cada carta</p>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">José Carlos Muralles Hernández</p></td>
+                    <td data-label="Consulta de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch1" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch1">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
                     </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
+                    <td data-label="Creaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch2" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch2">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
                     </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta crediticia/ carta de licitación</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt ">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Certificación de firmantes</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso" >
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
+                    <td data-label="Autorizaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch3" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch3">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
                     </td>
                   </tr>
 
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Documento transaccional</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Copia de Estados de cuenta</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. Q7.00 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q2.00 por hoja adicional.</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                   <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta de referencia</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro y plazo fijo que posee en Banco Industrial. Este documento incluye fecha de apertura y el saldo promedio de los últimos 6 meses. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta crediticia/ carta de licitación</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Certificación de firmantes</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso" >
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Documento transaccional</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Copia de Estados de cuenta</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. Q7.00 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q2.00 por hoja adicional.</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-                 
    
+                  <tr>
+                     <td data-label="Usuario">
+                      <p class="td_textnormal">DIEGO</p>
+                    </td>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">DIEGO SALALA</p></td>
+                    <td data-label="Consulta de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch4" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch4">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Creaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch5" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch5">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Autorizaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch6" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch6">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                  </tr>
+
+
+                  <tr>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">JOSE</p>
+                    </td>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">José Carlos Muralles Hernández</p></td>
+                    <td data-label="Consulta de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch7" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch7">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Creaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch8" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch8">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Autorizaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch9" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch9">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                  </tr>
+
+   
+                  <tr>
+                     <td data-label="Usuario">
+                      <p class="td_textnormal">DIEGO</p>
+                    </td>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">DIEGO SALALA</p></td>
+                    <td data-label="Consulta de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch10" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch10">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Creaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch11" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch11">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Autorizaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch12" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch12">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">JOSEC</p>
+                    </td>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">José Carlos Muralles Hernández</p></td>
+                    <td data-label="Consulta de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch13" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch13">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Creaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch14" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch14">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Autorizaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch15" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch15">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                  </tr>
+
+   
+                  <tr>
+                     <td data-label="Usuario">
+                      <p class="td_textnormal">DIEGO</p>
+                    </td>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">DIEGO SALALA</p></td>
+                    <td data-label="Consulta de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch16" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch16">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Creaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch17" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch17">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Autorizaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch18" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch18">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">JOSEC</p>
+                    </td>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">José Carlos Muralles Hernández</p></td>
+                    <td data-label="Consulta de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch19" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch19">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Creaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch20" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch20">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Autorizaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch21" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch21">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                  </tr>
+
+   
+                  <tr>
+                     <td data-label="Usuario">
+                      <p class="td_textnormal">DIEGO</p>
+                    </td>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">DIEGO SALALA</p></td>
+                    <td data-label="Consulta de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch22" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch22">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Creaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch23" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch23">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Autorizaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch24" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch24">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">JOSEC</p>
+                    </td>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">José Carlos Muralles Hernández</p></td>
+                    <td data-label="Consulta de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch25" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch25">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Creaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch26" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch26">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Autorizaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input" id="exampleSwitch27" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch27">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                  </tr>
+
+   
+                  <tr>
+                     <td data-label="Usuario">
+                      <p class="td_textnormal">DIEGO</p>
+                    </td>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">DIEGO SALALA</p></td>
+                    <td data-label="Consulta de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input" id="exampleSwitch28" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch28">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Creaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch29" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch29">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                    <td data-label="Autorizaci&oacute;n de gestiones" class="swithcenter">
+                      <div class="switch">
+                        <input class="switch-input"  id="exampleSwitch30" type="checkbox" name="exampleSwitch">
+                        <label class="switch-paddle" for="exampleSwitch30">
+                          <span class="show-for-sr"> </span>
+                        </label>
+                      </div>
+                    </td>
+                  </tr>
+
+
+                 
                 </tbody>
               </table>
 
@@ -1686,20 +2016,62 @@
 
       <!-- fin de tabla -->
 
+      
+      <!-- botones -->
         <div class="row">
-          <div class="columns large-3 large-offset-9 medium-6 medium-offset-6">
-            <a href="pendiente_autorizar.html"><button class="button more_space_boton2">Pendiente de Autorizar</button></a>
-          </div>
+          <div class="medium-4 large-3 medium-push-8 large-push-9 columns espacio-linea2">
+                <!-- <button data-open="modalConfirmacion" class="button habilitar" disabled>Confirmar</button> -->
+                <!-- NUEVO boton de confirmar -->
+                <button id="btnAceptar" class="button confirmar someToken habilitar" data-open="modalConfirmacion"  disabled >Confirmar</button>
+              </div>
+
+              <div class="medium-4 large-3 medium-pull-4 large-pull-3  columns espacio-linea2a">
+                <!-- <a href="../header_footer/header_footer.html" class="button default-action">Regresar</a> -->
+                <!-- NUEVO boton de regresar -->
+                <a href="Home.html" class="button default-action">Regresar</a>
+              </div>
         </div>
 
-        
 
-
-  
       </div>
     </div>
 
     <!-- Fin Contenido -->
+
+
+    <!-- Inicio modales -->
+
+    <div class="medium reveal" id="modalConfirmacion" data-reveal>
+    
+        <div class="row">
+          <div class="columns large-12 privado espacio-linea3">
+           <center><h1>Asignaci&oacute;n de permisos</h1></center>
+           <a class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row espacio-linea3">
+     
+        <div class="columns large-12">
+          <center><p>¿Est&aacute;s seguro de realizar la asignaci&oacute;n de permisos?</p></center> 
+        </div>
+
+        <div class="medium-6 large-6 medium-push-6 large-push-6 columns espacio-linea3">
+          <a  href="asignacion_de_permisos_alerta_exito.html" class="button">Confirmar</a>
+        </div>
+
+        <div class="medium-6 large-6 medium-pull-6 large-pull-6  columns espacio-linea3a">
+          <a data-close aria-label="Close modal" class="button default-action">Cancelar</a>
+        </div>
+     
+      </div>
+    
+    </div>
+
+    <!-- Fin modales -->
+
 
 
 
@@ -1870,6 +2242,60 @@
       <script src="../../js/vendor/header_func.js"></script>
       <script src="../../js/slick/slick.js" ></script>
       
+      <!-- CODIGO PARA DESHABILITAR BOTON SI NO SELECCIONAN NINGUN CHECKBOX -->
+
+<!--       <script type="text/javascript">
+          $(function() {
+          $(":checkbox").click(function(){
+          $('.habilitar').prop('disabled',$('input.checkbox:checked').length == 0);
+          });
+          });
+      </script> -->
+
+        <!-- NUEVO th desabilitado -->
+      <script >
+        // ocultar icono de ordenamiento en ultima columna
+        $(document).ready(function(){
+          $('th').click(function() {
+            $('.disableMe').removeClass("sorting");
+          });
+
+          // quita las flechas a los th que estan deshabilitados
+          $('.disableMe').off('click');
+          $('.disableMe').css({
+            'cursor': 'default'
+          });
+
+          $('.disableMe').removeClass("sorting");
+          $('.disableMe').removeClass("sorting_asc");
+          $('.disableMe').removeClass("sorting_desc");
+        });
+      </script>
+
+      <!--  NUEVO SCRIPT PARA activar o desactivar el boton siguiente -->
+      <script type="text/javascript">
+          $(function() {
+            $(".switch-input").click(function(){
+              // si hay 1 o más switches activos se activa el boton
+              if($('.switch-input:checked').length == 0){
+                  $('.habilitar').attr('disabled', true);
+              }
+              // si no hay ningun switch activ se desactiva el boton
+              if($('.switch-input:checked').length > 0){
+                  $('.habilitar').attr('disabled', false);
+              }
+              
+            });
+          });
+      </script>
+
+
+      <!-- NUEVO modal en pantalla -->
+        <script>
+          $(document).ready(function () {
+            $('#modalConfirmacion').foundation('open');
+          });
+        </script>
 
 
 </body>

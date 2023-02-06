@@ -14,6 +14,11 @@
   <link rel="stylesheet" href="../../css/gestiones_bb_tracking.css">
   <link rel="stylesheet" href="../../css/general_nueva_imagen_privado.css">
 
+    <!-- nuevos css -->
+  <link rel="stylesheet" href="../../css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="../../css/Tablas_plugin.css">
+  <link rel="stylesheet" href="../../css/New_Gestiones_bb_traking.css">
+
   <!-- Fabicon -->
 
   <link rel="apple-touch-icon" sizes="57x57" href="../../img/fabicon/apple-icon-57x57.png">
@@ -33,7 +38,7 @@
   <script defer src="../../js/fontawesome/fontawesome-all.js"></script>
 
 
-
+ 
 
 
   <!-- Iconos -->
@@ -51,6 +56,9 @@
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking.css"> 
   <link type="text/css" rel="stylesheet" href="../../icon/iconbbtracking/style.css"> 
+
+    <!-- NUEVOS ICONOS -->
+  <link type="text/css" rel="stylesheet" href="../../icon/gestiones-bb-tracking-font/style.css">
 
   <!-- slick-->
    <link rel="stylesheet" type="text/css" href="../../js/slick/slick.css"/>
@@ -1335,22 +1343,47 @@
 
 
     <!-- Inicio Contenido -->
+    <!-- <div class="columns large-12 etiqueta-linea">--> 
+       <div class="row">
+    <div class="columns large-12"> <!-- Nuevo DIV de contenido -->
 
-    <div class="columns large-12 etiqueta-linea">
-
-      <div class="row">
-        <div class="columns large-12 privado">   
+     <!-- 
+     <div class="row">
+      <div class="columns large-12 privado">   
           <h2>Gesti&oacute;n creada exitosamente</h2>
+        </div>
+      </div>
+    </div>  -->
+
+     <!--  NUEVO titulo -->
+      <div class="row">
+        <div class="columns large-12 tag-title h2pagoe">
+          <h2 class="titlepage">Gesti&oacute;n creada exitosamente</h2>
+          <hr class="hr_title">
         </div>
       </div>
       
     </div>
+    </div>
+    <!-- Fin de titulo -->
+
+    <!-- NUEVA alerta -->
+    <div class="row">
+      <div class="columns large-12 ">
+        <div data-closable class="alert-box callout success">
+          <i class="iconalert-icon-alerta-success"></i> Gestión creada exitosamente
+        </div>
+      </div>
+    </div>
+    <!-- fin de alerta -->
 
 
-    <div class="row section-size-privado privado special">
+     <!-- <div class="row section-size-privado privado special"> -->
+      <div class="row section-size-privado2"> <!-- nuevo div -->
       <div class="large-12 columns" >
 
-        <div class="row">
+        <!-- VIEJA CONFIRMACION -->
+        <!-- <div class="row">
           <div class="columns large-12 espacio-linea1">
             <center><i class="bbt-bbtracking-check"></i></center>
           </div>
@@ -1369,7 +1402,43 @@
           <div class="columns large-3 large-pull-6 medium-4 medium-pull-2">
             <a href="../header_footer/header_footer.html" class="button default-action">Ir a inicio</a>
           </div>
-        </div>
+        </div> -->
+
+        <!-- NUEVA confirmacion -->
+         <!-- Info -->
+
+        <!-- titulo -->
+            <h1 class="title_infopage" >
+              <i class="Gestiones_icon-gestiones-check" ></i>
+              <br>
+              Gestión creada exitosamente
+            </h1>
+            
+            <!-- mensaje -->
+            <div class="row">
+              <div class="large-9 large-centered medium-9 medium-centered small-11 small-centered columns">
+                <label class="txt_infodata">No. de gestión 000000000</label>
+              </div>
+            </div>
+
+            <br>
+
+            <!-- botontes -->
+            <div class="row">
+              <div class="large-12 columns">
+                <div class="row">
+                  <div class="medium-4 large-4 medium-push-6 large-push-6 small-12  columns ">
+                    <a id="btnAceptar2" class="button confirmar someToken " data-close>Realizar otra gestión</a>
+                  </div>
+                  <div class="medium-4 large-4 medium-pull-6 large-pull-6  columns espacio-linea5">
+                    <button class="button default-action closemodal" data-close>Ir a inicio</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+      <!-- fin de info -->
 
 
     </div>

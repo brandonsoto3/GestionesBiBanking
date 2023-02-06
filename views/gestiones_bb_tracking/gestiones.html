@@ -14,7 +14,10 @@
   <link rel="stylesheet" href="../../css/gestiones_bb_tracking.css">
   <link rel="stylesheet" href="../../css/general_nueva_imagen_privado.css">
 
-  
+    <!-- NUEVO CSS -->
+  <link rel="stylesheet" href="../../css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="../../css/Tablas_plugin.css">
+  <link rel="stylesheet" href="../../css/New_Gestiones_bb_traking.css">
 
 
   <!-- Fabicon -->
@@ -38,7 +41,7 @@
 
 
 
-
+ 
   <!-- Iconos -->
 
   <link type="text/css" rel="stylesheet" href="../../icon/iconosnum/styles.css">
@@ -54,6 +57,10 @@
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking.css"> 
   <link type="text/css" rel="stylesheet" href="../../icon/iconbbtracking/style.css"> 
+
+  <!-- NUEVOS ICONOS -->
+  <link type="text/css" rel="stylesheet" href="../../icon/gestiones-bb-tracking-font/style.css">
+
 
   <!-- slick-->
    <link rel="stylesheet" type="text/css" href="../../js/slick/slick.css"/>
@@ -1336,21 +1343,35 @@
 
 
 
+ <!--  Inicio Contenido -->
 
-    <!-- Inicio Contenido -->
+   <!-- <div class="columns large-12 etiqueta-linea">--> 
+    <div class="row">
+        <div class="columns large-12"> <!-- Nuevo DIV de contenido -->
 
-    <div class="columns large-12 etiqueta-linea">
-
-      <div class="row">
+     <!-- <div class="row">
         <div class="columns large-12 privado">   
           <h2>Gestiones</h2>
         </div>
       </div>
+    
+    </div>  -->
+
+     <!--  NUEVO titulo -->
+      <div class="row">
+        <div class="columns large-12 tag-title h2pagoe">
+          <h2 class="titlepage">Gestiones</h2>
+          <hr class="hr_title">
+        </div>
+      </div>
       
+
     </div>
+    </div>
+    <!-- Fin de titulo -->
 
-
-    <div class="row section-size-privado privado special">
+     <!-- <div class="row section-size-privado privado special"> -->
+      <div class="row section-size-privado2"> <!-- nuevo div -->
       <div class="large-12 columns" >
 
         <div class="row">
@@ -1363,7 +1384,12 @@
           <div class="columns large-6 large-offset-3 medium-8 medium-offset-2 espacio-linea2">
             <div class="row">
               <div class="columns large-12">
-                <label>Busca una gesti&oacute;n
+                <!-- <label>Busca una gesti&oacute;n
+                  <input  type="search" placeholder="Ingresa una palabra clave para buscar una gestión">
+                </label> -->
+
+                <!-- NUEVO input -->
+                <label class="lbl_title">Busca una gesti&oacute;n
                   <input  type="search" placeholder="Ingresa una palabra clave para buscar una gestión">
                 </label>
               </div>
@@ -1375,49 +1401,79 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="columns large-6 large-offset-4 medium-8 medium-offset-2 gestion-bb espacio-linea2">
+        <!-- viejo gestiones -->
+       <!--  <div class="row">
+          <div class="columns large-6 large-offset-3 medium-8 medium-offset-2 gestion-bb espacio-linea2">
 
             <div class="row">
-              <div class="columns large-4 large-offset-0 medium-4 medium-offset-2 small-6">
+              <div class="columns large-5 medium-4 small-6">
            
-                <a href="documentos_envio_fisico.html" >
+                <a href="documentos_envio_digital.html" >
                   <div class="columns large-12 gestionbox">
                   <i class="bbt-bbtracking-documentos" ></i>
-                  <p class="icon_gestion_text">Documentos Para envío físico</p>
+                  <p>Documentos Para envío digital</p>
                   </div>
                 </a>
           
               </div>
 
-              <div class="columns large-4 large-pull-4 medium-4 medium-pull-2 small-6">
-                <a href="documentos_envio_digital.html">
+              <div class="columns large-5 medium-4 small-6">
+                <a href="documentos_envio_fisico.html">
                   <div class="columns large-12 gestionbox">
                   <i class="bbt-bbtracking-servicios"></i>
-                  <p class="icon_gestion_text">Documentos Para envío digital</p>
+                  <p>Documentos Para envío físico</p>
                   </div>
                 </a>
               </div>
 
-              
+            </div>
+            
+          </div>
+        </div> -->
+
+        <!-- Nuevo gestiones -->
+        <div class="row">
+          <div class="columns large-6 large-offset-4 medium-8 medium-offset-2 gestion-bb2 espacio-linea2">
+
+            <div class="row">
+              <div class="columns large-4 large-offset-0 medium-4 medium-offset-2 small-4 small-offset-1">
+                <div class="row">
+                  <a href="p10_gestiones_fisico.html" class="icon_colorgestions " >
+                    <div class="columns large-12 gestionbox">
+                    <i class="Gestiones_icon-gestiones-hoja" ></i>
+                    <p class="lbl_gesticon_text">Documentos Para envío físico</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="columns large-4 large-pull-3 medium-4 medium-pull-1 small-4 small-pull-1">
+                <div class="row">
+                  <a href="p09_gestiones_digitales.html" class="icon_colorgestions ">
+                    <div class="columns large-12 gestionbox">
+                    <i class="Gestiones_icon-gestiones-computadora"></i>
+                    <p class="lbl_gesticon_text">Documentos Para envío digital</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
             </div>
             
           </div>
         </div>
+        <br> <br>
 
         <div class="row espacio-linea1">
-          <div class="columns large-4 large-push-6 medium-6 medium-push-6">
-            <a href="seguimiento_gestion_proceso.html" class="button botonenlace">Seguimiento de Gestiones en Proceso</a>
+          <div class="columns large-4 large-push-8 medium-5 medium-push-7">
+            <!-- <a href="seguimiento_gestion_proceso.html" class="button botonenlace">Seguimiento de Gestiones en Proceso</a> -->
+            <a href="pagina_en_construccion.html" class="button botonenlace more_space_boton">Seguimiento de Gestiones en Proceso</a>
           </div>
 
-          <div class="columns large-4 large-pull-6 medium-6 medium-pull-6">
-            <a href="historial_gestiones_finalizadas.html" href="#" class="button default-action">Historial de Gestiones Finalizadas</a>
+          <div class="columns large-4 large-pull-4 medium-5 medium-pull-5">
+            <!-- <a href="historial_gestiones_finalizadas.html" href="#" class="button default-action">Historial de Gestiones Finalizadas</a> -->
+            <a href="pagina_en_construccion.html" href="#" class="button default-action more_space_boton">Historial de Gestiones Finalizadas</a>
           </div>
         </div>
-
- 
-
-    
 
 
       </div>

@@ -13,6 +13,11 @@
   <link rel="stylesheet" href="../../css/gestiones_bb_tracking.css">
   <link rel="stylesheet" href="../../css/general_nueva_imagen_privado.css">
 
+  <!-- nuevos css -->
+  <link rel="stylesheet" href="../../css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="../../css/Tablas_plugin.css">
+  <link rel="stylesheet" href="../../css/New_Gestiones_bb_traking.css">
+
   <!-- Fabicon -->
 
   <link rel="apple-touch-icon" sizes="57x57" href="../../img/fabicon/apple-icon-57x57.png">
@@ -33,7 +38,7 @@
 
 
 
-
+ 
 
   <!-- Iconos -->
 
@@ -1333,10 +1338,32 @@
 
 
     <!-- Inicio Contenido -->
+  <div class="row section-size-privado2 ">
+    <div class="columns large-12">
 
-    <div class="row section-size-privado "> 
+      <!-- NUEVO titulo -->
+      <div class="row">
+        <div class="columns large-12 tag-title h2pagoe">
+          <h2 class="titlepage">Método de seguridad</h2>
+          <hr class="hr_title">
+        </div>
+      </div>
+    </div>
 
-      <form data-abide novalidate action="gestion_creada.html">
+      <!-- NUEVA alerta -->
+        <div class="columns large-12 ">
+          <div data-closable class="alert-box callout info">
+            <i class="iconalert-icon-alerta-info"></i> Recuerda que Banco Industrial nunca te solicitará tu token vía telefónica, correo electrónico, ni otro medio externo.
+            <button class="close-button alerta banneralert" aria-label="Dismiss alert" type="button" data-close>
+              <span class="alertax" aria-hidden="true">&Cross;</span>
+            </button>
+          </div>
+        </div>
+      <!-- fin de alerta -->
+
+
+      <!-- viejo token -->
+     <!--  <form data-abide novalidate action="gestion_creada.html">
         <div class="columns large-8 large-offset-2 medium-8 medium-offset-2">
           
          
@@ -1362,6 +1389,34 @@
          </div>
 
        </div>
+     </form> -->
+
+     <!-- NUEVO token -->
+     <form data-abide novalidate action="gestion_creada.html">
+        <div class="columns large-8 large-offset-2 medium-8 medium-offset-2">
+         <div class="row"> 
+          <div class="columns large-8 large-push-2 medium-12 small-8 small-push-2 formulario espacio-linea2">
+            <label class="lbl_title">Ingresa un n&uacute;mero de token
+              <input class="numero" type="text" placeholder="Token" value="" required>
+              <span class="form-error">
+                Ingresa tu Token.
+              </span>
+            </label>
+          </div>
+
+          <div class="row">
+            <div class="columns espacio-linea2">
+              <div class="columns large-4 large-push-6 medium-6 medium-push-6" >
+               <button id="btnAceptar" class="button">Continuar</button>
+             </div>
+
+             <div class="columns large-4 large-pull-6 medium-6 medium-pull-6">
+               <a href="Home.html" class="button default-action">Regresar</a>
+             </div>
+           </div>
+         </div>
+        </div>
+      </div>
      </form>
 
    </div>

@@ -14,13 +14,13 @@
   <link rel="stylesheet" href="../../css/gestiones_bb_tracking.css">
   <link rel="stylesheet" href="../../css/general_nueva_imagen_privado.css">
 
-   <!-- NUEVO CSS -->
+  <!-- NUEVO CSS -->
+  <link rel="stylesheet" href="../../css/foundation-datepicker.css">
   <link rel="stylesheet" href="../../css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="../../css/Tablas_plugin.css">
   <link rel="stylesheet" href="../../css/New_Gestiones_bb_traking.css">
 
-
-  <!-- Fabicon --> 
+  <!-- Fabicon -->
 
   <link rel="apple-touch-icon" sizes="57x57" href="../../img/fabicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../../img/fabicon/apple-icon-60x60.png">
@@ -55,42 +55,16 @@
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-embedded.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7-codes.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7.css">
-  <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking.css"> 
-  <link type="text/css" rel="stylesheet" href="../../icon/iconbbtracking/style.css"> 
+  <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking.css">  
 
-  <!-- NUEVOS ICONOS -->
+   <!-- NUEVOS ICONOS -->
   <link type="text/css" rel="stylesheet" href="../../icon/gestiones-bb-tracking-font/style.css">
+
 
   <!-- slick-->
    <link rel="stylesheet" type="text/css" href="../../js/slick/slick.css"/>
  <link rel="stylesheet" type="text/css" href="../../js/slick/slick-theme.css"/>
 
- <!-- NUEVO scripts de plugin -->
-  <script src="../../js/vendor/jquery.min.js"></script>
-  <script  defer src="../../js/jquery.dataTables_gestiones.js"></script>
-
-  <!-- script de plugin para tabla -->
-  <script>
-    $(document).ready(function() {
-    $('#table1').DataTable( {
-      "language": {
-            "lengthMenu": "Mostrar _MENU_ entradas:",
-            "zeroRecords": "Registros no encontrados",
-            "info": "Mostrando entrada 1 a 10 de 15,000",
-            "infoEmpty": "No hay registros",
-            "infoFiltered": " ",
-            "sSearch":        "",
-            searchPlaceholder: "Buscar…",
-           "oPaginate": {
-            "sFirst":    "Primero",
-            "sLast":    "Último",
-            "sNext":    "Siguiente >",
-            "sPrevious": " < Anterior"
-          },
-        }
-      });
-    });
-  </script>
 
 </head>
 
@@ -1365,7 +1339,7 @@
 
 
 
-
+ 
 
 
 
@@ -1377,17 +1351,17 @@
 
      <!-- <div class="row">
         <div class="columns large-12 privado">   
-          <h2>Documentos env&iacute;o digital</h2>
+          <h2>Copia de Estados de Cuenta en Formato F&iacute;sico</h2>
         </div>
       </div>
-    
-    </div>  -->
+      
+    </div> -->
 
-    
-<!--  NUEVO titulo -->
+
+     <!--  NUEVO titulo -->
       <div class="row">
         <div class="columns large-12 tag-title h2pagoe">
-          <h2 class="titlepage">Documentos para env&iacute;o digital</h2>
+          <h2 class="titlepage">Copia de Estados de Cuenta en Formato F&iacute;sico</h2>
           <hr class="hr_title">
         </div>
       </div>
@@ -1398,310 +1372,717 @@
     <!-- Fin de titulo -->
 
 
-     <!-- <div class="row section-size-privado privado special"> -->
+    <!-- <div class="row section-size-privado privado special"> -->
       <div class="row section-size-privado2"> <!-- nuevo div -->
+      <div class="large-12 columns " >
 
-      
+        <!-- Viejo formulairo -->
+       <!--  <form data-abide novalidate id="addForm">
+          
+          <div class="row">
+            <div class="columns large-12 privado">
+              <h3><strong>Completa los datos</strong></h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-6 medium-6 espacio-linea4">
+              <label>Nombre de la empresa
+                <input class="numero" type="text" value="Muralles S.A." disabled> 
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label>Nombre de la instituci&oacute;n o persona particular a quien va dirigida la certificaci&oacute;n 
+                <small>Campo obligatorio</small>
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un nombre" required>
+
+                <span class="form-error">Ingresa un nombre.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-6 medium-6">
+              <label>Correo electr&oacute;nico para notificaci&oacute;n
+                <small>Campo obligatorio</small>
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un correo" pattern="email" required> 
+                <span class="form-error" data-form-error-on="required">
+                  Ingresa un correo.
+                </span>
+                <span class="form-error" data-form-error-on="pattern">
+                  Correo electr&oacute;nico inv&aacute;lido
+                </span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label>Idioma
+                <small>Campo obligatorio</small>
+                <select class="numero"  type="option" required>
+                    <option type="option" value="">Selecciona el idioma</option>
+                    <option type="option" value="1">Español</option>
+                    <option type="option" value="2">Inglés</option>
+                  </select>
+                <span class="form-error">Selecciona el idioma.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12">
+              <label>Motivo de referencia
+                <small>Campo obligatorio</small>
+                <textarea class="numero" rows="3" maxlength="250" placeholder="Describe el motivo de referencia" required></textarea>
+                <span class="form-error">Describe el motivo de referencia.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-6 medium-6">
+              <label class="espacio-linea5 espacio-linea3"><strong>Selecciona la informaci&oacute;n de Cuenta</strong>
+                <small>Selecci&oacute;n obligatoria</small>
+              </label>
+
+              <label for="exampleCheckboxA" class="miCheckbox">
+                <input data-min-required="1" type="checkbox" name="exampleCheckbox" id="exampleCheckboxA" value="A">
+                <span class="left"></span>
+                <div class="textCheck">N&uacute;mero de Cuenta Bancaria</div>
+              </label>
+
+              <label for="exampleCheckboxB" class="miCheckbox">
+                <input type="checkbox" name="exampleCheckbox" id="exampleCheckboxB" value="B" required>
+                <span class="left"></span>
+                <div class="textCheck">Tipo de cuenta y moneda</div>
+              </label>
+              
+              <label for="exampleCheckboxC" class="miCheckbox">
+                <input type="checkbox" name="exampleCheckbox" id="exampleCheckboxC" value="C">
+                <span class="left"></span>
+                <div class="textCheck">Tipo de manejo de cuenta</div>
+              </label>
+
+              <label for="exampleCheckboxD" class="miCheckbox">
+                <input type="checkbox" name="exampleCheckbox" id="exampleCheckboxD" value="D">
+                <span class="left"></span>
+                <div class="textCheck">Estatus</div>
+              </label>
+
+              <label for="exampleCheckboxE" class="miCheckbox">
+                <input type="checkbox" name="exampleCheckbox" id="exampleCheckboxE" value="E">
+                <span class="left"></span>
+                <div class="textCheck">Fecha de apertura</div>
+                <p class="form-error">Selecciona la informaci&oacute;n de Cuenta.</p>
+              </label>   
+                    
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label class="espacio-linea5 espacio-linea3"><strong>Selecciona el saldo</strong>
+                <small>Selecci&oacute;n obligatoria</small>
+              </label>
+              <input id="radio3" type="radio" name="radioButtons2" value="3" required>
+              <label for="radio3"><span><span></span></span>Saldo promedio en cifras de los &uacute;ltimos 6 meses</label>             
+
+              <input id="radio4" type="radio" name="radioButtons2" value="4" required>
+              <label for="radio4"><span><span></span></span>Saldo actual en cifras</label>
+
+              <input id="radio5" type="radio" name="radioButtons2" value="5" required>
+              <label for="radio5"><span><span></span></span>Saldo promedio en (monto) de los &uacute;ltimos 6 meses</label>
+
+              <input id="radio6" type="radio" name="radioButtons2" value="6" required>
+              <label for="radio6"><span><span></span></span>Saldo actual (monto)</label> 
+              <span class="form-error">Selecciona el saldo.</span>
+            </div>
+          </div>
+
+ 
 
 
-      <div class="large-12 columns" >
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
+            </div>
+          </div>
 
-        <!-- info -->
-      <div class="row">
-        <div class="columns large-12 ">
-         <label class="lbl_info">Selecciona la gestión que quieres realizar</label>
-        </div>
-      </div>
-      <!-- fin de info -->
-        <!-- Vieja Tabla -->
-        <!-- <div class="row">
-          <div class="columns large-12 espacio-linea2">
-            <div class="table-responsive">
-              <table>
-                <thead>
-                  <tr>
-                    <th width="30%" scope="col">NOMBRE DEL PROCESO</th>
-                    <th width="50%" scope="col">DESCRIPCI&Oacute;N DEL PROCESO</th>
-                    <th width="20%" scope="col">CREAR GESTI&Oacute;N</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CARTA DE REFERENCIA</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar constancia de cuentas monetarias, ahorro y plazo fijo que posee en Banco Industrial. Este documento incluye fecha de apertura y el saldo promedio de los últimos 6 meses. (Q5.00 por carta)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
+          <div class="row">
+            <div class="columns large-12 obligatorio espacio-linea2">
+              <h4><strong>Selecciona la cuenta que deseas utilizar para realizar el pago de la solicitud</strong></h4>
+            </div>
 
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CARTA CREDITICIA/ CARTA DE LICITACIÓN</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito.
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
+            <div class="columns large-6 medium-6 end espacio-linea3">
+              <label>N&uacute;mero de cuenta a debitar
+                <small>Selecci&oacute;n obligatoria</small>
+                <select class="numero"  type="option" required>
+                    <option type="option" value="">Selecciona la Cuenta</option>
+                    <option type="option" value="1">000000000048 - Empresa S.A.</option>
+                    <option type="option" value="2">000000000049 - Empresa S.A.</option>
+                  </select>
+                <span class="form-error">Selecciona la cuenta.</span>
+              </label>
+            </div>
+          </div>
 
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CERTIFICACIÓN DE FIRMANTES</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. (Q5.00 por carta)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
+            </div>
+          </div>
 
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">DOCUMENTO TRANSACCIONAL</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). (Q5.00 por carta)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
+          <div class="row">
+            <div class="columns large-12 obligatorio espacio-linea2">
+              <h4><strong>Agencia para recibir el documento</strong></h4>
+            </div>
 
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">COPIA DE ESTADOS DE CUENTA</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. (Q3.50 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q1.00 por hoja adicional.)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
+            <div class="columns large-12 end">
+              <legend class="radioscheck"><strong>Selecciona una opci&oacute;n</strong><small> Campo obligatorio</small></legend>
+                <input id="radio1" type="radio" name="radioButtons" value="1" required>
+                <label for="radio1"><span><span></span></span>Departamento de Servicio al Cliente Central, Zona 4</label>
+                <input id="radio2" type="radio" name="radioButtons" value="2" required>
+                <label for="radio2"><span><span></span></span>Listado de agencias</label>
+                <span class="form-error">Selecciona una opcion.</span>
+            </div>
+          </div>
 
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CARTA CREDITICIA/ CARTA DE LICITACIÓN</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito.
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
+          <div class="row espacio-linea2">
+            <div class="columns large-6 medium-6" id="div1" style="display: none;">
+              <label>Agencia a la que deseas que se env&iacute;e su solicitud 
+                <small>Campo obligatorio</small>
+                <select id="select1" class="numero" type="option" required>
+                    <option type="option" value="">Selecciona la Agencia</option>
+                    <option type="option" value="1">Servicio al Cliente zona 4</option>
+                    <option type="option" value="2">Agencia Roosevelt</option>
+                  </select>
+                <span class="form-error">Selecciona la agencia.</span>
+              </label>
+            </div>
 
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CERTIFICACIÓN DE FIRMANTES</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. (Q5.00 por carta)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
+            <div class="columns large-6 medium-6 end espacio-linea4a" id="div2" style="display: none;">
+              <label>N&uacute;mero de copias
+                <small>Campo obligatorio</small>
+                <select class="numero" type="option" required>
+                    <option type="option" value="">Selecciona el n&uacute;mero de copias</option>
+                    <option type="option" value="1">1</option>
+                    <option type="option" value="2">2</option>
+                  </select>
+                <span class="form-error">Selecciona el n&uacute;mero de copias.</span>
+              </label>
+            </div>
+          </div>
 
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">DOCUMENTO TRANSACCIONAL</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). (Q5.00 por carta)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
+            </div>
+          </div>
 
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">COPIA DE ESTADOS DE CUENTA</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. (Q3.50 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q1.00 por hoja adicional.)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
+          <div class="row">
+            <div class="columns large-12 obligatorio espacio-linea2">
+              <h4><strong>Persona autorizada para recibir documento</strong></h4>
+            </div>
 
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">DOCUMENTO TRANSACCIONAL</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). (Q5.00 por carta)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
-    
-                </tbody>
-              </table>
+            <div class="columns large-6 medium-6 espacio-linea3">
+              <label>Nombre completo 1
+                <small>Campo obligatorio</small>
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un nombre" required>
+                <span class="form-error">Ingresa un nombre.</span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6 espacio-linea3a">
+              <label>DPI 1
+                <small>Campo obligatorio</small>
+                <input class="numero" type="text" maxlength="13" placeholder="Ingresa un n&uacute;mero" required pattern="number">
+                <span class="form-error">Ingresa un n&uacute;mero.</span>
+              </label>
+            </div> 
+          </div>
+
+          <div class="row">
+            <div class="columns large-6 medium-6">
+              <label>Nombre completo 2
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un nombre">
+                <span class="form-error">Ingresa un nombre.</span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label>DPI 2
+                <input class="numero" type="text" maxlength="13" placeholder="Ingresa un n&uacute;mero" pattern="number">
+                <span class="form-error">Ingresa un n&uacute;mero.</span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label>Nombre completo 3
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un nombre">
+                <span class="form-error">Ingresa un nombre.</span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label>DPI 3
+                <input class="numero" type="text" maxlength="13" placeholder="Ingresa un n&uacute;mero"  pattern="number">
+                <span class="form-error">Ingresa un n&uacute;mero.</span>
+              </label>
+            </div>    
+          </div>
+
+
+
+          <div class="row espacio-linea2">
+            <div class="columns large-3 large-push-9 medium-4 medium-push-8">
+              <button type="submit" value="Submit" class="button">Continuar</button>
+            </div>
+
+            <div class="columns large-3 large-pull-3 medium-4 medium-pull-4">
+              <a href="seleccionar_cuenta_fisica_cr.html" class="button default-action">Regresar</a>
+            </div>
+          </div>
+
+        </form> -->
+
+<!-- Nuevo Formulario -->
+        <form data-abide novalidate id="addForm">
+          
+          <div class="row">
+            <div class="columns large-12 privado">
+              <h3 class="Text_subtitle">Completa los datos</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-6 medium-6 espacio-linea4">
+              <label class="lbl_title">Nombre de la empresa
+                <input class="numero" type="text" value="Muralles S.A." disabled> 
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label class="lbl_title">Nombre de la instituci&oacute;n o persona particular a quien va dirigida la certificaci&oacute;n 
+                <small>Campo obligatorio</small>
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un nombre" required>
+
+                <span class="form-error">Ingresa un nombre.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
+            </div>
+          </div>
+
+            <div class="row">
+
+            <div class="columns large-12 end espacio-linea2">
+                <input id="radio1" type="radio" name="radioButtons" value="1" required>
+                <label for="radio1"><span ><span></span></span>Solicito la Copia del Estado de Cuenta del período</label>
+                <input id="radio2" type="radio" name="radioButtons" value="2" required>
+                <label for="radio2"><span><span></span></span>Solicito la Copia del Estado de Cuenta de los períodos</label>
+                <span class="form-error">Selecciona una opcion.</span>
+            </div>
+          </div>
+
+          <div class="row espacio-linea2">
+            <div class="columns large-6 medium-6 inner-addon right-addon end espacio-linea3" >
+              <label class="lbl_title">Fecha
+                <small>Campo obligatorio</small>
+                <i class="glyphicon Gestiones_icon-gestiones-calendario"></i>
+                <input type="text" class="numero span2" placeholder="dd/mm/aaaa" data-date-format="dd/mm/aaaa" id="dp1" required>
+                <span class="form-error">
+                  Ingresa una fecha.
+                </span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6 inner-addon right-addon end espacio-linea3">
+              <label class="lbl_title">Fecha
+               <i class="glyphicon Gestiones_icon-gestiones-calendario"></i>
+                <input type="text" class="numero span2" placeholder="dd/mm/aaaa" data-date-format="dd/mm/aaaa" id="dp2" >
+                <span class="form-error">
+                  Ingresa una fecha.
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="columns large-6 medium-6 inner-addon right-addon end espacio-linea3">
+              <label class="lbl_title">Fecha
+              <i class="glyphicon Gestiones_icon-gestiones-calendario"></i>
+                <input type="text" class="numero span2" placeholder="dd/mm/aaaa" data-date-format="dd/mm/aaaa" id="dp3" >
+                <span class="form-error">
+                  Ingresa una fecha.
+                </span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6 inner-addon right-addon end espacio-linea3">
+              <label class="lbl_title">Fecha
+              <i class="glyphicon Gestiones_icon-gestiones-calendario"></i>
+                <input type="text" class="numero span2" placeholder="dd/mm/aaaa" data-date-format="dd/mm/aaaa" id="dp4" >
+                <span class="form-error">
+                  Ingresa una fecha.
+                </span>
+              </label>
+            </div>    
+          </div>
+
+          <div class="row">
+
+            <div class="columns large-4 medium-5 end" style="margin-bottom:10px">
+              <legend class="radioscheck"><strong>¿Documentos Firmados y Sellados?</strong><br></legend>
+                <input id="radio3" type="radio" name="radioButtons_docs" value="3" required>
+                <label for="radio3"><span><span></span></span>Si</label>
+                <input id="radio4" type="radio" name="radioButtons_docs" value="4" required>
+                <label for="radio4"><span><span></span></span>No</label>
+                <span class="form-error">Selecciona una opcion.</span>
 
             </div>
           </div>
-        </div>
- -->
-        <!-- Viejo pagineo -->
-         <!-- <div class="row">
-          <div class="columns large-12">
-            <nav aria-label="Pagination " pagination-mobile-items="">
-              <ul class="pagination-pointed pagination text-center numero" aria-label="Pagination">
-                <li class="pagination-previous"><a href="#" aria-label="Next page"></a></li>   
-                <li><a href="#" aria-label="Page 1">1</a></li>
-                <li class="current"><span class="show-for-sr"></span>2</li>
-                <li><a href="#" aria-label="Page 3">3</a></li>
-                <li><a href="#" aria-label="Page 4">4</a></li>
-                <li class="ellipsis" aria-hidden="true"></li>
-                <li><a href="#" aria-label="Page 12">12</a></li>
-                <li><a href="#" aria-label="Page 13">13</a></li>
-                <li class="pagination-next"><a href="#" aria-label="Next page"></a></li>
-              </ul>
-            </nav>
-          </div>
-        </div> -->
-        <!-- fin de pagineo -->
 
-      <!-- NUEVA tabla -->
-      <div class="row">
-        <div class="columns large-12 espacio-linea1">
-          <div class="table-responsive">
-            <table class="tbl-report" role="grid" id="table1" class="display" style="width:100%">
-              <thead class="colorhead">
-                <tr>
-                  <th scope="col" style="width: 25%;">Nombre del proceso</th>
-                  <th scope="col"style="width: 50%;">Descripci&oacute;n del proceso</th>
-                  <th scope="col">Crear gesti&oacute;n</th>
-              </thead>
-
-              <tbody>
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta de referencia</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro y plazo fijo que posee en Banco Industrial. Este documento incluye fecha de apertura y el saldo promedio de los últimos 6 meses. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta crediticia/ carta de licitación</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt ">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Certificación de firmantes</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso" >
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Documento transaccional</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Copia de Estados de cuenta</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. Q7.00 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q2.00 por hoja adicional.</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                   <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta de referencia</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro y plazo fijo que posee en Banco Industrial. Este documento incluye fecha de apertura y el saldo promedio de los últimos 6 meses. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta crediticia/ carta de licitación</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Certificación de firmantes</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso" >
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Documento transaccional</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Copia de Estados de cuenta</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. Q7.00 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q2.00 por hoja adicional.</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-                 
-   
-                </tbody>
-              </table>
-
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
             </div>
           </div>
-        </div>
 
-      <!-- fin de tabla -->
 
-        <div class="row">
-          <div class="columns large-3 large-offset-9 medium-6 medium-offset-6">
-            <a href="pendiente_autorizar.html"><button class="button more_space_boton2">Pendiente de Autorizar</button></a>
+          <div class="row">
+            <div class="columns large-12 obligatorio espacio-linea2">
+              <h4 ><strong>Selecciona la cuenta que deseas utilizar para realizar el pago de la solicitud</strong></h4>
+            </div>
+
+            <div class="columns large-6 medium-6 end espacio-linea3">
+              <label class="lbl_title">N&uacute;mero de cuenta a debitar
+                <small>Selecci&oacute;n obligatoria</small>
+                <select class="numero"  type="option" required>
+                    <option type="option" value="">Selecciona la Cuenta</option>
+                    <option type="option" value="1">000000000048 - Empresa S.A.</option>
+                    <option type="option" value="2">000000000049 - Empresa S.A.</option>
+                  </select>
+                <span class="form-error">Selecciona la cuenta.</span>
+              </label>
+            </div>
           </div>
-        </div>
 
-        
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
+            </div>
+          </div>
 
 
-  
+          <div class="row ">
+             <div class="columns large-12 obligatorio espacio-linea2">
+              <h4 ><strong>Agencia para recibir el documento</strong></h4>
+            </div>
+
+            <div class="columns large-12 end espacio-linea2">
+                <input id="radio5" type="radio" name="radioButtons_firmados" value="5" required>
+                <label for="radio5"><span><span></span></span>Departamento de SAC Central, Zona 4</label>
+                <input id="radio6" type="radio" name="radioButtons_firmados" value="6" required>
+                <label for="radio6"><span><span></span></span>Listado de agencias</label>
+                <span class="form-error">Selecciona una opcion.</span>
+            </div>
+
+            <div class="columns large-6 medium-6 espacio-linea3" id="divagencias" style="display:none">
+              <label class="lbl_title">Agencia a la que desea que se envie su solicitud
+                <small>Campo obligatorio</small>
+                <select id="campo1" class="numero"  type="option" required>
+                    <option type="option" value="">Selecciona la agencia</option>
+                    <option type="option" value="1">Agencia Zona 4</option>
+                    <option type="option" value="2">Agencia El frutal</option>
+                  </select>
+                <span class="form-error">Selecciona el número de copias.</span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6 espacio-linea3 end" >
+              <label class="lbl_title">Número de copias 
+                <small>Selecci&oacute;n obligatoria</small>
+                <select id="campo2" class="numero"  type="option" required>
+                    <option type="option" value="">Selecciona el número de copias</option>
+                    <option type="option" value="1">1</option>
+                    <option type="option" value="2">2</option>
+                  </select>
+                <span class="form-error">Selecciona el número de copias.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12 obligatorio espacio-linea2">
+              <h4><strong>Persona autorizada para recibir documento</strong></h4>
+            </div>
+
+            <div class="columns large-6 medium-6 espacio-linea3">
+              <label class="lbl_title">Nombre completo 1
+                <small>Campo obligatorio</small>
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un nombre" required>
+                <span class="form-error">Ingresa un nombre.</span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6 espacio-linea3">
+              <label class="lbl_title">DPI 1
+                <small>Campo obligatorio</small>
+                <input class="numero" type="text" maxlength="13" placeholder="Ingresa un n&uacute;mero" required pattern="number">
+                <span class="form-error">Ingresa un n&uacute;mero.</span>
+              </label>
+            </div> 
+          </div>
+
+          <div class="row">
+            <div class="columns large-6 medium-6">
+              <label class="lbl_title">Nombre completo 2
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un nombre">
+                <span class="form-error">Ingresa un nombre.</span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label class="lbl_title">DPI 2
+                <input class="numero" type="text" maxlength="13" placeholder="Ingresa un n&uacute;mero" pattern="number">
+                <span class="form-error">Ingresa un n&uacute;mero.</span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label class="lbl_title">Nombre completo 3
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un nombre">
+                <span class="form-error">Ingresa un nombre.</span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label class="lbl_title">DPI 3
+                <input class="numero" type="text" maxlength="13" placeholder="Ingresa un n&uacute;mero"  pattern="number">
+                <span class="form-error">Ingresa un n&uacute;mero.</span>
+              </label>
+            </div>    
+          </div>
+
+
+
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
+              <br>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12">
+              <label class="lbl_title">Descripción
+                <small>Campo obligatorio</small>
+                <textarea class="numero" rows="3" maxlength="2000" placeholder="Ingresa la descripción con un máximo de 2,000 caracteres." required></textarea>
+                <span class="form-error">Describe el motivo de la solicitud.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row espacio-linea2">
+            <div class="columns large-3 large-push-9 medium-4 medium-push-8">
+              <button id="btn_confirm" type="submit" value="Submit" class="button">Confirmar</button>
+            </div>
+
+            <div class="columns large-3 large-pull-3 medium-4 medium-pull-4">
+              <a href="seleccionar_cuenta_digital_cccl.html" class="button default-action">Regresar</a>
+            </div>
+          </div>
+
+        </form>
+
+      <!-- fin de campos -->
+
+
       </div>
     </div>
 
     <!-- Fin Contenido -->
 
 
+
+     <!-- NUEVA MODAL -->
+
+    <div class="large reveal" id="modalConfirmacion" data-reveal>
+    
+        <div class="row">
+          <div class="columns large-12 gestiones_bb_modal espacio-linea3 ">
+           <center><h1 class="txt_modal_title_conf text_titlemodalcenter">Copia de Estados de Cuenta en Formato Físico</h1></center>
+           <a class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row espacio-linea3">
+     
+        <div class="columns large-12 privado">
+          <h3 class="Text_subtitle">Completa los datos</h3>
+        </div>
+
+        <div class="columns large-6 medium-6 espacio-linea3">
+          <label class="lbl_title">Nombre de la empresa
+            <input class="numero" type="text" value="Muralles S.A." disabled>
+          </label>
+        </div>
+
+        <div class="columns large-6 medium-6 espacio-linea3">
+          <label class="lbl_title">Correo electrónico para notificación
+            <input class="numero" type="text" value="José Carlos García Guerra" disabled>
+          </label>
+        </div>
+
+        <div class="columns large-12">
+          <div class="divider-line"></div>
+        </div>
+
+        <div class="columns large-12 end espacio-linea2" style="margin-bottom:15px">
+          <input id="radio7" type="radio" name="radioButtons_conf" value="7" disabled>
+          <label for="radio7"><span><span></span></span>Copia del Estado de Cuenta del período</label>
+          <input id="radio8" type="radio" name="radioButtons_conf" value="8" checked disabled>
+          <label for="radio8"><span><span></span></span>Copia del Estado de Cuenta de los períodos</label> 
+        </div>
+
+
+        <div class="columns large-6 medium-6">
+          <label class="lbl_title">Fecha
+            <i class="glyphicon lineas-financiamientocalendar"></i>
+            <input type="text" class="numero span2" value="10/2022" id="dp5" disabled>
+            <span class="form-error">
+              Ingresa una fecha.
+            </span>
+          </label>
+        </div>
+
+        <div class="columns large-6 medium-6">
+          <label class="lbl_title">Fecha
+            <i class="glyphicon lineas-financiamientocalendar"></i>
+            <input type="text" class="numero span2" value="10/2022" id="dp6" disabled>
+            <span class="form-error">
+              Ingresa una fecha.
+            </span>
+          </label>
+        </div>
+
+        <div class="columns large-6 medium-6">
+          <label class="lbl_title">Fecha
+            <i class="glyphicon lineas-financiamientocalendar"></i>
+            <input type="text" class="numero span2" value="10/2022" id="dp7" disabled>
+            <span class="form-error">
+              Ingresa una fecha.
+            </span>
+          </label>
+        </div>
+
+        <div class="columns large-6 medium-6">
+          <label class="lbl_title">Fecha
+            <i class="glyphicon lineas-financiamientocalendar"></i>
+            <input type="text" class="numero span2" value="10/2022" id="dp8" disabled>
+            <span class="form-error">
+              Ingresa una fecha.
+            </span>
+          </label>
+        </div>    
+        
+        <div class="columns large-4 medium-5 end" style="margin-bottom:20px;">
+          <legend class="radioscheck" style=" margin-top: 10px;">
+            <strong>¿Documentos Firmados y Sellados?</strong><br>
+          </legend>
+          <input id="radio3" type="radio" name="radioButtons_docs" value="3" checked disabled>
+          <label for="radio3"><span><span></span></span>Si</label>
+          <input id="radio4" type="radio" name="radioButtons_docs" value="4" disabled>
+          <label for="radio4"><span><span></span></span>No</label>
+          <span class="form-error">Selecciona una opcion.</span>
+        </div>
+
+        <div class="columns large-12">
+          <div class="divider-line"></div>
+        </div>
+
+        <div class="columns large-12 obligatorio espacio-linea2">
+          <h4>
+            <strong>Agencia para recibir el documento</strong>
+          </h4>
+        </div>
+
+        <div class="columns large-6 medium-6 espacio-linea3">
+          <label class="lbl_title">Selecciona una opción
+            <input class="numero" type="text" value="Departamento de SAC Central, Zona 4" disabled>
+          </label>
+        </div>
+
+        <div class="columns large-6 medium-6 espacio-linea3">
+          <label class="lbl_title">Número de copias
+            <input class="numero" type="text" value="2" disabled>
+          </label>
+        </div>
+
+
+        <div class="columns large-12">
+          <div class="divider-line"></div>
+        </div>
+
+        <div class="columns large-12 obligatorio espacio-linea2">
+          <h4>
+            <strong>Persona autorizada para recibir documento</strong>
+          </h4>
+        </div>
+
+        <div class="columns large-6 medium-6 espacio-linea3">
+          <label class="lbl_title">Nombre completo
+            <input class="numero" type="text" value="José Muralles" disabled>
+          </label>
+        </div>
+
+        <div class="columns large-6 medium-6 espacio-linea3">
+          <label class="lbl_title">DPI
+            <input class="numero" type="text" value="0000000000000" disabled>
+          </label>
+        </div>
+
+        <div class="columns large-6 medium-6 espacio-linea3">
+          <label class="lbl_title">Nombre completo
+            <input class="numero" type="text" value="José Muralles" disabled>
+          </label>
+        </div>
+
+        <div class="columns large-6 medium-6 espacio-linea3">
+          <label class="lbl_title">DPI 2
+            <input class="numero" type="text" value="0000000000000" disabled>
+          </label>
+        </div>
+
+        
+        <div class="columns large-12">
+          <p class="lbl_title info_autorizacion">Se autoriza el costo por la emisión de dicha certificación y que sea debitado de la cuenta Xx000000000 - José Carlos Garcia Guerra</p>
+        </div>
+
+        <div class="medium-4 large-3 medium-push-8 large-push-9 columns espacio-linea3">
+          <a  href="token.html" class="button">Confirmar</a>
+        </div>
+
+        <div class="medium-4 large-3 medium-pull-4 large-pull-3  columns espacio-linea3">
+          <a data-close aria-label="Close modal" class="button default-action">Regresar</a>
+        </div>
+      </div>
+
+      
+    </div>
+
+
+    <!--  Fin modal -->
 
     <!-- Footer -->
 
@@ -1869,8 +2250,105 @@
       <script src="../../js/vendor/foundation.min.js"></script>
       <script src="../../js/vendor/header_func.js"></script>
       <script src="../../js/slick/slick.js" ></script>
-      
 
+      <!-- NUEVOS SCRIPTS -->
+      <script src="../../js/foundation-datepicker.js"></script>
+
+
+      <!-- activar modal -->
+      <script>     
+      $(document).on("submit", function(ev) {
+          ev.preventDefault();
+          // console.log("mensaje de prueba");
+          $('#modalConfirmacion').foundation('open');
+
+        });
+
+       // si no ha llenado los campos
+      $(document).ready(function(){
+        $("#btn_confirm").click(function() {
+          $("html, body").animate({
+            scrollTop: 0
+          }, 0);
+        });
+      });
+      </script>
+
+      <!-- CALENDARIO -->
+
+      <script>
+        $(function(){
+        $('#dp1').fdatepicker({
+          format: 'dd-mm-yyyy',
+          closeButton: false
+        });
+      });
+      </script>
+      
+      <script>
+      $(function(){
+        $('#dp2').fdatepicker({
+          format: 'dd-mm-yyyy',
+          closeButton: false
+        });
+      });
+      </script>
+
+      <script>
+      $(function(){
+        $('#dp3').fdatepicker({
+          format: 'dd-mm-yyyy',
+          closeButton: false
+        });
+      });
+      </script>
+
+      <script>
+      $(function(){
+        $('#dp4').fdatepicker({
+          format: 'dd-mm-yyyy',
+          closeButton: false
+        });
+      });
+      </script>
+
+
+        <!--  SCRIPT PARA DESABILITAR INPUT CON RADIO BUTTON, MOSTRAR MODAL O ENVIAR A PAGINA SEGUN SEA CON ARCHIVO O SIN ARCHIVO-->
+
+      <script>
+        $(document).ready(function() {
+          $("input[type=radio]").click(function(event){
+              var valor = $(event.target).val();
+              if(valor =="5"){
+                $("#divagencias").hide();
+                $("#campo1").attr("required", false);
+              } else if (valor == "6") {
+                $("#divagencias").show();
+                $("#campo1").attr("required", true);
+                $(document)
+                .on("submit", function(ev) {
+                  ev.preventDefault();
+                  $('#modalConfirmacion').foundation('open');
+                });
+              }
+          });
+
+
+
+      });
+      </script>
+
+
+      <!-- modal en pantalla -->
+        <script>
+          $(document).ready(function () {
+            $('#modalConfirmacion').foundation('open');
+          });
+        </script>
+
+
+
+     
 
 </body>
 </html>

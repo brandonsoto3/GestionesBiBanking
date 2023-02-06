@@ -11,8 +11,16 @@
   <link rel="stylesheet" href="../../css/header_privado.css">
   <link rel="stylesheet" href="../../css/footer_privado.css">
   <link rel="stylesheet" href="../../css/table_responsive/table_responsive.css">
+  <link rel="stylesheet" href="../../css/linea_financiamiento.css">
+  <link rel="stylesheet" href="../../css/foundation-datepicker.css">
   <link rel="stylesheet" href="../../css/gestiones_bb_tracking.css">
   <link rel="stylesheet" href="../../css/general_nueva_imagen_privado.css">
+
+   <!-- NUEVO CSS -->
+  <link rel="stylesheet" href="../../css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="../../css/Tablas_plugin.css">
+  <link rel="stylesheet" href="../../css/New_Gestiones_bb_traking.css">
+
 
   <!-- Fabicon -->
 
@@ -50,6 +58,9 @@
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7-codes.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking.css">  
+
+  <!-- NUEVOS ICONOS -->
+  <link type="text/css" rel="stylesheet" href="../../icon/gestiones-bb-tracking-font/style.css">
 
   <!-- slick-->
    <link rel="stylesheet" type="text/css" href="../../js/slick/slick.css"/>
@@ -1333,23 +1344,39 @@
 
 
 
-    <!-- Inicio Contenido -->
+    <!--  Inicio Contenido -->
 
-    <div class="columns large-12 etiqueta-linea">
+   <!-- <div class="columns large-12 etiqueta-linea">--> 
+    <div class="row">
+        <div class="columns large-12"> <!-- Nuevo DIV de contenido -->
 
-      <div class="row">
+     <!-- <div class="row">
         <div class="columns large-12 privado">   
           <h2>Carta de Referencia Formato Digital</h2>
         </div>
       </div>
       
+    </div> -->
+
+
+     <!--  NUEVO titulo -->
+      <div class="row">
+        <div class="columns large-12 tag-title h2pagoe">
+          <h2 class="titlepage">Carta de Referencia Formato Digital</h2>
+          <hr class="hr_title">
+        </div>
+      </div>
+      
     </div>
+    </div>
+    <!-- Fin de titulo -->
 
 
-    <div class="row section-size-privado special">
-      <div class="large-12 columns espacio-linea2" >
-
-        <form data-abide novalidate id="addForm">
+    <!-- <div class="row section-size-privado privado special"> -->
+      <div class="row section-size-privado2"> <!-- nuevo div -->
+      <div class="large-12 columns " >
+        <!-- VIEJO FORMULARIO -->
+       <!--  <form data-abide novalidate id="addForm">
           
           <div class="row">
             <div class="columns large-12 privado">
@@ -1553,6 +1580,157 @@
             </div>
           </div>
 
+        </form> -->
+
+        <!-- NUEVO FORMULARIO -->
+
+        <form data-abide novalidate id="addForm">
+          
+          <div class="row">
+            <div class="columns large-12 privado">
+              <h3 class="Text_subtitle">Completa los datos</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-6 medium-6 espacio-linea4">
+              <label class="lbl_title">Nombre de la empresa
+                <input class="numero" type="text" value="Muralles S.A." disabled> 
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6">
+              <label class="lbl_title">Nombre de la instituci&oacute;n o persona particular a quien va dirigida la certificaci&oacute;n 
+                <small>Campo obligatorio</small>
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un nombre" required>
+
+                <span class="form-error">Ingresa un nombre.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-6 medium-6">
+              <label class="lbl_title">Correo electr&oacute;nico para notificaci&oacute;n
+                <small>Campo obligatorio</small>
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un correo" pattern="email" required> 
+                <span class="form-error" data-form-error-on="required">
+                  Ingresa un correo.
+                </span>
+                <span class="form-error" data-form-error-on="pattern">
+                  Correo electr&oacute;nico inv&aacute;lido
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12">
+              <label class="lbl_title">Motivo de referencia
+                <small>Campo obligatorio</small>
+                <textarea class="numero" rows="3" maxlength="250" placeholder="Describe el motivo de la solicitud" required></textarea>
+                <span class="form-error">Describe el motivo de la solicitud.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12 obligatorio espacio-linea2">
+              <h4 ><strong>Selecciona la cuenta que deseas utilizar para realizar el pago de la solicitud</strong></h4>
+            </div>
+
+            <div class="columns large-6 medium-6 end espacio-linea3">
+              <label class="lbl_title">N&uacute;mero de cuenta a debitar
+                <small>Selecci&oacute;n obligatoria</small>
+                <select class="numero"  type="option" required>
+                    <option type="option" value="">Selecciona la Cuenta</option>
+                    <option type="option" value="1">000000000048 - Empresa S.A.</option>
+                    <option type="option" value="2">000000000049 - Empresa S.A.</option>
+                  </select>
+                <span class="form-error">Selecciona la cuenta.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="columns large-12 obligatorio espacio-linea2">
+              <h4><strong>Correo electr&oacute;nico para recibir documento</strong></h4>
+            </div>
+
+            <div class="columns large-6 medium-6 espacio-linea3">
+              <label class="lbl_title">Correo electr&oacute;nico de env&iacute;o 1
+                <small>Campo obligatorio</small>
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un correo" pattern="email" required> 
+                <span class="form-error" data-form-error-on="required">
+                  Ingresa un correo.
+                </span>
+                <span class="form-error" data-form-error-on="pattern">
+                  Correo electr&oacute;nico inv&aacute;lido
+                </span>
+              </label>
+            </div>
+
+            <div class="columns large-6 medium-6 espacio-linea3">
+              <label class="lbl_title">Correo electr&oacute;nico de env&iacute;o 2
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un correo" pattern="email"> 
+                <span class="form-error" data-form-error-on="pattern">
+                  Correo electr&oacute;nico inv&aacute;lido
+                </span>
+              </label>
+            </div> 
+          </div>
+
+          <div class="row">
+            <div class="columns large-6 medium-6">
+              <label class="lbl_title">Correo electr&oacute;nico de env&iacute;o 3
+                <input class="numero" type="text" maxlength="50" placeholder="Ingresa un correo" pattern="email"> 
+                <span class="form-error" data-form-error-on="pattern">
+                  Correo electr&oacute;nico inv&aacute;lido
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12 espacio-linea3">
+              <div class="divider-line"></div>
+              <br>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns large-12">
+              <label class="lbl_title">Descripción
+                <small>Campo obligatorio</small>
+                <textarea class="numero" rows="3" maxlength="2000" placeholder="Ingresa la descripción con un máximo de 2,000 caracteres." required></textarea>
+                <span class="form-error">Describe el motivo de la solicitud.</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="row espacio-linea2">
+            <div class="columns large-3 large-push-9 medium-4 medium-push-8">
+              <button id="btn_confirm" type="submit" value="Submit" class="button">Confirmar</button>
+            </div>
+
+            <div class="columns large-3 large-pull-3 medium-4 medium-pull-4">
+              <a href="seleccionar_cuenta_digital_cccl.html" class="button default-action">Regresar</a>
+            </div>
+          </div>
+
         </form>
 
       </div>
@@ -1561,14 +1739,13 @@
     <!-- Fin Contenido -->
 
 
-
-    <!-- Inicio modal -->
+ <!--  NUEVA MODAL -->
 
     <div class="large reveal" id="modalConfirmacion" data-reveal>
     
         <div class="row">
-          <div class="columns large-12 gestiones_bb_modal espacio-linea3">
-           <center><h1>Carta de Referencia Formato Digital</h1></center>
+          <div class="columns large-12 gestiones_bb_modal espacio-linea3 ">
+           <center><h1 class="txt_modal_title_conf text_titlemodalcenter">Carta Crediticia/ Carta de Licitaci&oacute;n Formato Digital</h1></center>
            <a class="close-button" data-close aria-label="Close modal" type="button">
             <span aria-hidden="true">&times;</span>
           </a>
@@ -1578,105 +1755,62 @@
       <div class="row espacio-linea3">
      
         <div class="columns large-12 privado">
-          <h3><strong>Confirmaci&oacute;n de datos</strong></h3>
+          <h3 class="Text_subtitle">Completa los datos</h3>
         </div>
 
         <div class="columns large-6 medium-6 espacio-linea4">
-          <label>Nombre de la empresa
+          <label class="lbl_title">Nombre de la empresa
             <input class="numero" type="text" value="Muralles S.A." disabled>
           </label>
         </div>
 
         <div class="columns large-6 medium-6">
-          <label>Nombre de la instituci&oacute;n o persona particular a quien va dirigida la certificaci&oacute;n
+          <label class="lbl_title">Nombre de la instituci&oacute;n o persona particular a quien va dirigida la certificaci&oacute;n
             <input class="numero" type="text" value="José Carlos García Guerra" disabled>
           </label>
         </div>
 
         <div class="columns large-6 medium-6">
-          <label>Correo electr&oacute;nico para notificaci&oacute;n
+          <label class="lbl_title">Correo electr&oacute;nico para notificaci&oacute;n
             <input class="numero" type="text" value="josec@bi.com.gt" disabled>
           </label>
         </div>
 
         <div class="columns large-6 medium-6">
-          <label>Idioma
-            <input class="numero" type="text" value="Español" disabled>
-          </label>
-        </div>
-
-        <div class="columns large-12">
-          <label>Motivo de referencia
+          <label class="lbl_title">Motivo de la solicitud
             <input class="numero" type="text" value="Solicitud general" disabled>
           </label>
         </div>
 
-        <div class="columns large-6 medium-6">
-          <label>Selecciona la informaci&oacute;n de Cuenta:
-          </label>
-
-          <label for="exampleCheckboxF" class="miCheckbox espacio-linea3">
-          <input type="checkbox" name="exampleCheckbox" id="exampleCheckboxF" value="F" disabled checked>
-          <span class="left"></span>
-          <div class="textCheck">N&uacute;mero de Cuenta Bancaria</div>
-          </label>
-
-          <label for="exampleCheckboxG" class="miCheckbox espacio-linea3">
-          <input type="checkbox" name="exampleCheckbox" id="exampleCheckboxG" value="G" disabled checked>
-          <span class="left"></span>
-          <div class="textCheck">Tiempo de manejo de cuenta</div>
-          </label>
-        </div>
-
-        <div class="columns large-6 medium-6">
-          <label>Selecciona el saldo:</label>
-
-          <input id="radio7" type="radio" name="radioButtons3" value="7" disabled checked>
-          <label for="radio7" class="espacio-linea3"><span><span></span></span>Saldo promedio en cifras de los últimos 6 meses</label>
-
-        </div>
-
-        <div class="columns large-12 espacio-linea2">
+        <div class="columns large-12">
           <div class="divider-line"></div>
         </div>
-
-
 
         <div class="columns large-12 obligatorio espacio-linea3">
             <h4><strong>Correo electr&oacute;nico para recibir documento</strong></h4>
         </div>
 
         <div class="columns large-6 medium-6">
-          <label>Correo electr&oacute;nico de env&iacute;o 1
-            <input class="numero" type="text" value="josec@bi.com.gt" disabled>
+          <label class="lbl_title">Correo electr&oacute;nico de env&iacute;o 1
+            <input class="numero" type="text" value="maaf@outlook.es" disabled>
           </label>
         </div>
 
         <div class="columns large-6 medium-6">
-          <label>Correo electr&oacute;nico de env&iacute;o 2
-            <input class="numero" type="text" value="josec@bi.com.gt" disabled>
+          <label class="lbl_title">Correo electr&oacute;nico de env&iacute;o 2
+            <input class="numero" type="text" value="maaf@outlook.es" disabled>
           </label>
         </div>
-
-        <div class="columns large-6 medium-6">
-          <label>Correo electr&oacute;nico de env&iacute;o 3
-            <input class="numero" type="text" value="josec@bi.com.gt" disabled>
-          </label>
-        </div>
-
-    
-
-
 
         <div class="columns large-12">
-          <p><strong>Se autoriza el costo por la emisión de dicha certificación y que sea debitado de la cuenta Xx000000000 - José Carlos Garcia Guerra</strong></p>
+          <p class="lbl_title info_autorizacion">Se autoriza el costo por la emisión de dicha certificación y que sea debitado de la cuenta Xx000000000 - José Carlos Garcia Guerra</p>
         </div>
 
         <div class="medium-4 large-3 medium-push-8 large-push-9 columns espacio-linea3">
           <a  href="token.html" class="button">Confirmar</a>
         </div>
 
-        <div class="medium-4 large-3 medium-pull-4 large-pull-3  columns espacio-linea3a">
+        <div class="medium-4 large-3 medium-pull-4 large-pull-3  columns espacio-linea3">
           <a data-close aria-label="Close modal" class="button default-action">Regresar</a>
         </div>
       </div>
@@ -1686,7 +1820,6 @@
 
 
     <!--  Fin modal -->
-
     <!-- Footer -->
 
 
@@ -1857,13 +1990,24 @@
 
        <!-- SCRIPT PARA VALIDAR CAMPOS Y LUEGO MOSTRAR MODAL -->
 
+        <!-- activar modal -->
       <script>     
-      $(document)
-        .on("submit", function(ev) {
+      $(document).on("submit", function(ev) {
           ev.preventDefault();
           // console.log("mensaje de prueba");
           $('#modalConfirmacion').foundation('open');
         });
+
+
+      // si no ha llenado los campos
+      $(document).ready(function(){
+        $("#btn_confirm").click(function() {
+          $("html, body").animate({
+            scrollTop: 0
+          }, 0);
+        });
+      });
+
       </script>
 
 

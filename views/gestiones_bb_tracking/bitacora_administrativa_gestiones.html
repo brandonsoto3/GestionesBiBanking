@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿<!DOCTYPE html> 
 <html class="no-js" lang="en" dir="ltr">
 <head>
   <meta http-equiv="x-ua-compatible" content="IE=EDGE">
@@ -13,6 +13,11 @@
   <link rel="stylesheet" href="../../css/table_responsive/table_responsive.css">
   <link rel="stylesheet" href="../../css/gestiones_bb_tracking.css">
   <link rel="stylesheet" href="../../css/general_nueva_imagen_privado.css">
+
+  <!-- NUEVO CSS -->
+  <link rel="stylesheet" href="../../css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="../../css/Tablas_plugin.css">
+  <link rel="stylesheet" href="../../css/New_Gestiones_bb_traking.css">
 
   <!-- Fabicon -->
 
@@ -34,8 +39,6 @@
 
 
 
-
-
   <!-- Iconos -->
 
   <link type="text/css" rel="stylesheet" href="../../icon/iconosnum/styles.css">
@@ -51,9 +54,40 @@
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking.css">  
 
+  <!-- NUEVOS ICONOS -->
+  <link type="text/css" rel="stylesheet" href="../../icon/gestiones-bb-tracking-font/style.css">
+
   <!-- slick-->
    <link rel="stylesheet" type="text/css" href="../../js/slick/slick.css"/>
  <link rel="stylesheet" type="text/css" href="../../js/slick/slick-theme.css"/>
+
+
+  <!-- scripts de plugin -->
+  <script src="../../js/vendor/jquery.min.js"></script>
+  <script  defer src="../../js/jquery.dataTables_gestiones.js"></script>
+
+  <!-- script de plugin para tabla -->
+  <script>
+    $(document).ready(function() {
+    $('#table1').DataTable( {
+      "language": {
+            "lengthMenu": "Mostrar _MENU_ entradas:",
+            "zeroRecords": "Registros no encontrados",
+            "info": "Mostrando entrada 1 a 10 de 15,000",
+            "infoEmpty": "No hay registros",
+            "infoFiltered": " ",
+            "sSearch":        "",
+            searchPlaceholder: "Buscar…",
+           "oPaginate": {
+            "sFirst":    "Primero",
+            "sLast":    "Último",
+            "sNext":    "Siguiente >",
+            "sPrevious": " < Anterior"
+          },
+        }
+      });
+    });
+  </script>
 
 
 </head>
@@ -1335,22 +1369,38 @@
 
     <!-- Inicio Contenido -->
 
-    <div class="columns large-12 etiqueta-linea">
+     <!-- <div class="columns large-12 etiqueta-linea">-->
+ <div class="row">
+          <div class="columns large-12"> <!-- Nuevo DIV de contenido -->
 
-      <div class="row">
+     <!-- <div class="row">
         <div class="columns large-12 privado">   
           <h2>Bit&aacute;cora Administrativa de Gestiones</h2>
         </div>
       </div>
       
-    </div>
+    </div>  -->
 
-
-    <div class="row section-size-privado privado special">
-     <div class="large-12 columns" >
-
-      
+     <!-- NUEVO titulo -->
       <div class="row">
+        <div class="columns large-12 tag-title h2pagoe">
+          <h2 class="titlepage">Bit&aacute;cora Administrativa de Gestiones</h2>
+          <hr class="hr_title">
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    <!-- Fin de titulo -->
+
+
+      <!-- <div class="row section-size-privado privado special"> -->
+      <div class="row section-size-privado2"> <!-- nuevo div -->
+        <div class="large-12 columns" >
+
+      <!-- VIEJA tabla -->
+      
+     <!--  <div class="row">
           <div class="columns large-12 espacio-linea1">
             <div class="table-responsive">
               <table>
@@ -1406,9 +1456,9 @@
             </div>
           </div>
         </div>
-
-       <!-- pagineo -->
-         <div class="row">
+ -->
+       <!-- VIEJO pagineo -->
+         <!-- <div class="row">
           <div class="columns large-12">
             <nav aria-label="Pagination " pagination-mobile-items="">
               <ul class="pagination-pointed pagination text-center numero" aria-label="Pagination">
@@ -1424,12 +1474,283 @@
               </ul>
             </nav>
           </div>
-        </div>
+        </div> -->
         <!-- fin de pagineo -->
 
+      <!--  NUEVA tabla -->
+      <div class="row">
+        <div class="columns large-12 espacio-linea1">
+          <div class="table-responsive">
+            <table class="tbl-report" role="grid" id="table1" class="display" style="width:100%">
+              <thead class="colorhead">
+                <tr>
+                  <th scope="col">Instalaci&oacute;n</th>
+                  <th scope="col">Grupo de gesti&oacute;n</th>
+                  <th scope="col"style="width: 25% !important">Nombre de gesti&oacute;n</th>
+                  <th scope="col">No. de gesti&oacute;n</th>
+                  <th scope="col">Usuario</th>
+                  <th scope="col">Acci&oacute;n</th>
+                  <th scope="col">Fecha y hora</th>
+                </tr>
+              </thead>
+
+                <tbody>
+                  <tr>
+                    <td data-label="Instalaci&oacute;n">
+                      <p class="td_textnormal">14298</p>
+                    </td>
+                    <td data-label="Grupo de gesti&oacute;n">
+                      <p class="td_textnormal">Solicitud</p>
+                    </td>
+                    <td data-label="Nombre de gesti&oacute;n">
+                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de carta de referencia</p>
+                    </td>
+                    <td data-label="No. de gesti&oacute;n">
+                      <p class="td_txtresalt">2021151008</p>
+                    </td>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">JOSEC</p>
+                    </td>
+                    <td data-label="Acci&oacute;n">
+                      <p class="td_textnormal">Creación</p>
+                    </td>
+                    <td data-label="Fecha y hora">
+                      <p class="td_textnormal">15/10/2022 8:48</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Instalaci&oacute;n">
+                      <p class="td_textnormal">14298</p>
+                    </td>
+                    <td data-label="Grupo de gesti&oacute;n">
+                      <p class="td_textnormal">Solicitud</p>
+                    </td>
+                    <td data-label="Nombre de gesti&oacute;n">
+                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de carta de referencia</p>
+                    </td>
+                    <td data-label="No. de gesti&oacute;n">
+                      <p class="td_txtresalt">2021151008</p>
+                    </td>
+                     <td data-label="Usuario">
+                      <p class="td_textnormal">DIEGO</p>
+                    </td>
+                    <td data-label="Acci&oacute;n">
+                      <p class="td_textnormal">Autorización</p>
+                    </td>
+                    <td data-label="Fecha y hora">
+                      <p class="td_textnormal">15/10/2022 8:48</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Instalaci&oacute;n">
+                      <p class="td_textnormal">14298</p>
+                    </td>
+                    <td data-label="Grupo de gesti&oacute;n">
+                      <p class="td_textnormal">Solicitud</p>
+                    </td>
+                    <td data-label="Nombre de gesti&oacute;n">
+                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Copia de documentos de transacciones operadas en Agencias.</p>
+                    </td>
+                    <td data-label="No. de gesti&oacute;n">
+                      <p class="td_txtresalt">2021151008</p>
+                    </td>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">JOSEC</p>
+                    </td>
+                    <td data-label="Acci&oacute;n">
+                      <p class="td_textnormal">Autorización</p>
+                    </td>
+                    <td data-label="Fecha y hora">
+                      <p class="td_textnormal">15/10/2022 8:48</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Instalaci&oacute;n">
+                      <p class="td_textnormal">14298</p>
+                    </td>
+                    <td data-label="Grupo de gesti&oacute;n">
+                      <p class="td_textnormal">Solicitud</p>
+                    </td>
+                    <td data-label="Nombre de gesti&oacute;n">
+                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de carta de referencia</p>
+                    </td>
+                    <td data-label="No. de gesti&oacute;n">
+                      <p class="td_txtresalt">2021151008</p>
+                    </td>
+                     <td data-label="Usuario">
+                      <p class="td_textnormal">DIEGO</p>
+                    </td>
+                    <td data-label="Acci&oacute;n">
+                      <p class="td_textnormal">Autorización</p>
+                    </td>
+                    <td data-label="Fecha y hora">
+                      <p class="td_textnormal">15/10/2022 8:48</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Instalaci&oacute;n">
+                      <p class="td_textnormal">14298</p>
+                    </td>
+                    <td data-label="Grupo de gesti&oacute;n">
+                      <p class="td_textnormal">Solicitud</p>
+                    </td>
+                    <td data-label="Nombre de gesti&oacute;n">
+                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Copia de documentos de transacciones operadas en Agencias.</p>
+                    </td>
+                    <td data-label="No. de gesti&oacute;n">
+                      <p class="td_txtresalt">2021151008</p>
+                    </td>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">JOSEC</p>
+                    </td>
+                    <td data-label="Acci&oacute;n">
+                      <p class="td_textnormal">Autorización</p>
+                    </td>
+                    <td data-label="Fecha y hora">
+                      <p class="td_textnormal">15/10/2022 8:48</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Instalaci&oacute;n">
+                      <p class="td_textnormal">14298</p>
+                    </td>
+                    <td data-label="Grupo de gesti&oacute;n">
+                      <p class="td_textnormal">Solicitud</p>
+                    </td>
+                    <td data-label="Nombre de gesti&oacute;n">
+                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de carta de referencia</p>
+                    </td>
+                    <td data-label="No. de gesti&oacute;n">
+                      <p class="td_txtresalt">2021151008</p>
+                    </td>
+                     <td data-label="Usuario">
+                      <p class="td_textnormal">DIEGO</p>
+                    </td>
+                    <td data-label="Acci&oacute;n">
+                      <p class="td_textnormal">Autorización</p>
+                    </td>
+                    <td data-label="Fecha y hora">
+                      <p class="td_textnormal">15/10/2022 8:48</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Instalaci&oacute;n">
+                      <p class="td_textnormal">14298</p>
+                    </td>
+                    <td data-label="Grupo de gesti&oacute;n">
+                      <p class="td_textnormal">Solicitud</p>
+                    </td>
+                    <td data-label="Nombre de gesti&oacute;n">
+                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Copia de documentos de transacciones operadas en Agencias.</p>
+                    </td>
+                    <td data-label="No. de gesti&oacute;n">
+                      <p class="td_txtresalt">2021151008</p>
+                    </td>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">JOSEC</p>
+                    </td>
+                    <td data-label="Acci&oacute;n">
+                      <p class="td_textnormal">Autorización</p>
+                    </td>
+                    <td data-label="Fecha y hora">
+                      <p class="td_textnormal">15/10/2022 8:48</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Instalaci&oacute;n">
+                      <p class="td_textnormal">14298</p>
+                    </td>
+                    <td data-label="Grupo de gesti&oacute;n">
+                      <p class="td_textnormal">Solicitud</p>
+                    </td>
+                    <td data-label="Nombre de gesti&oacute;n">
+                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de carta de referencia</p>
+                    </td>
+                    <td data-label="No. de gesti&oacute;n">
+                      <p class="td_txtresalt">2021151008</p>
+                    </td>
+                     <td data-label="Usuario">
+                      <p class="td_textnormal">DIEGO</p>
+                    </td>
+                    <td data-label="Acci&oacute;n">
+                      <p class="td_textnormal">Autorización</p>
+                    </td>
+                    <td data-label="Fecha y hora">
+                      <p class="td_textnormal">15/10/2022 8:48</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Instalaci&oacute;n">
+                      <p class="td_textnormal">14298</p>
+                    </td>
+                    <td data-label="Grupo de gesti&oacute;n">
+                      <p class="td_textnormal">Solicitud</p>
+                    </td>
+                    <td data-label="Nombre de gesti&oacute;n">
+                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Copia de documentos de transacciones operadas en Agencias.</p>
+                    </td>
+                    <td data-label="No. de gesti&oacute;n">
+                      <p class="td_txtresalt">2021151008</p>
+                    </td>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">JOSEC</p>
+                    </td>
+                    <td data-label="Acci&oacute;n">
+                      <p class="td_textnormal">Autorización</p>
+                    </td>
+                    <td data-label="Fecha y hora">
+                      <p class="td_textnormal">15/10/2022 8:48</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-label="Instalaci&oacute;n">
+                      <p class="td_textnormal">14298</p>
+                    </td>
+                    <td data-label="Grupo de gesti&oacute;n">
+                      <p class="td_textnormal">Solicitud</p>
+                    </td>
+                    <td data-label="Nombre de gesti&oacute;n">
+                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de carta de referencia</p>
+                    </td>
+                    <td data-label="No. de gesti&oacute;n">
+                      <p class="td_txtresalt">2021151008</p>
+                    </td>
+                    <td data-label="Usuario">
+                      <p class="td_textnormal">DIEGO</p>
+                    </td>
+                    <td data-label="Acci&oacute;n">
+                      <p class="td_textnormal">Autorización</p>
+                    </td>
+                    <td data-label="Fecha y hora">
+                      <p class="td_textnormal">15/10/2022 8:48</p>
+                    </td>
+                  </tr>
+
+   
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+
+      <!-- fin de tabla -->
+
+      <!-- boton -->
         <div class="row">
           <div class="medium-4 medium-push-8 large-3 large-push-9 columns espacio-linea2a">
-            <a href="../header_footer/header_footer.html" class="button default-action">Regresar</a>
+            <!-- <a href="#" class="button default-action">Regresar</a> -->
+                <!-- NUEVO boton de regresar -->
+              <a href="Home.html" class="button default-action">Regresar</a>
           </div>
         </div>
 

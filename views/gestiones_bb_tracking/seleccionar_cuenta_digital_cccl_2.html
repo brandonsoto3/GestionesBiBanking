@@ -13,14 +13,13 @@
   <link rel="stylesheet" href="../../css/table_responsive/table_responsive.css">
   <link rel="stylesheet" href="../../css/gestiones_bb_tracking.css">
   <link rel="stylesheet" href="../../css/general_nueva_imagen_privado.css">
-
-   <!-- NUEVO CSS -->
+ 
+    <!-- NUEVO CSS -->
   <link rel="stylesheet" href="../../css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="../../css/Tablas_plugin.css">
   <link rel="stylesheet" href="../../css/New_Gestiones_bb_traking.css">
 
-
-  <!-- Fabicon --> 
+  <!-- Fabicon -->
 
   <link rel="apple-touch-icon" sizes="57x57" href="../../img/fabicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../../img/fabicon/apple-icon-60x60.png">
@@ -55,8 +54,7 @@
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-embedded.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7-codes.css">
   <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking-ie7.css">
-  <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking.css"> 
-  <link type="text/css" rel="stylesheet" href="../../icon/iconbbtracking/style.css"> 
+  <link type="text/css" rel="stylesheet" href="../../icon/iconosprivado/css/privado-bibanking.css">  
 
   <!-- NUEVOS ICONOS -->
   <link type="text/css" rel="stylesheet" href="../../icon/gestiones-bb-tracking-font/style.css">
@@ -728,14 +726,14 @@
                <li class="menu-level-1 izquierda"><a>Administraci&oacute;n</a>
                   <ul class="menu-level-2">
                     <li><a href="asignacion_permisos.html">Asignaci&oacute;n de permisos</a></li>
-                    <li><a href="bitacora_administrativa_gestiones.html">Bit&aacute;cora</a></li>
+                    <li><a>Bit&aacute;cora</a></li>
                   </ul>
                 </li>  
 
                 <li class="menu-level-1 izquierda"><a>Gestiones</a>
                   <ul class="menu-level-2">
-                    <li><a href="gestiones.html">Creaci&oacute;n</a></li>
-                    <li><a href="pendiente_autorizar.html">Autorizaci&oacute;n</a></li>
+                    <li><a>Creaci&oacute;n</a></li>
+                    <li><a>Autorizaci&oacute;n</a></li>
                   </ul>
                 </li>
                
@@ -1310,15 +1308,15 @@
               <ul class="menu vertical nested">
                <li class="js-drilldown-back"><a style="font-weight: bold;" href="javascript:void(0)">Administraci&oacute;n</a></li>
                 <li><a href="asignacion_permisos.html">Asignaci&oacute;n de permisos</a></li> 
-                <li><a href="bitacora_administrativa_gestiones.html">Bit&aacute;cora</a></li> 
+                <li><a>Bit&aacute;cora</a></li> 
               </ul>
             </li>
 
              <li><a href="#">Gestiones</a>
               <ul class="menu vertical nested">
                <li class="js-drilldown-back"><a style="font-weight: bold;" href="javascript:void(0)">Gestiones</a></li>
-                <li><a href="gestiones.html">Creaci&oacute;n</a></li> 
-                <li><a href="pendiente_autorizar.html">Autorizaci&oacute;n</a></li> 
+                <li><a>Creaci&oacute;n</a></li> 
+                <li><a>Autorizaci&oacute;n</a></li> 
               </ul>
             </li>
 
@@ -1369,7 +1367,7 @@
 
 
 
-    <!--  Inicio Contenido -->
+  <!--  Inicio Contenido -->
 
    <!-- <div class="columns large-12 etiqueta-linea">--> 
     <div class="row">
@@ -1377,17 +1375,16 @@
 
      <!-- <div class="row">
         <div class="columns large-12 privado">   
-          <h2>Documentos env&iacute;o digital</h2>
+          <h2>Carta crediticia/ Carta de licitaci&oacute;n</h2>
         </div>
       </div>
     
     </div>  -->
 
-    
-<!--  NUEVO titulo -->
+     <!--  NUEVO titulo -->
       <div class="row">
         <div class="columns large-12 tag-title h2pagoe">
-          <h2 class="titlepage">Documentos para env&iacute;o digital</h2>
+          <h2 class="titlepage">Carta crediticia/ Carta de licitaci&oacute;n</h2>
           <hr class="hr_title">
         </div>
       </div>
@@ -1400,131 +1397,112 @@
 
      <!-- <div class="row section-size-privado privado special"> -->
       <div class="row section-size-privado2"> <!-- nuevo div -->
+     <div class="large-12 columns" >
 
-      
-
-
-      <div class="large-12 columns" >
-
-        <!-- info -->
+      <!-- info -->
       <div class="row">
         <div class="columns large-12 ">
-         <label class="lbl_info">Selecciona la gestión que quieres realizar</label>
+         <label class="lbl_info">Selecciona las cuenta a utilizar</label>
         </div>
       </div>
       <!-- fin de info -->
-        <!-- Vieja Tabla -->
-        <!-- <div class="row">
-          <div class="columns large-12 espacio-linea2">
+
+      <form data-abide="ajax" novalidate="" action="carta_digital_cccl.html">
+        <!-- VIEJA TABLA -->
+    <!--   <div class="row">
+          <div class="columns large-8 large-offset-2 espacio-linea1">
+            <strong><p>Selecciona las cuentas a utilizar</p></strong>
             <div class="table-responsive">
               <table>
                 <thead>
                   <tr>
-                    <th width="30%" scope="col">NOMBRE DEL PROCESO</th>
-                    <th width="50%" scope="col">DESCRIPCI&Oacute;N DEL PROCESO</th>
-                    <th width="20%" scope="col">CREAR GESTI&Oacute;N</th>
+                    <th scope="col" width="35%">NOMBRE</th>
+                    <th scope="col" width="35%">NO. CUENTA</th>
+                    <th scope="col" width="30%">
+                      <label class="miCheckbox">
+                        <input type="checkbox" name="test" class="checkbox" id="checkTodos">
+                        <span></span>
+                      </label>
+                    </th>
+                    
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CARTA DE REFERENCIA</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar constancia de cuentas monetarias, ahorro y plazo fijo que posee en Banco Industrial. Este documento incluye fecha de apertura y el saldo promedio de los últimos 6 meses. (Q5.00 por carta)
-                      </P>
+                    <td data-label="NOMBRE">José Carlos Muralles Hernández</td>
+                    <td data-label="NO. CUENTA" class="numero">000000000048 - Empresa S.A.</td>
+                    <td data-label="SELECCIONAR">
+                      <label class="miCheckbox">
+                        <input type="checkbox" name="test" class="checkbox"uired="1" type="checkbox" class="checkAll checkbox" name="checkbox" value="A">
+                        <span></span>
+                      </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
                   </tr>
 
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CARTA CREDITICIA/ CARTA DE LICITACIÓN</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito.
-                      </P>
+                    <td data-label="NOMBRE">Diego Salala</td>
+                    <td data-label="NO. CUENTA" class="numero">000000000048 - Empresa S.A.</td>
+                    <td data-label="SELECCIONAR">
+                      <label class="miCheckbox">
+                        <input type="checkbox" name="test" class="checkbox"uired="1" type="checkbox" class="checkAll checkbox" name="checkbox" value="A">
+                        <span></span>
+                      </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
                   </tr>
 
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CERTIFICACIÓN DE FIRMANTES</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. (Q5.00 por carta)
-                      </P>
+                    <td data-label="NOMBRE">José Carlos Muralles Hernández</td>
+                    <td data-label="NO. CUENTA" class="numero">000000000048 - Empresa S.A.</td>
+                    <td data-label="SELECCIONAR">
+                      <label class="miCheckbox">
+                        <input type="checkbox" name="test" class="checkbox"uired="1" type="checkbox" class="checkAll checkbox" name="checkbox" value="A">
+                        <span></span>
+                      </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
                   </tr>
 
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">DOCUMENTO TRANSACCIONAL</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). (Q5.00 por carta)
-                      </P>
+                    <td data-label="NOMBRE">Diego Salala</td>
+                    <td data-label="NO. CUENTA" class="numero">000000000048 - Empresa S.A.</td>
+                    <td data-label="SELECCIONAR">
+                      <label class="miCheckbox">
+                        <input type="checkbox" name="test" class="checkbox"uired="1" type="checkbox" class="checkAll checkbox" name="checkbox" value="A" required>
+                        <span></span>
+                      </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
                   </tr>
 
                   <tr>
-                    <td data-label="NOMBRE DEL PROCESO">COPIA DE ESTADOS DE CUENTA</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. (Q3.50 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q1.00 por hoja adicional.)
-                      </P>
+                    <td data-label="NOMBRE">José Carlos Muralles Hernández</td>
+                    <td data-label="NO. CUENTA" class="numero">000000000048 - Empresa S.A.</td>
+                    <td data-label="SELECCIONAR">
+                      <label class="miCheckbox">
+                        <input type="checkbox" name="test" class="checkbox"uired="1" type="checkbox" class="checkAll checkbox" name="checkbox" value="A" id="validaCheckbox">
+                        <span></span>
+                      </label>
                     </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
                   </tr>
-
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CARTA CREDITICIA/ CARTA DE LICITACIÓN</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito.
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">CERTIFICACIÓN DE FIRMANTES</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. (Q5.00 por carta)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">DOCUMENTO TRANSACCIONAL</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). (Q5.00 por carta)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">COPIA DE ESTADOS DE CUENTA</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. (Q3.50 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q1.00 por hoja adicional.)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="NOMBRE DEL PROCESO">DOCUMENTO TRANSACCIONAL</td>
-                    <td data-label="DESCRPCI&Oacute;N DEL PROCESO">
-                      <P class="desciption_gestion">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). (Q5.00 por carta)
-                      </P>
-                    </td>
-                    <td data-label="CREAR GESTI&Oacute;N" ><a href="seleccionar_cuenta_digital_cr.html" class="numero numero2 resaltar-linea">Ingresar solicitud</a></td>
-                  </tr>
-    
+          
                 </tbody>
               </table>
 
             </div>
           </div>
+        </div> 
+
+         <div class="row">
+          <div class="columns large-8 large-offset-2">
+            <label class="form-error" data-form-error-for="validaCheckbox">Debes de seleccionar una cuenta.</label>
+          </div>
         </div>
- -->
-        <!-- Viejo pagineo -->
-         <!-- <div class="row">
+
+
+
+      -->
+
+        <!-- antiguo pagineo -->
+        <!-- pagineo -->
+<!--          <div class="row">
           <div class="columns large-12">
             <nav aria-label="Pagination " pagination-mobile-items="">
               <ul class="pagination-pointed pagination text-center numero" aria-label="Pagination">
@@ -1543,139 +1521,45 @@
         </div> -->
         <!-- fin de pagineo -->
 
-      <!-- NUEVA tabla -->
-      <div class="row">
-        <div class="columns large-12 espacio-linea1">
-          <div class="table-responsive">
-            <table class="tbl-report" role="grid" id="table1" class="display" style="width:100%">
+        <div class="row">
+          <div class="columns large-12 espacio-linea1">
+            <div class="table-responsive">
+              <table class="tbl-report" role="grid" id="table1" class="display" style="width:100%">
               <thead class="colorhead">
                 <tr>
-                  <th scope="col" style="width: 25%;">Nombre del proceso</th>
-                  <th scope="col"style="width: 50%;">Descripci&oacute;n del proceso</th>
-                  <th scope="col">Crear gesti&oacute;n</th>
+                  <th scope="col" style="width:30%">Nombre</th>
+                  <th scope="col" style="width:30%">No. cuenta</th>
+                  <th scope="col" class="disableMe"> </th>
+                </tr>
               </thead>
 
               <tbody>
                   <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta de referencia</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro y plazo fijo que posee en Banco Industrial. Este documento incluye fecha de apertura y el saldo promedio de los últimos 6 meses. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">José Carlos Muralles Hernández</p></td>
+                    <td data-label="No. cuenta"><p class="td_textnormal">00000000048</p></td>
+                    <td data-label="Seleccionar ">
+                      <input id="radio1" type="radio" name="radioButtons" value="1" required="">
+                      <label for="radio1"><span class="radiospecialtd"><span ></span></span></label>
                     </td>
                   </tr>
 
                   <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta crediticia/ carta de licitación</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt ">Ingresar solicitud</p>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">DIEGO SALALA</p></td>
+                    <td data-label="No. cuenta"><p class="td_textnormal">00000000048</p></td>
+                    <td data-label="Seleccionar ">
+                      <input id="radio2" type="radio" name="radioButtons" value="1" required="">
+                      <label for="radio2"><span class="radiospecialtd"><span ></span></span></label>
                     </td>
                   </tr>
 
                   <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Certificación de firmantes</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso" >
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
+                    <td data-label="Nombre" ><p class="td_texttitle txts_leftcentered">José Carlos Muralles Hernández</p></td>
+                    <td data-label="No. cuenta"><p class="td_textnormal">00000000048</p></td>
+                    <td data-label="Seleccionar ">
+                      <input id="radio3" type="radio" name="radioButtons" value="1" required="">
+                      <label for="radio3"><span class="radiospecialtd"><span ></span></span></label>
                     </td>
                   </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Documento transaccional</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Copia de Estados de cuenta</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. Q7.00 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q2.00 por hoja adicional.</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                   <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta de referencia</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro y plazo fijo que posee en Banco Industrial. Este documento incluye fecha de apertura y el saldo promedio de los últimos 6 meses. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Carta crediticia/ carta de licitación</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar constancia de cuentas monetarias, ahorro, plazo fijo y créditos que posee en Banco Industrial, indicando la categoría del deudor en relación al crédito. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Certificación de firmantes</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso" >
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar carta con información de firmantes a la fecha o en determinado periodo de tiempo. Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Documento transaccional</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Proceso para solicitar copia de documentos transaccionales operados en agencia (cheques, boletas, notas de crédito y débito). Q10.00 cada carta</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td data-label="Nombre del proceso">
-                      <p class="td_textnormal txts_leftcentered txt_justifyend">Copia de Estados de cuenta</p>
-                    </td>
-                    <td data-label="Descripci&oacute;n del proceso">
-                      <p class="td_textnormal txt_paddingTop txts_leftcentered">Solicitud de copia de estado de cuenta de monetarios, ahorros, préstamos y plazo fijo. Q7.00 por mes hasta un máximo de 3 hojas, a partir de la cuarta hoja se cobrará Q2.00 por hoja adicional.</p>
-                    </td>
-                    <td data-label="Crear gesti&oacute;n">
-                      <p class="td_txtresalt">Ingresar solicitud</p>
-                    </td>
-                  </tr>
-                 
    
                 </tbody>
               </table>
@@ -1684,22 +1568,27 @@
           </div>
         </div>
 
-      <!-- fin de tabla -->
+
 
         <div class="row">
-          <div class="columns large-3 large-offset-9 medium-6 medium-offset-6">
-            <a href="pendiente_autorizar.html"><button class="button more_space_boton2">Pendiente de Autorizar</button></a>
+          <div class="medium-4 large-3 medium-push-8 large-push-9 columns espacio-linea2">
+            <!-- <button type="submit"id="btnAceptar" class="button">Confirmar</button> -->
+            <!-- NUEVO boton -->
+            <button id="btnAceptar" class="button confirmar someToken habilitar" disabled>Confirmar</button>
+          </div>
+
+          <div class="medium-4 large-3 medium-pull-4 large-pull-3  columns espacio-linea2a">
+            <a href="documentos_envio_digital.html" class="button default-action">Regresar</a>
           </div>
         </div>
 
-        
+      </form>
 
-
-  
       </div>
     </div>
 
     <!-- Fin Contenido -->
+
 
 
 
@@ -1870,7 +1759,49 @@
       <script src="../../js/vendor/header_func.js"></script>
       <script src="../../js/slick/slick.js" ></script>
       
+       <!--  SCRIPT PARA SELECCIONAR TODOS LOS CHECKBOX -->
 
+<!--       <script>   
+        $('document').ready(function(){
+           $("#checkTodos").change(function () {
+              $("input:checkbox").prop('checked', $(this).prop("checked"));
+          });
+        });
+      </script> -->
+
+      <!-- th desabilitado -->
+      <script >
+        // ocultar icono de ordenamiento en ultima columna
+        $(document).ready(function(){
+          $('th').click(function() {
+            $('.disableMe').removeClass("sorting");
+          });
+
+          $('.disableMe').off('click');
+          $('.disableMe').css({
+            'cursor': 'default'
+          });
+
+          $('.disableMe').removeClass("sorting");
+          $('.disableMe').removeClass("sorting_asc");
+          $('.disableMe').removeClass("sorting_desc");
+        });
+      </script>
+
+      <!--  SCRIPT PARA activar o desactivar el boton siguiente -->
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $("input[type=radio]").click(function(event){
+            var valor = $(event.target).val();
+            
+            if(valor == "1"){
+              $('.habilitar').prop("disabled", false);
+            } 
+          });
+        });
+      </script>
+
+  
 
 </body>
 </html>
