@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="../../css/gestiones_bb_tracking.css">
   <link rel="stylesheet" href="../../css/general_nueva_imagen_privado.css">
 
-    <!-- NUEVO CSS -->
+  <!-- NUEVO CSS -->
   <link rel="stylesheet" href="../../css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="../../css/Tablas_plugin.css">
   <link rel="stylesheet" href="../../css/New_Gestiones_bb_traking.css">
@@ -1380,27 +1380,28 @@
           </div>   
         </div>
 
-        <div class="row">
-          <div class="columns large-6 large-offset-3 medium-8 medium-offset-2 espacio-linea2">
-            <div class="row">
-              <div class="columns large-12">
-                <!-- <label>Busca una gesti&oacute;n
-                  <input  type="search" placeholder="Ingresa una palabra clave para buscar una gestión">
-                </label> -->
+        <form data-abide novalidate id="addForm" action="Gestiones-Resultados.html">
 
-                <!-- NUEVO input -->
-                <label class="lbl_title">Busca una gesti&oacute;n
-                  <input  type="search" placeholder="Ingresa una palabra clave para buscar una gestión">
-                </label>
-              </div>
+          <div class="row">
+            <div class="columns large-6 large-offset-3 medium-8 medium-offset-2 espacio-linea2">
+              <div class="row">
+                <div class="columns large-12">
 
-              <div class="columns large-6 medium-6">
-                <button class="button">Consultar</button>
+                  <label class="lbl_title">Busca una gesti&oacute;n
+                    <input id="BuscaGestion" pattern="[A-Za-z0-9]+" class="numero" type="text" placeholder="Ingresa una palabra clave para buscar una gestión" pattern="[A-Za-z0-9]+" required> 
+                    <span class="form-error">Es necesario llenar el campo.</span>
+                  </label>
+                </div>
+
+                <div class="columns large-6 medium-6">
+                  <button id="btn_consult" type="submit" value="Submit" class="button">Consultar</button>
+                </div>
               </div>
-            </div>  
+            </div>
           </div>
-        </div>
+        </form>
 
+      
         <!-- viejo gestiones -->
        <!--  <div class="row">
           <div class="columns large-6 large-offset-3 medium-8 medium-offset-2 gestion-bb espacio-linea2">
@@ -1441,7 +1442,7 @@
                   <a href="p10_gestiones_fisico.html" class="icon_colorgestions " >
                     <div class="columns large-12 gestionbox">
                     <i class="Gestiones_icon-gestiones-hoja" ></i>
-                    <p class="lbl_gesticon_text">Documentos Para envío físico</p>
+                    <p class="lbl_gesticon_text">Documentos para envío físico</p>
                     </div>
                   </a>
                 </div>
@@ -1452,7 +1453,7 @@
                   <a href="p09_gestiones_digitales.html" class="icon_colorgestions ">
                     <div class="columns large-12 gestionbox">
                     <i class="Gestiones_icon-gestiones-computadora"></i>
-                    <p class="lbl_gesticon_text">Documentos Para envío digital</p>
+                    <p class="lbl_gesticon_text">Documentos para envío digital</p>
                     </div>
                   </a>
                 </div>
@@ -1464,12 +1465,12 @@
         <br> <br>
 
         <div class="row espacio-linea1">
-          <div class="columns large-4 large-push-8 medium-5 medium-push-7">
+          <div class="columns large-5 large-push-8 medium-5 medium-push-7">
             <!-- <a href="seguimiento_gestion_proceso.html" class="button botonenlace">Seguimiento de Gestiones en Proceso</a> -->
-            <a href="pagina_en_construccion.html" class="button botonenlace more_space_boton">Seguimiento de Gestiones en Proceso</a>
+            <a href="pagina_en_construccion.html" class="button more_space_boton">Seguimiento de Gestiones en Proceso</a>
           </div>
 
-          <div class="columns large-4 large-pull-4 medium-5 medium-pull-5">
+          <div class="columns large-5 large-pull-4 medium-5 medium-pull-5">
             <!-- <a href="historial_gestiones_finalizadas.html" href="#" class="button default-action">Historial de Gestiones Finalizadas</a> -->
             <a href="pagina_en_construccion.html" href="#" class="button default-action more_space_boton">Historial de Gestiones Finalizadas</a>
           </div>
@@ -1649,7 +1650,17 @@
       <script src="../../js/vendor/foundation.min.js"></script>
       <script src="../../js/vendor/header_func.js"></script>
       <script src="../../js/slick/slick.js" ></script>
-      
+
+      <!-- validar que nombre sea solo numeros y letras -->
+    <script type="text/javascript">
+      $('#BuscaGestion').on('keyup keypress',function (tecla) {
+        if((tecla.charCode >=32  && tecla.charCode<=47) || (tecla.charCode >=58  && tecla.charCode<=64) || (tecla.charCode >=91  && tecla.charCode<=96) || (tecla.charCode >=123  && tecla.charCode<=254)){
+          
+          return false;
+        }
+      });
+    </script>
+
 
 
 </body>
