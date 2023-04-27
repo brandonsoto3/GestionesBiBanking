@@ -1654,8 +1654,7 @@
       <!-- validar que nombre sea solo numeros y letras -->
     <script type="text/javascript">
       $('#BuscaGestion').on('keyup keypress',function (tecla) {
-        if((tecla.charCode >=32  && tecla.charCode<=47) || (tecla.charCode >=58  && tecla.charCode<=64) || (tecla.charCode >=91  && tecla.charCode<=96) || (tecla.charCode >=123  && tecla.charCode<=254)){
-          
+        if((tecla.charCode >=33  && tecla.charCode<=47) || (tecla.charCode >=58  && tecla.charCode<=64) || (tecla.charCode >=91  && tecla.charCode<=96) || (tecla.charCode >= 123 && tecla.charCode <= 208) || (tecla.charCode >= 210 && tecla.charCode <= 240) || (tecla.charCode >= 242 && tecla.charCode <= 255)){
           return false;
         }
       });
