@@ -246,7 +246,6 @@ select:not([multiple]) {
 }
 
 
-
 /*switch*/
 .switch {
     height: 1rem !important;
@@ -401,6 +400,14 @@ label.txt_infodata{
 }
 
 
+/*tabla vacia*/
+td.dataTables_empty {
+    color: #959090 !IMPORTANT; 
+    font-size: 14px !important;
+    font-family: Lato-Regular !important;
+}
+
+
 /*Media QUERYS*/
 
 /*MOVIL*/
@@ -522,3 +529,517 @@ div#modal_asignarpermisos {
 
 
 }
+
+
+/*  ----------------------FASE 2 - GESTIONES EN PROCESO ABRIL 2023--------------------- */
+
+/*enlace en titulo*/
+.Link_subtitle{
+    color: #2C8B9E; 
+    font-size: 16px;     
+    margin-bottom: 0px !important;
+    margin-top: 16px;
+    text-align: right;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Link_subtitle:hover {
+    color: #00C1D4 !important;
+
+}
+.tag-sublink{
+    padding: 30px 16px 0px 16px;
+}
+i.Gestiones_icon-gestiones-check_2.icon_sublink {
+    position: absolute;
+    margin-left: -1.3rem;
+    margin-top: 3px;
+}
+
+i.Gestiones_icon-gestiones-reloj.icon_sublink {
+    position: absolute;
+    margin-left: -1.3rem;
+    margin-top: 3px;
+}
+
+/*VISTAS DE TABLEROS*/
+.switch_view{
+    text-align: right;
+    margin-top: 20px;
+    padding-right: 15px;
+    float: right;
+}
+.positionvista{
+    color: #003865;
+    font-family: Lato_Bold !important;
+    font-size: 16px; 
+    position: absolute;
+    display: block;
+    margin-top: 2px;
+    display: contents; 
+    margin-right: 52px;
+}
+i#view_lista {
+    margin-right: 8px !IMPORTANT;
+    margin-left: 8px !important;
+}
+
+.view_lista{
+    color: #CCCCCC;
+    font-size: 20px;
+}
+.view_lista:hover{
+    color: #2C8B9E;
+}
+.view_mosaico{
+    color: #CCCCCC;
+    font-size: 20px;
+}
+.view_mosaico:hover{
+    color: #2C8B9E;
+}
+.iconswitch {
+    font-size: 30px !important;
+    height: 30px;
+    width: 30px;
+    margin: 0 !important;
+    padding: 0 !important;
+    display:inline-block; 
+    margin-right:20px;
+    /*transition: .5s;*/
+}
+.btnswitch_active {
+    color: #2C8B9E;
+}
+.btnswitch_desactive {
+    color: #cfcfcf;
+}
+.iconswitch:hover {
+    color: #2C8B9E;
+}
+
+/*nuevas iconos fechas*/
+i.glyphicon.Gestiones_icon-gestiones-calendario{
+    font-size: 16px;
+    margin-top: 2px;
+    color: #003865;
+}
+
+/*Checks*/
+.miCheckbox.check_all_Gestion span {
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer !important;
+    margin-top: 10px !important;
+} 
+label#check_gestion {
+    font-size: 16px;
+    color: #424141;
+    MARGIN-RIGHT: 125PX;
+    FLOAT: RIGHT;
+}
+
+p.lbl_allgestion {
+    font-family: Lato-Regular !important;
+    font-size: 14px;
+    width: 1200%;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-weight: normal !important;
+}
+
+/*iconos de tablas*/
+i.tableicon_gestion{
+    text-align: center;
+    font-size: 35px !important;
+    color: #2C8B9E;
+}
+.Tablelbl_gest_text{
+    color: #424141 !important;
+    font-size: 14px;
+    font-family: Lato_Bold !important;
+
+}
+/*borde de la tabla*/
+.row_border_right{
+    border-right: 1.5px solid #8C8C8C !important;
+}
+.row_info_etapa{
+    border-right: 1.5px solid #8C8C8C !important;
+    width: 40%;
+}
+/*contenido del detalle de gestiones*/
+.td_ges_title{
+    color: #2C8B9E !important;
+    font-size: 16px !important;
+    font-family: Lato_Bold !important;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.td_gest_detail{
+    color: #424141 !important;
+    font-size: 16px !important;
+    font-family: Lato-Regular !important;
+    margin-bottom: 0px;
+
+}
+
+/*nueva modal*/
+h1.txt_modal_minititle{
+    color: #424141;
+    font-size: 18px;
+    font-family: Lato-Regular !important;
+    font-weight: normal;
+}
+h1.txt_modal_titleblue{
+    color: #003865 !important;
+    font-size: 28px;
+}
+p.modaltd_ges_title {
+    color: #2C8B9E !important;
+    font-size: 16px !important;
+    font-family: Lato_Bold !important;
+    text-align: left !important;
+    margin-bottom: 0px;
+}
+ p.txt_etapa {
+    margin-bottom: 0px;
+
+}
+
+/*alert links*/
+.alert_link{
+    cursor:pointer; 
+    font-weight: bold;
+}
+.alert_link:hover{
+    color: #00C1D4 !important;
+}
+u.alert_link {
+    font-size: 12px;
+}
+
+
+/*tabla de etapas*/
+.txt_etapa{
+    color: #424141 !important;
+    font-size: 18px;
+    font-family: Lato-Regular !important;
+    font-weight: normal;
+/*    text-align: right !important;*/
+    margin-top: 10px;
+}
+.Num_etapa{
+    color: #003865 !important;
+    font-size: 28px;
+    font-family: Lato_Bold !important;
+    font-weight: normal;
+/*    text-align: left !important;*/
+    margin-bottom: 0px;
+}
+.Name_etapa{
+    color: #003865 !important;
+    font-size: 14px;
+    font-family: Lato_Bold !important;
+    font-weight: normal;
+/*    text-align: left !important;*/
+}
+
+.td_txtprocess{
+    color: #2C8B9E !important;
+    text-decoration: underline;
+    font-family: Lato_Bold !important;
+    font-size: 14px !important;
+    cursor: pointer;
+}
+
+.td_txtprocess:hover{
+    color: #00C1D4 !important;
+}
+
+/*modal responsive*/
+div#modal_gestionprocess {
+    width: 90% !important;
+        height: auto !important; 
+        min-height: auto !important;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+/*progres bar*/
+.txt_bar{
+    font-size: 14px !important;
+    font-family: Lato_Bold !important;
+    width: 100%;
+}
+ul.SteppedProgress{
+    counter-reset:step;display:flex;
+    margin:auto;
+    overflow:hidden;
+    padding:0;
+    position:relative;
+    text-align:center;
+    z-index:0;
+}
+
+.SteppedProgress li{
+    list-style-type:none;
+    color:#404140;
+    line-height:normal;
+    flex:1;
+    font-size:22px;
+    position:relative;
+    padding:0 2%;
+}
+
+.SteppedProgress li.boxed span, .SteppedProgress li.current span{
+    background:silver;
+    border:1px solid silver;
+    color:gray;display:inline-block;
+    padding:3px 6px;
+    position:relative;
+    margin:0px -6px;
+    width:100%;
+}
+.SteppedProgress li.boxed span:after,.SteppedProgress li.current span:after{
+    bottom:100%;left:50%;
+    border:solid transparent;content:" ";
+    height:0;
+    width:0;
+    position:absolute;
+    pointer-events:none;
+    border-color:rgba(255,255,255,0);
+    border-bottom-color:silver;
+    border-width:10px;
+    margin-left:-10px; 
+    height: 28px;
+}
+.SteppedProgress li.current span{
+    background: #4170b0; 
+    color:#FFF
+}
+.SteppedProgress li.current span:after{
+    border-bottom-color:#4170b0;
+}
+.SteppedProgress li.current.canHover span:hover{
+    background:#b9cce5;
+    border-color:#4170b0;
+    color:#4170b0
+}
+.SteppedProgress li.current.canHover span:hover:after{
+    border-bottom-color:#b9cce5;
+}
+.SteppedProgress li.complete.boxed span{
+    background:#23b900;
+    color:#FFF;
+}
+.SteppedProgress li.complete.boxed span:after{
+    border-bottom-color:#23b900;
+}
+.SteppedProgress li.complete.boxed.canHover span:hover{
+    background:#95ff7c;
+    border-color:#23b900;
+    color:#23b900;
+    cursor:pointer;
+}
+.SteppedProgress li.complete.boxed.canHover span:hover:after{
+    border-bottom-color:#23b900;
+    cursor:pointer;
+} 
+.SteppedProgress li:before{
+    content:counter(step);
+    counter-increment:step;
+    width:30px;
+    line-height:30px;
+    margin-top: 2px !important;
+    display:block;
+    font-size:22px;color:#FFF;
+    border: 2px solid #2C8B9E;
+    background: white;
+    border-radius:15px;
+    margin:0 auto 10px;
+    position:relative;
+    z-index:1; 
+    content: "";
+    font-family: "bibanking" 
+    !important; height: 28px;
+}
+.SteppedProgress li:after{
+    content:'';
+    width:100%;
+    height:6px;
+    background:silver;
+    position:absolute;
+    left:-50%;
+    top:15px;
+    z-index:-1;
+}
+.SteppedProgress li:first-child:after{content:none}
+.SteppedProgress li.complete:before{
+    background:#0055B8;
+    color:white; 
+    content: "";
+    font-family: "bibanking" !important; 
+    height:28px;
+}
+.SteppedProgress li.complete:after{
+    background:#0055B8;
+}
+ul.SteppedProgress.Vertical{
+    display:block;
+}
+.SteppedProgress.Vertical li{
+    flex:none;
+    clear:both;
+    text-align:left;
+    padding:0;
+    margin-left:0;
+    min-height:10.2em;
+}
+.SteppedProgress.Vertical li span{
+    white-space:nowrap;
+}
+ul.SteppedProgress.Vertical li:before{
+    float:none;
+    display:inline-block;
+    margin-right:10px;
+    text-align:center;
+    margin-left:0;
+}
+.SteppedProgress.Vertical li:after{
+    content:'';
+    width:6px;
+    height:100%;
+    position:absolute;
+    left:12px;top:-87%;
+    z-index:-1;
+}
+ul.SteppedProgress.Vertical li.boxed,ul.SteppedProgress.Vertical li.current{
+    min-width:90%
+}
+ul.SteppedProgress.Vertical li.boxed span,ul.SteppedProgress.Vertical li.current span{
+    display:inline;
+    margin-left:0;
+}
+ul.SteppedProgress.Vertical li.boxed span:after,ul.SteppedProgress.Vertical li.current span:after{
+    bottom:auto;
+    left:auto;right:100%;
+    top:7px;
+    border-color:rgba(255,255,255,0);
+    border-right-color:silver;
+    margin:0;
+}
+ul.SteppedProgress.Vertical li.current span:after{
+    border-right-color:#4170b0;
+}
+ul.SteppedProgress.Vertical li.complete.boxed span:after{
+    border-color:rgba(255,255,255,0);
+    border-right-color:#23b900;
+}
+
+.SteppedProgress li.complete:before {
+    background: #2C8B9E;
+    margin-top: 2px;
+    border: 0px !important;
+    content: url("../img/gestiones-bb-tracking-Img/tracking-lleno.svg");
+}
+.SteppedProgress li.complete > span {
+    color: #424141;
+}
+
+.SteppedProgress li.complete:after {
+    background: #2C8B9E;
+}
+
+/*Progress BAR FINALIZADOO finalizado*/
+.SteppedProgress li.complete.done:before {
+    background:  #28C771;
+    margin-top: 2px;
+    border: 0px !important;
+    content: url("../img/gestiones-bb-tracking-Img/tracking-lleno-verde.svg");
+}
+.SteppedProgress li.complete.done > span {
+    color: #424141 !important;
+}
+
+.SteppedProgress li.complete.done:after {
+    background: #28C771;
+}
+
+
+/*boton deshabilitado*/
+.btn_disabled{
+    background-color: #959090 !important;
+}
+
+/*responsive*/
+/*MOVIL*/
+@media (max-width:640px){
+    .Link_subtitle {
+        margin-top: 5px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .tag-sublink{
+        padding: 0px 16px 0px 16px;
+    }
+    i.tableicon_gestion {
+        margin-right: 25px;
+    }
+    .row_border_right {
+        border-right: 0px solid #8C8C8C !important;
+    }
+    .row_info_etapa{
+        border-right: 0px solid #8C8C8C !important;
+        width: 100%;
+    }
+    .td_ges_title {
+        text-align: right;
+    }
+    .btn-tableresp{
+        margin-top: 25px;
+    }
+    .miCheckbox.check_all_Gestion span {
+        margin-right: 110px;
+    }
+    .txt_bar {
+        font-size: 11px !important;
+    }
+    p.txt_etapa {
+        margin-bottom: 0px;
+    }
+    p.td_txtprocess {
+        text-align: center;
+        font-size: 16px !important;
+    }
+
+    p.modaltd_ges_title {
+        text-align: center !important;
+    }
+    label#check_gestion {
+        MARGIN-RIGHT: 0PX; 
+        FLOAT: left;
+    }
+    #views_ofdata{
+        display: none;
+    }
+    #ContenidoMosaico{
+        display: none !important;
+    }
+    #ContenidoLista{
+        display: block !important;
+    }
+    .SteppedProgress li {
+        list-style-type: none;
+        color: #404140;
+        line-height: normal;
+        flex: 1;
+        font-size: 11px;
+        position: relative;
+        padding: 0px 0%;
+    }
+}
+
