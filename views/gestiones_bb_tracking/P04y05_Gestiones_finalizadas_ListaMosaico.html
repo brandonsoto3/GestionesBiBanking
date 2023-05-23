@@ -2253,9 +2253,9 @@
             //dia, mes, año
             partesFecha = fechaInicialTexto.split('-');
             //Restar 1 al mes (es base 0)
-            diaTemp = partesFechaInicial[0];
-            mesTemp = partesFechaInicial[1] - 1;
-            yearTemp = partesFechaInicial[2];
+            diaTemp = partesFecha[0];
+            mesTemp = partesFecha[1] - 1;
+            yearTemp = partesFecha[2];
             fechaInicial = new Date(yearTemp, mesTemp, diaTemp)
 
           }
@@ -2266,9 +2266,9 @@
             //dia, mes, año
             partesFecha = fechaFinalTexto.split('-');
             //Restar 1 al mes (es base 0)
-            diaTemp = partesFechaFinal[0];
-            mesTemp = partesFechaFinal[1] - 1;
-            yearTemp = partesFechaFinal[2];
+            diaTemp = partesFecha[0];
+            mesTemp = partesFecha[1] - 1;
+            yearTemp = partesFecha[2];
             fechaFinal = new Date(yearTemp, mesTemp, diaTemp)
           }
 
