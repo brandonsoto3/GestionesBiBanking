@@ -2228,67 +2228,75 @@
 
 
     // Custom range filtering function 
-
     function filtrarFechas() {
       if ($.fn.dataTable.ext.search.length === 0) {
         $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
 
+          //variables de fecha
+          var fechaInicial = null;
+          var fechaFinal = null;
 
+          //texto de label html
           var fechaInicialTexto = $('#dp1').val();
           var fechaFinalTexto = $('#dp2').val();
-          //Verificar fechas seleccionadas
-          if (fechaInicialTexto === '' || fechaFinalTexto === '') {
-            return true
-          }
-          //Valor fecha inicial
-          //dia, mes, año
-          var partesFechaInicial = fechaInicialTexto.split('-');
-          //Restar 1 al mes (es base 0)
-          var diaTemp = partesFechaInicial[0];
-          var mesTemp = partesFechaInicial[1] - 1;
-          var yearTemp = partesFechaInicial[2];
-          var fechaInicial = new Date(yearTemp, mesTemp, diaTemp)
 
-          //Valor fecha final
-          //dia, mes, año
-          var partesFechaFinal = fechaFinalTexto.split('-');
-          //Restar 1 al mes (es base 0)
-          diaTemp = partesFechaFinal[0];
-          mesTemp = partesFechaFinal[1] - 1;
-          yearTemp = partesFechaFinal[2];
-          var fechaFinal = new Date(yearTemp, mesTemp, diaTemp)
-          //Valor fecha final
-          console.log(fechaInicial)
-          console.log(fechaFinal)
-          if (fechaInicial > fechaFinal) {
-            console.log('Inicial no puede ser mayor que final')
-            return true
+          //variables temporales
+          var diaTemp;
+          var mesTemp;
+          var yearTemp;
+          var partesFecha;
+
+          //Obtener fecha procesada si existe valor
+          if (fechaInicialTexto !== '') {
+
+            //Valor fecha inicial
+            //dia, mes, año
+            partesFecha = fechaInicialTexto.split('-');
+            //Restar 1 al mes (es base 0)
+            diaTemp = partesFechaInicial[0];
+            mesTemp = partesFechaInicial[1] - 1;
+            yearTemp = partesFechaInicial[2];
+            fechaInicial = new Date(yearTemp, mesTemp, diaTemp)
+
           }
-          //Variables temporales
+
+          //Obtener fecha procesada si existe valor
+          if (fechaFinalTexto !== '') {
+            //Valor fecha final
+            //dia, mes, año
+            partesFecha = fechaFinalTexto.split('-');
+            //Restar 1 al mes (es base 0)
+            diaTemp = partesFechaFinal[0];
+            mesTemp = partesFechaFinal[1] - 1;
+            yearTemp = partesFechaFinal[2];
+            fechaFinal = new Date(yearTemp, mesTemp, diaTemp)
+          }
+
+          //Variables temporales para fecha de fila
           var valorCeldaTemporal = '';
           var fechaTemporal = new Date();
-          var dividirPorEspacio = [] // ' '
-          var dividirPorDiagonal = [] // '/'
+          var dividirPorEspacio = [] // '{ }'
+          var dividirPorDiagonal = [] // '{/}'
 
-
+          //obtener valor y limpiar
           var valorCeldaTemporal = data[0];
           valorCeldaTemporal = valorCeldaTemporal.trim();
 
           //verificar que empieze en numero
           if (isNaN(parseInt(valorCeldaTemporal.charAt(0)))) {
-            return
+            return true;
           }
 
-          //Separar fecha dia/mes/año - hora:minuto [am/pm]
+          //Separar fecha formato: {dd/mm/yyyy - hh:mm [am/pm]}
           //dividir por espacio
           dividirPorEspacio = valorCeldaTemporal.split(' ')
           //console.log(dividirPorEspacio)
           if (dividirPorEspacio.length === 0) {
-            return
+            return true;
           }
           //dividir por diagonal
           dividirPorDiagonal = dividirPorEspacio[0].split('/')
-          console.log(dividirPorDiagonal)
+          //fecha sin formato correcto
           if (dividirPorDiagonal.length !== 3) {
             return true
           }
@@ -2297,26 +2305,133 @@
           mesTemp = dividirPorDiagonal[1] - 1;
           yearTemp = dividirPorDiagonal[2];
           fechaTemporal = new Date(yearTemp, mesTemp, diaTemp)
-          console.log(fechaTemporal)
 
-          if (fechaTemporal >= fechaInicial && fechaTemporal <= fechaFinal) {
-            return true
-          } else {
+          if (fechaFinal === null && fechaInicial !== null) {
+            if (fechaTemporal >= fechaInicial) {
+              return true
+            }
             return false
-          }
 
+          }
+          //Solo fecha final
+          else if (fechaInicial === null && fechaFinal !== null) {
+            if (fechaTemporal <= fechaFinal) {
+              return true
+            }
+            return false
+
+          }
+          else if (fechaInicial !== null && fechaFinal != null) {
+            if (fechaFinal < fechaInicial) {
+              return true;
+            }
+            if (fechaTemporal >= fechaInicial && fechaTemporal <= fechaFinal) {
+
+              return true
+            }
+            return false
+
+          }
         });
       }
 
       //Remover check 
       uncheck();
+      //obtener objeto tabla y redibujar con las filas validas
       var table = $('#table1').DataTable();
-
       table.draw();
       return
 
 
     }
+    // function filtrarFechas() {
+    //   if ($.fn.dataTable.ext.search.length === 0) {
+    //     $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
+
+
+    //       var fechaInicialTexto = $('#dp1').val();
+    //       var fechaFinalTexto = $('#dp2').val();
+    //       //Verificar fechas seleccionadas
+    //       if (fechaInicialTexto === '' || fechaFinalTexto === '') {
+    //         return true
+    //       }
+    //       //Valor fecha inicial
+    //       //dia, mes, año
+    //       var partesFechaInicial = fechaInicialTexto.split('-');
+    //       //Restar 1 al mes (es base 0)
+    //       var diaTemp = partesFechaInicial[0];
+    //       var mesTemp = partesFechaInicial[1] - 1;
+    //       var yearTemp = partesFechaInicial[2];
+    //       var fechaInicial = new Date(yearTemp, mesTemp, diaTemp)
+
+    //       //Valor fecha final
+    //       //dia, mes, año
+    //       var partesFechaFinal = fechaFinalTexto.split('-');
+    //       //Restar 1 al mes (es base 0)
+    //       diaTemp = partesFechaFinal[0];
+    //       mesTemp = partesFechaFinal[1] - 1;
+    //       yearTemp = partesFechaFinal[2];
+    //       var fechaFinal = new Date(yearTemp, mesTemp, diaTemp)
+    //       //Valor fecha final
+    //       console.log(fechaInicial)
+    //       console.log(fechaFinal)
+    //       if (fechaInicial > fechaFinal) {
+    //         console.log('Inicial no puede ser mayor que final')
+    //         return true
+    //       }
+    //       //Variables temporales
+    //       var valorCeldaTemporal = '';
+    //       var fechaTemporal = new Date();
+    //       var dividirPorEspacio = [] // ' '
+    //       var dividirPorDiagonal = [] // '/'
+
+
+    //       var valorCeldaTemporal = data[0];
+    //       valorCeldaTemporal = valorCeldaTemporal.trim();
+
+    //       //verificar que empieze en numero
+    //       if (isNaN(parseInt(valorCeldaTemporal.charAt(0)))) {
+    //         return
+    //       }
+
+    //       //Separar fecha dia/mes/año - hora:minuto [am/pm]
+    //       //dividir por espacio
+    //       dividirPorEspacio = valorCeldaTemporal.split(' ')
+    //       //console.log(dividirPorEspacio)
+    //       if (dividirPorEspacio.length === 0) {
+    //         return
+    //       }
+    //       //dividir por diagonal
+    //       dividirPorDiagonal = dividirPorEspacio[0].split('/')
+    //       console.log(dividirPorDiagonal)
+    //       if (dividirPorDiagonal.length !== 3) {
+    //         return true
+    //       }
+
+    //       diaTemp = dividirPorDiagonal[0];
+    //       mesTemp = dividirPorDiagonal[1] - 1;
+    //       yearTemp = dividirPorDiagonal[2];
+    //       fechaTemporal = new Date(yearTemp, mesTemp, diaTemp)
+    //       console.log(fechaTemporal)
+
+    //       if (fechaTemporal >= fechaInicial && fechaTemporal <= fechaFinal) {
+    //         return true
+    //       } else {
+    //         return false
+    //       }
+
+    //     });
+    //   }
+
+    //   //Remover check
+    //   uncheck();
+    //   var table = $('#table1').DataTable();
+
+    //   table.draw();
+    //   return
+
+
+    // }
   </script>
 
 
