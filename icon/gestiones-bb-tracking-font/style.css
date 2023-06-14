@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'gestiones-bb-tracking';
-  src:  url('fonts/gestiones-bb-tracking.eot?sthf6b');
-  src:  url('fonts/gestiones-bb-tracking.eot?sthf6b#iefix') format('embedded-opentype'),
-    url('fonts/gestiones-bb-tracking.ttf?sthf6b') format('truetype'),
-    url('fonts/gestiones-bb-tracking.woff?sthf6b') format('woff'),
-    url('fonts/gestiones-bb-tracking.svg?sthf6b#gestiones-bb-tracking') format('svg');
+  src:  url('fonts/gestiones-bb-tracking.eot?ksqnoj');
+  src:  url('fonts/gestiones-bb-tracking.eot?ksqnoj#iefix') format('embedded-opentype'),
+    url('fonts/gestiones-bb-tracking.ttf?ksqnoj') format('truetype'),
+    url('fonts/gestiones-bb-tracking.woff?ksqnoj') format('woff'),
+    url('fonts/gestiones-bb-tracking.svg?ksqnoj#gestiones-bb-tracking') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.Gestiones_icon-gestiones-favorito:before {
+  content: "\e90e";
+}
+.Gestiones_icon-gestiones-adquisicin:before {
+  content: "\e90d";
+}
+.Gestiones_icon-gestiones-Prox-gestiones:before {
+  content: "\e922";
+}
+.Gestiones_icon-gestiones-Otras-gestiones:before {
+  content: "\e90c";
+}
 .Gestiones_icon-gestiones-check_2:before {
   content: "\e90b";
 }

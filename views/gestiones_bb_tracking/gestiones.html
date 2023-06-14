@@ -4,6 +4,9 @@
   <meta http-equiv="x-ua-compatible" content="IE=EDGE">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- para evitar numeros de cuenta como telefono -->
+  <meta name="format-detection" content="telephone=no"> 
+  
   <title>BI B@anking</title>
   <link rel="stylesheet" href="../../css/foundation.css">
   <link rel="stylesheet" href="../../css/app.css">
@@ -1345,37 +1348,26 @@
 
  <!--  Inicio Contenido -->
 
-   <!-- <div class="columns large-12 etiqueta-linea">--> 
     <div class="row">
-        <div class="columns large-12"> <!-- Nuevo DIV de contenido -->
+      <div class="columns large-12">
 
-     <!-- <div class="row">
-        <div class="columns large-12 privado">   
-          <h2>Gestiones</h2>
+        <!--  NUEVO titulo -->
+        <div class="row">
+          <div class="columns large-12 tag-title h2pagoe">
+            <h2 class="titlepage">Gestiones</h2>
+            <hr class="hr_title">
+          </div>
         </div>
+  
       </div>
-    
-    </div>  -->
-
-     <!--  NUEVO titulo -->
-      <div class="row">
-        <div class="columns large-12 tag-title h2pagoe">
-          <h2 class="titlepage">Gestiones</h2>
-          <hr class="hr_title">
-        </div>
-      </div>
-      
-
-    </div>
     </div>
     <!-- Fin de titulo -->
 
-     <!-- <div class="row section-size-privado privado special"> -->
-      <div class="row section-size-privado2"> <!-- nuevo div -->
+    <div class="row section-size-privado2"> 
       <div class="large-12 columns" >
 
         <div class="row">
-          <div class="columns large-12 espacio-linea1">
+          <div class="columns large-12 espacio-lineasub">
             <strong><p>Selecciona la gesti&oacute;n que quieres realizar</p></strong>
           </div>   
         </div>
@@ -1388,7 +1380,7 @@
                 <div class="columns large-12">
 
                   <label class="lbl_title">Busca una gesti&oacute;n
-                    <input id="BuscaGestion" pattern="[A-Za-z0-9]+" class="numero" type="text" placeholder="Ingresa una palabra clave para buscar una gestión" pattern="[A-Za-z0-9]+" required> 
+                    <input id="BuscaGestion" pattern="[A-Za-z0-9]+" class="numero" type="search" placeholder="Ingresa una palabra clave para buscar una gestión" pattern="[A-Za-z0-9]+" required> 
                     <span class="form-error">Es necesario llenar el campo.</span>
                   </label>
                 </div>
@@ -1401,43 +1393,12 @@
           </div>
         </form>
 
-      
-        <!-- viejo gestiones -->
-       <!--  <div class="row">
-          <div class="columns large-6 large-offset-3 medium-8 medium-offset-2 gestion-bb espacio-linea2">
-
-            <div class="row">
-              <div class="columns large-5 medium-4 small-6">
-           
-                <a href="documentos_envio_digital.html" >
-                  <div class="columns large-12 gestionbox">
-                  <i class="bbt-bbtracking-documentos" ></i>
-                  <p>Documentos Para envío digital</p>
-                  </div>
-                </a>
-          
-              </div>
-
-              <div class="columns large-5 medium-4 small-6">
-                <a href="documentos_envio_fisico.html">
-                  <div class="columns large-12 gestionbox">
-                  <i class="bbt-bbtracking-servicios"></i>
-                  <p>Documentos Para envío físico</p>
-                  </div>
-                </a>
-              </div>
-
-            </div>
-            
-          </div>
-        </div> -->
 
         <!-- Nuevo gestiones -->
-        <div class="row">
-          <div class="columns large-6 large-offset-4 medium-8 medium-offset-2 gestion-bb2 espacio-linea2">
-
-            <div class="row">
-              <div class="columns large-4 large-offset-0 medium-4 medium-offset-2 small-4 small-offset-1">
+        <div class="row" >
+          <div class="columns large-8 large-offset-2 medium-7 medium-offset-2 small-11 gestion-bb2 espacio-linea2">
+            <div class="row" id="testFlex">
+              <div class="columns large-3 small-6 new_Secction">
                 <div class="row">
                   <a href="p10_gestiones_fisico.html" class="icon_colorgestions " >
                     <div class="columns large-12 gestionbox">
@@ -1448,7 +1409,7 @@
                 </div>
               </div>
 
-              <div class="columns large-4 large-pull-3 medium-4 medium-pull-1 small-4 small-pull-1">
+              <div class="columns large-3 small-6 new_Secction">
                 <div class="row">
                   <a href="p09_gestiones_digitales.html" class="icon_colorgestions ">
                     <div class="columns large-12 gestionbox">
@@ -1458,21 +1419,36 @@
                   </a>
                 </div>
               </div>
+
+              <div class="columns large-3 small-6 end  new_Secction">
+                <div class="row">
+                  <a href="p09_gestiones_digitales.html" class="icon_colorgestions ">
+                    <div class="columns large-12 gestionbox">
+                    <i class="Gestiones_icon-gestiones-Otras-gestiones"></i>
+                    <p class="lbl_gesticon_text">Otras gestiones</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
             </div>
             
           </div>
         </div>
+
+
+
         <br> <br>
 
-        <div class="row espacio-linea1">
-          <div class="columns large-5 large-push-8 medium-5 medium-push-7">
+        <div class="row espacio-linea1 mbotom">
+          <div class="columns large-5 medium-5 medium-push-7">
             <!-- <a href="seguimiento_gestion_proceso.html" class="button botonenlace">Seguimiento de Gestiones en Proceso</a> -->
             <a href="pagina_en_construccion.html" class="button more_space_boton">Seguimiento de Gestiones en Proceso</a>
           </div>
 
-          <div class="columns large-5 large-pull-4 medium-5 medium-pull-5">
+          <div class="columns large-5  medium-5 medium-pull-5">
             <!-- <a href="historial_gestiones_finalizadas.html" href="#" class="button default-action">Historial de Gestiones Finalizadas</a> -->
-            <a href="pagina_en_construccion.html" href="#" class="button default-action more_space_boton">Historial de Gestiones Finalizadas</a>
+            <a href="pagina_en_construccion.html" href="#" class="button default-action more_space_boton">Historial de  Gestiones Finalizadas</a>
           </div>
         </div>
 
@@ -1651,14 +1627,23 @@
       <script src="../../js/vendor/header_func.js"></script>
       <script src="../../js/slick/slick.js" ></script>
 
-      <!-- validar que nombre sea solo numeros y letras -->
-    <script type="text/javascript">
-      $('#BuscaGestion').on('keyup keypress',function (tecla) {
-        if((tecla.charCode >=33  && tecla.charCode<=47) || (tecla.charCode >=58  && tecla.charCode<=64) || (tecla.charCode >=91  && tecla.charCode<=96) || (tecla.charCode >= 123 && tecla.charCode <= 208) || (tecla.charCode >= 210 && tecla.charCode <= 240) || (tecla.charCode >= 242 && tecla.charCode <= 255)){
-          return false;
+      <script>
+        $(document).ready(function() {
+        $('#miInput').keypress(function(event) {
+        var key = String.fromCharCode(event.which);
+        
+        // Permitir espacios (código ASCII 32) y la letra "ñ" (código ASCII 241)
+        if (event.which === 32 || event.which === 241) {
+        return true;
         }
-      });
-    </script>
+        
+        // Restringir otros caracteres especiales y números
+        if (!/^[a-zA-Z]+$/.test(key)) {
+        event.preventDefault();
+        }
+        });
+        });
+      </script>
 
 
 
