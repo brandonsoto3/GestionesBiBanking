@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'gestiones-bb-tracking';
-  src:  url('fonts/gestiones-bb-tracking.eot?ksqnoj');
-  src:  url('fonts/gestiones-bb-tracking.eot?ksqnoj#iefix') format('embedded-opentype'),
-    url('fonts/gestiones-bb-tracking.ttf?ksqnoj') format('truetype'),
-    url('fonts/gestiones-bb-tracking.woff?ksqnoj') format('woff'),
-    url('fonts/gestiones-bb-tracking.svg?ksqnoj#gestiones-bb-tracking') format('svg');
+  src:  url('fonts/gestiones-bb-tracking.eot?yhmpfu');
+  src:  url('fonts/gestiones-bb-tracking.eot?yhmpfu#iefix') format('embedded-opentype'),
+    url('fonts/gestiones-bb-tracking.ttf?yhmpfu') format('truetype'),
+    url('fonts/gestiones-bb-tracking.woff?yhmpfu') format('woff'),
+    url('fonts/gestiones-bb-tracking.svg?yhmpfu#gestiones-bb-tracking') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.Gestiones_icon-gestiones-Archivo:before {
+  content: "\e910";
+}
+.Gestiones_icon-gestiones-Cargar-archivo:before {
+  content: "\e911";
+}
+.Gestiones_icon-gestiones-cerrar:before {
+  content: "\e912";
+}
+.Gestiones_icon-gestiones-Eliminar2:before {
+  content: "\e913";
+}
+.Gestiones_icon-gestiones-gestiones:before {
+  content: "\e90f";
+}
 .Gestiones_icon-gestiones-favorito:before {
   content: "\e90e";
 }

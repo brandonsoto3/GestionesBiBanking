@@ -23,7 +23,7 @@
 @font-face {
     font-family: "Lato-Semibold";
     src: url(../fonts/Raleway/Lato-Semibold.ttf);
-}
+} 
 @font-face {
     font-family: "Lato-Medium";
     src: url(../fonts/Raleway/Lato-Medium.ttf);
@@ -33,7 +33,11 @@
     font-family: "Raleway-Regular";
     src: url(../fonts/Raleway/Raleway-Regular.ttf);
 }
-
+ 
+@font-face {
+    font-family: "Lato-Italic";
+    src: url(../fonts/Lato/Lato-Italic.ttf);
+}
  
 
 /*GENEREAL*/
@@ -95,7 +99,6 @@
     height: 2rem;
     color: #424141;
     font-family: Raleway_Bold !important;
-
 }
 .info_autorizacion {
     margin-top: 10px;
@@ -251,16 +254,19 @@ select:not([multiple]) {
 .switch {
     height: 1rem !important;
     margin-right: 10px !important;
+
 }
 label.switch-paddle{
- border-radius: 28px;
- width: 40px;
+    border-radius: 28px;
+    width: 40px;
     height: 20px;
     margin-top: 6px;
 }
+/*input ~ .switch-paddle {
+    background: #909090;
+}*/
 input:checked ~ .switch-paddle{
   background: #00c1d4;
-
 }
 .switch-paddle::after {
     border-radius: 20px !important; 
@@ -531,6 +537,11 @@ div#modal_asignarpermisos {
 
 }
 
+/*numeros sin enlace*/
+a.a_notnumber {
+    color: #959090 !important;
+    cursor: default;
+}
 
 /*  ----------------------FASE 2 - GESTIONES EN PROCESO ABRIL 2023--------------------- */
 
@@ -1065,10 +1076,6 @@ ul.SteppedProgress.Vertical li.complete.boxed span:after{
 p.modal_txtquestion {
     color: #0a0a0a;
 }
-div#modal_rechazo {
-    padding: 3rem;
-    width: 750px;
-}
 
 .espacio-linea6 {
     margin-top: 1.57rem;
@@ -1119,7 +1126,16 @@ div#modal_rechazo {
 }
 
 
-/*NUEVO MENU DE GESTIONES*/
+/* ---------------------------------  ------------- NUEVO MENU DE GESTIONES(FASE 4)--------------- -------------*/
+i.Gestiones_icon-gestiones-gestiones{
+    font-size: 100px;
+    margin-top: 5rem;
+    padding: 0rem 2rem;
+    ine-height: initial;
+    color: #1f3366;
+    text-decoration: none;
+}
+
 .row.row_gestion {
     width: 95%;
     margin-left: 5px;
@@ -1128,6 +1144,7 @@ div#modal_rechazo {
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 7px;
 }
+
 .gestionbox_frec {
     padding-top: 10px;
     text-align: center;
@@ -1135,6 +1152,9 @@ div#modal_rechazo {
 }
 .row.row_gestion:hover {
     border: 1px solid #00C1D4;
+}
+.div-mtop{
+    margin-top:30px
 }
 h3.sub_section{
     color:#424141;
@@ -1150,11 +1170,16 @@ h3.sub_section{
     font-size: 14px !important;
     margin-bottom: 0rem;
     font-family: Lato_Bold !important;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    line-height: 1.2;
 }
 /*menu lateral*/
 .lateral-size {
     background-color: #EBEBEB;
     border-radius: 40px 0px;
+/*    margin-left: 35px;*/
 }
 .accordion-menu .nested.is-accordion-submenu {
     background-color: #D8D8D8;
@@ -1167,4 +1192,996 @@ a.division {
     font-family: Lato_Bold !important;
 
 }
+
+/*Buscador*/
+.search-gestion{
+    height: 3.2rem !important;
+    padding-left: 40px;
+}
+i.Gestiones_icon-gestiones-buscador.searchbibanking {
+    margin-top: 1rem;
+}
+.Gestiones_icon-gestiones-buscador:before {
+    font-size: 20px;
+}
+
+/*NUEVO MENU */
+.row_newmenu {
+    max-width: 88.5rem;
+}
+.row_newmenu hr{
+    max-width: 88.5rem;
+}
+
+/*flechas input number*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none !important; 
+  margin: 0 !important; 
+   -moz-appearance:textfield !important;
+}
+
+
+/*  ------------------------------- Carrusel de Gestiones Frecuentes*/
+section.freq_categories div.slick-track {
+    height: 100px;
+    padding-top: 10px;
+}
+/*flecha siguiente*/
+section.freq_categories button.slick-next {
+    top: 14% !important;
+    right: -20px;
+}
+section.freq_categories .slick-next:before {
+    content: url(../img/Consulta_cuentas/chevron_derecha_small.png) !important;
+    color: #666666;
+    font-size: 49px;
+}
+/*flechas Anterior*/
+section.freq_categories button.slick-prev {
+    top: 14% !important;
+    left: -18px;
+}
+section.freq_categories .slick-prev:before {
+    content: url(../img/Consulta_cuentas/chevron-izquierda_small.png) !important;
+    color: #666666;
+    font-size: 49px;
+}
+section.freq_categories .slick-dots li button:before {
+    font-size: 0px !important;
+}
+
+
+/*  ------------------------------- Carrusel de Todas las gestiones*/
+#Carrusel-DeskTab{
+    display: block;
+}
+#Carrusel-Movile{
+    display: none;
+}
+
+.gestionbox_Carrusel{
+    width: 288PX;
+    border: 1px solid transparent; 
+    text-align: center;
+    padding: 2rem 3.5rem 2rem 3.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.new_Secction_carrusel{
+    margin-left: 6%;
+}
+.gestionbox_Carrusel:hover   {
+    padding: 2rem 3.5rem 2rem 3.5rem;
+    border: 1px solid #00C1D4;
+}
+/*texto*/
+.lbl_gesticon_text_carrusel{
+    font-size: 16px !important;
+    text-align: center;
+    font-weight: bold;
+    height: 2rem;
+    line-height: 1;
+    padding: 15px;
+    color: #424141 !important;
+    font-family: Lato_Bold !important;
+}
+/*texto*/
+.lbl_gesticon_text_carrusel{
+    font-size: 16px !important;
+    text-align: center;
+    font-weight: bold;
+    height: 2rem;
+    line-height: 1;
+    padding: 15px;
+    color: #424141 !important;
+    font-family: Lato_Bold !important;
+}
+
+.lbl_gesticon_text_list{
+    font-size: 16px !important;
+    text-align: center;
+    font-weight: bold;
+    height: 2rem;
+    line-height: 1;
+    padding: 15px;
+    color: #424141 !important;
+    font-family: Lato_Bold !important;
+}
+
+
+
+
+/*Gestion proximamente*/
+.Card_coming_soon{
+    background-color: #F7F7F7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+    cursor: initial;
+}
+.Card_coming_soon:hover{
+    border: 1px solid #F7F7F7;;
+}
+i.Gestiones_icon-gestiones-Prox-gestiones.icon_carrusel.coming_soon{
+     color: #8C8C8C !important;
+}
+.coming_soon{
+    color: #8C8C8C !important;
+}
+
+
+/*Carrusel - slick alto y espaciado*/
+section.All_Categories div.slick-track {
+    height: 450px;
+    padding-top: 10px;
+}
+section.All_Categories div.slick-slide {
+    margin-left: 3px !important;
+}
+
+/*flecha siguiente*/
+section.All_Categories button.slick-next {
+    top: 45% !important;
+    right: -10px;
+}
+section.All_Categories .slick-next:before {
+    content: url(../img/Consulta_cuentas/chevron_derecha_small.png) !important;
+    color: #666666;
+    font-size: 49px;
+}
+/*flechas Anterior*/
+section.All_Categories button.slick-prev {
+    top: 45% !important;
+    left: -40px;
+}
+section.All_Categories .slick-prev:before {
+    content: url(../img/Consulta_cuentas/chevron-izquierda_small.png) !important;
+    color: #666666;
+    font-size: 49px;
+}
+/*Puntos del carrusel*/
+section.All_Categories .slick-dots li button:before {
+    font-size: 15px !important;
+    margin-left: -8px;
+    color: #8C8C8C;
+}
+
+/*margen de las cards*/
+.Card-margin{
+    margin-top: 30px;
+    padding-left: 25px;
+}
+/*icono de la card*/ 
+.icon_carrusel{
+    font-size: 50px !important;
+}
+
+/*seccion en lista*/
+#ListCategories{
+    color: white;
+    padding: 15px;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+    border: 0px solid #ccc;
+    overflow-y: scroll;
+    overflow-x: visible;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.gestionbox_list{
+    border: 1px solid transparent; 
+    text-align: left;
+    padding: 1rem 0.6rem 1rem 0.6rem;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.gestionbox_list:hover   {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    border: 1px solid #00C1D4;
+}
+.span_gesticon_listext{
+    font-size: 18px !important;
+    text-align: center;
+    font-weight: bold;
+    height: 2rem;
+    color: #424141 !important;
+    font-family: Lato_Bold !important;
+    margin-left: 30px;
+}
+.span_gesticon_listext  i{
+    font-size: 40px !important;
+    color: #2C8B9E;
+    margin-right: 20px;
+}
+
+a.gestion-listcard {
+    color: #2c8b9e;
+}
+
+.icon_list {
+    font-size: 40px !important;
+    margin-left: 20px;
+}
+
+
+/*Barra de scroll vertical*/
+    #ListCategories::-webkit-scrollbar {
+     width: 10px;
+    }
+    #ListCategories::-webkit-scrollbar-track {
+      background: #EBEBEB !important;
+      border-radius: 10px;
+    }
+    #ListCategories::-webkit-scrollbar-thumb {
+      background: #C2C2C2;
+      border-radius: 10px;
+    }
+    #ListCategories::-webkit-scrollbar-thumb:hover {
+      background: #757575;
+    }
+
+
+/*cards de carrusel Responsive DESKTOP*/
+
+@media (max-width:1673px) and (min-width:1387px){
+    .gestionbox_Carrusel{
+        width: 220PX;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    /*flecha siguiente*/
+    section.All_Categories button.slick-next {
+        top: 43% !important;
+        right: -22px;
+    }
+    section.All_Categories .slick-next:before {
+        content: url(../img/Consulta_cuentas/chevron_derecha_small.png) !important;
+        color: #666666;
+        font-size: 49px;
+    }
+    /*flechas Anterior*/
+    section.All_Categories button.slick-prev {
+        top: 43% !important;
+        left: -30px;
+    }
+    section.All_Categories .slick-prev:before {
+        content: url(../img/Consulta_cuentas/chevron-izquierda_small.png) !important;
+        color: #666666;
+        font-size: 49px;
+    }
+
+
+}
+
+@media (max-width:1386px) and (min-width:1201px){
+    .gestionbox_Carrusel{
+        width: 180PX;
+        padding: 2rem 1.5rem 2rem 1.5rem;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 1.5rem 2rem 1.5rem;
+    }
+    .lbl_gesticon_text_carrusel {
+        font-size: 14px !important;
+    }
+    .lbl_gesticon_text_list{
+        margin-left: 30px;
+    }
+
+    /*flecha siguiente*/
+    section.All_Categories button.slick-next {
+        top: 43% !important;
+        right: -26px;
+    }
+    section.All_Categories .slick-next:before {
+        content: url(../img/Consulta_cuentas/chevron_derecha_small.png) !important;
+        color: #666666;
+        font-size: 49px;
+    }
+    /*flechas Anterior*/
+    section.All_Categories button.slick-prev {
+        top: 43% !important;
+        left: -30px;
+    }
+    section.All_Categories .slick-prev:before {
+        content: url(../img/Consulta_cuentas/chevron-izquierda_small.png) !important;
+        color: #666666;
+        font-size: 49px;
+    }
+}
+
+@media (max-width:1200px) and (min-width:1075px){
+    .icon_carrusel {
+        font-size: 40px !important;
+    }
+    .gestionbox_Carrusel{
+        width: 160PX;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .lbl_gesticon_text_carrusel {
+        font-size: 12px !important;
+    }
+
+     /*flecha siguiente*/
+    section.All_Categories button.slick-next {
+        top: 41% !important;
+        right: -20px;
+    }
+    section.All_Categories .slick-next:before {
+        content: url(../img/Consulta_cuentas/chevron_derecha_small.png) !important;
+        color: #666666;
+        font-size: 49px;
+    }
+    /*flechas Anterior*/
+    section.All_Categories button.slick-prev {
+        top: 41% !important;
+        left: -30px;
+    }
+    section.All_Categories .slick-prev:before {
+        content: url(../img/Consulta_cuentas/chevron-izquierda_small.png) !important;
+        color: #666666;
+        font-size: 49px;
+    }
+
+    /*Carrusel frecuente*/
+    .lbl_gestfrec_text {
+        font-size: 12px !important;
+    }
+
+    .lbl_gesticon_text_list{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:1074px) and (min-width:1024px){
+    .icon_carrusel {
+        font-size: 40px !important;
+    }
+    .new_Secction_carrusel {
+        margin-left: 7%;
+    }
+    .gestionbox_Carrusel{
+        width: 160PX;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .lbl_gesticon_text_carrusel {
+        font-size: 12px !important;
+/*        margin-left: 30px;*/
+    }
+    .lbl_gesticon_text_list{
+        margin-left: 30px;
+    }
+
+     /*flecha siguiente*/
+    section.All_Categories button.slick-next {
+        top: 41% !important;
+        right: -30px;
+    }
+    section.All_Categories .slick-next:before {
+        content: url(../img/Consulta_cuentas/chevron_derecha_small.png) !important;
+        color: #666666;
+        font-size: 49px;
+    }
+    /*flechas Anterior*/
+    section.All_Categories button.slick-prev {
+        top: 41% !important;
+        left: -30px;
+    }
+    section.All_Categories .slick-prev:before {
+        content: url(../img/Consulta_cuentas/chevron-izquierda_small.png) !important;
+        color: #666666;
+        font-size: 49px;
+    }
+
+    /*Carrusel frecuente*/
+    .lbl_gestfrec_text {
+        font-size: 12px !important;
+    }
+
+}
+
+
+/*cards de carrusel Responsive TABLET*/
+
+@media (max-width:1023px) and (min-width:835px){
+    .gestionbox_Carrusel{
+        width: 180PX;
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+    .icon_carrusel {
+        font-size: 40px !important;
+    }
+    .lbl_gesticon_text_carrusel {
+        font-size: 12px !important;
+    }
+
+     /*flecha siguiente*/
+    section.All_Categories button.slick-next {
+        top: 43% !important;
+        right: -26px;
+    }
+    section.All_Categories .slick-next:before {
+        content: url(../img/Consulta_cuentas/chevron_derecha_small.png) !important;
+        color: #666666;
+        font-size: 49px;
+    }
+    /*flechas Anterior*/
+    section.All_Categories button.slick-prev {
+        top: 43% !important;
+        left: -30px;
+    }
+    section.All_Categories .slick-prev:before {
+        content: url(../img/Consulta_cuentas/chevron-izquierda_small.png) !important;
+        color: #666666;
+        font-size: 49px;
+    }
+
+}
+
+@media (max-width:834px) and (min-width:745px){
+    .gestionbox_Carrusel{
+        width: 170PX;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .icon_carrusel {
+        font-size: 40px !important;
+    }
+    .lbl_gesticon_text_carrusel {
+        font-size: 14px !important;
+    }
+
+
+}
+@media (max-width:744px) and (min-width:668px){
+    .gestionbox_Carrusel{
+        width: 150PX;
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+    .icon_carrusel {
+        font-size: 40px !important;
+    }
+    .lbl_gesticon_text_carrusel {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width:667px) and (min-width:640px){
+    .gestionbox_Carrusel{
+        width: 130PX;
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+    .icon_carrusel {
+        font-size: 40px !important;
+    }
+    .lbl_gesticon_text_carrusel {
+        font-size: 12px !important;
+    }
+}
+/*Carrusel Frecuente*/
+@media (max-width:1024px) and (min-width:640px){
+    .lbl_gesticon_text_list{
+        margin-left: 30px;
+    }
+    
+    /*Carrusel frecuente*/
+    .lbl_gestfrec_text {
+        font-size: 12px !important;
+    }
+
+     /*textos tablas*/
+    .table-responsive table tr td {
+        padding-right: 14px !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+        padding-left: 14px !important;
+    }
+}
+
+
+/* Carruel movil */
+@media (max-width:640px) {
+
+    #Carrusel-DeskTab{
+        display: none;
+    }
+    #Carrusel-Movile{
+        display: Block;
+    }
+
+    .div-mtop{
+        margin-top:0px
+    }
+    .h4_views{
+        text-align: left;
+        padding-left: 0.9375rem;
+    }
+    .icon_list {
+        margin-left: 10px;
+    }
+    .new_Secction_carrusel {
+        margin-left: 10%;
+    }
+    .gestionbox_Carrusel{
+        width: 195PX;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .lbl_gesticon_text_carrusel {
+        font-size: 12px !important;
+    }
+
+    .Card-margin {
+        padding-left: 30px;
+    }
+
+    /*flechas frecuentemente*/
+    section.freq_categories button.slick-next {
+        top: 20% !important;
+        right: -10px;
+    }
+    section.freq_categories button.slick-prev {
+        top: 20% !important;
+        left: -20px;
+    }
+
+    /*flechas todas las categorias */
+    section.All_Categories button.slick-prev {
+        left: -30px;
+    }
+    section.All_Categories button.slick-next {
+        right: -30px;
+    }
+    /*Puntos del carrusel*/
+    section.All_Categories .slick-dots li button:before {
+        font-size: 12px !important;
+        margin-left: -1px;
+    }
+
+    /*flecha siguiente*/
+section.freq_categories button.slick-next {
+    top: 14% !important;
+    right: -20px;
+}
+section.freq_categories .slick-next:before {
+    content: url(../img/Consulta_cuentas/chevron_derecha_small.png) !important;
+    color: #666666;
+    font-size: 49px;
+}
+/*flechas Anterior*/
+section.freq_categories button.slick-prev {
+    top: 14% !important;
+    left: -20px;
+}
+section.freq_categories .slick-prev:before {
+    content: url(../img/Consulta_cuentas/chevron-izquierda_small.png) !important;
+    color: #666666;
+    font-size: 49px;
+}
+
+/*    lista*/
+div #ListCategories{
+        height: 480px !important;
+    }
+
+}
+
+@media (max-width:430px) and (min-width:390px){
+    .gestionbox_Carrusel{
+        width: 150PX;
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+    .Card-margin {
+        padding-left: 22px;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+    .icon_carrusel {
+        font-size: 40px !important;
+    }
+    .lbl_gesticon_text_carrusel {
+        font-size: 12px !important;
+    }
+}
+@media (max-width:389px) and (min-width:300px){
+    .gestionbox_Carrusel{
+        width: 130PX;
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+    .Card-margin {
+        padding-left: 25px;
+    }
+    .gestionbox_Carrusel:hover   {
+        padding: 2rem 0.8rem 2rem 0.8rem;
+    }
+    .icon_carrusel {
+        font-size: 35px !important;
+    }
+    .lbl_gesticon_text_carrusel {
+        font-size: 12px !important;
+    }
+}
+
+
+
+/* Archivos adjuntos */
+.Text_subtitle_new{
+    color: #2C8B9E !important;
+    font-family: Lato_Bold !important;
+    font-size: 18px !important;
+}
+
+/*carga de archivos*/
+    /*Sin archivos*/
+    div#noFile1 {
+        width: 100%;
+    }
+    div#fileName1 {
+        background: transparent;
+        height: 10px;
+    }
+    .file-upload .file-select {
+        display: block;
+        border: 1px dashed #909090;
+        color: #0D4073;
+        cursor: pointer;
+        /* height: 40px; */
+        line-height: 40px;
+        text-align: left;
+        background: #FFFFFF;
+        overflow: hidden;
+        position: relative;
+        font-size: 20px;
+        height: 180px;
+
+    }
+    .file-select-name{
+        opacity: 1 !important;
+    }
+    .file-upload .file-select input[type=file] {
+        z-index: 100;
+        cursor: pointer;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+
+    p.textupload {
+        text-align: center;
+        margin-top: 10px;
+        color: #707070;
+        font-family: Lato_Regular!important;
+        line-height: 1;
+        font-size: 14px;
+    }
+    i.Gestiones_icon-gestiones-Cargar-archivo.subirarch {
+        text-align: center;
+        display: block;
+        margin-top: 2.2rem;
+        font-size: 2rem;
+        color: #757575;
+    }
+    a.file-upload {
+        color: #AAAAAA;
+        text-decoration: underline;
+    }
+    a.textindescarga {
+        color: #2C8B9E;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    /* Cargando  Archivos*/
+    .Boxdiv-loadfile{
+        padding-top: 10px;
+    }
+    span.titlemenuoption2 {
+        font-size: 16px;
+        color: #959090;
+        font-family: Lato_Bold !important;
+    }
+    i.Gestiones_icon-gestiones-Cargar-archivo.pg-cargando {
+        font-size: 25px;
+        position: absolute;
+        margin-top: -1px;
+        margin-left: -27px;
+    }
+
+    /*Archivos Cargados*/
+    i.Gestiones_icon-gestiones-Archivo {
+        color: #8C8C8C;
+        font-size: 25px;
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -25px;
+    }
+    span.titlemenuoption.titlefilecargado {
+        color: #003865 !important;
+        font-size: 14PX;
+        margin-left: 25px;
+        font-family: Lato_Regular!important;
+    }
+    i.Gestiones_icon-gestiones-Eliminar2.trash_icon {
+        color: #C4C4C4;
+        font-size: 25px;
+    }
+
+    p.uploadinfo{
+        color: #757575;
+        font-size: 14px;
+        font-family: Lato_Regular!important;
+    }
+
+    .spanload_text{
+        font-size: 16px;
+    color: #959090;
+    font-family: Lato_Bold !important;
+    }
+    .loadingFile {
+        border: 1px solid #707070;
+        border-radius: 4px;
+        height: 55px;
+        max-height: 55px;
+        opacity: 1;
+        padding-top: 13px;
+    }
+    .boxfile.boxfile2 {
+        width: 90% !important;
+        margin-bottom: 15px;
+    }
+    .boxfile {
+        border: 1px solid #C4C4C4;
+        border-radius: 5px;
+        height: 48px;
+        max-height: 48px;
+    }
+    /* error*/
+    .boxfile_error.boxfile2 {
+        width: 90% !important;
+        margin-bottom: 15px;
+    }
+    .boxfile_error {
+        border: 1px solid #F13852;
+        border-radius: 5px;
+        height: 48px;
+        max-height: 48px;
+    }
+    span.error_loadtext {
+        color: #F13852;
+        font-size: 14px;
+        font-family: Lato-Italic !important;
+        margin-left: 5px;
+    }
+    i.Gestiones_icon-gestiones-cerrar.x_error {
+        color: #F13852;
+        font-size: 20px;
+    }
+   
+    /* ARCHIVOS CARGADOS Y POSIBLES CAMBIOSs*/
+    .file-select.file_changed {
+        height: 70px !important;
+        border: 1px transparent solid !important;
+        cursor: initial;
+    }
+    span.FileText.titlemenuoption.titlefilecargado {
+        color: #003865 !important;
+        font-size: 14PX;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 30px;
+        font-family: Lato_Regular!important;
+    }
+    .FileIcon.Gestiones_icon-gestiones-Archivo {
+        color: #8C8C8C;
+        font-size: 25px;
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 2px;
+    }
+    i.IconDelete.Gestiones_icon-gestiones-Eliminar2{
+        cursor: pointer;
+    }
+    .Gestiones_icon-gestiones-Eliminar2.trash_icon {
+        color: #C4C4C4;
+        font-size: 25px;
+    }
+    .Gestiones_icon-gestiones-Eliminar2.trash_icon:hover{
+        color:#00C1D4;
+
+    }
+    .File_loadepad{
+        padding: 10px !important;
+        cursor: pointer !important;
+    }
+
+    .File_icondelete{
+        padding: 10px;
+    }
+    .File_iconerror{
+        padding: 10px;
+    }
+
+    /*   new margin to selects */
+    .Slc_mbottom{
+        margin-bottom: 0px;
+    }
+/*    3 puntos si el texto es muy largo*/
+    .FileText.titlemenuoption.titlefilecargado{
+      width: 780px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    } 
+
+    @media (max-width:1024px) and (min-width: 641px){
+        .FileText.titlemenuoption.titlefilecargado{
+          width: 500px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        } 
+    } 
+
+    @media (max-width:640px){
+        .boxfile.boxfile2 {
+            width: 85% !important;
+            margin-bottom: 15px;
+        }
+        .columns.large-1.medium-1.small-1.boxfile.boxfil3.File_icondelete {
+            width: 12%;
+        }
+        .columns.large-1.medium-1.small-1.boxfile.boxfil3.File_iconerror{
+            width: 12%;
+        }
+        
+        /*  errors      */
+        span.error_loadtext {
+            font-size: 12px;
+        }
+        .boxfile_error.boxfile2 {
+            width: 85% !important;
+        }
+        .columns.large-1.medium-1.small-1.boxfile_error.boxfil3{
+            width: 12%;
+        }
+        .loadingBox {
+            padding-right: 0px;
+            margin-bottom: 20px;
+        }
+
+        .tittle_respheight{
+            line-height: 1.5!important;
+        }
+ 
+        i.Gestiones_icon-gestiones-cerrar.x_error{
+            font-size: 15px;
+        }
+        .File_icondelete {
+            padding: 10px 1px 0px 1px !important;
+        }
+        .File_iconerror{
+            padding: 10px 1px 0px 1px !important;
+        }
+
+        i.Gestiones_icon-gestiones-Eliminar2.trash_icon {
+            color: #C4C4C4;
+            font-size: 22px;
+        }
+        .Gestiones_icon-gestiones-Eliminar2.trash_icon {
+            color: #C4C4C4;
+            font-size: 22px;
+        }
+        span.titlemenuoption.titlefilecargado {
+            font-size: 12PX;
+        }
+        span.FileText.titlemenuoption.titlefilecargado {
+            font-size: 12PX;
+        }
+
+        .FileText.titlemenuoption.titlefilecargado{
+          width: 340px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        } 
+
+
+    }   
+
+    @media (max-width:430px){
+        span.error_loadtext {
+            color: #F13852;
+            font-size: 10px;
+            font-family: Lato-Italic !important;
+            margin-left: 5px;
+            position: absolute;
+            margin-top: 6px;
+        }
+        .FileText.titlemenuoption.titlefilecargado{
+          width: 230px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        } 
+    }
+     @media (max-width:400px) and (min-width:377px){
+        span.error_loadtext {
+            color: #F13852;
+            font-size: 10px;
+            font-family: Lato-Italic !important;
+            margin-left: 5px;
+            position: absolute;
+            width: 50%;
+            margin-top: 3px;
+        }
+        span.error_loadtext.error_short{
+            margin-top: 6px;
+        }
+    } 
+
+    @media (max-width:376px){
+        span.error_loadtext {
+            color: #F13852;
+            font-size: 10px;
+            font-family: Lato-Italic !important;
+            margin-left: 5px;
+            position: absolute;
+            width: 50%;
+            margin-top: 0px;
+        }
+        span.error_loadtext.error_short{
+            margin-top: 6px;
+        }
+    }
 
